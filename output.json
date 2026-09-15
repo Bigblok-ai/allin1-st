@@ -1601,13 +1601,34 @@
                   "streams": [
                     {
                       "id": "st-5f37b78307",
-                      "name": "PhaoHoa - Tam Mao",
+                      "name": "PhaoHoa - Chim Nhỏ, Tam Mao",
                       "stream_links": [
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-161889ae68",
                           "name": "Tam Mao",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
@@ -2245,7 +2266,7 @@
             "cate_type": "football",
             "status": "1h",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
