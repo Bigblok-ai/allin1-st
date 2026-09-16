@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1193,6 +1193,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/c214b2uitlpz_922c7c2a_20260916.png?v=922c7c2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-04f67c8640",
+          "name": "Al Wahda FC vs Al Kuwait | 23:00 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04f67c8640",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-04f67c8640",
+                  "name": "Al Wahda FC vs Al Kuwait",
+                  "streams": [
+                    {
+                      "id": "st-04f67c8640",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Al Wahda FC",
+            "team_b": "Al Kuwait",
+            "logo_a": "https://media.api-sports.io/football/teams/2875.png",
+            "logo_b": "https://media.api-sports.io/football/teams/3535.png",
+            "time": "23:00",
+            "date": "16/09",
+            "blv": "Người Kiến",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9cf08f49-ca50-4a1d-91ed-7545e0ff23a8_a9f1610e_20260916.png?v=a9f1610e",
             "width": 1600,
             "height": 1200
           }
@@ -2989,85 +3068,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536b1b_ed2c667f_20260916.png?v=ed2c667f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-04f67c8640",
-          "name": "Al Wahda FC vs Al Kuwait | 23:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04f67c8640",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-04f67c8640",
-                  "name": "Al Wahda FC vs Al Kuwait",
-                  "streams": [
-                    {
-                      "id": "st-04f67c8640",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Al Wahda FC",
-            "team_b": "Al Kuwait",
-            "logo_a": "https://media.api-sports.io/football/teams/2875.png",
-            "logo_b": "https://media.api-sports.io/football/teams/3535.png",
-            "time": "23:00",
-            "date": "16/09",
-            "blv": "Người Kiến",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9cf08f49-ca50-4a1d-91ed-7545e0ff23a8_a9f1610e_20260916.png?v=a9f1610e",
             "width": 1600,
             "height": 1200
           }
