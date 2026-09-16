@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1444,7 +1444,7 @@
             "blv": "Người Kiến",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 2
           },
@@ -1453,6 +1453,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/9cf08f49-ca50-4a1d-91ed-7545e0ff23a8_a9f1610e_20260916.png?v=a9f1610e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-14005a8543",
+          "name": "Ararat-Armenia vs Sparta Praha | 23:45 16/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14005a8543",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14005a8543",
+                  "name": "Ararat-Armenia vs Sparta Praha",
+                  "streams": [
+                    {
+                      "id": "st-14005a8543",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Ararat-Armenia",
+            "team_b": "Sparta Praha",
+            "logo_a": "https://media.api-sports.io/football/teams/3683.png",
+            "logo_b": "https://media.api-sports.io/football/teams/628.png",
+            "time": "23:45",
+            "date": "16/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/863d3e48-888a-4acd-8cc4-82d2dba7c1cc_4e94d89a_20260916.png?v=4e94d89a",
             "width": 1600,
             "height": 1200
           }
@@ -2824,6 +2903,77 @@
           }
         },
         {
+          "id": "gv-6607305436",
+          "name": "Navbahor Namangan vs Dinamo Samarkand | 20:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6607305436",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6607305436",
+                  "name": "Navbahor Namangan vs Dinamo Samarkand",
+                  "streams": [
+                    {
+                      "id": "st-6607305436",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ed55cf115",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789571278_hd/1789571278_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Super League",
+            "team_a": "Navbahor Namangan",
+            "team_b": "Dinamo Samarkand",
+            "logo_a": "https://images.keovip88.net/images/teams/navbahor-namangan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dinamo-samarqand.png",
+            "time": "20:00 17/09",
+            "blv": "Bee",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88a9524d46db870488857_a8e47b9e_20260916.png?v=a8e47b9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-eda5163d5c",
           "name": "Atletico Madrid vs Osasuna | 00:00 17/09",
           "type": "single",
@@ -2998,85 +3148,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1a6dc209-a04a-442f-8f82-2395b7e0b2aa_172ef53b_20260916.png?v=172ef53b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-14005a8543",
-          "name": "Ararat-Armenia vs Sparta Praha | 23:45 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14005a8543",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-14005a8543",
-                  "name": "Ararat-Armenia vs Sparta Praha",
-                  "streams": [
-                    {
-                      "id": "st-14005a8543",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Ararat-Armenia",
-            "team_b": "Sparta Praha",
-            "logo_a": "https://media.api-sports.io/football/teams/3683.png",
-            "logo_b": "https://media.api-sports.io/football/teams/628.png",
-            "time": "23:45",
-            "date": "16/09",
-            "blv": "Pháo Thủ",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/863d3e48-888a-4acd-8cc4-82d2dba7c1cc_4e94d89a_20260916.png?v=4e94d89a",
             "width": 1600,
             "height": 1200
           }
@@ -3793,7 +3864,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (4 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3904,85 +3975,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/ikwj4oy0w5wh_bc461a20_20260916.png?v=bc461a20",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ffc68b115d",
-          "name": "Đan Mạch vs Serbia | 21:00 16/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffc68b115d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ffc68b115d",
-                  "name": "Đan Mạch vs Serbia",
-                  "streams": [
-                    {
-                      "id": "st-ffc68b115d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vô Địch Châu Âu",
-            "team_a": "Đan Mạch",
-            "team_b": "Serbia",
-            "logo_a": "https://khandai2.link/media/teams/logos/pngtree-national-flag-of-danish-emblem-vector-png-image_9987224.png",
-            "logo_b": "https://media.api-sports.io/football/teams/14.png",
-            "time": "21:00",
-            "date": "16/09",
-            "blv": "Chim Nhỏ",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/d77871e3-3605-48f6-bca7-60421054e3da_3fc0e7f9_20260916.png?v=3fc0e7f9",
             "width": 1600,
             "height": 1200
           }
