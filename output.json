@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1453,6 +1453,85 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/55736f9c-1e95-4d48-bf3f-ddf4b079cfe5_66ccf2ab_20260917.png?v=66ccf2ab",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b76f04c1eb",
+          "name": "Vietnam W vs Japan W | 17:30 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b76f04c1eb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b76f04c1eb",
+                  "name": "Vietnam W vs Japan W",
+                  "streams": [
+                    {
+                      "id": "st-b76f04c1eb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games Women",
+            "team_a": "Vietnam W",
+            "team_b": "Japan W",
+            "logo_a": "https://media.api-sports.io/football/teams/1542.png",
+            "logo_b": "https://media.api-sports.io/football/teams/12.png",
+            "time": "17:30",
+            "date": "17/09",
+            "blv": "Người Kiến",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/53428569-e34c-4907-baa3-16ca8ab87ca6_3f2bf71a_20260917.png?v=3f2bf71a",
             "width": 1600,
             "height": 1200
           }
@@ -2600,85 +2679,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "xc-b76f04c1eb",
-          "name": "Vietnam W vs Japan W | 17:30 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b76f04c1eb",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b76f04c1eb",
-                  "name": "Vietnam W vs Japan W",
-                  "streams": [
-                    {
-                      "id": "st-b76f04c1eb",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c0c00f928c",
-                          "name": "Người Kiến",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games Women",
-            "team_a": "Vietnam W",
-            "team_b": "Japan W",
-            "logo_a": "https://media.api-sports.io/football/teams/1542.png",
-            "logo_b": "https://media.api-sports.io/football/teams/12.png",
-            "time": "17:30",
-            "date": "17/09",
-            "blv": "Người Kiến",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/53428569-e34c-4907-baa3-16ca8ab87ca6_3f2bf71a_20260917.png?v=3f2bf71a",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -2993,11 +2993,82 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-ddd487cdd4",
+          "name": "Thành Cụt vs Tây Lông | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ddd487cdd4",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ddd487cdd4",
+                  "name": "Thành Cụt vs Tây Lông",
+                  "streams": [
+                    {
+                      "id": "st-ddd487cdd4",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ddd487cdd4",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7937/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Thành cụt",
+            "team_a": "Thành Cụt",
+            "team_b": "Tây Lông",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789641580989_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789641580551_Screenshot%202026-09-17%20173939.png",
+            "time": "00:00 17/09",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ddd487cdd4_26035b49_20260917.png?v=26035b49",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-9c3c7b937e",
           "name": "Kun Đà Nẵng vs Sài Tiến | Đại Kê",
@@ -3102,181 +3173,6 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live7920/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-35a8709134",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-35a8709134",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-35a8709134",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35a8709134",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7923/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5b8d946218",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5b8d946218",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-5b8d946218",
-                      "name": "ChoangTV - Đại Kê",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5b8d946218",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7921/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a4536c11ae",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a4536c11ae",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-a4536c11ae",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a4536c11ae",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7925/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b03be96221",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b03be96221",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-b03be96221",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b03be96221",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7924/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0905315ba0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0905315ba0",
-                  "name": "Hoàng Sao vs Jayson Shaw",
-                  "streams": [
-                    {
-                      "id": "st-0905315ba0",
-                      "name": "ChoangTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0905315ba0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7922/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
