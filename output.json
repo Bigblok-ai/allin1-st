@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1205,10 +1205,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1256,7 +1256,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/south-korea-w.png",
             "time": "14:00 17/09",
             "blv": "Bón",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2566,7 +2566,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2579,10 +2579,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2599,11 +2599,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-e6e4c3be13",
-                          "name": "Vịt",
+                          "id": "lnk-a27c3024d6",
+                          "name": "Tôm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789577397_hd/1789577397_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789626897_hd/1789626897_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2629,8 +2629,8 @@
             "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ad2d691bbb1ca57f3fa28f1ef6212c70.png",
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/14eca0b67d35a6b3598948827cfb7280.jpg",
             "time": "14:00 17/09",
-            "blv": "Vịt",
-            "is_live": false,
+            "blv": "Tôm",
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -2930,82 +2930,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-ae82edba2b",
-          "name": "khánh búa vs áo trắng vô danh | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae82edba2b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-ae82edba2b",
-                  "name": "khánh búa vs áo trắng vô danh",
-                  "streams": [
-                    {
-                      "id": "st-ae82edba2b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ae82edba2b",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live7928/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VN",
-            "team_a": "khánh búa",
-            "team_b": "áo trắng vô danh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789624461253_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789624465451_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "12:55 17/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-ae82edba2b_de259147_20260917.png?v=de259147",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d86059883d",
           "name": "Hoàng Sao vs Jayson Shaw | 18:00 17/09",
@@ -3256,7 +3185,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3269,10 +3198,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3320,7 +3249,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/fcKgsGh5-OEMVS5jc.png",
             "time": "14:00 17/09",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -3340,10 +3269,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3391,7 +3320,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/clVmlDCDO7GWBc-a97NfZQ_96x96.png",
             "time": "14:00 17/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
