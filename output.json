@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1347,10 +1347,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1398,7 +1398,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/GOTqkLFG-C6kVdO5F.png",
             "time": "23:30 17/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1977,6 +1977,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-10937731cc",
+          "name": "Torpedo Moskva vs Veles | 23:00 17/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-10937731cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-10937731cc",
+                  "name": "Torpedo Moskva vs Veles",
+                  "streams": [
+                    {
+                      "id": "st-10937731cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0c00f928c",
+                          "name": "Người Kiến",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Torpedo Moskva",
+            "team_b": "Veles",
+            "logo_a": "https://media.api-sports.io/football/teams/3985.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6833.png",
+            "time": "23:00",
+            "date": "17/09",
+            "blv": "Người Kiến",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/1f816039-5d4e-4269-b76f-69d56a5d70c4_a75162d0_20260917.png?v=a75162d0",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2300,7 +2379,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2411,77 +2490,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/m0fj2fzjwxwm_d631e5d8_20260917.png?v=d631e5d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7381835230",
-          "name": "Serbia vs Bỉ | 21:00 17/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7381835230",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7381835230",
-                  "name": "Serbia vs Bỉ",
-                  "streams": [
-                    {
-                      "id": "st-7381835230",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1caf45c7d2",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789618669_hd/1789618669_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "European Championship",
-            "team_a": "Serbia",
-            "team_b": "Bỉ",
-            "logo_a": "https://static.flashscore.com/res/image/data/rHIRgwGG-fazrR153.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/Qur1J5jl-dtrVaP64.png",
-            "time": "21:00 17/09",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/orb3ooy077wl_ee7bc5b0_20260917.png?v=ee7bc5b0",
             "width": 1600,
             "height": 1200
           }
