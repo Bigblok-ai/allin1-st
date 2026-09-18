@@ -1388,7 +1388,7 @@
                   "streams": [
                     {
                       "id": "st-860884b2a7",
-                      "name": "PhaoHoa - Tày",
+                      "name": "PhaoHoa - Tày, Chè",
                       "stream_links": [
                         {
                           "id": "lnk-9501ab9e21",
@@ -1396,6 +1396,27 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-5c316eb093",
+                          "name": "Chè",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1635,7 +1656,7 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 2,
             "away_score": 0
           },
