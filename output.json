@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1450,6 +1450,77 @@
           }
         },
         {
+          "id": "gv-456dac5c64",
+          "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa | 21:00 18/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-456dac5c64",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-456dac5c64",
+                  "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa",
+                  "streams": [
+                    {
+                      "id": "st-456dac5c64",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6304c24d3c",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713455_hd/1789713455_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải Hạng 2 Nga",
+            "team_a": "FC Chelyabinsk",
+            "team_b": "Bashinformsvyaz-Dynamo Ufa",
+            "logo_a": "https://images.keovip88.net/images/teams/chelyabinsk.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-ufa.png",
+            "time": "21:00 18/09",
+            "blv": "Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536bca_ae782983_20260918.png?v=ae782983",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-73bfaeb682",
           "name": "Bình Định vs Công An HCM | 18:00 18/09",
           "type": "single",
@@ -1524,77 +1595,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/binh-dinh-v-cong-an-hcm-ph-81677_87b1fa20_20260918.png?v=87b1fa20",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-456dac5c64",
-          "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa | 21:00 18/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-456dac5c64",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-456dac5c64",
-                  "name": "FC Chelyabinsk vs Bashinformsvyaz-Dynamo Ufa",
-                  "streams": [
-                    {
-                      "id": "st-456dac5c64",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6304c24d3c",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789713455_hd/1789713455_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải Hạng 2 Nga",
-            "team_a": "FC Chelyabinsk",
-            "team_b": "Bashinformsvyaz-Dynamo Ufa",
-            "logo_a": "https://images.keovip88.net/images/teams/chelyabinsk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-ufa.png",
-            "time": "21:00 18/09",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa0a19a24d46db870536bca_ae782983_20260918.png?v=ae782983",
             "width": 1600,
             "height": 1200
           }
@@ -2187,7 +2187,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2200,10 +2200,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2251,7 +2251,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/39e14cf9edd095fe5daed21f75b67bd3.png",
             "time": "21:00 18/09",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
