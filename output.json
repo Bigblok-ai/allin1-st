@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1379,8 +1379,8 @@
           }
         },
         {
-          "id": "xc-7b31ecdd22",
-          "name": "Kawasaki Frontale vs Kashima | 16:00 19/09",
+          "id": "gv-c45fc342ad",
+          "name": "Tottenham Hotspur vs Aston Villa | 18:30 19/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1394,23 +1394,58 @@
           ],
           "sources": [
             {
-              "id": "src-7b31ecdd22",
+              "id": "src-c45fc342ad",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c45fc342ad",
+                  "name": "Tottenham Hotspur vs Aston Villa",
+                  "streams": [
+                    {
+                      "id": "st-c45fc342ad",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-398a9f0593",
+                          "name": "Ben vs Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741328_hd/1789741328_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fd9439fd19",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-7b31ecdd22",
-                  "name": "Kawasaki Frontale vs Kashima",
+                  "id": "ct-fd9439fd19",
+                  "name": "Tottenham vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-7b31ecdd22",
-                      "name": "XoiChe TV",
+                      "id": "st-fd9439fd19",
+                      "name": "PhaoHoa - Lee Sin",
                       "stream_links": [
                         {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1434,25 +1469,92 @@
             }
           ],
           "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kawasaki Frontale",
-            "team_b": "Kashima",
-            "logo_a": "https://media.api-sports.io/football/teams/294.png",
-            "logo_b": "https://media.api-sports.io/football/teams/290.png",
-            "time": "16:00",
-            "date": "19/09",
-            "blv": "Tiểu Mây",
+            "league": "Ngoại hạng Anh",
+            "team_a": "Tottenham Hotspur",
+            "team_b": "Aston Villa",
+            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
+            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "time": "18:30 19/09",
+            "blv": "Ben vs Chồn",
             "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 3
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f19cdfee-0ad1-43c3-b72a-e922998dfb6b_3007b986_20260919.png?v=3007b986",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c5b6_11a13e57_20260919.png?v=11a13e57",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b430821287",
+          "name": "Meizhou Hakka vs Hebei Gongfu | 18:30 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b430821287",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b430821287",
+                  "name": "Meizhou Hakka vs Hebei Gongfu",
+                  "streams": [
+                    {
+                      "id": "st-b430821287",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9dc4c6c53a",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741124_hd/1789741124_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Trung Quốc",
+            "team_a": "Meizhou Hakka",
+            "team_b": "Hebei Gongfu",
+            "logo_a": "https://images.keovip88.net/images/teams/meizhou-hakka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shijiazhuang-kungfu.png",
+            "time": "18:30 19/09",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c696_f1d2c062_20260919.png?v=f1d2c062",
             "width": 1600,
             "height": 1200
           }
@@ -1532,148 +1634,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/e4062b23-c980-4d64-a855-45cd974e7286_8ca0f240_20260919.png?v=8ca0f240",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c45fc342ad",
-          "name": "Tottenham Hotspur vs Aston Villa | 18:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c45fc342ad",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c45fc342ad",
-                  "name": "Tottenham Hotspur vs Aston Villa",
-                  "streams": [
-                    {
-                      "id": "st-c45fc342ad",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-398a9f0593",
-                          "name": "Ben vs Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741328_hd/1789741328_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Tottenham Hotspur",
-            "team_b": "Aston Villa",
-            "logo_a": "https://images.keovip88.net/images/teams/tottenham-hotspur.png",
-            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
-            "time": "18:30 19/09",
-            "blv": "Ben vs Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c5b6_11a13e57_20260919.png?v=11a13e57",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b430821287",
-          "name": "Meizhou Hakka vs Hebei Gongfu | 18:30 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b430821287",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b430821287",
-                  "name": "Meizhou Hakka vs Hebei Gongfu",
-                  "streams": [
-                    {
-                      "id": "st-b430821287",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9dc4c6c53a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789741124_hd/1789741124_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Trung Quốc",
-            "team_a": "Meizhou Hakka",
-            "team_b": "Hebei Gongfu",
-            "logo_a": "https://images.keovip88.net/images/teams/meizhou-hakka.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shijiazhuang-kungfu.png",
-            "time": "18:30 19/09",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88aa924d46db87048c696_f1d2c062_20260919.png?v=f1d2c062",
             "width": 1600,
             "height": 1200
           }
@@ -2901,6 +2861,85 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-7b31ecdd22",
+          "name": "Kawasaki Frontale vs Kashima | 16:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7b31ecdd22",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7b31ecdd22",
+                  "name": "Kawasaki Frontale vs Kashima",
+                  "streams": [
+                    {
+                      "id": "st-7b31ecdd22",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kawasaki Frontale",
+            "team_b": "Kashima",
+            "logo_a": "https://media.api-sports.io/football/teams/294.png",
+            "logo_b": "https://media.api-sports.io/football/teams/290.png",
+            "time": "16:00",
+            "date": "19/09",
+            "blv": "Tiểu Mây",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 3,
+            "away_score": 3
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/f19cdfee-0ad1-43c3-b72a-e922998dfb6b_3007b986_20260919.png?v=3007b986",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -3286,7 +3325,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (9 LIVE)",
+      "name": "🎱 Billiards (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3434,77 +3473,6 @@
           }
         },
         {
-          "id": "chtv-c8c35865c9",
-          "name": "Huy c300 vs Kiên Con (s7) | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c8c35865c9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c8c35865c9",
-                  "name": "Huy c300 vs Kiên Con (s7)",
-                  "streams": [
-                    {
-                      "id": "st-c8c35865c9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8c35865c9",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8045/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "showmatch",
-            "team_a": "Huy c300",
-            "team_b": "Kiên Con (s7)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789813760310_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789813760005_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
-            "time": "00:00 19/09",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-c8c35865c9_2837f7f5_20260919.png?v=2837f7f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-57153d5b3d",
           "name": "PBS YẾN VI/ HOÀNG SAO vs PBS YEN LC/ LINGWM | Kèn Kèn",
           "type": "single",
@@ -3642,148 +3610,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f58450a5ac_6654c734_20260919.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-3a44bf28f0",
-          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3a44bf28f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3a44bf28f0",
-                  "name": "Skyler Woodward vs Tyler Styer",
-                  "streams": [
-                    {
-                      "id": "st-3a44bf28f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a44bf28f0",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | WPA Men’s 10-Ball World Championship",
-            "team_a": "Skyler Woodward",
-            "team_b": "Tyler Styer",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
-            "time": "18:00 19/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-f3adc61cff",
-          "name": "Thiện Lương vs Ameer Ali | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3adc61cff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f3adc61cff",
-                  "name": "Thiện Lương vs Ameer Ali",
-                  "streams": [
-                    {
-                      "id": "st-f3adc61cff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3adc61cff",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8016/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Thiện Lương",
-            "team_b": "Ameer Ali",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789789787371_thi%E1%BB%87n%20l%C6%B0%C6%A1ng.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789789796572_AMEER%20ALI.jpg",
-            "time": "18:00 19/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-f3adc61cff_6d5dbad5_20260919.png?v=6d5dbad5",
             "width": 1600,
             "height": 1200
           }
@@ -3931,6 +3757,77 @@
           }
         },
         {
+          "id": "chtv-3a44bf28f0",
+          "name": "Skyler Woodward vs Tyler Styer | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a44bf28f0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3a44bf28f0",
+                  "name": "Skyler Woodward vs Tyler Styer",
+                  "streams": [
+                    {
+                      "id": "st-3a44bf28f0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a44bf28f0",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8012/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | WPA Men’s 10-Ball World Championship",
+            "team_a": "Skyler Woodward",
+            "team_b": "Tyler Styer",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789789450593_Skyler%20Woodward.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789789453621_Tyler%20Styer.jpg",
+            "time": "18:00 19/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-3a44bf28f0_b8baf09b_20260919.png?v=b8baf09b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4b0d4dac2a",
           "name": "Thorsten Hohmann vs Niels Feijen | 20:00 19/09",
           "type": "single",
@@ -3997,6 +3894,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-4b0d4dac2a_a842c458_20260919.png?v=a842c458",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8c2370ec2",
+          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8c2370ec2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8c2370ec2",
+                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
+                  "streams": [
+                    {
+                      "id": "st-e8c2370ec2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8c2370ec2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WPA Men’s 10-Ball World Championship",
+            "team_a": "Chu Việt Hoàng",
+            "team_b": "Ko Taeyoung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
+            "time": "20:00 19/09",
+            "blv": "",
+            "is_live": false,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
             "width": 1600,
             "height": 1200
           }
@@ -4139,77 +4107,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-06d4d9aef9_a259f548_20260919.png?v=a259f548",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-e8c2370ec2",
-          "name": "Chu Việt Hoàng vs Ko Taeyoung | 20:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8c2370ec2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e8c2370ec2",
-                  "name": "Chu Việt Hoàng vs Ko Taeyoung",
-                  "streams": [
-                    {
-                      "id": "st-e8c2370ec2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8c2370ec2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8022/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv23.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WPA Men’s 10-Ball World Championship",
-            "team_a": "Chu Việt Hoàng",
-            "team_b": "Ko Taeyoung",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1789790359708_HO%C3%80NG%20PH%C3%9A%20TH%E1%BB%8C.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1789790349205_KO%20TAEYOUNG.jpg",
-            "time": "20:00 19/09",
-            "blv": "",
-            "is_live": false,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-e8c2370ec2_595c19bd_20260919.png?v=595c19bd",
             "width": 1600,
             "height": 1200
           }
