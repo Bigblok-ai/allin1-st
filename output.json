@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1309,45 +1309,6 @@
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4d165fdc26",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4d165fdc26",
-                  "name": "Newcastle vs Hull City",
-                  "streams": [
-                    {
-                      "id": "st-4d165fdc26",
-                      "name": "PhaoHoa - Chè",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c316eb093",
-                          "name": "Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
                             }
                           ]
                         }
@@ -1640,7 +1601,7 @@
                   "streams": [
                     {
                       "id": "st-ef6ddcb378",
-                      "name": "PhaoHoa - Người Kiến",
+                      "name": "PhaoHoa - Người Kiến, Khô Cay",
                       "stream_links": [
                         {
                           "id": "lnk-c0c00f928c",
@@ -1648,6 +1609,27 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://luong.phaohoa.live/live/phaohoa1/index.m3u8?expire=1815505159&sign=9137553faeae361734eec8bda5ea16e2",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-913990a99f",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1686,164 +1668,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/thumbs/6aa88abd24d46db8704905d8_d1108bb2_20260919.png?v=d1108bb2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-a51090fd4e",
-          "name": "Brighton vs Arsenal | 21:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a51090fd4e",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a51090fd4e",
-                  "name": "Brighton vs Arsenal",
-                  "streams": [
-                    {
-                      "id": "st-a51090fd4e",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Brighton",
-            "team_b": "Arsenal",
-            "logo_a": "https://media.api-sports.io/football/teams/51.png",
-            "logo_b": "https://media.api-sports.io/football/teams/42.png",
-            "time": "21:00",
-            "date": "19/09",
-            "blv": "Lee Sin",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/35092e44-067a-4ace-a3b6-6152aa16270f_1dafae99_20260919.png?v=1dafae99",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-aae3b0c172",
-          "name": "Everton vs Ipswich | 21:00 19/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aae3b0c172",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-aae3b0c172",
-                  "name": "Everton vs Ipswich",
-                  "streams": [
-                    {
-                      "id": "st-aae3b0c172",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Everton",
-            "team_b": "Ipswich",
-            "logo_a": "https://media.api-sports.io/football/teams/45.png",
-            "logo_b": "https://media.api-sports.io/football/teams/57.png",
-            "time": "21:00",
-            "date": "19/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "2h",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/thumbs/3ae1e094-3d07-4379-8129-624fe8ef3823_e1310935_20260919.png?v=e1310935",
             "width": 1600,
             "height": 1200
           }
@@ -1914,7 +1738,7 @@
             "blv": "Tiểu Mây",
             "is_live": true,
             "cate_type": "football",
-            "status": "1h",
+            "status": "ht",
             "home_score": 1,
             "away_score": 0
           },
