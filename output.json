@@ -3649,7 +3649,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3662,10 +3662,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3703,6 +3703,45 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c83f37fca9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c83f37fca9",
+                  "name": "Thái Lan vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-c83f37fca9",
+                      "name": "PhaoHoa - Lee Sin",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3713,7 +3752,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/kErkaIWGPh_VGrd4T6NwUA_96x96.png",
             "time": "08:00 20/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
