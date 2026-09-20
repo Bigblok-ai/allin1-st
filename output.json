@@ -2788,7 +2788,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3002,6 +3002,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-8eaa393cbd_4cc452d5_20260920.png?v=4cc452d5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-933426cca2",
+          "name": "Zlateva / Kasper vs Filler / Filler | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-933426cca2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-933426cca2",
+                  "name": "Zlateva / Kasper vs Filler / Filler",
+                  "streams": [
+                    {
+                      "id": "st-933426cca2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-933426cca2",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8061/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv23.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Billiards Mixed Doubles Open (nhánh thua)",
+            "team_a": "Zlateva / Kasper",
+            "team_b": "Filler / Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1789856931990_Kasper.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764868662673_Joshua%20Filler.jpg",
+            "time": "10:01 20/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/thumbs/chtv-933426cca2_be1978a4_20260920.png?v=be1978a4",
             "width": 1600,
             "height": 1200
           }
