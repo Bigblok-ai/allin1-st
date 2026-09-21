@@ -1121,101 +1121,13 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "cc-b610e7e296",
-          "name": "Eswatini U20 vs Lesotho U20 | 23:00 21/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b610e7e296",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-b610e7e296",
-                  "name": "Eswatini U20 vs Lesotho U20",
-                  "streams": [
-                    {
-                      "id": "st-b610e7e296",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0599a70c7f",
-                          "name": "Trốc Tru HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c5365f323a",
-                          "name": "Trốc Tru FULL HD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "COSAFA U20 Championship",
-            "team_a": "Eswatini U20",
-            "team_b": "Lesotho U20",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_142528_7091bd62.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142530_173b1e20.png",
-            "time": "23:00 21/09",
-            "blv": "Trốc Tru, Trốc Tru FULL",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1640455_d17a5c9c_20260922.png?v=d17a5c9c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-6a9bf5748d",
+          "id": "xc-1b92048ed6",
           "name": "Petrolul Ploiesti vs Csikszereda | 01:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -1230,6 +1142,45 @@
           ],
           "sources": [
             {
+              "id": "src-1b92048ed6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1b92048ed6",
+                  "name": "Petrolul Ploiesti vs Csikszereda",
+                  "streams": [
+                    {
+                      "id": "st-1b92048ed6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-6a9bf5748d",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1239,7 +1190,7 @@
                   "streams": [
                     {
                       "id": "st-6a9bf5748d",
-                      "name": "CC",
+                      "name": "CCport - Trốc Tru, Trốc Tru FULL",
                       "stream_links": [
                         {
                           "id": "lnk-0599a70c7f",
@@ -1283,21 +1234,25 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Roma",
+            "league": "Liga I",
             "team_a": "Petrolul Ploiesti",
             "team_b": "Csikszereda",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133915_0d9261aa.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_133920_535af99e.png",
-            "time": "01:00 22/09",
-            "blv": "Trốc Tru, Trốc Tru FULL",
+            "logo_a": "https://media.api-sports.io/football/teams/2598.png",
+            "logo_b": "https://media.api-sports.io/football/teams/6230.png",
+            "time": "01:00",
+            "date": "22/09",
+            "blv": "Pháo Thủ",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1565260_4a775c1c_20260922.png?v=4a775c1c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/8e236427-0a4d-43f9-a12d-3dd6148f6bc2_f4b57c41_20260922.png?v=f4b57c41",
             "width": 1600,
             "height": 1200
           }
