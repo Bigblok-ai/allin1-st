@@ -33,7 +33,7 @@ SOURCES = [
     {"name": "ChoangTV", "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/output.json"},
 ]
 
-HOIQUAN_FILE = "hoiquan.json"
+HOIQUAN_FILE = "hq.json"
 FOOTBALL_TIME_LIMIT_HOURS = 20
 
 try:
