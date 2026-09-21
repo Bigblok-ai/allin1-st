@@ -33,7 +33,7 @@ SOURCES = [
     {"name": "Phalang", "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/output.json"},      
 ]
 
-HOIQUAN_FILE = "hq.json"
+hq_FILE = "hq.json"
 FOOTBALL_TIME_LIMIT_HOURS = 20
 
 try:
@@ -545,14 +545,14 @@ def main():
     # BƯỚC 2: GỘP KÊNH TRUYỀN HÌNH
     # ─────────────────────────────────────────────────────────────────
     try:
-        if os.path.exists(HOIQUAN_FILE):
-            with open(HOIQUAN_FILE, "r", encoding="utf-8") as f:
+        if os.path.exists(hq_FILE):
+            with open(hq_FILE, "r", encoding="utf-8") as f:
                 tv_list = json.load(f)
             if tv_list:
                 tv_channels = build_tv_channels(tv_list)
                 
                 tv_group = {
-                    "id": "grp-tv-hoiquan",
+                    "id": "grp-tv-hq",
                     "name": "📺 Kênh Truyền Hình",
                     "display": "vertical",
                     "grid_number": 2,
@@ -562,9 +562,9 @@ def main():
                 final_data["groups"].insert(0, tv_group)
                 print(f"Da gom {len(tv_list)} link tu {len(tv_channels)} kenh truyen hinh vao output.")
         else:
-            print(f"Canh bao: Khong tim thay file {HOIQUAN_FILE}.")
+            print(f"Canh bao: Khong tim thay file {hq_FILE}.")
     except Exception as e:
-        print(f"Canh bao: Loi xu ly {HOIQUAN_FILE} -> {e}")
+        print(f"Canh bao: Loi xu ly {hq_FILE} -> {e}")
 
     # ─────────────────────────────────────────────────────────────────
     # BƯỚC 3: LỌC BÓNG ĐÁ — CHỈ GIỮ TRẬN TRONG 20H TỚI
