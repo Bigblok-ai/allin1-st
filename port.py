@@ -26,11 +26,11 @@ CATEGORIES = {
 }
 
 SOURCES = [
-    {"name": "Giovang", "url": "https://raw.githubusercontent.com/jasminliu98/giovang-stream/refs/heads/main/output.json"},
-    {"name": "Hoiquan", "url": "https://raw.githubusercontent.com/jasminliu98/hoiquan-stream/refs/heads/main/output.json"},
-    {"name": "PhaoHoa", "url": "https://raw.githubusercontent.com/jasminliu98/phaohoa-stream/refs/heads/main/output.json"},
-    {"name": "ChuoiChien", "url": "https://raw.githubusercontent.com/jasminliu98/loc-stream/refs/heads/main/output.json"},
-    {"name": "ChoangTV", "url": "https://raw.githubusercontent.com/jasminliu98/choang-stream/refs/heads/main/output.json"},
+    {"name": "gv", "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/output.json"},
+    {"name": "PhaoHoa", "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/output.json"},
+    {"name": "CCport", "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/output.json"},
+    {"name": "Choang", "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/output.json"},
+    {"name": "Phalang", "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/output.json"},      
 ]
 
 HOIQUAN_FILE = "hq.json"
