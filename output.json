@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1411,7 +1411,138 @@
           }
         },
         {
-          "id": "cc-cf8d4d897f",
+          "id": "xc-20487d3fbf",
+          "name": "Inter Milano W vs Häcken W | 23:45 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-20487d3fbf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-20487d3fbf",
+                  "name": "Inter Milano W vs Häcken W",
+                  "streams": [
+                    {
+                      "id": "st-20487d3fbf",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-9370a7f41b",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-9370a7f41b",
+                  "name": "Inter Milano W vs Häcken",
+                  "streams": [
+                    {
+                      "id": "st-9370a7f41b",
+                      "name": "CCport - Chuối Lá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc7b03b97a",
+                          "name": "Chuối Lá HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c3722bb96b",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League Women",
+            "team_a": "Inter Milano W",
+            "team_b": "Häcken W",
+            "logo_a": "https://media.api-sports.io/football/teams/7533.png",
+            "logo_b": "https://media.api-sports.io/football/teams/16483.png",
+            "time": "23:45",
+            "date": "22/09",
+            "blv": "Pháo Thủ",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/3d8686cc-f6c3-49b5-a45a-a852dc339357_260981c2_20260922.png?v=260981c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d4b594591b",
           "name": "Bayern Munich W vs Manchester City W | 23:45 22/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -1426,6 +1557,45 @@
           ],
           "sources": [
             {
+              "id": "src-d4b594591b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d4b594591b",
+                  "name": "Bayern Munich W vs Manchester City W",
+                  "streams": [
+                    {
+                      "id": "st-d4b594591b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-cf8d4d897f",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1435,7 +1605,7 @@
                   "streams": [
                     {
                       "id": "st-cf8d4d897f",
-                      "name": "CC",
+                      "name": "CCport - Chuối Chao",
                       "stream_links": [
                         {
                           "id": "lnk-396b735a0c",
@@ -1482,106 +1652,22 @@
             "league": "UEFA Champions League Women",
             "team_a": "Bayern Munich W",
             "team_b": "Manchester City W",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133734_909d7704.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_133729_6895ba43.png",
-            "time": "23:45 22/09",
-            "blv": "Chuối Chao",
+            "logo_a": "https://media.api-sports.io/football/teams/157.png",
+            "logo_b": "https://media.api-sports.io/football/teams/50.png",
+            "time": "23:45",
+            "date": "22/09",
+            "blv": "Enzo",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "ns",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638300_6d2001b6_20260922.png?v=6d2001b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-9370a7f41b",
-          "name": "Inter Milano W vs Häcken | 23:45 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9370a7f41b",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-9370a7f41b",
-                  "name": "Inter Milano W vs Häcken",
-                  "streams": [
-                    {
-                      "id": "st-9370a7f41b",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc7b03b97a",
-                          "name": "Chuối Lá HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3722bb96b",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League Women",
-            "team_a": "Inter Milano W",
-            "team_b": "Häcken",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133743_9c285531.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_140517_72f0bbb2.png",
-            "time": "23:45 22/09",
-            "blv": "Chuối Lá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638309_1579a230_20260922.png?v=1579a230",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/f2bedcf8-bcdf-4b9f-98ed-30286944cd33_4cbcc3ac_20260922.png?v=4cbcc3ac",
             "width": 1600,
             "height": 1200
           }
@@ -1653,6 +1739,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhlp14eryk_43de35fa_20260922.png?v=43de35fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-1d08988136",
+          "name": "FCM Targu Mures vs CS Dinamo Bucuresti | 00:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d08988136",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-1d08988136",
+                  "name": "FCM Targu Mures vs CS Dinamo Bucuresti",
+                  "streams": [
+                    {
+                      "id": "st-1d08988136",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a7a8ca2ef",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/6b3e943e64cd4b9aad67fc11e70b7ffb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Liga II",
+            "team_a": "FCM Targu Mures",
+            "team_b": "CS Dinamo Bucuresti",
+            "logo_a": "https://img.sports-data.online/football/team/2a71ece3bf494abaefee6aea5ff7b03c.png",
+            "logo_b": "https://img.sports-data.online/football/team/38f47a9528dd7f64ad462f6d9b26170e.png",
+            "time": "00:00 23/09",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhy4000ryk_e8998661_20260922.png?v=e8998661",
             "width": 1600,
             "height": 1200
           }
@@ -1811,41 +1968,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-98b8ce75cb",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-98b8ce75cb",
-                  "name": "Muaither SC vs Al Khor SC",
-                  "streams": [
-                    {
-                      "id": "st-98b8ce75cb",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-442160625f",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/e386ffde45764932b68fb5241839a0b8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1864,6 +1986,290 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1639138_1e711e8f_20260922.png?v=1e711e8f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-188ff6618e",
+          "name": "Wigan vs Blackpool | 01:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-188ff6618e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-188ff6618e",
+                  "name": "Wigan vs Blackpool",
+                  "streams": [
+                    {
+                      "id": "st-188ff6618e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-072dce3f03",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789913590_hd/1789913590_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cúp Liên Đoàn Anh",
+            "team_a": "Wigan",
+            "team_b": "Blackpool",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/4/43/Wigan_Athletic.svg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/en/thumb/d/df/Blackpool_FC_logo.svg/1280px-Blackpool_FC_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "time": "01:00 23/09",
+            "blv": "Ngọng",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/785jnmli8xo5_1944359b_20260922.png?v=1944359b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-671dad2617",
+          "name": "Nữ Arsenal vs HB Koge (W) | 02:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-671dad2617",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-671dad2617",
+                  "name": "Nữ Arsenal vs HB Koge (W)",
+                  "streams": [
+                    {
+                      "id": "st-671dad2617",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41be153da5",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789914070_hd/1789914070_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ Arsenal",
+            "team_b": "HB Koge (W)",
+            "logo_a": "https://images.keovip88.net/images/teams/arsenal-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hb-koge-w.png",
+            "time": "02:00 23/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aadd0a824d46db870f2406d_139d8f24_20260922.png?v=139d8f24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3341b2d750",
+          "name": "Nữ Real Madrid vs Nữ Paris Saint Germain | 02:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3341b2d750",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3341b2d750",
+                  "name": "Nữ Real Madrid vs Nữ Paris Saint Germain",
+                  "streams": [
+                    {
+                      "id": "st-3341b2d750",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40a8860732",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789914117_hd/1789914117_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Champions League Nữ",
+            "team_a": "Nữ Real Madrid",
+            "team_b": "Nữ Paris Saint Germain",
+            "logo_a": "https://images.keovip88.net/images/teams/real-madrid-w.png",
+            "logo_b": "https://images.keovip88.net/images/teams/paris-saint-germain-w.png",
+            "time": "02:00 23/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aadd0a824d46db870f24092_fab3b2f2_20260922.png?v=fab3b2f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-035fd743d2",
+          "name": "Juventus W vs Benfica W | 02:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-035fd743d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-035fd743d2",
+                  "name": "Juventus W vs Benfica W",
+                  "streams": [
+                    {
+                      "id": "st-035fd743d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-94b466cdfa",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790089622_hd/1790089622_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Juventus W",
+            "team_b": "Benfica W",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP3jFzrxTfKwL87shU8GJVJcCUq5v6-GzQpFDb5db-tg&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW7utlfUGDcx88suGyxVD2AbHy4nXObJ1cnAv-odBHSw&s=10",
+            "time": "02:00 23/09",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/cdu16fw2y6zo_aadbf8ae_20260922.png?v=aadbf8ae",
             "width": 1600,
             "height": 1200
           }
@@ -2163,6 +2569,219 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638331_110ec1a1_20260922.png?v=110ec1a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da08abbc12",
+          "name": "New York Yankees vs Tampa Bay Rays | 06:05 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da08abbc12",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da08abbc12",
+                  "name": "New York Yankees vs Tampa Bay Rays",
+                  "streams": [
+                    {
+                      "id": "st-da08abbc12",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-84f7f09989",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790089758_hd/1790089758_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Tampa Bay Rays",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_0Lyr2S2koF-Bs9cC_IOduDV7COArCgCCAEqH0vNEw&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxpdhw894FQt6N2CQ8i8b6CLS_j05OZl4PG8ZE9B06aQ&s=10",
+            "time": "06:05 23/09",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/y4plmo8f0rdw_acc56f7c_20260922.png?v=acc56f7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c734e7d56d",
+          "name": "U23 Iran vs U23 Triều Tiên | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c734e7d56d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c734e7d56d",
+                  "name": "U23 Iran vs U23 Triều Tiên",
+                  "streams": [
+                    {
+                      "id": "st-c734e7d56d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0030d18369",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081010_hd/1790081010_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Iran",
+            "team_b": "U23 Triều Tiên",
+            "logo_a": "https://static.flashscore.com/res/image/data/CA3yhoGG-KMidKLjl.png",
+            "logo_b": "https://images.keovip88.net/images/teams/north-korea-w.png",
+            "time": "12:30 23/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zcqd6mggoore_10721be4_20260922.png?v=10721be4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-55f0247157",
+          "name": "U23 Trung Quốc vs U23 UAE | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-55f0247157",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-55f0247157",
+                  "name": "U23 Trung Quốc vs U23 UAE",
+                  "streams": [
+                    {
+                      "id": "st-55f0247157",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9fd7e44c88",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081074_hd/1790081074_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Trung Quốc",
+            "team_b": "U23 UAE",
+            "logo_a": "https://images.keovip88.net/images/teams/china-u17.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/v_vORXEGt13cTEb-zw7yWA_96x96.png",
+            "time": "12:30 23/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/nikl30by99k3_1bfc97db_20260922.png?v=1bfc97db",
             "width": 1600,
             "height": 1200
           }
@@ -2546,11 +3165,296 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-3c265c9c29",
+          "name": "Chicago Sky vs Toronto Tempo | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c265c9c29",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c265c9c29",
+                  "name": "Chicago Sky vs Toronto Tempo",
+                  "streams": [
+                    {
+                      "id": "st-3c265c9c29",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-981c46cb5f",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081172_hd/1790081172_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Chicago Sky",
+            "team_b": "Toronto Tempo",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "time": "07:00 23/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/10525079_38d1d432_20260922.png?v=38d1d432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f22f582ae4",
+          "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f22f582ae4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f22f582ae4",
+                  "name": "Indiana Fever vs Minnesota Lynx",
+                  "streams": [
+                    {
+                      "id": "st-f22f582ae4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f646288422",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Indiana Fever",
+            "team_b": "Minnesota Lynx",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "time": "07:00 23/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/21525070_e402a065_20260922.png?v=e402a065",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-97affd4de8",
+          "name": "Las Vegas Aces vs Los Angeles Sparks | 09:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-97affd4de8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-97affd4de8",
+                  "name": "Las Vegas Aces vs Los Angeles Sparks",
+                  "streams": [
+                    {
+                      "id": "st-97affd4de8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30d5326e40",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081239_hd/1790081239_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Las Vegas Aces",
+            "team_b": "Los Angeles Sparks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cbf9424df17d6e06d655dca78651d329.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/32f21070cfd05affb7125a707c2b3b37.png",
+            "time": "09:00 23/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/22525071_70e6fcba_20260922.png?v=70e6fcba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-789b1a39de",
+          "name": "Portland Fire vs Golden State Valkyries | 09:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-789b1a39de",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-789b1a39de",
+                  "name": "Portland Fire vs Golden State Valkyries",
+                  "streams": [
+                    {
+                      "id": "st-789b1a39de",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa79fa8bab",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081289_hd/1790081289_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Portland Fire",
+            "team_b": "Golden State Valkyries",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/687f4fda7efc61afefa80ee3591a56f2.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "time": "09:00 23/09",
+            "blv": "Tôm",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/23525072_aba8d1a8_20260922.png?v=aba8d1a8",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2623,78 +3527,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a9d2620dbd_8e2e75ee_20260922.png?v=8e2e75ee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d7b3069110",
-          "name": "KYLE AMOROTO vs EDWIN GAMAS +1 (9/10) | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d7b3069110",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d7b3069110",
-                  "name": "KYLE AMOROTO vs EDWIN GAMAS +1 (9/10)",
-                  "streams": [
-                    {
-                      "id": "st-d7b3069110",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d7b3069110",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8188/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "▄︻デ𝒜ℛℐℱ━一💥 Siêu Độ RACE 17",
-            "team_a": "KYLE AMOROTO",
-            "team_b": "EDWIN GAMAS +1 (9/10)",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790094332310_kyle%20amoroto.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790094329874_EDWIN%20GAMAS.jpg",
-            "time": "00:00 22/09",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1790010000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d7b3069110_01db1801_20260922.png?v=01db1801",
             "width": 1600,
             "height": 1200
           }
@@ -3098,7 +3930,292 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-62395c525e",
+          "name": "Dana White's Contender Series: Season 10, Week 7 vs Dana White's Contender Series: Season 10, Week 7 | 06:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62395c525e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-62395c525e",
+                  "name": "Dana White's Contender Series: Season 10, Week 7 vs Dana White's Contender Series: Season 10, Week 7",
+                  "streams": [
+                    {
+                      "id": "st-62395c525e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-25d3d94543",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368641_hd/1789368641_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 7",
+            "team_a": "Dana White's Contender Series: Season 10, Week 7",
+            "team_b": "Dana White's Contender Series: Season 10, Week 7",
+            "logo_a": "https://worldinsport.com/wp-content/uploads/2026/08/dwcs-season-10-night-3-results-1200x630.webp",
+            "logo_b": "https://worldinsport.com/wp-content/uploads/2026/08/dwcs-season-10-night-3-results-1200x630.webp",
+            "time": "06:00 23/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/a2zt8mldckd3_9f063d9a_20260922.png?v=9f063d9a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0ff3403f55",
+          "name": "ONE Friday Fights 172 vs The Inner Circle 32 | 18:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ff3403f55",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0ff3403f55",
+                  "name": "ONE Friday Fights 172 vs The Inner Circle 32",
+                  "streams": [
+                    {
+                      "id": "st-0ff3403f55",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00f4857b2a",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368699_hd/1789368699_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ONE Friday Fights 172 & The Inner Circle 32",
+            "team_a": "ONE Friday Fights 172",
+            "team_b": "The Inner Circle 32",
+            "logo_a": "https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp",
+            "logo_b": "https://api.beyondkick.com/uploads/HR_Ne_UC_Wg_AAH_8w_Z_fc313fd7d3.webp",
+            "time": "18:30 25/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/t81vplztkyiu_dc760bd5_20260922.png?v=dc760bd5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0ddc93b2dc",
+          "name": "Rosas Jr. vs Barcelos | 02:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0ddc93b2dc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0ddc93b2dc",
+                  "name": "Rosas Jr. vs Barcelos",
+                  "streams": [
+                    {
+                      "id": "st-0ddc93b2dc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-052d7952cd",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368755_hd/1789368755_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UFC Fight Night: Rosas Jr. vs. Barcelos",
+            "team_a": "Rosas Jr.",
+            "team_b": "Barcelos",
+            "logo_a": "https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80",
+            "logo_b": "https://platform.mmamania.com/wp-content/uploads/sites/110/2026/08/HPz3eAZXcAAocvy.jpeg?quality=90&strip=all&crop=0,10,100,80",
+            "time": "02:00 27/09",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/hbxb5hmfy6ng_db1b1409_20260922.png?v=db1b1409",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-232423eef4",
+          "name": "Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8 | 06:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-232423eef4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-232423eef4",
+                  "name": "Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8",
+                  "streams": [
+                    {
+                      "id": "st-232423eef4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32b270044f",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368893_hd/1789368893_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 8",
+            "team_a": "Dana White's Contender Series: Season 10, Week 8",
+            "team_b": "Dana White's Contender Series: Season 10, Week 8",
+            "logo_a": "https://m.media-amazon.com/images/S/pv-target-images/92a6fe2caef3a15e2b920f0944f33dbe5eef66bdfe761a61595e8619555a18cb.jpg",
+            "logo_b": "https://m.media-amazon.com/images/S/pv-target-images/92a6fe2caef3a15e2b920f0944f33dbe5eef66bdfe761a61595e8619555a18cb.jpg",
+            "time": "06:00 30/09",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260922.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chày",
@@ -3106,7 +4223,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-4d160e13b4",
+          "name": "Los Angeles Dodgers vs San Diego Padres | 09:10 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d160e13b4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4d160e13b4",
+                  "name": "Los Angeles Dodgers vs San Diego Padres",
+                  "streams": [
+                    {
+                      "id": "st-4d160e13b4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-711a258494",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081316_hd/1790081316_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "Los Angeles Dodgers",
+            "team_b": "San Diego Padres",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/58MDezoOT1DAkMexRNiW3w_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/iM_hcWzccgEfD4bo-sp6Wg_96x96.png",
+            "time": "09:10 23/09",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/aapc2xt62zym_debd422b_20260922.png?v=debd422b",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
