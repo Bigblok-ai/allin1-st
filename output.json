@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-42cf7020ec",
+          "name": "TerDU vs Gazalkent | 21:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42cf7020ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-42cf7020ec",
+                  "name": "TerDU vs Gazalkent",
+                  "streams": [
+                    {
+                      "id": "st-42cf7020ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8be6b5017",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Pro Liga",
+            "team_a": "TerDU",
+            "team_b": "Gazalkent",
+            "logo_a": "https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/faCOxfWg-EoEe4K82.png",
+            "time": "21:00 22/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4bmp1oxjmc76_1b665a3e_20260922.png?v=1b665a3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-fd2229e30b",
           "name": "Al Hamriyah vs Al Thaid | 21:40 22/09",
@@ -1193,6 +1264,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/b1gqp5b8qxf7_8c5360e9_20260922.png?v=8c5360e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cb62fdad08",
+          "name": "Al Urooba vs Dubai City | 21:40 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cb62fdad08",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cb62fdad08",
+                  "name": "Al Urooba vs Dubai City",
+                  "streams": [
+                    {
+                      "id": "st-cb62fdad08",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6d2ae714ad",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053417_hd/1790053417_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UAE Presidents Cup",
+            "team_a": "Al Urooba",
+            "team_b": "Dubai City",
+            "logo_a": "https://static.flashscore.com/res/image/data/2iE3O0Yg-2JG9UkI7.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KlYyFKeM-8n4j8mYd.png",
+            "time": "21:40 22/09",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/euqek9i7ql2i_da1deda5_20260922.png?v=da1deda5",
             "width": 1600,
             "height": 1200
           }
@@ -2920,6 +3062,77 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-3c265c9c29",
+          "name": "Chicago Sky vs Toronto Tempo | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c265c9c29",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c265c9c29",
+                  "name": "Chicago Sky vs Toronto Tempo",
+                  "streams": [
+                    {
+                      "id": "st-3c265c9c29",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-981c46cb5f",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081172_hd/1790081172_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Chicago Sky",
+            "team_b": "Toronto Tempo",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/0a570e6f3972fccc8370091d6ffdef5e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2144aaf701fac7e3c3caf3853aeb9929.png",
+            "time": "07:00 23/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/10525079_38d1d432_20260922.png?v=38d1d432",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-f22f582ae4",
           "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
           "type": "single",
@@ -3136,14 +3349,14 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ee1d47c87b",
-          "name": "Nonoy Dasma vs Anthony figueroa | Tào A Man",
+          "id": "chtv-8c32965eff",
+          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3157,23 +3370,23 @@
           ],
           "sources": [
             {
-              "id": "src-ee1d47c87b",
+              "id": "src-8c32965eff",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ee1d47c87b",
-                  "name": "Nonoy Dasma vs Anthony figueroa",
+                  "id": "ct-8c32965eff",
+                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
                   "streams": [
                     {
-                      "id": "st-ee1d47c87b",
+                      "id": "st-8c32965eff",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ee1d47c87b",
-                          "name": "Tào A Man",
+                          "id": "lnk-8c32965eff",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8185/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3193,22 +3406,22 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Nonoy Dasma",
-            "team_b": "Anthony figueroa",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790089606621_phil.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790089662164_phil.png",
-            "time": "00:00 22/09",
-            "blv": "Tào A Man",
+            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
+            "team_a": "Liu SS / Hsieh CC",
+            "team_b": "Wang / Alcaide",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
+            "time": "19:30 22/09",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "time_sort": 1790010000,
+            "time_sort": 1790080200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee1d47c87b_7892921c_20260922.png?v=7892921c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
             "width": 1600,
             "height": 1200
           }
@@ -3281,78 +3494,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-143a631ab6_9192438d_20260922.png?v=9192438d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c32965eff",
-          "name": "Liu SS / Hsieh CC vs Wang / Alcaide | Kèn Kèn",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c32965eff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c32965eff",
-                  "name": "Liu SS / Hsieh CC vs Wang / Alcaide",
-                  "streams": [
-                    {
-                      "id": "st-8c32965eff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c32965eff",
-                          "name": "Kèn Kèn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8170/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ kết 4 | Billiards Mixed Doubles Open",
-            "team_a": "Liu SS / Hsieh CC",
-            "team_b": "Wang / Alcaide",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790044319230_Liu%20Sha%20Sha.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790044333258_David%20Alcaide.jpg",
-            "time": "19:30 22/09",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1790080200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c32965eff_8293249a_20260922.png?v=8293249a",
             "width": 1600,
             "height": 1200
           }
@@ -3433,7 +3574,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3596,10 +3737,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3647,7 +3788,7 @@
             "logo_b": "https://img0.aiscore.com/volleyball/team/bf7d5b85601e54fc26df7d6605e3dd01.png!w80",
             "time": "23:00 22/09",
             "blv": "LÝ LÊN LỬA",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -3667,10 +3808,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3718,7 +3859,7 @@
             "logo_b": "https://img0.aiscore.com/volleyball/team/e0677a0ca49587054db50fd388f5dfb0.png!w80",
             "time": "23:00 22/09",
             "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
