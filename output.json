@@ -3434,82 +3434,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-3b8f45f89a",
-          "name": "Brisbane Bullets vs New Zealand Breakers | 16:30 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b8f45f89a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3b8f45f89a",
-                  "name": "Brisbane Bullets vs New Zealand Breakers",
-                  "streams": [
-                    {
-                      "id": "st-3b8f45f89a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99c875a70e",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790070010_hd/1790070010_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Brisbane Bullets",
-            "team_b": "New Zealand Breakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/fd1ef26f7174d02a5a30dbe9e69b45f9.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "time": "16:30 22/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/27122271_56286d5f_20260922.png?v=56286d5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-8a1a6f632e",
           "name": "Mongolia (W) vs Malaysia (W) | 17:00 22/09",
@@ -4385,14 +4314,14 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-4d3091533a",
-          "name": "Trung Quốc vs Nhật Bản | 17:20 22/09",
+          "id": "xc-ae18a5594a",
+          "name": "Hong Kong vs Philippines | 17:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4402,6 +4331,85 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae18a5594a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ae18a5594a",
+                  "name": "Hong Kong vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-ae18a5594a",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD GAME",
+            "team_a": "Hong Kong",
+            "team_b": "Philippines",
+            "logo_a": "https://khandai2.link/media/teams/logos/OIP_y52YJOU.jpg",
+            "logo_b": "https://khandai2.link/media/teams/logos/OIP_njudfFz.jpg",
+            "time": "17:00",
+            "date": "22/09",
+            "blv": "Tiểu Mây",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/09abdb4a-fd9e-43ce-b0e7-129b6be9ca35_f9510771_20260922.png?v=f9510771",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4d3091533a",
+          "name": "Trung Quốc vs Nhật Bản | 17:20 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -4484,7 +4492,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/by4OltvtZz7taxuQtkiP3A_96x96.png",
             "time": "17:20 22/09",
             "blv": "Sún",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -4492,85 +4500,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/o76kngvr5p19_503aa599_20260922.png?v=503aa599",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ae18a5594a",
-          "name": "Hong Kong vs Philippines | 17:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae18a5594a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ae18a5594a",
-                  "name": "Hong Kong vs Philippines",
-                  "streams": [
-                    {
-                      "id": "st-ae18a5594a",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e11cfd9666",
-                          "name": "Tiểu Mây",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Hong Kong",
-            "team_b": "Philippines",
-            "logo_a": "https://khandai2.link/media/teams/logos/OIP_y52YJOU.jpg",
-            "logo_b": "https://khandai2.link/media/teams/logos/OIP_njudfFz.jpg",
-            "time": "17:00",
-            "date": "22/09",
-            "blv": "Tiểu Mây",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/09abdb4a-fd9e-43ce-b0e7-129b6be9ca35_f9510771_20260922.png?v=f9510771",
             "width": 1600,
             "height": 1200
           }
