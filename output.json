@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-42cf7020ec",
+          "name": "TerDU vs Gazalkent | 21:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-42cf7020ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-42cf7020ec",
+                  "name": "TerDU vs Gazalkent",
+                  "streams": [
+                    {
+                      "id": "st-42cf7020ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8be6b5017",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Pro Liga",
+            "team_a": "TerDU",
+            "team_b": "Gazalkent",
+            "logo_a": "https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/faCOxfWg-EoEe4K82.png",
+            "time": "21:00 22/09",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4bmp1oxjmc76_1b665a3e_20260922.png?v=1b665a3e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-3146d8d383",
           "name": "Namibia U20 vs Seychelles U20 | 20:00 22/09",
@@ -1210,77 +1281,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1640457_bccd970b_20260922.png?v=bccd970b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-42cf7020ec",
-          "name": "TerDU vs Gazalkent | 21:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-42cf7020ec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-42cf7020ec",
-                  "name": "TerDU vs Gazalkent",
-                  "streams": [
-                    {
-                      "id": "st-42cf7020ec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8be6b5017",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053333_hd/1790053333_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Pro Liga",
-            "team_a": "TerDU",
-            "team_b": "Gazalkent",
-            "logo_a": "https://static.flashscore.com/res/image/data/noDiKGCa-W2CZaars.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/faCOxfWg-EoEe4K82.png",
-            "time": "21:00 22/09",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4bmp1oxjmc76_1b665a3e_20260922.png?v=1b665a3e",
             "width": 1600,
             "height": 1200
           }
@@ -3437,7 +3437,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3515,6 +3515,78 @@
           }
         },
         {
+          "id": "chtv-143a631ab6",
+          "name": "Han Yu / Wu KL vs Chou / Gorst | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-143a631ab6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-143a631ab6",
+                  "name": "Han Yu / Wu KL vs Chou / Gorst",
+                  "streams": [
+                    {
+                      "id": "st-143a631ab6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-143a631ab6",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8169/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ kết 3 | Billiards Mixed Doubles Open",
+            "team_a": "Han Yu / Wu KL",
+            "team_b": "Chou / Gorst",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790044153823_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790044176609_Fedor%20Gorst.jpg",
+            "time": "19:30 22/09",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1790080200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-143a631ab6_9192438d_20260922.png?v=9192438d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-d1fe857d27",
           "name": "Lu / Yapp vs Chua J / Shi T | GIÀNG A PHỌ",
           "type": "single",
@@ -3587,8 +3659,8 @@
           }
         },
         {
-          "id": "chtv-143a631ab6",
-          "name": "Han Yu / Wu KL vs Chou / Gorst | Đại Kê",
+          "id": "chtv-8825cfc147",
+          "name": "Seo / Capito vs Oi N / Chien WT | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3602,23 +3674,23 @@
           ],
           "sources": [
             {
-              "id": "src-143a631ab6",
+              "id": "src-8825cfc147",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-143a631ab6",
-                  "name": "Han Yu / Wu KL vs Chou / Gorst",
+                  "id": "ct-8825cfc147",
+                  "name": "Seo / Capito vs Oi N / Chien WT",
                   "streams": [
                     {
-                      "id": "st-143a631ab6",
+                      "id": "st-8825cfc147",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-143a631ab6",
-                          "name": "Đại Kê",
+                          "id": "lnk-8825cfc147",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8169/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8168/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3638,13 +3710,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ kết 3 | Billiards Mixed Doubles Open",
-            "team_a": "Han Yu / Wu KL",
-            "team_b": "Chou / Gorst",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790044153823_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790044176609_Fedor%20Gorst.jpg",
+            "league": "Tứ kết 2 | Billiards Mixed Doubles Open",
+            "team_a": "Seo / Capito",
+            "team_b": "Oi N / Chien WT",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790043394558_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790043402719_NAOYUKI%20OI.jpg",
             "time": "19:30 22/09",
-            "blv": "Đại Kê",
+            "blv": "Thập Cẩm",
             "is_live": true,
             "time_sort": 1790080200,
             "cate_type": "billiards"
@@ -3653,7 +3725,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-143a631ab6_9192438d_20260922.png?v=9192438d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8825cfc147_e88081eb_20260922.png?v=e88081eb",
             "width": 1600,
             "height": 1200
           }
