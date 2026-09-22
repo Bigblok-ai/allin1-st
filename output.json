@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1205,10 +1205,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1256,7 +1256,7 @@
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "time": "07:00 23/09",
             "blv": "BLV Túi Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2778,7 +2778,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2855,6 +2855,77 @@
           }
         },
         {
+          "id": "gv-f22f582ae4",
+          "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f22f582ae4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f22f582ae4",
+                  "name": "Indiana Fever vs Minnesota Lynx",
+                  "streams": [
+                    {
+                      "id": "st-f22f582ae4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f646288422",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Indiana Fever",
+            "team_b": "Minnesota Lynx",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
+            "time": "07:00 23/09",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/21525070_e402a065_20260923.png?v=e402a065",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-3c265c9c29",
           "name": "Chicago Sky vs Toronto Tempo | 07:00 23/09",
           "type": "single",
@@ -2921,77 +2992,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/10525079_38d1d432_20260923.png?v=38d1d432",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f22f582ae4",
-          "name": "Indiana Fever vs Minnesota Lynx | 07:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f22f582ae4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f22f582ae4",
-                  "name": "Indiana Fever vs Minnesota Lynx",
-                  "streams": [
-                    {
-                      "id": "st-f22f582ae4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f646288422",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790081200_hd/1790081200_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s National Basketball Association",
-            "team_a": "Indiana Fever",
-            "team_b": "Minnesota Lynx",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2672748dfcca12a59823b97a08ffb22d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/df5084b6a0e471356f94c0d460105072.png",
-            "time": "07:00 23/09",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/21525070_e402a065_20260923.png?v=e402a065",
             "width": 1600,
             "height": 1200
           }
@@ -3291,78 +3291,6 @@
           }
         },
         {
-          "id": "chtv-5bc444899f",
-          "name": "Zhang Muyan vs Annita Kanjaya | 10:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bc444899f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-5bc444899f",
-                  "name": "Zhang Muyan vs Annita Kanjaya",
-                  "streams": [
-                    {
-                      "id": "st-5bc444899f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bc444899f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8192/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Zhang Muyan",
-            "team_b": "Annita Kanjaya",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790118319007_Zhang%20Muyan.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790118322451_Annita%20Kanjaya.jpg",
-            "time": "10:00 23/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790132400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5bc444899f_ac5e10b6_20260923.png?v=ac5e10b6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-115045f080",
           "name": "Wan-Ling Wang vs Gao Meng | 10:00 23/09",
           "type": "single",
@@ -3430,6 +3358,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-115045f080_f0d90b93_20260923.png?v=f0d90b93",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-5bc444899f",
+          "name": "Zhang Muyan vs Annita Kanjaya | 10:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bc444899f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-5bc444899f",
+                  "name": "Zhang Muyan vs Annita Kanjaya",
+                  "streams": [
+                    {
+                      "id": "st-5bc444899f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bc444899f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8192/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Zhang Muyan",
+            "team_b": "Annita Kanjaya",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790118319007_Zhang%20Muyan.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790118322451_Annita%20Kanjaya.jpg",
+            "time": "10:00 23/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790132400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5bc444899f_ac5e10b6_20260923.png?v=ac5e10b6",
             "width": 1600,
             "height": 1200
           }
@@ -3579,8 +3579,8 @@
           }
         },
         {
-          "id": "chtv-0aa2f3d866",
-          "name": "Aloysius Yapp vs Konrad Juszczyszyn | 12:00 23/09",
+          "id": "chtv-4b1ca56415",
+          "name": "David Alcaide vs Albin Ouschan | 12:00 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3594,23 +3594,23 @@
           ],
           "sources": [
             {
-              "id": "src-0aa2f3d866",
+              "id": "src-4b1ca56415",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-0aa2f3d866",
-                  "name": "Aloysius Yapp vs Konrad Juszczyszyn",
+                  "id": "ct-4b1ca56415",
+                  "name": "David Alcaide vs Albin Ouschan",
                   "streams": [
                     {
-                      "id": "st-0aa2f3d866",
+                      "id": "st-4b1ca56415",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-0aa2f3d866",
+                          "id": "lnk-4b1ca56415",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8199/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8198/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3630,11 +3630,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "Aloysius Yapp",
-            "team_b": "Konrad Juszczyszyn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119317671_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119325002_Konrad%20Juszczyszyn.jpg",
+            "league": "TV3 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "David Alcaide",
+            "team_b": "Albin Ouschan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119205572_David%20Alcaide.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119209580_Albin%20Ouschan.jpg",
             "time": "12:00 23/09",
             "blv": "",
             "is_live": false,
@@ -3645,7 +3645,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0aa2f3d866_3a107575_20260923.png?v=3a107575",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b1ca56415_00e83957_20260923.png?v=00e83957",
             "width": 1600,
             "height": 1200
           }
@@ -3723,8 +3723,8 @@
           }
         },
         {
-          "id": "chtv-4b1ca56415",
-          "name": "David Alcaide vs Albin Ouschan | 12:00 23/09",
+          "id": "chtv-0aa2f3d866",
+          "name": "Aloysius Yapp vs Konrad Juszczyszyn | 12:00 23/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3738,23 +3738,23 @@
           ],
           "sources": [
             {
-              "id": "src-4b1ca56415",
+              "id": "src-0aa2f3d866",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4b1ca56415",
-                  "name": "David Alcaide vs Albin Ouschan",
+                  "id": "ct-0aa2f3d866",
+                  "name": "Aloysius Yapp vs Konrad Juszczyszyn",
                   "streams": [
                     {
-                      "id": "st-4b1ca56415",
+                      "id": "st-0aa2f3d866",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4b1ca56415",
+                          "id": "lnk-0aa2f3d866",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8198/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8199/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3774,11 +3774,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 WPA Men’s 10-Ball World Championship (nhánh thua)",
-            "team_a": "David Alcaide",
-            "team_b": "Albin Ouschan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790119205572_David%20Alcaide.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790119209580_Albin%20Ouschan.jpg",
+            "league": "TV4 WPA Men’s 10-Ball World Championship (nhánh thua)",
+            "team_a": "Aloysius Yapp",
+            "team_b": "Konrad Juszczyszyn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790119317671_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790119325002_Konrad%20Juszczyszyn.jpg",
             "time": "12:00 23/09",
             "blv": "",
             "is_live": false,
@@ -3789,7 +3789,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4b1ca56415_00e83957_20260923.png?v=00e83957",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0aa2f3d866_3a107575_20260923.png?v=3a107575",
             "width": 1600,
             "height": 1200
           }
