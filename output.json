@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1198,6 +1198,77 @@
           }
         },
         {
+          "id": "gv-1bac7fb840",
+          "name": "U23 Hàn Quốc vs U23 Saudi Arabia | 17:00 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1bac7fb840",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1bac7fb840",
+                  "name": "U23 Hàn Quốc vs U23 Saudi Arabia",
+                  "streams": [
+                    {
+                      "id": "st-1bac7fb840",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3d284229bf",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053130_hd/1790053130_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "U23 Hàn Quốc",
+            "team_b": "U23 Saudi Arabia",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QoAJxO46fHid3_T-7nRZ0Q_96x96.png",
+            "time": "17:00 22/09",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/3uavm6a5mhae_f28fdfd0_20260922.png?v=f28fdfd0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-a34745d8a9",
           "name": "South Korea U23 vs Saudi Arabia U23 | 17:00 22/09",
           "type": "single",
@@ -1264,77 +1335,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/k82rekhgk8p2rep_c84f08a3_20260922.png?v=c84f08a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1bac7fb840",
-          "name": "U23 Hàn Quốc vs U23 Saudi Arabia | 17:00 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1bac7fb840",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1bac7fb840",
-                  "name": "U23 Hàn Quốc vs U23 Saudi Arabia",
-                  "streams": [
-                    {
-                      "id": "st-1bac7fb840",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d284229bf",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790053130_hd/1790053130_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD 2026",
-            "team_a": "U23 Hàn Quốc",
-            "team_b": "U23 Saudi Arabia",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/Uu5pwNmMHGd5bCooKrS3Lw_96x96.png",
-            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/QoAJxO46fHid3_T-7nRZ0Q_96x96.png",
-            "time": "17:00 22/09",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/3uavm6a5mhae_f28fdfd0_20260922.png?v=f28fdfd0",
             "width": 1600,
             "height": 1200
           }
@@ -3355,7 +3355,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3368,10 +3368,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3419,7 +3419,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d70fd4c5120606a13bab499146cbba1a.png",
             "time": "17:00 22/09",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
