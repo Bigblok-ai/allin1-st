@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1423,6 +1423,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4h1p66yq0j_cb762e5d_20260922.png?v=cb762e5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-5bafa9aecb",
+          "name": "Bayern Munchen Women vs Manchester City Women | 23:45 22/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5bafa9aecb",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-5bafa9aecb",
+                  "name": "Bayern Munchen Women vs Manchester City Women",
+                  "streams": [
+                    {
+                      "id": "st-5bafa9aecb",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b5b6fb9f9",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/3957d1bd1f5b413b8f110ad8a11f9556/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "Bayern Munchen Women",
+            "team_b": "Manchester City Women",
+            "logo_a": "https://img.sports-data.online/football/team/c3d5e5a2e5a77d9dd041948e18c17ac9.png",
+            "logo_b": "https://img.sports-data.online/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
+            "time": "23:45 22/09",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhlp14eryk_43de35fa_20260922.png?v=43de35fa",
             "width": 1600,
             "height": 1200
           }
@@ -1741,77 +1812,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638309_1579a230_20260922.png?v=1579a230",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-5bafa9aecb",
-          "name": "Bayern Munchen Women vs Manchester City Women | 23:45 22/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5bafa9aecb",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-5bafa9aecb",
-                  "name": "Bayern Munchen Women vs Manchester City Women",
-                  "streams": [
-                    {
-                      "id": "st-5bafa9aecb",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1b5b6fb9f9",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/3957d1bd1f5b413b8f110ad8a11f9556/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Women's Champions League",
-            "team_a": "Bayern Munchen Women",
-            "team_b": "Manchester City Women",
-            "logo_a": "https://img.sports-data.online/football/team/c3d5e5a2e5a77d9dd041948e18c17ac9.png",
-            "logo_b": "https://img.sports-data.online/football/team/c4a6528a2ee147b99c9885ef24385a4e.png",
-            "time": "23:45 22/09",
-            "blv": "LÝ LINH LỰC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhlp14eryk_43de35fa_20260922.png?v=43de35fa",
             "width": 1600,
             "height": 1200
           }
@@ -3650,7 +3650,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-597abba48e",
+          "id": "gv-bddfd4ae92",
           "name": "Ba Lan vs Đức | 23:00 22/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -3665,6 +3665,41 @@
           ],
           "sources": [
             {
+              "id": "src-bddfd4ae92",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bddfd4ae92",
+                  "name": "Ba Lan vs Đức",
+                  "streams": [
+                    {
+                      "id": "st-bddfd4ae92",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ae79823084",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790092639_hd/1790092639_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-597abba48e",
               "name": "XoiChe TV",
               "contents": [
@@ -3674,7 +3709,7 @@
                   "streams": [
                     {
                       "id": "st-597abba48e",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - KaKa",
                       "stream_links": [
                         {
                           "id": "lnk-95e438c878",
@@ -3740,25 +3775,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Vô Địch Châu Âu",
+            "league": "European Championship",
             "team_a": "Ba Lan",
             "team_b": "Đức",
-            "logo_a": "https://media.api-sports.io/football/teams/24.png",
-            "logo_b": "https://media.api-sports.io/football/teams/25.png",
-            "time": "23:00",
-            "date": "22/09",
-            "blv": "KaKa",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/yTS_Piy3M1wUBnqU0n5aAw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/h1FhPLmDg9AHXzhygqvVPg_96x96.png",
+            "time": "23:00 22/09",
+            "blv": "Sún",
             "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/9014ecdd-3023-4ef2-97bc-af84d5c600a8_1e9c4c77_20260922.png?v=1e9c4c77",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/rf9xdnzqawi8_d61f98c7_20260922.png?v=d61f98c7",
             "width": 1600,
             "height": 1200
           }
@@ -3791,11 +3822,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-9d7fe92a7d",
-                          "name": "Server",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3826,7 +3857,7 @@
             "logo_b": "https://media.api-sports.io/volley/teams/1273.png",
             "time": "23:00",
             "date": "22/09",
-            "blv": "Server",
+            "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "volleyball",
             "status": "live",
