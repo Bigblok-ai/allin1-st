@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1454,6 +1454,85 @@
           }
         },
         {
+          "id": "xc-cedc468eb0",
+          "name": "Iran U23 vs Korea DPR U23 | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cedc468eb0",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-cedc468eb0",
+                  "name": "Iran U23 vs Korea DPR U23",
+                  "streams": [
+                    {
+                      "id": "st-cedc468eb0",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5c0c4aafd8",
+                          "name": "Kền Kền",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Iran U23",
+            "team_b": "Korea DPR U23",
+            "logo_a": "https://media.api-sports.io/football/teams/22.png",
+            "logo_b": "https://media.api-sports.io/football/teams/10939.png",
+            "time": "12:30",
+            "date": "23/09",
+            "blv": "Kền Kền",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "1h",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e98d8417-2452-42b7-b722-c6c2c1760890_33769573_20260923.png?v=33769573",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-332409010a",
           "name": "China PR U23 vs UAE U23 | 12:30 23/09",
           "type": "single",
@@ -1537,6 +1616,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1639462_559976a2_20260923.png?v=559976a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-393a337394",
+          "name": "U23 Iran vs Korea DPR U23 | 12:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-393a337394",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-393a337394",
+                  "name": "U23 Iran vs Korea DPR U23",
+                  "streams": [
+                    {
+                      "id": "st-393a337394",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bac904915a",
+                          "name": "Chuối Nhỏ FHD1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "U23 Iran",
+            "team_b": "Korea DPR U23",
+            "logo_a": "https://media.chuoichientv.net/media/20250902_190814_12d2f8a6.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_144416_30848f8c.png",
+            "time": "12:30 23/09",
+            "blv": "Chuối Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1639469_50a63d1a_20260923.png?v=50a63d1a",
             "width": 1600,
             "height": 1200
           }
@@ -4437,85 +4604,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/vs7xm5dybc9h_8c43e50f_20260923.png?v=8c43e50f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-cedc468eb0",
-          "name": "Iran U23 vs Korea DPR U23 | 12:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cedc468eb0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cedc468eb0",
-                  "name": "Iran U23 vs Korea DPR U23",
-                  "streams": [
-                    {
-                      "id": "st-cedc468eb0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Iran U23",
-            "team_b": "Korea DPR U23",
-            "logo_a": "https://media.api-sports.io/football/teams/22.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10939.png",
-            "time": "12:30",
-            "date": "23/09",
-            "blv": "Kền Kền",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "ns",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e98d8417-2452-42b7-b722-c6c2c1760890_33769573_20260923.png?v=33769573",
             "width": 1600,
             "height": 1200
           }
