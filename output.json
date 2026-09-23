@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-6f9a771eee",
+          "name": "PAOK vs Spartak Myjava | 21:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6f9a771eee",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6f9a771eee",
+                  "name": "PAOK vs Spartak Myjava",
+                  "streams": [
+                    {
+                      "id": "st-6f9a771eee",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7c5275c962",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790102300_hd/1790102300_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa Cup Women",
+            "team_a": "PAOK",
+            "team_b": "Spartak Myjava",
+            "logo_a": "https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OlGTF3eM-4bio9IJ9.png",
+            "time": "21:00 23/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/xgpbe5galp31_d3e1ff7c_20260923.png?v=d3e1ff7c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-168ee7dc53",
           "name": "Malawi U20 vs Comoros U20 | 20:00 23/09",
@@ -1215,6 +1286,94 @@
           }
         },
         {
+          "id": "cc-3b53cf18bc",
+          "name": "Kladno vs Baník Ostrava | 21:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3b53cf18bc",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-3b53cf18bc",
+                  "name": "Kladno vs Baník Ostrava",
+                  "streams": [
+                    {
+                      "id": "st-3b53cf18bc",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-829e8448da",
+                          "name": "Chuối Tây HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f9df836d1f",
+                          "name": "Chuối Tây FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Kladno",
+            "team_b": "Baník Ostrava",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134752_77696583.png",
+            "time": "21:00 23/09",
+            "blv": "Chuối Tây",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1636726_6cd62e2a_20260923.png?v=6cd62e2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-fd6c69a755",
           "name": "Thimphu City vs Transport United FC | 19:00 23/09",
           "type": "single",
@@ -1281,165 +1440,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1h6xglvmoj_df3c3e84_20260923.png?v=df3c3e84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6f9a771eee",
-          "name": "PAOK vs Spartak Myjava | 21:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f9a771eee",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6f9a771eee",
-                  "name": "PAOK vs Spartak Myjava",
-                  "streams": [
-                    {
-                      "id": "st-6f9a771eee",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7c5275c962",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790102300_hd/1790102300_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa Cup Women",
-            "team_a": "PAOK",
-            "team_b": "Spartak Myjava",
-            "logo_a": "https://static.flashscore.com/res/image/data/WC0rrzAr-hQzHXowj.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OlGTF3eM-4bio9IJ9.png",
-            "time": "21:00 23/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/xgpbe5galp31_d3e1ff7c_20260923.png?v=d3e1ff7c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-3b53cf18bc",
-          "name": "Kladno vs Baník Ostrava | 21:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3b53cf18bc",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-3b53cf18bc",
-                  "name": "Kladno vs Baník Ostrava",
-                  "streams": [
-                    {
-                      "id": "st-3b53cf18bc",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-829e8448da",
-                          "name": "Chuối Tây HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f9df836d1f",
-                          "name": "Chuối Tây FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Kladno",
-            "team_b": "Baník Ostrava",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_141313_ae6f7405.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134752_77696583.png",
-            "time": "21:00 23/09",
-            "blv": "Chuối Tây",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1636726_6cd62e2a_20260923.png?v=6cd62e2a",
             "width": 1600,
             "height": 1200
           }
