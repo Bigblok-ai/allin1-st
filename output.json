@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1575,6 +1575,77 @@
           }
         },
         {
+          "id": "pl-a69f455076",
+          "name": "Azerbaijan vs Tajikistan | 23:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a69f455076",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-a69f455076",
+                  "name": "Azerbaijan vs Tajikistan",
+                  "streams": [
+                    {
+                      "id": "st-a69f455076",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce2d289a47",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/f6d5265ae3b64e3db85b16df1f00f138/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "Azerbaijan",
+            "team_b": "Tajikistan",
+            "logo_a": "https://sta.vnres.co/file/common/20260922/95f4c5468d3ac70dd524ad831c6f2f70.png",
+            "logo_b": "https://sta.vnres.co/file/common/20260922/603c173fa27267f3f7712e96f241d3cc.png",
+            "time": "23:00 23/09",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4jwq2ghgo0xjm0v_ecaf20ad_20260923.png?v=ecaf20ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-85d34ae265",
           "name": "Brondby IF vs Sporting | 23:00 23/09",
           "type": "single",
@@ -1641,77 +1712,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/9xpjejc182u6_5b27d1ac_20260923.png?v=5b27d1ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-a69f455076",
-          "name": "Azerbaijan vs Tajikistan | 23:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a69f455076",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-a69f455076",
-                  "name": "Azerbaijan vs Tajikistan",
-                  "streams": [
-                    {
-                      "id": "st-a69f455076",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce2d289a47",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/f6d5265ae3b64e3db85b16df1f00f138/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "International Friendly",
-            "team_a": "Azerbaijan",
-            "team_b": "Tajikistan",
-            "logo_a": "https://sta.vnres.co/file/common/20260922/95f4c5468d3ac70dd524ad831c6f2f70.png",
-            "logo_b": "https://sta.vnres.co/file/common/20260922/603c173fa27267f3f7712e96f241d3cc.png",
-            "time": "23:00 23/09",
-            "blv": "LÝ LINH LỰC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4jwq2ghgo0xjm0v_ecaf20ad_20260923.png?v=ecaf20ad",
             "width": 1600,
             "height": 1200
           }
@@ -3540,8 +3540,8 @@
           }
         },
         {
-          "id": "chtv-61a3cc8206",
-          "name": "Lu / Yapp vs Liu SS / Hsieh CC | Bỉm Sữa",
+          "id": "chtv-ce37f38202",
+          "name": "Lu / Yapp vs Liu SS / Hsieh CC | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3555,41 +3555,6 @@
           ],
           "sources": [
             {
-              "id": "src-61a3cc8206",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-61a3cc8206",
-                  "name": "Lu / Yapp vs Liu SS / Hsieh CC",
-                  "streams": [
-                    {
-                      "id": "st-61a3cc8206",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-61a3cc8206",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8216/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-ce37f38202",
               "name": "ChoangTV",
               "contents": [
@@ -3599,7 +3564,7 @@
                   "streams": [
                     {
                       "id": "st-ce37f38202",
-                      "name": "Choang - Đại Kê",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-ce37f38202",
@@ -3623,51 +3588,16 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-d063176f58",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d063176f58",
-                  "name": "Lu / Yapp vs Liu SS / Hsieh CC",
-                  "streams": [
-                    {
-                      "id": "st-d063176f58",
-                      "name": "Choang - Xinh Yeu",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d063176f58",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8215/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
             "league": "Chung kết | Billiards Mixed Doubles Open",
             "team_a": "Lu / Yapp",
             "team_b": "Liu SS / Hsieh CC",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790167130191_Screenshot%202026-09-23%20193750.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790167522814_Screenshot%202026-09-23%20194450.png",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790167169925_Screenshot%202026-09-23%20193750.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790167511587_Screenshot%202026-09-23%20194450.png",
             "time": "19:30 23/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Đại Kê",
             "is_live": true,
             "time_sort": 1790166600,
             "cate_type": "billiards"
@@ -3676,7 +3606,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-61a3cc8206_c27b961d_20260923.png?v=c27b961d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce37f38202_95596847_20260923.png?v=95596847",
             "width": 1600,
             "height": 1200
           }
@@ -3757,7 +3687,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3903,156 +3833,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zmpjuvorm221_9dccf5f1_20260923.png?v=9dccf5f1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-4b7252bd45",
-          "name": "Vakifbank W vs Besiktas W | 20:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4b7252bd45",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4b7252bd45",
-                  "name": "Vakifbank W vs Besiktas W",
-                  "streams": [
-                    {
-                      "id": "st-4b7252bd45",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9501ab9e21",
-                          "name": "Tày",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Vakifbank W",
-            "team_b": "Besiktas W",
-            "logo_a": "https://media.api-sports.io/volley/teams/1273.png",
-            "logo_b": "https://media.api-sports.io/volley/teams/1291.png",
-            "time": "20:30",
-            "date": "23/09",
-            "blv": "Tày",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/2311d80d-a812-4969-8e65-3d4e14b07c4c_86685efe_20260923.png?v=86685efe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-b2072e824e",
-          "name": "Vakifbank Nữ vs Besiktas Nữ | 20:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b2072e824e",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b2072e824e",
-                  "name": "Vakifbank Nữ vs Besiktas Nữ",
-                  "streams": [
-                    {
-                      "id": "st-b2072e824e",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-547b54df8f",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/2e1b2ce6bdc045658b96eea2664ac141/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendly Women",
-            "team_a": "Vakifbank Nữ",
-            "team_b": "Besiktas Nữ",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/bf7d5b85601e54fc26df7d6605e3dd01.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/143b386c53bded65ba1858b8a9ae12f9.png!w80",
-            "time": "20:30 23/09",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8997abeb8c404c9e8c4e3223615dd9d2_d3356edd_20260923.png?v=d3356edd",
             "width": 1600,
             "height": 1200
           }
