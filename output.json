@@ -1297,30 +1297,9 @@
                       "stream_links": [
                         {
                           "id": "lnk-d94a9f6f03",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d94a9f6f03",
                           "name": "Chim Nhỏ",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
@@ -1334,58 +1313,6 @@
                             {
                               "key": "Origin",
                               "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3f4803e368",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-3f4803e368",
-                  "name": "Saudi Arabia vs Kuwait",
-                  "streams": [
-                    {
-                      "id": "st-3f4803e368",
-                      "name": "CCport - Chuối Lá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc7b03b97a",
-                          "name": "Chuối Lá HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3722bb96b",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
                         }
@@ -1439,10 +1366,10 @@
             "logo_b": "https://media.api-sports.io/football/teams/1570.png",
             "time": "01:00",
             "date": "24/09",
-            "blv": "Server, Chim Nhỏ",
+            "blv": "Chim Nhỏ",
             "is_live": true,
             "cate_type": "football",
-            "status": "2h",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -1594,7 +1521,7 @@
             "blv": "Server, Kền Kền",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 1,
             "away_score": 0
           },
@@ -1767,7 +1694,7 @@
             "blv": "Server, Tày, Khô Cay",
             "is_live": true,
             "cate_type": "football",
-            "status": "ht",
+            "status": "2h",
             "home_score": 4,
             "away_score": 1
           },
