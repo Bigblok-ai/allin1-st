@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1198,6 +1198,77 @@
           }
         },
         {
+          "id": "gv-5defc9c3f0",
+          "name": "Machida vs Tochigi City | 15:00 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5defc9c3f0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5defc9c3f0",
+                  "name": "Machida vs Tochigi City",
+                  "streams": [
+                    {
+                      "id": "st-5defc9c3f0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0101d378e",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790098934_hd/1790098934_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Emperors Cup",
+            "team_a": "Machida",
+            "team_b": "Tochigi City",
+            "logo_a": "https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zclXh5Fa-UPlim0Jl.png",
+            "time": "15:00 23/09",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/x2qvjtbnhoma_f95dc93e_20260923.png?v=f95dc93e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a8aa5904a5",
           "name": "Vissel Kobe vs Sagan Tosu | 15:00 23/09",
           "type": "single",
@@ -1238,6 +1309,45 @@
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5ddbbd194d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5ddbbd194d",
+                  "name": "Vissel Kobe vs Sagan Tosu",
+                  "streams": [
+                    {
+                      "id": "st-5ddbbd194d",
+                      "name": "PhaoHoa - Tiểu Mây",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e11cfd9666",
+                          "name": "Tiểu Mây",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa9/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
                             }
                           ]
                         }
@@ -1299,77 +1409,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zchpn5mtou88_b0ce52c8_20260923.png?v=b0ce52c8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-5defc9c3f0",
-          "name": "Machida vs Tochigi City | 15:00 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5defc9c3f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5defc9c3f0",
-                  "name": "Machida vs Tochigi City",
-                  "streams": [
-                    {
-                      "id": "st-5defc9c3f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a0101d378e",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790098934_hd/1790098934_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Emperors Cup",
-            "team_a": "Machida",
-            "team_b": "Tochigi City",
-            "logo_a": "https://static.flashscore.com/res/image/data/zcqIEsil-6uZPCvr9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zclXh5Fa-UPlim0Jl.png",
-            "time": "15:00 23/09",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/x2qvjtbnhoma_f95dc93e_20260923.png?v=f95dc93e",
             "width": 1600,
             "height": 1200
           }
@@ -4113,85 +4152,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "xc-cedc468eb0",
-          "name": "Iran U23 vs Korea DPR U23 | 12:30 23/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cedc468eb0",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-cedc468eb0",
-                  "name": "Iran U23 vs Korea DPR U23",
-                  "streams": [
-                    {
-                      "id": "st-cedc468eb0",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c0c4aafd8",
-                          "name": "Kền Kền",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa6/index.m3u8?expire=1815505159&sign=16059952b038cc8982ab6d1980711dc9",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Iran U23",
-            "team_b": "Korea DPR U23",
-            "logo_a": "https://media.api-sports.io/football/teams/22.png",
-            "logo_b": "https://media.api-sports.io/football/teams/10939.png",
-            "time": "12:30",
-            "date": "23/09",
-            "blv": "Kền Kền",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 1,
-            "away_score": 4
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/e98d8417-2452-42b7-b722-c6c2c1760890_33769573_20260923.png?v=33769573",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -4655,78 +4615,6 @@
           }
         },
         {
-          "id": "chtv-afcc5b13e2",
-          "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afcc5b13e2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-afcc5b13e2",
-                  "name": "Margarita Fefilova vs Kelly Fisher",
-                  "streams": [
-                    {
-                      "id": "st-afcc5b13e2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afcc5b13e2",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8205/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Margarita Fefilova",
-            "team_b": "Kelly Fisher",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134514053_Margarita%20Fefilova.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134510689_Kelly%20Fisher.jpg",
-            "time": "14:00 23/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afcc5b13e2_3c5cffa3_20260923.png?v=3c5cffa3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a6d6a0d86c",
           "name": "Shi Tianqi vs Harin Lee | SÊ KÔÔ",
           "type": "single",
@@ -4794,78 +4682,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a6d6a0d86c_e7b5474e_20260923.png?v=e7b5474e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-656399c283",
-          "name": "Pia Filler vs Chihiro Kawahara | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-656399c283",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-656399c283",
-                  "name": "Pia Filler vs Chihiro Kawahara",
-                  "streams": [
-                    {
-                      "id": "st-656399c283",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-656399c283",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
-            "team_a": "Pia Filler",
-            "team_b": "Chihiro Kawahara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
-            "time": "14:00 23/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790146800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
             "width": 1600,
             "height": 1200
           }
@@ -5015,38 +4831,38 @@
           }
         },
         {
-          "id": "chtv-739546f701",
-          "name": "Lu / Yapp vs Seo / Capito | 16:30 23/09 | Lee Min Hoo",
+          "id": "chtv-656399c283",
+          "name": "Pia Filler vs Chihiro Kawahara | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-739546f701",
+              "id": "src-656399c283",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-739546f701",
-                  "name": "Lu / Yapp vs Seo / Capito",
+                  "id": "ct-656399c283",
+                  "name": "Pia Filler vs Chihiro Kawahara",
                   "streams": [
                     {
-                      "id": "st-739546f701",
+                      "id": "st-656399c283",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-739546f701",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-656399c283",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8209/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8206/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5066,22 +4882,94 @@
             }
           ],
           "org_metadata": {
-            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
-            "team_a": "Lu / Yapp",
-            "team_b": "Seo / Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790134766462_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790134779873_SEO%20SEOA.jpg",
-            "time": "16:30 23/09",
-            "blv": "Lee Min Hoo",
-            "is_live": false,
-            "time_sort": 1790155800,
+            "league": "TV4 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Pia Filler",
+            "team_b": "Chihiro Kawahara",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134572885_Pia%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134576572_CHIHIRO%20KAWAHARA.jpg",
+            "time": "14:00 23/09",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790146800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-656399c283_972f8bc2_20260923.png?v=972f8bc2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-afcc5b13e2",
+          "name": "Margarita Fefilova vs Kelly Fisher | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afcc5b13e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-afcc5b13e2",
+                  "name": "Margarita Fefilova vs Kelly Fisher",
+                  "streams": [
+                    {
+                      "id": "st-afcc5b13e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afcc5b13e2",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8205/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | SAIGON 9BALL WOMEN'S OPEN（ ͜.人 ͜.）",
+            "team_a": "Margarita Fefilova",
+            "team_b": "Kelly Fisher",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134514053_Margarita%20Fefilova.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134510689_Kelly%20Fisher.jpg",
+            "time": "14:00 23/09",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1790146800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-afcc5b13e2_3c5cffa3_20260923.png?v=3c5cffa3",
             "width": 1600,
             "height": 1200
           }
@@ -5157,6 +5045,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-739546f701",
+          "name": "Lu / Yapp vs Seo / Capito | 16:30 23/09 | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-739546f701",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-739546f701",
+                  "name": "Lu / Yapp vs Seo / Capito",
+                  "streams": [
+                    {
+                      "id": "st-739546f701",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-739546f701",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8209/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán kết 1 | Billiards Mixed Doubles Open",
+            "team_a": "Lu / Yapp",
+            "team_b": "Seo / Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790134766462_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790134779873_SEO%20SEOA.jpg",
+            "time": "16:30 23/09",
+            "blv": "Lee Min Hoo",
+            "is_live": false,
+            "time_sort": 1790155800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-739546f701_6c9ff2b6_20260923.png?v=6c9ff2b6",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -5167,6 +5127,77 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "pl-b2072e824e",
+          "name": "Vakifbank Nữ vs Besiktas Nữ | 20:30 23/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2072e824e",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b2072e824e",
+                  "name": "Vakifbank Nữ vs Besiktas Nữ",
+                  "streams": [
+                    {
+                      "id": "st-b2072e824e",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-547b54df8f",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/2e1b2ce6bdc045658b96eea2664ac141/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Club Friendly Women",
+            "team_a": "Vakifbank Nữ",
+            "team_b": "Besiktas Nữ",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/bf7d5b85601e54fc26df7d6605e3dd01.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/143b386c53bded65ba1858b8a9ae12f9.png!w80",
+            "time": "20:30 23/09",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8997abeb8c404c9e8c4e3223615dd9d2_d3356edd_20260923.png?v=d3356edd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-40f51025ba",
           "name": "Bỉ vs Slovenia | 21:00 23/09",
