@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1294,7 +1294,25 @@
                     {
                       "id": "st-b9fad33bc6",
                       "name": "GV",
-                      "stream_links": []
+                      "stream_links": [
+                        {
+                          "id": "lnk-a10c6509b2",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790233785_hd/1790233785_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
@@ -1455,7 +1473,7 @@
             "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/t98aSVGr2t2lVldT4S_H2A_96x96.png",
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/38dLAnaY1DE3IK4CbV_zcA_96x96.png",
             "time": "19:00 24/09",
-            "blv": "",
+            "blv": "Súp",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1592,95 +1610,7 @@
           }
         },
         {
-          "id": "cc-77134226d7",
-          "name": "China vs Maldives | 18:35 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-77134226d7",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-77134226d7",
-                  "name": "China vs Maldives",
-                  "streams": [
-                    {
-                      "id": "st-77134226d7",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-abfd70baa3",
-                          "name": "Chuối Kem HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-dfdc991190",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
-            "team_a": "China",
-            "team_b": "Maldives",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134316_d547f1b2.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134312_9e50422a.png",
-            "time": "18:35 24/09",
-            "blv": "Chuối Kem",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1640057_39e2ef9d_20260924.png?v=39e2ef9d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-4c89aabc0e",
+          "id": "gv-1c60a83ade",
           "name": "Uzbekistan vs Iran | 21:00 24/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -1695,6 +1625,41 @@
           ],
           "sources": [
             {
+              "id": "src-1c60a83ade",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c60a83ade",
+                  "name": "Uzbekistan vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-1c60a83ade",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-95f7d72641",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790256292_hd/1790256292_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-4c89aabc0e",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1704,7 +1669,7 @@
                   "streams": [
                     {
                       "id": "st-4c89aabc0e",
-                      "name": "CC",
+                      "name": "CCport - Chuối Chao",
                       "stream_links": [
                         {
                           "id": "lnk-396b735a0c",
@@ -1783,13 +1748,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
+            "league": "Giao hữu quốc tế",
             "team_a": "Uzbekistan",
             "team_b": "Iran",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134316_7ff7b895.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134251_b96e660a.png",
+            "logo_a": "https://images.keovip88.net/images/teams/uzbekistan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/iran.png",
             "time": "21:00 24/09",
-            "blv": "Chuối Chao",
+            "blv": "Trĩ",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1797,7 +1762,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638591_65661668_20260924.png?v=65661668",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aaf23424e725bdee905b835_dd01426c_20260924.png?v=dd01426c",
             "width": 1600,
             "height": 1200
           }
@@ -3939,6 +3904,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-43be35ee54",
+          "name": "Han Yu vs Shi Tianqi | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-43be35ee54",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-43be35ee54",
+                  "name": "Han Yu vs Shi Tianqi",
+                  "streams": [
+                    {
+                      "id": "st-43be35ee54",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43be35ee54",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8266/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TỨ KẾT ( -_•)▄︻━一💥",
+            "team_a": "Han Yu",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790243965712_Screenshot%202026-09-24%20165922.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790243950685_china.png",
+            "time": "19:30 24/09",
+            "blv": "BÚN CHÓ",
+            "is_live": true,
+            "time_sort": 1790253000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43be35ee54_9aa3d0e7_20260924.png?v=9aa3d0e7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-6be88d6f7b",
           "name": "Pia Filler vs Tzu-Chien Wei | GIÀNG A PHỌ",
           "type": "single",
@@ -4150,78 +4187,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1adfc98441_fa71ce43_20260924.png?v=fa71ce43",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-43be35ee54",
-          "name": "Han Yu vs Shi Tianqi | BÚN CHÓ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-43be35ee54",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-43be35ee54",
-                  "name": "Han Yu vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-43be35ee54",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43be35ee54",
-                          "name": "BÚN CHÓ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8266/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TỨ KẾT ( -_•)▄︻━一💥",
-            "team_a": "Han Yu",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790243965712_Screenshot%202026-09-24%20165922.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790243950685_china.png",
-            "time": "19:30 24/09",
-            "blv": "BÚN CHÓ",
-            "is_live": true,
-            "time_sort": 1790253000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-43be35ee54_9aa3d0e7_20260924.png?v=9aa3d0e7",
             "width": 1600,
             "height": 1200
           }
