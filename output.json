@@ -1186,7 +1186,7 @@
                   "streams": [
                     {
                       "id": "st-1e42fc4b1f",
-                      "name": "PhaoHoa - Server, Khô Cay",
+                      "name": "PhaoHoa - Server, Khô Cay, Chim Nhỏ",
                       "stream_links": [
                         {
                           "id": "lnk-913990a99f",
@@ -1194,6 +1194,27 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
