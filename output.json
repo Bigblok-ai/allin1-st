@@ -2343,7 +2343,7 @@
         },
         {
           "id": "cc-5f7dde7908",
-          "name": "Indonesia vs Singapore | 20:00 25/09",
+          "name": "Indonesia vs Singapore | 19:00 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2407,41 +2407,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-b499e18bce",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b499e18bce",
-                  "name": "Indonesia vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-b499e18bce",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e695fd4d",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/cc62bc64005b43d4921984d7e486c812/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -2450,7 +2415,7 @@
             "team_b": "Singapore",
             "logo_a": "https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif",
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png",
-            "time": "20:00 25/09",
+            "time": "19:00 25/09",
             "blv": "Chuối Nhỏ",
             "is_live": false,
             "cate_type": "football"
@@ -2548,6 +2513,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1545835_25f03a64_20260925.png?v=25f03a64",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-b499e18bce",
+          "name": "Indonesia vs Singapore | 20:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b499e18bce",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b499e18bce",
+                  "name": "Indonesia vs Singapore",
+                  "streams": [
+                    {
+                      "id": "st-b499e18bce",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e695fd4d",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/cc62bc64005b43d4921984d7e486c812/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Indonesia",
+            "team_b": "Singapore",
+            "logo_a": "https://sta.vnres.co/file/common/20260922/0c131dfdaef74b5d6b14cb281d11c608.png",
+            "logo_b": "https://sta.vnres.co/file/common/20260922/8e8ba6a47bd8d0014b2a4a1cee56b951.png",
+            "time": "20:00 25/09",
+            "blv": "LÝ LONG",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dn1m1ghl6xn4moe_d7c10e11_20260925.png?v=d7c10e11",
             "width": 1600,
             "height": 1200
           }
