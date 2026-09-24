@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1331,11 +1331,11 @@
                       "name": "PhaoHoa - Server, Gà Rừng, Lee Sin",
                       "stream_links": [
                         {
-                          "id": "lnk-be4e3fb4e7",
+                          "id": "lnk-e8bb58cf27",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1352,11 +1352,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1549,11 +1549,11 @@
                       "name": "PhaoHoa - Server, Tam Mao, Tày",
                       "stream_links": [
                         {
-                          "id": "lnk-9501ab9e21",
+                          "id": "lnk-161889ae68",
                           "name": "Server",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1570,11 +1570,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-161889ae68",
-                          "name": "Tam Mao",
+                          "id": "lnk-9501ab9e21",
+                          "name": "Tày",
                           "type": "hls",
                           "default": false,
-                          "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa8/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1712,10 +1712,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1780,7 +1780,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134312_9e50422a.png",
             "time": "18:35 24/09",
             "blv": "Chuối Kem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1833,6 +1833,45 @@
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-992c4a1a03",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-992c4a1a03",
+                  "name": "Myanmar vs Timor-Leste",
+                  "streams": [
+                    {
+                      "id": "st-992c4a1a03",
+                      "name": "PhaoHoa - Server, Táo Dai",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee73df3a80",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
                             }
                           ]
                         }
@@ -3892,82 +3931,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-b9bab13ab7",
-          "name": "South East Melbourne Phoenix vs Melbourne United | 16:30 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b9bab13ab7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b9bab13ab7",
-                  "name": "South East Melbourne Phoenix vs Melbourne United",
-                  "streams": [
-                    {
-                      "id": "st-b9bab13ab7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1bad6baa1",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790234201_hd/1790234201_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "South East Melbourne Phoenix",
-            "team_b": "Melbourne United",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
-            "time": "16:30 24/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/29122273_f7595d87_20260924.png?v=f7595d87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c72bfa3cdc",
           "name": "Japan (W) vs Thailand (W) | 17:20 24/09",
