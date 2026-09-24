@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1498,7 +1498,7 @@
                   "streams": [
                     {
                       "id": "st-75e36a3fe4",
-                      "name": "PhaoHoa - Server, Tam Mao",
+                      "name": "PhaoHoa - Server, Tam Mao, Lee Sin",
                       "stream_links": [
                         {
                           "id": "lnk-161889ae68",
@@ -1506,6 +1506,27 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://livecdn.cdnfastter.xyz/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1544,6 +1565,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f7e7425c39b5554409bf48_64c8c6d8_20260925.png?v=64c8c6d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9b239c78e9",
+          "name": "Áo vs Israel | 01:45 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b239c78e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9b239c78e9",
+                  "name": "Áo vs Israel",
+                  "streams": [
+                    {
+                      "id": "st-9b239c78e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bbf66899ba",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144377_hd/1790144377_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c745697625",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c745697625",
+                  "name": "Áo vs Israel",
+                  "streams": [
+                    {
+                      "id": "st-c745697625",
+                      "name": "PhaoHoa - Server, Gà Rừng",
+                      "stream_links": [
+                        {
+                          "id": "lnk-be4e3fb4e7",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn.cdnfastter.xyz/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.tv/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            },
+                            {
+                              "key": "Origin",
+                              "value": "https://xoiche.tv"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Áo",
+            "team_b": "Israel",
+            "logo_a": "https://images.keovip88.net/images/teams/austria.png",
+            "logo_b": "https://images.keovip88.net/images/teams/israel.png",
+            "time": "01:45 25/09",
+            "blv": "Mickey",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f7e7425c39b5554409bf57_10d5e261_20260925.png?v=10d5e261",
             "width": 1600,
             "height": 1200
           }
@@ -2380,77 +2511,6 @@
           }
         },
         {
-          "id": "gv-9b239c78e9",
-          "name": "Áo vs Israel | 01:45 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9b239c78e9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9b239c78e9",
-                  "name": "Áo vs Israel",
-                  "streams": [
-                    {
-                      "id": "st-9b239c78e9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bbf66899ba",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790144377_hd/1790144377_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Áo",
-            "team_b": "Israel",
-            "logo_a": "https://images.keovip88.net/images/teams/austria.png",
-            "logo_b": "https://images.keovip88.net/images/teams/israel.png",
-            "time": "01:45 25/09",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f7e7425c39b5554409bf57_10d5e261_20260925.png?v=10d5e261",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-15c903d8ff",
           "name": "Cameroon vs Comoros | 02:00 25/09",
           "type": "single",
@@ -2458,10 +2518,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2526,7 +2586,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132804_f3da6d9a.png",
             "time": "02:00 25/09",
             "blv": "Chuối To",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2546,10 +2606,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2614,7 +2674,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134305_fd6c1ece.png",
             "time": "02:00 25/09",
             "blv": "Chuối Kem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -4402,90 +4462,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-e9201d302d",
-          "name": "Vakifbank W vs Eczacibasi W | 23:00 24/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e9201d302d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e9201d302d",
-                  "name": "Vakifbank W vs Eczacibasi W",
-                  "streams": [
-                    {
-                      "id": "st-e9201d302d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-95e438c878",
-                          "name": "KaKa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa7/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.tv/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            },
-                            {
-                              "key": "Origin",
-                              "value": "https://xoiche.tv"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Vakifbank W",
-            "team_b": "Eczacibasi W",
-            "logo_a": "https://media.api-sports.io/volley/teams/1273.png",
-            "logo_b": "https://media.api-sports.io/volley/teams/1272.png",
-            "time": "23:00",
-            "date": "24/09",
-            "blv": "KaKa",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/ca0e449b-f8ad-4634-8035-1fa6a3e590b3_60012066_20260925.png?v=60012066",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "pl-8350e8827c",
           "name": "Phần Lan vs Pháp | 02:00 26/09",
