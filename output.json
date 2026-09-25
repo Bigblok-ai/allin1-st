@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1726,6 +1726,200 @@
           }
         },
         {
+          "id": "cc-b94c064fff",
+          "name": "Japan W vs Philippines W | 17:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b94c064fff",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-b94c064fff",
+                  "name": "Japan W vs Philippines W",
+                  "streams": [
+                    {
+                      "id": "st-b94c064fff",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebd9df999c",
+                          "name": "Chuối To HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-822ad47302",
+                          "name": "Chuối To FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5daf13231d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-5daf13231d",
+                  "name": "Japan Women vs Philippines Women",
+                  "streams": [
+                    {
+                      "id": "st-5daf13231d",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36626c870e",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/857a7c7381854c178d8c07f6f389c727/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games Women",
+            "team_a": "Japan W",
+            "team_b": "Philippines W",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142851_8f44d2ed.png",
+            "time": "17:30 25/09",
+            "blv": "Chuối To",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1641133_fb10872f_20260925.png?v=fb10872f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-82e4345d1a",
+          "name": "South Korea U23 vs Vietnam U23 | 17:30 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-82e4345d1a",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-82e4345d1a",
+                  "name": "South Korea U23 vs Vietnam U23",
+                  "streams": [
+                    {
+                      "id": "st-82e4345d1a",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f6c0df34bf",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/747d5240fe3b449a86252ad5fcd74559/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "OCA Asian Games",
+            "team_a": "South Korea U23",
+            "team_b": "Vietnam U23",
+            "logo_a": "https://sta.vnres.co/file/common/20260923/6662e3d4dd66b366296f78fb89f6f778.png",
+            "logo_b": "https://sta.vnres.co/file/common/20260923/0095a55372a1844769da9b02dcecbca4.png",
+            "time": "17:30 25/09",
+            "blv": "LÝ LA LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09h547g4rz8_5794440b_20260925.png?v=5794440b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-4fd1a8650d",
           "name": "Nữ Nhật Bản vs Nữ Philippines | 17:30 25/09",
           "type": "single",
@@ -1863,200 +2057,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab3177020160d3860005952_3637aa25_20260925.png?v=3637aa25",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-b94c064fff",
-          "name": "Japan W vs Philippines W | 17:30 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b94c064fff",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-b94c064fff",
-                  "name": "Japan W vs Philippines W",
-                  "streams": [
-                    {
-                      "id": "st-b94c064fff",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebd9df999c",
-                          "name": "Chuối To HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-822ad47302",
-                          "name": "Chuối To FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5daf13231d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-5daf13231d",
-                  "name": "Japan Women vs Philippines Women",
-                  "streams": [
-                    {
-                      "id": "st-5daf13231d",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36626c870e",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/857a7c7381854c178d8c07f6f389c727/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games Women",
-            "team_a": "Japan W",
-            "team_b": "Philippines W",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133018_f7c8e720.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142851_8f44d2ed.png",
-            "time": "17:30 25/09",
-            "blv": "Chuối To",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1641133_fb10872f_20260925.png?v=fb10872f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-82e4345d1a",
-          "name": "South Korea U23 vs Vietnam U23 | 17:30 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-82e4345d1a",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-82e4345d1a",
-                  "name": "South Korea U23 vs Vietnam U23",
-                  "streams": [
-                    {
-                      "id": "st-82e4345d1a",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f6c0df34bf",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/747d5240fe3b449a86252ad5fcd74559/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "OCA Asian Games",
-            "team_a": "South Korea U23",
-            "team_b": "Vietnam U23",
-            "logo_a": "https://sta.vnres.co/file/common/20260923/6662e3d4dd66b366296f78fb89f6f778.png",
-            "logo_b": "https://sta.vnres.co/file/common/20260923/0095a55372a1844769da9b02dcecbca4.png",
-            "time": "17:30 25/09",
-            "blv": "LÝ LA LÀNG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09h547g4rz8_5794440b_20260925.png?v=5794440b",
             "width": 1600,
             "height": 1200
           }
@@ -5009,6 +5009,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cff8aba2ae_0ba07b53_20260925.png?v=0ba07b53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-edf677fa07",
+          "name": "Pia Filler vs Shi Tianqi | 20:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edf677fa07",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-edf677fa07",
+                  "name": "Pia Filler vs Shi Tianqi",
+                  "streams": [
+                    {
+                      "id": "st-edf677fa07",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edf677fa07",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8293/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CHUNG KẾT NỮ-CHOANGTV",
+            "team_a": "Pia Filler",
+            "team_b": "Shi Tianqi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790329684503_Screenshot%202026-09-25%20164802.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790329705949_Screenshot%202026-09-25%20164826.png",
+            "time": "20:00 25/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790341200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-edf677fa07_90828a94_20260925.png?v=90828a94",
             "width": 1600,
             "height": 1200
           }
