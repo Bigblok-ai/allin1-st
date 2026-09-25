@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-c426400be5",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 25/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c426400be5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c426400be5",
+                  "name": "ASIAD 2026 vs ASIAD 2026",
+                  "streams": [
+                    {
+                      "id": "st-c426400be5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09b33be66f",
+                          "name": "BLV Túi Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "ASIAD 2026",
+            "team_b": "ASIAD 2026",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "07:00 25/09",
+            "blv": "BLV Túi Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260925.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-2aeba3f11b",
           "name": "U23 Uzbekistan vs U23 Ả Rập Saudi | 12:00 25/09",
@@ -4883,8 +4954,8 @@
           }
         },
         {
-          "id": "chtv-796e6931a4",
-          "name": "Wu Kun Lin vs Sanjin Pehlivanovic | Lee Min Hoo",
+          "id": "chtv-03cdef877e",
+          "name": "Mario He vs Sanchez Ruiz | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4898,23 +4969,23 @@
           ],
           "sources": [
             {
-              "id": "src-796e6931a4",
+              "id": "src-03cdef877e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-796e6931a4",
-                  "name": "Wu Kun Lin vs Sanjin Pehlivanovic",
+                  "id": "ct-03cdef877e",
+                  "name": "Mario He vs Sanchez Ruiz",
                   "streams": [
                     {
-                      "id": "st-796e6931a4",
+                      "id": "st-03cdef877e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-796e6931a4",
-                          "name": "Lee Min Hoo",
+                          "id": "lnk-03cdef877e",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8274/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8273/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4934,13 +5005,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Wu Kun Lin",
-            "team_b": "Sanjin Pehlivanovic",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292808306_WU%20KUN%20LIN.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790292805487_Sanjin%20Pehlivanovic.jpg",
+            "league": "TV2 ( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Mario He",
+            "team_b": "Sanchez Ruiz",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292734878_Mario%20He.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
             "time": "10:00 25/09",
-            "blv": "Lee Min Hoo",
+            "blv": "Bỉm Sữa",
             "is_live": true,
             "time_sort": 1790305200,
             "cate_type": "billiards"
@@ -4949,7 +5020,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-796e6931a4_0a01c674_20260925.png?v=0a01c674",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03cdef877e_5575f410_20260925.png?v=5575f410",
             "width": 1600,
             "height": 1200
           }
@@ -5027,8 +5098,8 @@
           }
         },
         {
-          "id": "chtv-03cdef877e",
-          "name": "Mario He vs Sanchez Ruiz | Bỉm Sữa",
+          "id": "chtv-796e6931a4",
+          "name": "Wu Kun Lin vs Sanjin Pehlivanovic | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5042,23 +5113,23 @@
           ],
           "sources": [
             {
-              "id": "src-03cdef877e",
+              "id": "src-796e6931a4",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-03cdef877e",
-                  "name": "Mario He vs Sanchez Ruiz",
+                  "id": "ct-796e6931a4",
+                  "name": "Wu Kun Lin vs Sanjin Pehlivanovic",
                   "streams": [
                     {
-                      "id": "st-03cdef877e",
+                      "id": "st-796e6931a4",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-03cdef877e",
-                          "name": "Bỉm Sữa",
+                          "id": "lnk-796e6931a4",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8273/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8274/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5078,13 +5149,13 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Last sixteen",
-            "team_a": "Mario He",
-            "team_b": "Sanchez Ruiz",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790292734878_Mario%20He.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764454506894_Francisco%20Sanchez%20Ruiz.jpg",
+            "league": "TV3 ( -_•)▄︻━一💥Last sixteen",
+            "team_a": "Wu Kun Lin",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790292808306_WU%20KUN%20LIN.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790292805487_Sanjin%20Pehlivanovic.jpg",
             "time": "10:00 25/09",
-            "blv": "Bỉm Sữa",
+            "blv": "Lee Min Hoo",
             "is_live": true,
             "time_sort": 1790305200,
             "cate_type": "billiards"
@@ -5093,7 +5164,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-03cdef877e_5575f410_20260925.png?v=5575f410",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-796e6931a4_0a01c674_20260925.png?v=0a01c674",
             "width": 1600,
             "height": 1200
           }
