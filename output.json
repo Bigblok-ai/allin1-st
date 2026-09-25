@@ -1121,14 +1121,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "pl-5b145369d3",
-          "name": "Georgia vs Northern Ireland | 23:00 25/09",
+          "id": "gv-368aa39afe",
+          "name": "Hungary vs Ukraine | 01:45 26/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1142,23 +1142,110 @@
           ],
           "sources": [
             {
-              "id": "src-5b145369d3",
+              "id": "src-368aa39afe",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-368aa39afe",
+                  "name": "Hungary vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-368aa39afe",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0803026175",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790264357_hd/1790264357_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7129dcc8e8",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-7129dcc8e8",
+                  "name": "Hungary vs Ukraine",
+                  "streams": [
+                    {
+                      "id": "st-7129dcc8e8",
+                      "name": "CCport - Chuối Chao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-396b735a0c",
+                          "name": "Chuối Chao HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-49d2690e46",
+                          "name": "Chuối Chao FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d69e34f025",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-5b145369d3",
-                  "name": "Georgia vs Northern Ireland",
+                  "id": "ct-d69e34f025",
+                  "name": "Hungary vs Ukraine",
                   "streams": [
                     {
-                      "id": "st-5b145369d3",
-                      "name": "PL",
+                      "id": "st-d69e34f025",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
                       "stream_links": [
                         {
-                          "id": "lnk-7a4b0bc9ed",
-                          "name": "LÝ LÊN LỬA",
+                          "id": "lnk-e7a1cb9742",
+                          "name": "LÝ LIỀU LĨNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6ec1ce26c2824953acd4479ecb776be0/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/086946a78db843daaf7389dfb2d4de05/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1179,12 +1266,12 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Georgia",
-            "team_b": "Northern Ireland",
-            "logo_a": "https://sta.vnres.co/file/common/20260922/aa956d426f71b6b79e324b9eefb94286.png",
-            "logo_b": "https://sta.vnres.co/file/common/20260922/9ade940d45aadaf7c27a844acce97ee6.png",
-            "time": "23:00 25/09",
-            "blv": "LÝ LÊN LỬA",
+            "team_a": "Hungary",
+            "team_b": "Ukraine",
+            "logo_a": "https://images.keovip88.net/images/teams/hungary.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ukraine.png",
+            "time": "01:45 26/09",
+            "blv": "Ngọng",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1192,7 +1279,130 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dn1m1ghl9y77moe_eb431bf7_20260926.png?v=eb431bf7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf778_99451654_20260926.png?v=99451654",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-e0a0da715c",
+          "name": "Türkiye vs France | 01:45 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0a0da715c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-e0a0da715c",
+                  "name": "Türkiye vs France",
+                  "streams": [
+                    {
+                      "id": "st-e0a0da715c",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-13b7e700cc",
+                          "name": "Chuối Nhỏ HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-325b13dad1",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-325b13dad1",
+                  "name": "Turkiye vs France",
+                  "streams": [
+                    {
+                      "id": "st-325b13dad1",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54df619347",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/3a4d1fda4c50469ea5e8cea7c127c804/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Türkiye",
+            "team_b": "France",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png",
+            "time": "01:45 26/09",
+            "blv": "Chuối Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528882_58d7f6d6_20260926.png?v=58d7f6d6",
             "width": 1600,
             "height": 1200
           }
@@ -1335,164 +1545,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683e3b421f892a5e5c0902f8_e200e999_20260926.png?v=e200e999",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-368aa39afe",
-          "name": "Hungary vs Ukraine | 01:45 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-368aa39afe",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-368aa39afe",
-                  "name": "Hungary vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-368aa39afe",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0803026175",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790264357_hd/1790264357_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7129dcc8e8",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-7129dcc8e8",
-                  "name": "Hungary vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-7129dcc8e8",
-                      "name": "CCport - Chuối Chao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-396b735a0c",
-                          "name": "Chuối Chao HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-49d2690e46",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d69e34f025",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d69e34f025",
-                  "name": "Hungary vs Ukraine",
-                  "streams": [
-                    {
-                      "id": "st-d69e34f025",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7a1cb9742",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/086946a78db843daaf7389dfb2d4de05/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Hungary",
-            "team_b": "Ukraine",
-            "logo_a": "https://images.keovip88.net/images/teams/hungary.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ukraine.png",
-            "time": "01:45 26/09",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf778_99451654_20260926.png?v=99451654",
             "width": 1600,
             "height": 1200
           }
@@ -1777,129 +1829,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f2a1a2bb398665fd0908d9_882fd720_20260926.png?v=882fd720",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-e0a0da715c",
-          "name": "Türkiye vs France | 01:45 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e0a0da715c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-e0a0da715c",
-                  "name": "Türkiye vs France",
-                  "streams": [
-                    {
-                      "id": "st-e0a0da715c",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-13b7e700cc",
-                          "name": "Chuối Nhỏ HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-325b13dad1",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-325b13dad1",
-                  "name": "Turkiye vs France",
-                  "streams": [
-                    {
-                      "id": "st-325b13dad1",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54df619347",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/3a4d1fda4c50469ea5e8cea7c127c804/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Türkiye",
-            "team_b": "France",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125503_f5da35f2.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125447_e304fc82.png",
-            "time": "01:45 26/09",
-            "blv": "Chuối Nhỏ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528882_58d7f6d6_20260926.png?v=58d7f6d6",
             "width": 1600,
             "height": 1200
           }
@@ -3500,7 +3429,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3513,10 +3442,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3564,7 +3493,7 @@
             "logo_b": "https://sta.vnres.co/file/common/20260923/fc5308f1ee0c6e0f17a2e8561d058487.png",
             "time": "02:00 26/09",
             "blv": "LÝ LÊN LỬA",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
