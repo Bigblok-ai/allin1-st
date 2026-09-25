@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1363,10 +1363,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1414,7 +1414,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/CC8i9RyS-8vfTQDSH.png",
             "time": "20:00 25/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3937,78 +3937,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "chtv-edf677fa07",
-          "name": "Pia Filler vs Shi Tianqi | 20:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edf677fa07",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-edf677fa07",
-                  "name": "Pia Filler vs Shi Tianqi",
-                  "streams": [
-                    {
-                      "id": "st-edf677fa07",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edf677fa07",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8293/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CHUNG KẾT NỮ-CHOANGTV",
-            "team_a": "Pia Filler",
-            "team_b": "Shi Tianqi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790329684503_Screenshot%202026-09-25%20164802.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790329705949_Screenshot%202026-09-25%20164826.png",
-            "time": "20:00 25/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790341200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-edf677fa07_90828a94_20260925.png?v=90828a94",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -4479,7 +4407,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-8d948d5108",
+          "name": "New York Yankees vs Baltimore Orioles | 06:05 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d948d5108",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8d948d5108",
+                  "name": "New York Yankees vs Baltimore Orioles",
+                  "streams": [
+                    {
+                      "id": "st-8d948d5108",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd1d045072",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790340073_hd/1790340073_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLB",
+            "team_a": "New York Yankees",
+            "team_b": "Baltimore Orioles",
+            "logo_a": "https://static.flashscore.com/res/image/data/plT1Aqil-OpJ5uAOg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/dWIh4Til-ML4ejmuk.png",
+            "time": "06:05 26/09",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "bongchay"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zkp7b047zd8g_fbbf0607_20260925.png?v=fbbf0607",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-pickleball",
