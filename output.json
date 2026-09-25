@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1463,8 +1463,8 @@
           }
         },
         {
-          "id": "cc-08b63e5ed0",
-          "name": "Australia vs Brazil | 17:00 25/09",
+          "id": "gv-808f4c44a0",
+          "name": "Indonesia vs Singapore | 20:00 25/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1478,23 +1478,58 @@
           ],
           "sources": [
             {
-              "id": "src-08b63e5ed0",
+              "id": "src-808f4c44a0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-808f4c44a0",
+                  "name": "Indonesia vs Singapore",
+                  "streams": [
+                    {
+                      "id": "st-808f4c44a0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dba9c89c28",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790323080_hd/1790323080_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5f7dde7908",
               "name": "ChuoiChienTV",
               "contents": [
                 {
-                  "id": "ct-08b63e5ed0",
-                  "name": "Australia vs Brazil",
+                  "id": "ct-5f7dde7908",
+                  "name": "Indonesia vs Singapore",
                   "streams": [
                     {
-                      "id": "st-08b63e5ed0",
-                      "name": "CC",
+                      "id": "st-5f7dde7908",
+                      "name": "CCport - Trốc Tru",
                       "stream_links": [
                         {
-                          "id": "lnk-bc7b03b97a",
-                          "name": "Chuối Lá HD",
+                          "id": "lnk-0599a70c7f",
+                          "name": "Trốc Tru HD",
                           "type": "hls",
                           "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1507,11 +1542,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c3722bb96b",
-                          "name": "Chuối Lá FHD",
+                          "id": "lnk-0953dcc267",
+                          "name": "Trốc Tru FHD",
                           "type": "hls",
                           "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1528,61 +1563,25 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
-            "team_a": "Australia",
-            "team_b": "Brazil",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134250_2a12c2b6.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132806_e0e97e34.png",
-            "time": "17:00 25/09",
-            "blv": "Chuối Lá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1583655_2c45fb84_20260925.png?v=2c45fb84",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-2cb4289a02",
-          "name": "Australia vs Brazil | 17:10 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
+            },
             {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2cb4289a02",
+              "id": "src-b499e18bce",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-2cb4289a02",
-                  "name": "Australia vs Brazil",
+                  "id": "ct-b499e18bce",
+                  "name": "Indonesia vs Singapore",
                   "streams": [
                     {
-                      "id": "st-2cb4289a02",
-                      "name": "PL",
+                      "id": "st-b499e18bce",
+                      "name": "Phalang - LÝ LONG",
                       "stream_links": [
                         {
-                          "id": "lnk-3dcbf79f83",
+                          "id": "lnk-c4e695fd4d",
                           "name": "LÝ LONG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/4192d2db050a4e4dacfed6c8a10fbfc7/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/cc62bc64005b43d4921984d7e486c812/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1602,13 +1601,13 @@
             }
           ],
           "org_metadata": {
-            "league": "International Friendly",
-            "team_a": "Australia",
-            "team_b": "Brazil",
-            "logo_a": "https://sta.vnres.co/file/common/20260922/ca3770cad8bb96638f9ecec7819b2c9c.png",
-            "logo_b": "https://sta.vnres.co/file/common/20260922/189164d9fd29a8cfd80aedea4b5743e6.png",
-            "time": "17:10 25/09",
-            "blv": "LÝ LONG",
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Indonesia",
+            "team_b": "Singapore",
+            "logo_a": "https://images.keovip88.net/images/teams/indonesia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/singapore.png",
+            "time": "20:00 25/09",
+            "blv": "Tôm",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1616,7 +1615,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/23xmvkh6j4p8qg8_aceb1824_20260925.png?v=aceb1824",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aac7f5624d46db87036c172_3c44a668_20260925.png?v=3c44a668",
             "width": 1600,
             "height": 1200
           }
@@ -1759,164 +1758,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09h547g4rz8_5794440b_20260925.png?v=5794440b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-808f4c44a0",
-          "name": "Indonesia vs Singapore | 20:00 25/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-808f4c44a0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-808f4c44a0",
-                  "name": "Indonesia vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-808f4c44a0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dba9c89c28",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790323080_hd/1790323080_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5f7dde7908",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-5f7dde7908",
-                  "name": "Indonesia vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-5f7dde7908",
-                      "name": "CCport - Trốc Tru",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0599a70c7f",
-                          "name": "Trốc Tru HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0953dcc267",
-                          "name": "Trốc Tru FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b499e18bce",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b499e18bce",
-                  "name": "Indonesia vs Singapore",
-                  "streams": [
-                    {
-                      "id": "st-b499e18bce",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e695fd4d",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/cc62bc64005b43d4921984d7e486c812/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Indonesia",
-            "team_b": "Singapore",
-            "logo_a": "https://images.keovip88.net/images/teams/indonesia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/singapore.png",
-            "time": "20:00 25/09",
-            "blv": "Tôm",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aac7f5624d46db87036c172_3c44a668_20260925.png?v=3c44a668",
             "width": 1600,
             "height": 1200
           }
