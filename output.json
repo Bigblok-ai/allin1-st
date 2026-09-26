@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1431,7 +1431,7 @@
                   "streams": [
                     {
                       "id": "st-3f68409354",
-                      "name": "Phalang - LÝ LA LÀNG, LÝ LÊN LỬA",
+                      "name": "Phalang - LÝ LÊN LỬA",
                       "stream_links": [
                         {
                           "id": "lnk-22991deddb",
@@ -1439,23 +1439,6 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://pull.digitalcdn.net/live/72e408299ff44dcc89cb50d9c1e5fb1f/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4a6263b37f",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.digitalcdn.net/live/99aa673a94574957863b555f6eb16cfc/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1736,6 +1719,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1545833_8be2c0aa_20260926.png?v=8be2c0aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-9581d1934b",
+          "name": "Vietnam vs Philippines | 20:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9581d1934b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-9581d1934b",
+                  "name": "Vietnam vs Philippines",
+                  "streams": [
+                    {
+                      "id": "st-9581d1934b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4a6263b37f",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/99aa673a94574957863b555f6eb16cfc/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Vietnam",
+            "team_b": "Philippines",
+            "logo_a": "https://sta.vnres.co/file/common/20260923/9cbe8e6a8c5fbf1577577a4603b40627.png",
+            "logo_b": "https://sta.vnres.co/file/common/20260923/088d39c5663535d640f4aaefd8362b18.png",
+            "time": "20:00 26/09",
+            "blv": "LÝ LA LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergph4gdvvr8k_bfd211de_20260926.png?v=bfd211de",
             "width": 1600,
             "height": 1200
           }
@@ -3076,6 +3130,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehg7x4lr51_ce63d216_20260926.png?v=ce63d216",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-13b06088d3",
+          "name": "Dong Thap vs Thai Nguyen | 16:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13b06088d3",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-13b06088d3",
+                  "name": "Dong Thap vs Thai Nguyen",
+                  "streams": [
+                    {
+                      "id": "st-13b06088d3",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2ca7fce24",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/f91fcb1c0c60425abe7bfa1dc4cdce53/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Dong Thap",
+            "team_b": "Thai Nguyen",
+            "logo_a": "https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png",
+            "logo_b": "https://img.sports-data.online/football/team/5bc47b0c1409c6deb22abf1bf86f1ef0.png",
+            "time": "16:00 27/09",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/1l4rjnh9voy2m7v_2e36235b_20260926.png?v=2e36235b",
             "width": 1600,
             "height": 1200
           }
