@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1356,8 +1356,8 @@
           }
         },
         {
-          "id": "cc-228466927f",
-          "name": "San Marino vs Finland | 23:00 26/09",
+          "id": "gv-b61040d614",
+          "name": "Oman vs Saudi Arabia | 01:00 27/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1367,94 +1367,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-228466927f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-228466927f",
-                  "name": "San Marino vs Finland",
-                  "streams": [
-                    {
-                      "id": "st-228466927f",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-223c76a7ce",
-                          "name": "Chuối Sấy HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "San Marino",
-            "team_b": "Finland",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png",
-            "time": "23:00 26/09",
-            "blv": "Chuối Sấy",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528888_2cc2cd67_20260927.png?v=2cc2cd67",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b61040d614",
-          "name": "Oman vs Saudi Arabia | 01:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1589,7 +1501,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/G6x4A5zB-KtpTLRpL.png",
             "time": "01:00 27/09",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1597,6 +1509,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/1k1xisab0uhc_e3e08d08_20260927.png?v=e3e08d08",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-228466927f",
+          "name": "San Marino vs Finland | 23:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-228466927f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-228466927f",
+                  "name": "San Marino vs Finland",
+                  "streams": [
+                    {
+                      "id": "st-228466927f",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-223c76a7ce",
+                          "name": "Chuối Sấy HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "San Marino",
+            "team_b": "Finland",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134301_6c3d41f1.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134256_cfe272ef.png",
+            "time": "23:00 26/09",
+            "blv": "Chuối Sấy",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528888_2cc2cd67_20260927.png?v=2cc2cd67",
             "width": 1600,
             "height": 1200
           }
