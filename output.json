@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1269,6 +1269,94 @@
           }
         },
         {
+          "id": "cc-118935b064",
+          "name": "Atlante FC vs Monterrey | 08:00 26/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-118935b064",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-118935b064",
+                  "name": "Atlante FC vs Monterrey",
+                  "streams": [
+                    {
+                      "id": "st-118935b064",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-396b735a0c",
+                          "name": "Chuối Chao HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-49d2690e46",
+                          "name": "Chuối Chao FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Mexico",
+            "team_a": "Atlante FC",
+            "team_b": "Monterrey",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_131433_e85dcdc4.png",
+            "time": "08:00 26/09",
+            "blv": "Chuối Chao",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1550975_92843368_20260926.png?v=92843368",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a4d8d2e97e",
           "name": "Cavalry vs Supra du Quebec | 08:00 26/09",
           "type": "single",
@@ -1335,94 +1423,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba5b09ca9ecd47090974_63ce0365_20260926.png?v=63ce0365",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-118935b064",
-          "name": "Atlante FC vs Monterrey | 08:00 26/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-118935b064",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-118935b064",
-                  "name": "Atlante FC vs Monterrey",
-                  "streams": [
-                    {
-                      "id": "st-118935b064",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-396b735a0c",
-                          "name": "Chuối Chao HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-49d2690e46",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Mexico",
-            "team_a": "Atlante FC",
-            "team_b": "Monterrey",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133843_6c2369a8.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_131433_e85dcdc4.png",
-            "time": "08:00 26/09",
-            "blv": "Chuối Chao",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1550975_92843368_20260926.png?v=92843368",
             "width": 1600,
             "height": 1200
           }
@@ -3735,7 +3735,7 @@
             }
           ],
           "org_metadata": {
-            "league": "99 Billard Siêu không bịp",
+            "league": "TV1  99 Billard Siêu không bịp",
             "team_a": "Tiến Minh TH",
             "team_b": "Bảo Châu",
             "logo_a": "https://cdn-choangtv.com/img/logo/1790382103735_Ti%E1%BA%BFn%20Minh%20TH.jpg",
@@ -3757,7 +3757,7 @@
         },
         {
           "id": "chtv-ff3f857a58",
-          "name": "MôHaMéc NgọcXaXôi vs Lợi CF | 10:00 26/09 | Thập Cẩm",
+          "name": "MôHaMéc NgọcXaXôi vs Lợi CF | 10:00 26/09 | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3784,7 +3784,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-ff3f857a58",
-                          "name": "Thập Cẩm",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live8305/index.m3u8",
@@ -3807,13 +3807,13 @@
             }
           ],
           "org_metadata": {
-            "league": "99 Billard Siêu không bịp",
+            "league": "TV3 99 Billard Siêu không bịp",
             "team_a": "MôHaMéc NgọcXaXôi",
             "team_b": "Lợi CF",
             "logo_a": "https://cdn-choangtv.com/img/logo/1790382619147_NG%E1%BB%8CC%20X%C4%82M.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1790382648806_L%E1%BB%A3i%20CF.jpg",
             "time": "10:00 26/09",
-            "blv": "Thập Cẩm",
+            "blv": "SÊ KÔÔ",
             "is_live": false,
             "time_sort": 1790391600,
             "cate_type": "billiards"
@@ -3879,7 +3879,7 @@
             }
           ],
           "org_metadata": {
-            "league": "99 Billard Siêu không bịp",
+            "league": "TV2  99 Billard Siêu không bịp",
             "team_a": "Khải Tony",
             "team_b": "Tuấn Minh Magic",
             "logo_a": "https://cdn-choangtv.com/img/logo/1790382223405_KH%E1%BA%A2I%20TONY.jpg",
