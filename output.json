@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1193,6 +1193,94 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260927.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-ec10d1383d",
+          "name": "Đồng Tháp vs Thai Nguyen | 17:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec10d1383d",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-ec10d1383d",
+                  "name": "Đồng Tháp vs Thai Nguyen",
+                  "streams": [
+                    {
+                      "id": "st-ec10d1383d",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebd9df999c",
+                          "name": "Chuối To HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-822ad47302",
+                          "name": "Chuối To FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 2",
+            "team_a": "Đồng Tháp",
+            "team_b": "Thai Nguyen",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png",
+            "logo_b": "https://media.api-sports.io/football/teams/28216.png",
+            "time": "17:00 27/09",
+            "blv": "Chuối To",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1634973_6b0ae60a_20260927.png?v=6b0ae60a",
             "width": 1600,
             "height": 1200
           }
@@ -1529,94 +1617,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aa498131f7a2190510195d4_ba7fa13a_20260927.png?v=ba7fa13a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-ec10d1383d",
-          "name": "Đồng Tháp vs Thai Nguyen | 17:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ec10d1383d",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-ec10d1383d",
-                  "name": "Đồng Tháp vs Thai Nguyen",
-                  "streams": [
-                    {
-                      "id": "st-ec10d1383d",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebd9df999c",
-                          "name": "Chuối To HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-822ad47302",
-                          "name": "Chuối To FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 2",
-            "team_a": "Đồng Tháp",
-            "team_b": "Thai Nguyen",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_135806_f9a41cc0.png",
-            "logo_b": "https://media.api-sports.io/football/teams/28216.png",
-            "time": "17:00 27/09",
-            "blv": "Chuối To",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1634973_6b0ae60a_20260927.png?v=6b0ae60a",
             "width": 1600,
             "height": 1200
           }
@@ -3811,82 +3811,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ffb1c48a48",
-          "name": "KCC Egis vs KoGas | 14:30 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ffb1c48a48",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ffb1c48a48",
-                  "name": "KCC Egis vs KoGas",
-                  "streams": [
-                    {
-                      "id": "st-ffb1c48a48",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-412612d582",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790434917_hd/1790434917_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "South Korean KBL Cup",
-            "team_a": "KCC Egis",
-            "team_b": "KoGas",
-            "logo_a": "https://static.flashscore.com/res/image/data/6akehaEa-QVr2kiM7.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/90/Daegu_KOGAS_Pegasus.svg",
-            "time": "14:30 27/09",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/2r7qd42iyadf_fabd0061_20260927.png?v=fabd0061",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dd5b6a1da8",
           "name": "Sydney Kings vs Illawarra Hawks | 15:00 27/09",
@@ -4033,11 +3962,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-4000857eab",
+          "name": "Django vs Pogs Race19 Parehas | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4000857eab",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4000857eab",
+                  "name": "Django vs Pogs Race19 Parehas",
+                  "streams": [
+                    {
+                      "id": "st-4000857eab",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4000857eab",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8370/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "phi bịp",
+            "team_a": "Django",
+            "team_b": "Pogs Race19 Parehas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790500174416_phil.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790500174158_phil.png",
+            "time": "00:00 27/09",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1790442000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4000857eab_285235a7_20260927.png?v=285235a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-c087717226",
           "name": "SHAYNE ACEBAR vs KENJIE REYES | Kèn Kèn",
