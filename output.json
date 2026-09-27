@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1198,6 +1198,77 @@
           }
         },
         {
+          "id": "pl-03f199194b",
+          "name": "China U16 vs Vietnam U16 | 13:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03f199194b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-03f199194b",
+                  "name": "China U16 vs Vietnam U16",
+                  "streams": [
+                    {
+                      "id": "st-03f199194b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d80bce302",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b4e4ce77ea0b4837a9d78713948e68fa/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Shenyang Peace Cup",
+            "team_a": "China U16",
+            "team_b": "Vietnam U16",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
+            "time": "13:00 27/09",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgv359r51_162ce15b_20260927.png?v=162ce15b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-40e188f0c4",
           "name": "Vanuatu vs New Caledonia | 11:00 27/09",
           "type": "single",
@@ -1264,77 +1335,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709097d_c2800cfe_20260927.png?v=c2800cfe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-03f199194b",
-          "name": "China U16 vs Vietnam U16 | 13:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03f199194b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-03f199194b",
-                  "name": "China U16 vs Vietnam U16",
-                  "streams": [
-                    {
-                      "id": "st-03f199194b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d80bce302",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b4e4ce77ea0b4837a9d78713948e68fa/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Shenyang Peace Cup",
-            "team_a": "China U16",
-            "team_b": "Vietnam U16",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
-            "time": "13:00 27/09",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgv359r51_162ce15b_20260927.png?v=162ce15b",
             "width": 1600,
             "height": 1200
           }
@@ -3826,8 +3826,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-2366f4008d",
-          "name": "BÌNH ỐC vs LÊ QUANG TRUNG | Kèn Kèn",
+          "id": "chtv-3addd6b92c",
+          "name": "ĐĂNG BN vs THIỆN LƯƠNG | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3841,23 +3841,23 @@
           ],
           "sources": [
             {
-              "id": "src-2366f4008d",
+              "id": "src-3addd6b92c",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-2366f4008d",
-                  "name": "BÌNH ỐC vs LÊ QUANG TRUNG",
+                  "id": "ct-3addd6b92c",
+                  "name": "ĐĂNG BN vs THIỆN LƯƠNG",
                   "streams": [
                     {
-                      "id": "st-2366f4008d",
+                      "id": "st-3addd6b92c",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-2366f4008d",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-3addd6b92c",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8353/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8354/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3878,12 +3878,12 @@
           ],
           "org_metadata": {
             "league": "VN",
-            "team_a": "BÌNH ỐC",
-            "team_b": "LÊ QUANG TRUNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "ĐĂNG BN",
+            "team_b": "THIỆN LƯƠNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00 27/09",
-            "blv": "Kèn Kèn",
+            "blv": "Xinh Yeu",
             "is_live": true,
             "time_sort": 1790485200,
             "cate_type": "billiards"
@@ -3892,7 +3892,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2366f4008d_1d2a4501_20260927.png?v=1d2a4501",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3addd6b92c_43a84cb9_20260927.png?v=43a84cb9",
             "width": 1600,
             "height": 1200
           }
@@ -3970,8 +3970,8 @@
           }
         },
         {
-          "id": "chtv-3addd6b92c",
-          "name": "ĐĂNG BN vs THIỆN LƯƠNG | Xinh Yeu",
+          "id": "chtv-2366f4008d",
+          "name": "BÌNH ỐC vs LÊ QUANG TRUNG | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3985,23 +3985,23 @@
           ],
           "sources": [
             {
-              "id": "src-3addd6b92c",
+              "id": "src-2366f4008d",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-3addd6b92c",
-                  "name": "ĐĂNG BN vs THIỆN LƯƠNG",
+                  "id": "ct-2366f4008d",
+                  "name": "BÌNH ỐC vs LÊ QUANG TRUNG",
                   "streams": [
                     {
-                      "id": "st-3addd6b92c",
+                      "id": "st-2366f4008d",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-3addd6b92c",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-2366f4008d",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8354/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8353/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4022,12 +4022,12 @@
           ],
           "org_metadata": {
             "league": "VN",
-            "team_a": "ĐĂNG BN",
-            "team_b": "THIỆN LƯƠNG",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "team_a": "BÌNH ỐC",
+            "team_b": "LÊ QUANG TRUNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "12:00 27/09",
-            "blv": "Xinh Yeu",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1790485200,
             "cate_type": "billiards"
@@ -4036,7 +4036,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3addd6b92c_43a84cb9_20260927.png?v=43a84cb9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2366f4008d_1d2a4501_20260927.png?v=1d2a4501",
             "width": 1600,
             "height": 1200
           }
