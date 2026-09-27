@@ -1121,14 +1121,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 10:00 27/09",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 13:00 27/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1183,7 +1183,7 @@
             "team_b": "ASIAD 2026",
             "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "10:00 27/09",
+            "time": "13:00 27/09",
             "blv": "BLV Túi Mù",
             "is_live": true,
             "cate_type": "football"
@@ -1198,8 +1198,8 @@
           }
         },
         {
-          "id": "pl-03f199194b",
-          "name": "China U16 vs Vietnam U16 | 13:00 27/09",
+          "id": "gv-d3f4d4ea47",
+          "name": "Hồng Kông vs Lào | 14:00 27/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1209,77 +1209,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-03f199194b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-03f199194b",
-                  "name": "China U16 vs Vietnam U16",
-                  "streams": [
-                    {
-                      "id": "st-03f199194b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7d80bce302",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b4e4ce77ea0b4837a9d78713948e68fa/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Shenyang Peace Cup",
-            "team_a": "China U16",
-            "team_b": "Vietnam U16",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
-            "time": "13:00 27/09",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgv359r51_162ce15b_20260927.png?v=162ce15b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3f4d4ea47",
-          "name": "Hồng Kông vs Lào | 14:00 27/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1414,7 +1343,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/laos.png",
             "time": "14:00 27/09",
             "blv": "BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1422,6 +1351,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bd6_71fb2dee_20260927.png?v=71fb2dee",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-03f199194b",
+          "name": "China U16 vs Vietnam U16 | 13:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-03f199194b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-03f199194b",
+                  "name": "China U16 vs Vietnam U16",
+                  "streams": [
+                    {
+                      "id": "st-03f199194b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d80bce302",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b4e4ce77ea0b4837a9d78713948e68fa/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Shenyang Peace Cup",
+            "team_a": "China U16",
+            "team_b": "Vietnam U16",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
+            "time": "13:00 27/09",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgv359r51_162ce15b_20260927.png?v=162ce15b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f0b5d0cd93",
+          "name": "Kaya vs Philippine Army | 14:00 27/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f0b5d0cd93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f0b5d0cd93",
+                  "name": "Kaya vs Philippine Army",
+                  "streams": [
+                    {
+                      "id": "st-f0b5d0cd93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9d6725712e",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790489229_hd/1790489229_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VDQG Philippines ",
+            "team_a": "Kaya",
+            "team_b": "Philippine Army",
+            "logo_a": "https://images.keovip88.net/images/teams/sc-kalsdorf.png",
+            "logo_b": "https://images.keovip88.net/images/teams/grazer-ak.png",
+            "time": "14:00 27/09",
+            "blv": "Bón",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab85d6e802222c82d0bc73f_1425f3e1_20260927.png?v=1425f3e1",
             "width": 1600,
             "height": 1200
           }
@@ -3527,7 +3598,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3611,10 +3682,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3662,7 +3733,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
             "time": "13:00 27/09",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -4046,7 +4117,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4130,10 +4201,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4216,7 +4287,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
             "time": "14:00 27/09",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -4236,10 +4307,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4287,7 +4358,7 @@
             "logo_b": "https://img0.aiscore.com/volleyball/team/3e9126e77f86c6fd0f04f67c8f149712.png!w80",
             "time": "14:00 27/09",
             "blv": "LÝ LINH LỰC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
