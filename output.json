@@ -3467,7 +3467,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3540,6 +3540,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-63c1c14965_8d434e52_20260927.png?v=8d434e52",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e9328202b9",
+          "name": "Ko Pin Yi vs Zhou Ze Zheng | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e9328202b9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e9328202b9",
+                  "name": "Ko Pin Yi vs Zhou Ze Zheng",
+                  "streams": [
+                    {
+                      "id": "st-e9328202b9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9328202b9",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8377/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "china",
+            "team_a": "Ko Pin Yi",
+            "team_b": "Zhou Ze Zheng",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790511508948_china.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790511508699_china.png",
+            "time": "00:00 27/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790442000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e9328202b9_bbed0ebe_20260927.png?v=bbed0ebe",
             "width": 1600,
             "height": 1200
           }
@@ -3627,7 +3699,7 @@
       "channels": [
         {
           "id": "pl-9dbf6c3375",
-          "name": "Indonesi vs Kyrgyzstan | 08:00 28/09",
+          "name": "Indonesia vs Kyrgyzstan | 08:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3646,7 +3718,7 @@
               "contents": [
                 {
                   "id": "ct-9dbf6c3375",
-                  "name": "Indonesi vs Kyrgyzstan",
+                  "name": "Indonesia vs Kyrgyzstan",
                   "streams": [
                     {
                       "id": "st-9dbf6c3375",
@@ -3678,7 +3750,7 @@
           ],
           "org_metadata": {
             "league": "Asian Games",
-            "team_a": "Indonesi",
+            "team_a": "Indonesia",
             "team_b": "Kyrgyzstan",
             "logo_a": "https://img0.aiscore.com/volleyball/team/f2413ce638c27cc34d13f8c961ba694f.png!w80",
             "logo_b": "https://img0.aiscore.com/volleyball/team/4346797bf61de910e7d62fa55f5bf1b5.png!w80",
