@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1514,6 +1514,77 @@
           }
         },
         {
+          "id": "gv-d4aa115c2a",
+          "name": "Tajikistan vs Palestine | 19:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d4aa115c2a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d4aa115c2a",
+                  "name": "Tajikistan vs Palestine",
+                  "streams": [
+                    {
+                      "id": "st-d4aa115c2a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a8b91970d",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518769_hd/1790518769_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Tajikistan",
+            "team_b": "Palestine",
+            "logo_a": "https://images.keovip88.net/images/teams/tajikistan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/palestine.png",
+            "time": "19:00 28/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aadd1c645163e9e3e085d6c_5553383f_20260928.png?v=5553383f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-78adaff8fd",
           "name": "Malaysia vs Indonesia | 19:30 28/09",
           "type": "single",
@@ -1667,77 +1738,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bcf_c85b71c1_20260928.png?v=c85b71c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d4aa115c2a",
-          "name": "Tajikistan vs Palestine | 19:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d4aa115c2a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d4aa115c2a",
-                  "name": "Tajikistan vs Palestine",
-                  "streams": [
-                    {
-                      "id": "st-d4aa115c2a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3a8b91970d",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518769_hd/1790518769_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Tajikistan",
-            "team_b": "Palestine",
-            "logo_a": "https://images.keovip88.net/images/teams/tajikistan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/palestine.png",
-            "time": "19:00 28/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aadd1c645163e9e3e085d6c_5553383f_20260928.png?v=5553383f",
             "width": 1600,
             "height": 1200
           }
@@ -4361,41 +4361,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b26ee17729",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b26ee17729",
-                  "name": "Kazakhstan vs Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-b26ee17729",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-808e10935b",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/d128746e31954fdb95a1e2b73495b969/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
