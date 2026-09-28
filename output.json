@@ -1121,13 +1121,84 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "cc-f5e174df40",
+          "id": "gv-c426400be5",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 13:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c426400be5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c426400be5",
+                  "name": "ASIAD 2026 vs ASIAD 2026",
+                  "streams": [
+                    {
+                      "id": "st-c426400be5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-09b33be66f",
+                          "name": "BLV Túi Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789838904_hd/1789838904_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIAD 2026",
+            "team_a": "ASIAD 2026",
+            "team_b": "ASIAD 2026",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "time": "13:00 28/09",
+            "blv": "BLV Túi Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/asooi3g7yvxg_62dd1b2b_20260928.png?v=62dd1b2b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-607af7fb8d",
           "name": "Singapore vs Bangladesh | 16:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
@@ -1142,6 +1213,41 @@
           ],
           "sources": [
             {
+              "id": "src-607af7fb8d",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-607af7fb8d",
+                  "name": "Singapore vs Bangladesh",
+                  "streams": [
+                    {
+                      "id": "st-607af7fb8d",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a76927abbf",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518497_hd/1790518497_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-f5e174df40",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1151,7 +1257,7 @@
                   "streams": [
                     {
                       "id": "st-f5e174df40",
-                      "name": "CC",
+                      "name": "CCport - Chuối Ngao",
                       "stream_links": [
                         {
                           "id": "lnk-8145c9578b",
@@ -1230,13 +1336,13 @@
             }
           ],
           "org_metadata": {
-            "league": "FIFA Asean Cup",
+            "league": "FIFA ASEAN Cup",
             "team_a": "Singapore",
             "team_b": "Bangladesh",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_132714_c2b04cf4.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134314_49a46639.png",
+            "logo_a": "https://images.keovip88.net/images/teams/singapore.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bangladesh.png",
             "time": "16:00 28/09",
-            "blv": "Chuối Ngao",
+            "blv": "Trĩ",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1244,14 +1350,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1641708_401de68c_20260928.png?v=401de68c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bce_97f9b719_20260928.png?v=97f9b719",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "cc-a7534186cc",
-          "name": "Japan vs Venezuela | 17:25 28/09",
+          "id": "gv-8bd56f3390",
+          "name": "Nhật Bản vs Venezuela | 17:25 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1265,6 +1371,41 @@
           ],
           "sources": [
             {
+              "id": "src-8bd56f3390",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8bd56f3390",
+                  "name": "Nhật Bản vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-8bd56f3390",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-10475ffac0",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518540_hd/1790518540_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-a7534186cc",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1274,7 +1415,7 @@
                   "streams": [
                     {
                       "id": "st-a7534186cc",
-                      "name": "CC",
+                      "name": "CCport - Chuối Lá",
                       "stream_links": [
                         {
                           "id": "lnk-bc7b03b97a",
@@ -1353,13 +1494,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
-            "team_a": "Japan",
+            "league": "Giao hữu quốc tế",
+            "team_a": "Nhật Bản",
             "team_b": "Venezuela",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134249_f7c8e720.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132809_b7393fa7.png",
+            "logo_a": "https://images.keovip88.net/images/teams/japan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/venezuela.png",
             "time": "17:25 28/09",
-            "blv": "Chuối Lá",
+            "blv": "Bón",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1367,14 +1508,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1629000_ad6bd3c2_20260928.png?v=ad6bd3c2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab317de20160d3860005998_1eff363a_20260928.png?v=1eff363a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "cc-36ccef309b",
-          "name": "South Korea vs Uruguay | 18:00 28/09",
+          "id": "gv-31cccc4d10",
+          "name": "Hàn Quốc vs Uruguay | 18:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1388,6 +1529,41 @@
           ],
           "sources": [
             {
+              "id": "src-31cccc4d10",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-31cccc4d10",
+                  "name": "Hàn Quốc vs Uruguay",
+                  "streams": [
+                    {
+                      "id": "st-31cccc4d10",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a99b48f26b",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518597_hd/1790518597_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-36ccef309b",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1397,7 +1573,7 @@
                   "streams": [
                     {
                       "id": "st-36ccef309b",
-                      "name": "CC",
+                      "name": "CCport - Chuối Chao",
                       "stream_links": [
                         {
                           "id": "lnk-396b735a0c",
@@ -1476,13 +1652,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
-            "team_a": "South Korea",
+            "league": "Giao hữu quốc tế",
+            "team_a": "Hàn Quốc",
             "team_b": "Uruguay",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134249_74d9edd1.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132807_4c096ae9.png",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uruguay.png",
             "time": "18:00 28/09",
-            "blv": "Chuối Chao",
+            "blv": "Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1490,14 +1666,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1628999_ca1c27c5_20260928.png?v=ca1c27c5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab317de20160d3860005999_1d19d2c2_20260928.png?v=1d19d2c2",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "cc-5faf616ef3",
-          "name": "Indonesia vs Malaysia | 19:30 28/09",
+          "id": "gv-d4aa115c2a",
+          "name": "Tajikistan vs Palestine | 19:00 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1511,6 +1687,112 @@
           ],
           "sources": [
             {
+              "id": "src-d4aa115c2a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d4aa115c2a",
+                  "name": "Tajikistan vs Palestine",
+                  "streams": [
+                    {
+                      "id": "st-d4aa115c2a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a8b91970d",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518769_hd/1790518769_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Tajikistan",
+            "team_b": "Palestine",
+            "logo_a": "https://images.keovip88.net/images/teams/tajikistan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/palestine.png",
+            "time": "19:00 28/09",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aadd1c645163e9e3e085d6c_5553383f_20260928.png?v=5553383f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-78adaff8fd",
+          "name": "Malaysia vs Indonesia | 19:30 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-78adaff8fd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-78adaff8fd",
+                  "name": "Malaysia vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-78adaff8fd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c54ad4b5c9",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790518571_hd/1790518571_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-5faf616ef3",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1520,7 +1802,7 @@
                   "streams": [
                     {
                       "id": "st-5faf616ef3",
-                      "name": "CC",
+                      "name": "CCport - Chuối Sấy",
                       "stream_links": [
                         {
                           "id": "lnk-223c76a7ce",
@@ -1599,13 +1881,13 @@
             }
           ],
           "org_metadata": {
-            "league": "FIFA Asean Cup",
-            "team_a": "Indonesia",
-            "team_b": "Malaysia",
-            "logo_a": "https://media.chuoichientv.net/media/20250829_080231_89f500ea.gif",
-            "logo_b": "https://media.chuoichientv.net/media/20250902_193521_ec2f00c2.png",
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Malaysia",
+            "team_b": "Indonesia",
+            "logo_a": "https://images.keovip88.net/images/teams/malaysia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/indonesia.png",
             "time": "19:30 28/09",
-            "blv": "Chuối Sấy",
+            "blv": "Bón",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1613,7 +1895,78 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1641709_f77061c4_20260928.png?v=f77061c4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bcf_c85b71c1_20260928.png?v=c85b71c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-119cb6ebf5",
+          "name": "Anh U17 vs U17 Israel | 21:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-119cb6ebf5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-119cb6ebf5",
+                  "name": "Anh U17 vs U17 Israel",
+                  "streams": [
+                    {
+                      "id": "st-119cb6ebf5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3be27f9da1",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790519059_hd/1790519059_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Anh U17",
+            "team_b": "U17 Israel",
+            "logo_a": "https://images.keovip88.net/images/teams/england-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/israel-u17.png",
+            "time": "21:00 28/09",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab317de20160d386000599d_129dbfb7_20260928.png?v=129dbfb7",
             "width": 1600,
             "height": 1200
           }
@@ -1702,6 +2055,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/998477_e42935e2_20260928.png?v=e42935e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-b35b1dae11",
+          "name": "U19 Slovakia vs Ba Lan U19 | 22:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b35b1dae11",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b35b1dae11",
+                  "name": "U19 Slovakia vs Ba Lan U19",
+                  "streams": [
+                    {
+                      "id": "st-b35b1dae11",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d68d68be10",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790519105_hd/1790519105_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "U19 Slovakia",
+            "team_b": "Ba Lan U19",
+            "logo_a": "https://images.keovip88.net/images/teams/slovakia-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/poland-u19.png",
+            "time": "22:00 28/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab317de20160d38600059a2_651433bc_20260928.png?v=651433bc",
             "width": 1600,
             "height": 1200
           }
@@ -2469,11 +2893,225 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-100702a2ed",
+          "name": "Imus Agimat vs Zamboanga Familys Brand Sardines | 16:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-100702a2ed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-100702a2ed",
+                  "name": "Imus Agimat vs Zamboanga Familys Brand Sardines",
+                  "streams": [
+                    {
+                      "id": "st-100702a2ed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-01cd9cd694",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790580068_hd/1790580068_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Imus Agimat",
+            "team_b": "Zamboanga Familys Brand Sardines",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/eb293c68f4fcefb85c85dc46749b68fd.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1ba7bc78f9d1c7a7110e43d1c6f141f3.png",
+            "time": "16:00 28/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/20180470_ea8e2206_20260928.png?v=ea8e2206",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-658a49388a",
+          "name": "Mindoro Tamaraws vs Basilan Viva Portmasters | 18:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-658a49388a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-658a49388a",
+                  "name": "Mindoro Tamaraws vs Basilan Viva Portmasters",
+                  "streams": [
+                    {
+                      "id": "st-658a49388a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64b0c1caf7",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790580049_hd/1790580049_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Philippines MPBL",
+            "team_a": "Mindoro Tamaraws",
+            "team_b": "Basilan Viva Portmasters",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f265f639507860463b03c6a46fe76e93.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/44301bad4e84f5bd81f0ff4477f51121.png",
+            "time": "18:00 28/09",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/29080478_195fbe5b_20260928.png?v=195fbe5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e73d43d54",
+          "name": "Indian Railway vs Al Ittihad | 21:45 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e73d43d54",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e73d43d54",
+                  "name": "Indian Railway vs Al Ittihad",
+                  "streams": [
+                    {
+                      "id": "st-4e73d43d54",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bdba0606b8",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790528591_hd/1790528591_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIA: WASL",
+            "team_a": "Indian Railway",
+            "team_b": "Al Ittihad",
+            "logo_a": "https://static.flashscore.com/res/image/data/hf8B8MYA-jiXeTAAb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/fD9z21f5-t6q5B3e2.png",
+            "time": "21:45 28/09",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ho5dj40nxg4d_b2e2a540_20260928.png?v=b2e2a540",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2623,89 +3261,17 @@
           }
         },
         {
-          "id": "chtv-f33f9be0ff",
-          "name": "Billy Thorpe vs Jonas Souto | 15:00 28/09 | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f33f9be0ff",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-f33f9be0ff",
-                  "name": "Billy Thorpe vs Jonas Souto",
-                  "streams": [
-                    {
-                      "id": "st-f33f9be0ff",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f33f9be0ff",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8397/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Billy Thorpe",
-            "team_b": "Jonas Souto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564118432_Billy%20Thorpe.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564127481_Jonas%20Souto.jpg",
-            "time": "15:00 28/09",
-            "blv": "Bỉm Sữa",
-            "is_live": false,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f33f9be0ff_a6448a00_20260928.png?v=a6448a00",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-ee6c991c26",
-          "name": "Skyler Woodward vs Olivér Szolnoki | 15:00 28/09 | SÊ KÔÔ",
+          "name": "Skyler Woodward vs Olivér Szolnoki | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2753,7 +3319,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1790564303113_Oliv%C3%A9r%20SZOLNOKI.jpg",
             "time": "15:00 28/09",
             "blv": "SÊ KÔÔ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1790582400,
             "cate_type": "billiards"
           },
@@ -2762,150 +3328,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ee6c991c26_982ae97a_20260928.png?v=982ae97a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8c1f48ea68",
-          "name": "Gerson Martinez Boza vs Roman Hybler | 15:00 28/09 | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c1f48ea68",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8c1f48ea68",
-                  "name": "Gerson Martinez Boza vs Roman Hybler",
-                  "streams": [
-                    {
-                      "id": "st-8c1f48ea68",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c1f48ea68",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8398/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Gerson Martinez Boza",
-            "team_b": "Roman Hybler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564209842_Gerson%20Martinez%20Boza.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:00 28/09",
-            "blv": "Thập Cẩm",
-            "is_live": false,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8c1f48ea68_c2bcf244_20260928.png?v=c2bcf244",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-a914d25c58",
-          "name": "Jeffrey De Luna vs Satoshi Kawabata | 15:00 28/09 | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a914d25c58",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-a914d25c58",
-                  "name": "Jeffrey De Luna vs Satoshi Kawabata",
-                  "streams": [
-                    {
-                      "id": "st-a914d25c58",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a914d25c58",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8396/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥Đơn Nam",
-            "team_a": "Jeffrey De Luna",
-            "team_b": "Satoshi Kawabata",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790564011397_JEFFREY%20DE%20LUNA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790564044834_Nh%E1%BA%ADt%20B%E1%BA%A3n.png",
-            "time": "15:00 28/09",
-            "blv": "Tào A Man",
-            "is_live": false,
-            "time_sort": 1790582400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a914d25c58_bede4016_20260928.png?v=bede4016",
             "width": 1600,
             "height": 1200
           }
@@ -3208,6 +3630,112 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-8069a9d335",
+          "name": "Việt Nam vs Qatar | 14:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8069a9d335",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8069a9d335",
+                  "name": "Việt Nam vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-8069a9d335",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f86760fd95",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790535667_hd/1790535667_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-84fcb80b77",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-84fcb80b77",
+                  "name": "Việt Nam vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-84fcb80b77",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0df1b547b1",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/3fc2aeab733c4c2d8592e9134f6223a8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Qatar",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/IUYV_ZAMxDdabQPzSpTJtg_96x96.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png",
+            "time": "14:00 28/09",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/fck8bm7k8unb_db74d62c_20260928.png?v=db74d62c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-60951cdc05",
           "name": "Thái Lan vs Iran | 14:00 28/09",
           "type": "single",
@@ -3274,77 +3802,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/2316b564dc9b4f9d9f7c5779d62a8f7a_c4276256_20260928.png?v=c4276256",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-84fcb80b77",
-          "name": "Việt Nam vs Qatar | 14:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84fcb80b77",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-84fcb80b77",
-                  "name": "Việt Nam vs Qatar",
-                  "streams": [
-                    {
-                      "id": "st-84fcb80b77",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0df1b547b1",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/3fc2aeab733c4c2d8592e9134f6223a8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Việt Nam",
-            "team_b": "Qatar",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/24bea3e10580aa94c883db6647fb25ac.png!w80",
-            "time": "14:00 28/09",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d5482007e1314642a53d617307a799b9_216b9d6c_20260928.png?v=216b9d6c",
             "width": 1600,
             "height": 1200
           }
@@ -3421,8 +3878,8 @@
           }
         },
         {
-          "id": "pl-b26ee17729",
-          "name": "Kazakhstan vs Nhật Bản | 17:20 28/09",
+          "id": "gv-38610e9381",
+          "name": "Nhật Bản vs Kazakhstan | 17:20 28/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3436,6 +3893,41 @@
           ],
           "sources": [
             {
+              "id": "src-38610e9381",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-38610e9381",
+                  "name": "Nhật Bản vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-38610e9381",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7444eca88c",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790528719_hd/1790528719_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-b26ee17729",
               "name": "PhaLangTV",
               "contents": [
@@ -3445,7 +3937,7 @@
                   "streams": [
                     {
                       "id": "st-b26ee17729",
-                      "name": "PL",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
                       "stream_links": [
                         {
                           "id": "lnk-808e10935b",
@@ -3472,13 +3964,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Kazakhstan",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/9749f17f2a26c0ee6558c42029e739d8.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80",
+            "league": "Asiad 2026",
+            "team_a": "Nhật Bản",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png",
             "time": "17:20 28/09",
-            "blv": "LÝ LIỀU LĨNH",
+            "blv": "Cận",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -3486,7 +3978,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/b23d6420926249aa9a00bde8d20530e0_a9a647d4_20260928.png?v=a9a647d4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/me78b3rb5hp6_216c220c_20260928.png?v=216c220c",
             "width": 1600,
             "height": 1200
           }
@@ -3563,8 +4055,8 @@
           }
         },
         {
-          "id": "pl-69521184c0",
-          "name": "Hồng Kông vs Việt Nam | 08:00 29/09",
+          "id": "gv-a657433833",
+          "name": "Việt Nam vs Hồng Kông | 08:00 29/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3578,6 +4070,41 @@
           ],
           "sources": [
             {
+              "id": "src-a657433833",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a657433833",
+                  "name": "Việt Nam vs Hồng Kông",
+                  "streams": [
+                    {
+                      "id": "st-a657433833",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-22dfe9b9b7",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790535974_hd/1790535974_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-69521184c0",
               "name": "PhaLangTV",
               "contents": [
@@ -3587,7 +4114,7 @@
                   "streams": [
                     {
                       "id": "st-69521184c0",
-                      "name": "PL",
+                      "name": "Phalang - LÝ LÊN LỬA",
                       "stream_links": [
                         {
                           "id": "lnk-3f97bcea32",
@@ -3614,13 +4141,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Hồng Kông",
-            "team_b": "Việt Nam",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/4a2e9789964030d8f9873ca4b8a7587b.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
+            "league": "Asiad 2026",
+            "team_a": "Việt Nam",
+            "team_b": "Hồng Kông",
+            "logo_a": "https://static.flashscore.com/res/image/data/jilBtfFG-0xLZRP53.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/vNwPljil-Sr5HBKY4.png",
             "time": "08:00 29/09",
-            "blv": "LÝ LÊN LỬA",
+            "blv": "Sún",
             "is_live": false,
             "cate_type": "bongchuyen"
           },
@@ -3628,7 +4155,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/07512a3d225b49db84388d2888464212_1960b495_20260928.png?v=1960b495",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ya8md5yst15f_0e6fccd1_20260928.png?v=0e6fccd1",
             "width": 1600,
             "height": 1200
           }
@@ -3700,6 +4227,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ded14aad1944d88b10ed12297e89818_6138cb6c_20260928.png?v=6138cb6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cc9c2b3638",
+          "name": "Uzbekistan vs Kazakhstan | 11:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc9c2b3638",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc9c2b3638",
+                  "name": "Uzbekistan vs Kazakhstan",
+                  "streams": [
+                    {
+                      "id": "st-cc9c2b3638",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00e0e58abf",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536027_hd/1790536027_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Uzbekistan",
+            "team_b": "Kazakhstan",
+            "logo_a": "https://static.flashscore.com/res/image/data/06K3E8fM-ABIAlQIr.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nuUeFiwS-0peDsUzn.png",
+            "time": "11:00 29/09",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/x17wwz3mg8bt_b6f5f0e6_20260928.png?v=b6f5f0e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7a51286b03",
+          "name": "Qatar vs Ấn Độ | 14:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a51286b03",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7a51286b03",
+                  "name": "Qatar vs Ấn Độ",
+                  "streams": [
+                    {
+                      "id": "st-7a51286b03",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf23a02754",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790536252_hd/1790536252_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "",
+            "team_a": "Qatar",
+            "team_b": "Ấn Độ",
+            "logo_a": "https://static.flashscore.com/res/image/data/Q1mGr3HG-IkyuUDEE.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png",
+            "time": "14:00 29/09",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/kxrq3l9g6lft_05857a24_20260928.png?v=05857a24",
             "width": 1600,
             "height": 1200
           }
@@ -3941,7 +4610,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-232423eef4",
+          "name": "Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8 | 06:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-232423eef4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-232423eef4",
+                  "name": "Dana White's Contender Series: Season 10, Week 8 vs Dana White's Contender Series: Season 10, Week 8",
+                  "streams": [
+                    {
+                      "id": "st-232423eef4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32b270044f",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1789368893_hd/1789368893_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Dana White's Contender Series: Season 10, Week 8",
+            "team_a": "Dana White's Contender Series: Season 10, Week 8",
+            "team_b": "Dana White's Contender Series: Season 10, Week 8",
+            "logo_a": "https://m.media-amazon.com/images/S/pv-target-images/92a6fe2caef3a15e2b920f0944f33dbe5eef66bdfe761a61595e8619555a18cb.jpg",
+            "logo_b": "https://m.media-amazon.com/images/S/pv-target-images/92a6fe2caef3a15e2b920f0944f33dbe5eef66bdfe761a61595e8619555a18cb.jpg",
+            "time": "06:00 30/09",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/n6a9m7k6zd4z_a0d829ba_20260928.png?v=a0d829ba",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-bóng-chày",
