@@ -1121,170 +1121,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "cc-a335ddc76a",
-          "name": "Kyrgyzstan W vs Maldives | 21:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a335ddc76a",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-a335ddc76a",
-                  "name": "Kyrgyzstan W vs Maldives",
-                  "streams": [
-                    {
-                      "id": "st-a335ddc76a",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bc7b03b97a",
-                          "name": "Chuối Lá HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c3722bb96b",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu Quốc Tế",
-            "team_a": "Kyrgyzstan W",
-            "team_b": "Maldives",
-            "logo_a": "https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134312_9e50422a.png",
-            "time": "21:00 28/09",
-            "blv": "Chuối Lá",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/998477_e42935e2_20260928.png?v=e42935e2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-d2015b8ef3",
-          "name": "Leixoes U23 vs Vizela U23 | 22:00 28/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d2015b8ef3",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d2015b8ef3",
-                  "name": "Leixoes U23 vs Vizela U23",
-                  "streams": [
-                    {
-                      "id": "st-d2015b8ef3",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c2f581c220",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/1f0b67e2c08443cfb59f85dfa1e9f239/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portuguese U23 League",
-            "team_a": "Leixoes U23",
-            "team_b": "Vizela U23",
-            "logo_a": "https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png",
-            "logo_b": "https://img.sports-data.online/football/team/dc067cd47969d48c3b6001d9350be407.png",
-            "time": "22:00 28/09",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dj2ryohlzx10q1z_d2f1fdaf_20260928.png?v=d2f1fdaf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-99172800b1",
           "name": "Armenia vs Montenegro | 23:00 28/09",
@@ -1293,10 +1134,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1396,7 +1237,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/montenegro.png",
             "time": "23:00 28/09",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1416,10 +1257,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1467,7 +1308,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/cyprus.png",
             "time": "23:00 28/09",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1487,10 +1328,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1538,7 +1379,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/democratic-rep-congo.png",
             "time": "23:00 28/09",
             "blv": "Trĩ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1551,6 +1392,94 @@
           }
         },
         {
+          "id": "cc-a335ddc76a",
+          "name": "Kyrgyzstan W vs Maldives | 21:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a335ddc76a",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-a335ddc76a",
+                  "name": "Kyrgyzstan W vs Maldives",
+                  "streams": [
+                    {
+                      "id": "st-a335ddc76a",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bc7b03b97a",
+                          "name": "Chuối Lá HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c3722bb96b",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu Quốc Tế",
+            "team_a": "Kyrgyzstan W",
+            "team_b": "Maldives",
+            "logo_a": "https://media.chuoichientv.net/media/20260604_133429_24e1757b.webp",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134312_9e50422a.png",
+            "time": "21:00 28/09",
+            "blv": "Chuối Lá",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/998477_e42935e2_20260928.png?v=e42935e2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-40d28bc1e1",
           "name": "Georgia vs Ukraine | 23:00 28/09",
           "type": "single",
@@ -1558,10 +1487,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1661,7 +1590,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125459_fd6a0e94.png",
             "time": "23:00 28/09",
             "blv": "Chuối Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1669,6 +1598,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528902_ce5f216f_20260928.png?v=ce5f216f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-d2015b8ef3",
+          "name": "Leixoes U23 vs Vizela U23 | 22:00 28/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d2015b8ef3",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d2015b8ef3",
+                  "name": "Leixoes U23 vs Vizela U23",
+                  "streams": [
+                    {
+                      "id": "st-d2015b8ef3",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c2f581c220",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/1f0b67e2c08443cfb59f85dfa1e9f239/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Portuguese U23 League",
+            "team_a": "Leixoes U23",
+            "team_b": "Vizela U23",
+            "logo_a": "https://img.sports-data.online/football/team/d5db95a6441ae92e5dd150663f89dc64.png",
+            "logo_b": "https://img.sports-data.online/football/team/dc067cd47969d48c3b6001d9350be407.png",
+            "time": "22:00 28/09",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dj2ryohlzx10q1z_d2f1fdaf_20260928.png?v=d2f1fdaf",
             "width": 1600,
             "height": 1200
           }
