@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1232,77 +1232,6 @@
           }
         },
         {
-          "id": "gv-c05edea856",
-          "name": "Mỹ vs Chilê | 07:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c05edea856",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c05edea856",
-                  "name": "Mỹ vs Chilê",
-                  "streams": [
-                    {
-                      "id": "st-c05edea856",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4507e9716b",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790613004_hd/1790613004_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mỹ",
-            "team_b": "Chilê",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/chile.png",
-            "time": "07:00 30/09",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709098e_90e0d744_20260930.png?v=90e0d744",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-0b88a95af6",
           "name": "USA vs Chile | 07:00 30/09",
           "type": "single",
@@ -1310,10 +1239,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1395,7 +1324,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132811_2544daac.png",
             "time": "07:00 30/09",
             "blv": "Chuối Ngao",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1403,6 +1332,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1629002_0ba5a1cf_20260930.png?v=0ba5a1cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c05edea856",
+          "name": "Mỹ vs Chilê | 07:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c05edea856",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c05edea856",
+                  "name": "Mỹ vs Chilê",
+                  "streams": [
+                    {
+                      "id": "st-c05edea856",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4507e9716b",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790613004_hd/1790613004_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mỹ",
+            "team_b": "Chilê",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chile.png",
+            "time": "07:00 30/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709098e_90e0d744_20260930.png?v=90e0d744",
             "width": 1600,
             "height": 1200
           }
@@ -2972,6 +2972,78 @@
           }
         },
         {
+          "id": "chtv-8b48c3166a",
+          "name": "Shane Van Boening vs Nicholas Tan | 10:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b48c3166a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8b48c3166a",
+                  "name": "Shane Van Boening vs Nicholas Tan",
+                  "streams": [
+                    {
+                      "id": "st-8b48c3166a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8b48c3166a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8493/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "Shane Van Boening",
+            "team_b": "Nicholas Tan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790725317306_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790725314714_NICHOLAS%20TAN.jpg",
+            "time": "10:00 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790737200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8b48c3166a_40cba9bf_20260930.png?v=40cba9bf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-58ff8978e2",
           "name": "Moritz Neuhausen vs Roberto Gomez | 10:00 30/09",
           "type": "single",
@@ -3044,8 +3116,8 @@
           }
         },
         {
-          "id": "chtv-171bddd1bb",
-          "name": "Shane Van Boening vs Nicholas Tan | 10:00 30/09",
+          "id": "chtv-501005f274",
+          "name": "Kyle Amoroto vs Dimitris Loukatos | 10:00 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3059,23 +3131,23 @@
           ],
           "sources": [
             {
-              "id": "src-171bddd1bb",
+              "id": "src-501005f274",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-171bddd1bb",
-                  "name": "Shane Van Boening vs Nicholas Tan",
+                  "id": "ct-501005f274",
+                  "name": "Kyle Amoroto vs Dimitris Loukatos",
                   "streams": [
                     {
-                      "id": "st-171bddd1bb",
+                      "id": "st-501005f274",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-171bddd1bb",
+                          "id": "lnk-501005f274",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8492/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8494/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3095,11 +3167,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
-            "team_a": "Shane Van Boening",
-            "team_b": "Nicholas Tan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790725182765_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790725186179_NICHOLAS%20TAN.jpg",
+            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "Kyle Amoroto",
+            "team_b": "Dimitris Loukatos",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790725362459_kyle%20amoroto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790725359045_Dimitris%20Loukatos.jpg",
             "time": "10:00 30/09",
             "blv": "",
             "is_live": false,
@@ -3110,7 +3182,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-171bddd1bb_0482936a_20260930.png?v=0482936a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-501005f274_9c8c5830_20260930.png?v=9c8c5830",
             "width": 1600,
             "height": 1200
           }
@@ -3151,7 +3223,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3164,10 +3236,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3215,7 +3287,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/MUNnNZz6uRoHFVeC0EBnmA_96x96.png",
             "time": "07:00 30/09",
             "blv": "Cầy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
