@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1427,6 +1427,77 @@
           }
         },
         {
+          "id": "gv-a97ea5b096",
+          "name": "Nhật Bản W vs Hàn Quốc W | 17:30 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a97ea5b096",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a97ea5b096",
+                  "name": "Nhật Bản W vs Hàn Quốc W",
+                  "streams": [
+                    {
+                      "id": "st-a97ea5b096",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-031ed9faff",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621900_hd/1790621900_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s ASEAN Football Championship",
+            "team_a": "Nhật Bản W",
+            "team_b": "Hàn Quốc W",
+            "logo_a": "https://images.keovip88.net/images/teams/japan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/south-korea-u23.png",
+            "time": "17:30 29/09",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/c23mh33e7rlw_7c989d87_20260929.png?v=7c989d87",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-7b0c786d27",
           "name": "Australia vs Brazil | 17:00 29/09",
           "type": "single",
@@ -1567,77 +1638,6 @@
           }
         },
         {
-          "id": "gv-a97ea5b096",
-          "name": "Nhật Bản W vs Hàn Quốc W | 17:30 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a97ea5b096",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a97ea5b096",
-                  "name": "Nhật Bản W vs Hàn Quốc W",
-                  "streams": [
-                    {
-                      "id": "st-a97ea5b096",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-031ed9faff",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621900_hd/1790621900_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Women’s ASEAN Football Championship",
-            "team_a": "Nhật Bản W",
-            "team_b": "Hàn Quốc W",
-            "logo_a": "https://images.keovip88.net/images/teams/japan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/south-korea-u23.png",
-            "time": "17:30 29/09",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/c23mh33e7rlw_7c989d87_20260929.png?v=7c989d87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-584315835f",
           "name": "U17 Gibraltar vs Bosnia and Herzegovina U17 | 19:00 29/09",
           "type": "single",
@@ -1736,11 +1736,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-5c9b6575e6",
-                          "name": "BLV Hấu",
+                          "id": "lnk-7c3a2c304f",
+                          "name": "Đầu cầu Hấu: Việt Nam Vô Địch",
                           "type": "hls",
                           "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621974_hd/1790621974_hd@720p.m3u8",
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790676054_hd/1790676054_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1990,7 +1990,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/thailand.png",
             "logo_b": "https://images.keovip88.net/images/teams/vietnam.png",
             "time": "19:30 29/09",
-            "blv": "BLV Hấu, Bee",
+            "blv": "Đầu cầu Hấu: Việt Nam Vô Địch, Bee",
             "is_live": false,
             "cate_type": "football"
           },
@@ -4736,7 +4736,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4808,6 +4808,112 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/kxrq3l9g6lft_05857a24_20260929.png?v=05857a24",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4e51d038e2",
+          "name": "Nhật Bản vs Pakistan | 17:20 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4e51d038e2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4e51d038e2",
+                  "name": "Nhật Bản vs Pakistan",
+                  "streams": [
+                    {
+                      "id": "st-4e51d038e2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-56da887d34",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790622436_hd/1790622436_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-778ebb00a2",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-778ebb00a2",
+                  "name": "Nhật Bản vs Pakistan",
+                  "streams": [
+                    {
+                      "id": "st-778ebb00a2",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9e0143f63c",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/82e0caca547046c1a600afff906fe99c/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asiad 2026",
+            "team_a": "Nhật Bản",
+            "team_b": "Pakistan",
+            "logo_a": "https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png",
+            "time": "17:20 29/09",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/t6q1yj0nobq7_41df400a_20260929.png?v=41df400a",
             "width": 1600,
             "height": 1200
           }
@@ -4950,112 +5056,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/nwpoiz8v7uq9_75fef670_20260929.png?v=75fef670",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-4e51d038e2",
-          "name": "Nhật Bản vs Pakistan | 17:20 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4e51d038e2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4e51d038e2",
-                  "name": "Nhật Bản vs Pakistan",
-                  "streams": [
-                    {
-                      "id": "st-4e51d038e2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-56da887d34",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790622436_hd/1790622436_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-778ebb00a2",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-778ebb00a2",
-                  "name": "Nhật Bản vs Pakistan",
-                  "streams": [
-                    {
-                      "id": "st-778ebb00a2",
-                      "name": "Phalang - LÝ LÊN LỬA",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9e0143f63c",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/82e0caca547046c1a600afff906fe99c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Nhật Bản",
-            "team_b": "Pakistan",
-            "logo_a": "https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png",
-            "time": "17:20 29/09",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/t6q1yj0nobq7_41df400a_20260929.png?v=41df400a",
             "width": 1600,
             "height": 1200
           }
