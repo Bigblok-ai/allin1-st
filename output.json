@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1356,77 +1356,6 @@
           }
         },
         {
-          "id": "gv-5c23b99212",
-          "name": "Portugal U20 vs Switzerland U20 | 17:00 29/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5c23b99212",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5c23b99212",
-                  "name": "Portugal U20 vs Switzerland U20",
-                  "streams": [
-                    {
-                      "id": "st-5c23b99212",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f5c488b08",
-                          "name": "Mickey",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621776_hd/1790621776_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europe - Elite League U20",
-            "team_a": "Portugal U20",
-            "team_b": "Switzerland U20",
-            "logo_a": "https://static.flashscore.com/res/image/data/QsDUXXzB-Iy4CNX9E.png",
-            "logo_b": "https://img.freepik.com/free-vector/illustration-switzerland-flag_53876-27100.jpg?semt=ais_hybrid&w=740&q=80",
-            "time": "17:00 29/09",
-            "blv": "Mickey",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/lnu8b9zj43lv_e777d454_20260929.png?v=e777d454",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-7b0c786d27",
           "name": "Australia vs Brazil | 17:00 29/09",
           "type": "single",
@@ -1434,10 +1363,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1537,7 +1466,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132806_e0e97e34.png",
             "time": "17:00 29/09",
             "blv": "Chuối Lá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1545,6 +1474,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1583654_2c45fb84_20260929.png?v=2c45fb84",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-5c23b99212",
+          "name": "Portugal U20 vs Switzerland U20 | 17:00 29/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5c23b99212",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-5c23b99212",
+                  "name": "Portugal U20 vs Switzerland U20",
+                  "streams": [
+                    {
+                      "id": "st-5c23b99212",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7f5c488b08",
+                          "name": "Mickey",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790621776_hd/1790621776_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europe - Elite League U20",
+            "team_a": "Portugal U20",
+            "team_b": "Switzerland U20",
+            "logo_a": "https://static.flashscore.com/res/image/data/QsDUXXzB-Iy4CNX9E.png",
+            "logo_b": "https://img.freepik.com/free-vector/illustration-switzerland-flag_53876-27100.jpg?semt=ais_hybrid&w=740&q=80",
+            "time": "17:00 29/09",
+            "blv": "Mickey",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/lnu8b9zj43lv_e777d454_20260929.png?v=e777d454",
             "width": 1600,
             "height": 1200
           }
