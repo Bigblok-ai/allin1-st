@@ -1121,82 +1121,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c05edea856",
-          "name": "Mỹ vs Chilê | 07:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c05edea856",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c05edea856",
-                  "name": "Mỹ vs Chilê",
-                  "streams": [
-                    {
-                      "id": "st-c05edea856",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4507e9716b",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790613004_hd/1790613004_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mỹ",
-            "team_b": "Chilê",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/chile.png",
-            "time": "07:00 30/09",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709098e_90e0d744_20260930.png?v=90e0d744",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "cc-bd763d06f4",
           "name": "Botafogo SP vs Ponte Preta | 05:30 30/09",
@@ -1298,6 +1227,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1520891_d88fb003_20260930.png?v=d88fb003",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c05edea856",
+          "name": "Mỹ vs Chilê | 07:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c05edea856",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c05edea856",
+                  "name": "Mỹ vs Chilê",
+                  "streams": [
+                    {
+                      "id": "st-c05edea856",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4507e9716b",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1790613004_hd/1790613004_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mỹ",
+            "team_b": "Chilê",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/chile.png",
+            "time": "07:00 30/09",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab5ba6009ca9ecd4709098e_90e0d744_20260930.png?v=90e0d744",
             "width": 1600,
             "height": 1200
           }
@@ -2898,6 +2898,222 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-6e4a771579",
+          "name": "John Morra vs Sanjin Pehlivanovic | 08:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6e4a771579",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6e4a771579",
+                  "name": "John Morra vs Sanjin Pehlivanovic",
+                  "streams": [
+                    {
+                      "id": "st-6e4a771579",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e4a771579",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8490/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "John Morra",
+            "team_b": "Sanjin Pehlivanovic",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790724931400_John%20Morra.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790724928060_Sanjin%20Pehlivanovic.jpg",
+            "time": "08:00 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790730000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6e4a771579_2ec34404_20260930.png?v=2ec34404",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-58ff8978e2",
+          "name": "Moritz Neuhausen vs Roberto Gomez | 10:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58ff8978e2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-58ff8978e2",
+                  "name": "Moritz Neuhausen vs Roberto Gomez",
+                  "streams": [
+                    {
+                      "id": "st-58ff8978e2",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-58ff8978e2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8491/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "Moritz Neuhausen",
+            "team_b": "Roberto Gomez",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790725142556_Moritz%20Neuhausen.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790725145461_Roberto%20Gomez.jpg",
+            "time": "10:00 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790737200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-58ff8978e2_39c7d810_20260930.png?v=39c7d810",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-171bddd1bb",
+          "name": "Shane Van Boening vs Nicholas Tan | 10:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-171bddd1bb",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-171bddd1bb",
+                  "name": "Shane Van Boening vs Nicholas Tan",
+                  "streams": [
+                    {
+                      "id": "st-171bddd1bb",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-171bddd1bb",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8492/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ▄︻デ𝒜ℛℐℱ━一💥 Thua Nam",
+            "team_a": "Shane Van Boening",
+            "team_b": "Nicholas Tan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790725182765_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790725186179_NICHOLAS%20TAN.jpg",
+            "time": "10:00 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790737200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-171bddd1bb_0482936a_20260930.png?v=0482936a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -2935,7 +3151,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2948,10 +3164,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2999,7 +3215,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/MUNnNZz6uRoHFVeC0EBnmA_96x96.png",
             "time": "07:00 30/09",
             "blv": "Cầy",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "bongchay"
           },
           "image": {
