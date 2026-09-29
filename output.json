@@ -1128,7 +1128,7 @@
       "channels": [
         {
           "id": "gv-c426400be5",
-          "name": "ASIAD 2026 vs ASIAD 2026 | 07:00 29/09",
+          "name": "ASIAD 2026 vs ASIAD 2026 | 09:00 29/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1183,7 +1183,7 @@
             "team_b": "ASIAD 2026",
             "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
             "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/14/2026_Asian_Games_logo.png/250px-2026_Asian_Games_logo.png?utm_source=vi.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "time": "07:00 29/09",
+            "time": "09:00 29/09",
             "blv": "BLV Túi Mù",
             "is_live": true,
             "cate_type": "football"
@@ -2093,6 +2093,58 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://gckc0525.edgemaxcdn.org/live/chuoingaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b91a68b35a",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-b91a68b35a",
+                  "name": "Thái Lan vs Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-b91a68b35a",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-223c76a7ce",
+                          "name": "Chuối Sấy HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3246,7 +3298,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3259,10 +3311,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3310,7 +3362,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxC2vEWXJEq6lMz3QWvJXxpinHfwKLrrk_rzXTEW1UEA&s",
             "time": "09:00 29/09",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -4351,6 +4403,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-59cbc2d183_a8d422d2_20260929.png?v=a8d422d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b743c69367",
+          "name": "WPA Peru Men vs Singapore Men | 14:35 29/09 | BÚN CHÓ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b743c69367",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b743c69367",
+                  "name": "WPA Peru Men vs Singapore Men",
+                  "streams": [
+                    {
+                      "id": "st-b743c69367",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b743c69367",
+                          "name": "BÚN CHÓ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8466/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1   ▄︻デ𝒜ℛℐℱ━一💥 nhánh thua",
+            "team_a": "WPA Peru Men",
+            "team_b": "Singapore Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790639096437_Gerson%20Martinez%20Boza.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790639135103_YAPP%20B%C3%A9o.jpg",
+            "time": "14:35 29/09",
+            "blv": "BÚN CHÓ",
+            "is_live": false,
+            "time_sort": 1790667300,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b743c69367_3663ed9a_20260929.png?v=3663ed9a",
             "width": 1600,
             "height": 1200
           }
