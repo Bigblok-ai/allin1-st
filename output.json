@@ -1121,82 +1121,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9f34f851ce",
-          "name": "Morocco U20 vs Algeria U20 | 20:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f34f851ce",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9f34f851ce",
-                  "name": "Morocco U20 vs Algeria U20",
-                  "streams": [
-                    {
-                      "id": "st-9f34f851ce",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1e56336ac",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790773465_hd/1790773465_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa - U-20 Africa Cup of Nations",
-            "team_a": "Morocco U20",
-            "team_b": "Algeria U20",
-            "logo_a": "https://static.flashscore.com/res/image/data/Y9sYTnjl-CEPH9Bbd.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/SE5q3ixS-KAqUF00e.png",
-            "time": "20:00 30/09",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/g16xxtltjksb_3c89702a_20260930.png?v=3c89702a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ca0c8fcb50",
           "name": "Eritrea vs Nam Phi | 23:00 30/09",
@@ -1809,6 +1738,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-b8dca58009",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b8dca58009",
+                  "name": "United Arab Emirates vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-b8dca58009",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40f46e32c9",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e37856b26ac245038ad166740cc70a8b/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2079,6 +2043,77 @@
           }
         },
         {
+          "id": "pl-dd83a366c6",
+          "name": "OL Lyonnes Women vs Chelsea FC Women | 02:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd83a366c6",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-dd83a366c6",
+                  "name": "OL Lyonnes Women vs Chelsea FC Women",
+                  "streams": [
+                    {
+                      "id": "st-dd83a366c6",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4f2c233d1d",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/68dbe7ba86cc426db7a632800b2f0186/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Women's Champions League",
+            "team_a": "OL Lyonnes Women",
+            "team_b": "Chelsea FC Women",
+            "logo_a": "https://sta.vnres.co/file/common/20260927/1ca337d59ae767236a104131b29ddcab.png",
+            "logo_b": "https://sta.vnres.co/file/common/20260927/716a13be443ed1d1d550c37e2c73e310.png",
+            "time": "02:00 01/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hdv5l2moj_7240a989_20260930.png?v=7240a989",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-22451d9bb9",
           "name": "Tomayapo vs Nacional Potosi | 05:30 01/10",
           "type": "single",
@@ -2290,6 +2325,41 @@
                             {
                               "key": "Referer",
                               "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-266ff1220e",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-266ff1220e",
+                  "name": "Argentina vs Bolivia",
+                  "streams": [
+                    {
+                      "id": "st-266ff1220e",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cb68f8460b",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/3abe5983fbfd46cea71cc74c31989df2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2669,11 +2739,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2686,11 +2756,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2717,7 +2787,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/27_chelsea-w.jpg",
             "time": "02:00",
             "date": "01/10",
-            "blv": "Khô Cay, Enzo",
+            "blv": "Enzo, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2943,6 +3013,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-aad5dbe1ad",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-aad5dbe1ad",
+                  "name": "Japan vs Ecuador",
+                  "streams": [
+                    {
+                      "id": "st-aad5dbe1ad",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8655875ff7",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/65be25221cc94a0e963bc6a8833dfd47/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2971,7 +3076,7 @@
         },
         {
           "id": "xc-2cf48a149c",
-          "name": "Indonesia vs Bangladesh | 18:30 01/10",
+          "name": "Indonesia vs Bangladesh | 19:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3035,6 +3140,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-8c1891222d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-8c1891222d",
+                  "name": "Indonesia vs Bangladesh",
+                  "streams": [
+                    {
+                      "id": "st-8c1891222d",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b236ad5920",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e7152d410fdc4f00a97ae576111010ab/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3043,7 +3183,7 @@
             "team_b": "Bangladesh",
             "logo_a": "https://xoiche.live/media/teams/logos/team_484.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/team_37951.gif",
-            "time": "18:30",
+            "time": "19:30",
             "date": "01/10",
             "blv": "Chim Nhỏ, Tam Mao",
             "is_live": false,
@@ -3063,7 +3203,7 @@
         },
         {
           "id": "xc-561f4e83fc",
-          "name": "Malaysia vs Singapore | 18:30 01/10",
+          "name": "Malaysia vs Singapore | 19:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3110,6 +3250,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-c854efb8a5",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c854efb8a5",
+                  "name": "Malaysia vs Singapore",
+                  "streams": [
+                    {
+                      "id": "st-c854efb8a5",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e4c838f479",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/0105b787c7d1407f95646ef6682145d0/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -3118,7 +3293,7 @@
             "team_b": "Singapore",
             "logo_a": "https://xoiche.live/media/teams/logos/team_478.jpg",
             "logo_b": "https://xoiche.live/media/teams/logos/team_483.jpg",
-            "time": "18:30",
+            "time": "19:30",
             "date": "01/10",
             "blv": "Tày",
             "is_live": false,
@@ -3173,6 +3348,41 @@
                             {
                               "key": "Referer",
                               "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fcd1f89692",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-fcd1f89692",
+                  "name": "Uzbekistan vs Syria",
+                  "streams": [
+                    {
+                      "id": "st-fcd1f89692",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff1e6bd427",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/cb609dd27e1c4b039c10ab1365ef0c79/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3464,11 +3674,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
+                          "id": "lnk-b324cec71d",
+                          "name": "Enzo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3481,11 +3691,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3581,7 +3791,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/25_barcelona-w.jpg",
             "time": "23:45",
             "date": "30/09",
-            "blv": "Táo Dai, Enzo",
+            "blv": "Enzo, Táo Dai",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -4223,6 +4433,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-014c2774e7",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-014c2774e7",
+                  "name": "Ấn Độ vs Pakistan",
+                  "streams": [
+                    {
+                      "id": "st-014c2774e7",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1447c08e0",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/0a817a9df60c4222bc751cbfa71c070a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4400,6 +4645,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-4808c43301",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-4808c43301",
+                  "name": "Hàn Quốc vs Iran",
+                  "streams": [
+                    {
+                      "id": "st-4808c43301",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a592031855",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/48f8760363914843886819765b0520c1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4506,6 +4786,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-d41a27da8b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d41a27da8b",
+                  "name": "Việt Nam vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-d41a27da8b",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8722818605",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/9900ac047a8145d99dd413668d51204d/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4600,6 +4915,41 @@
                             {
                               "key": "Referer",
                               "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6809fd7654",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6809fd7654",
+                  "name": "Thái Lan vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-6809fd7654",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2df47b6a19",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e2d7cc4232214687a3c0d3f14ff18a37/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4758,6 +5108,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-8b56a599c3",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-8b56a599c3",
+                  "name": "Philippines vs Indonesia",
+                  "streams": [
+                    {
+                      "id": "st-8b56a599c3",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f1f903449",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/ac40ea8602f441279c102c17af815891/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4821,6 +5206,41 @@
                             {
                               "key": "Referer",
                               "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-00f343f96a",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-00f343f96a",
+                  "name": "Nhật Bản vs Qatar",
+                  "streams": [
+                    {
+                      "id": "st-00f343f96a",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8819fd43a8",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/d6c6bbffd7254518977b34601967294f/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
