@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1575,7 +1575,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 2
           },
           "image": {
@@ -1583,6 +1583,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24297_2e593ee1_20260930.png?v=2e593ee1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9113d1fb04",
+          "name": "Uzbekistan U23 vs U23 Nhật Bản | 17:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9113d1fb04",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9113d1fb04",
+                  "name": "Uzbekistan U23 vs U23 Nhật Bản",
+                  "streams": [
+                    {
+                      "id": "st-9113d1fb04",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8bb58cf27",
+                          "name": "Lee Sin",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Uzbekistan U23",
+            "team_b": "U23 Nhật Bản",
+            "logo_a": "https://apiv3.apifootball.com/badges/9454_uzbekistan-u23.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/9467_japan-u23.jpg",
+            "time": "17:30",
+            "date": "30/09",
+            "blv": "Lee Sin, Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23587_34de50fc_20260930.png?v=34de50fc",
             "width": 1600,
             "height": 1200
           }
@@ -3804,98 +3896,6 @@
           }
         },
         {
-          "id": "xc-9113d1fb04",
-          "name": "Uzbekistan U23 vs U23 Nhật Bản | 17:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9113d1fb04",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9113d1fb04",
-                  "name": "Uzbekistan U23 vs U23 Nhật Bản",
-                  "streams": [
-                    {
-                      "id": "st-9113d1fb04",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e8bb58cf27",
-                          "name": "Lee Sin",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa10/index.m3u8?expire=1815822079&sign=9a0c1792a57466ace2166ab62a2ea149",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Uzbekistan U23",
-            "team_b": "U23 Nhật Bản",
-            "logo_a": "https://apiv3.apifootball.com/badges/9454_uzbekistan-u23.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/9467_japan-u23.jpg",
-            "time": "17:30",
-            "date": "30/09",
-            "blv": "Lee Sin, Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23587_34de50fc_20260930.png?v=34de50fc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-2cf48a149c",
           "name": "Indonesia vs Bangladesh | 18:30 01/10",
           "type": "single",
@@ -3923,11 +3923,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3940,11 +3940,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3971,7 +3971,7 @@
             "logo_b": "https://xoiche2.live/media/teams/logos/team_37951.gif",
             "time": "18:30",
             "date": "01/10",
-            "blv": "Chim Nhỏ, Tam Mao",
+            "blv": "Tam Mao, Chim Nhỏ",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -4839,83 +4839,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-cd48124c32",
-          "name": "Bader Alawadhi vs Jeffrey De Luna | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd48124c32",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cd48124c32",
-                  "name": "Bader Alawadhi vs Jeffrey De Luna",
-                  "streams": [
-                    {
-                      "id": "st-cd48124c32",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd48124c32",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8505/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 ▄︻デ𝒜ℛℐℱ━一💥 Thắng nam",
-            "team_a": "Bader Alawadhi",
-            "team_b": "Jeffrey De Luna",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790732533377_BADER%20ALAWADHI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790732536499_JEFFREY%20DE%20LUNA.jpg",
-            "time": "15:00 30/09",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1790755200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd48124c32_833a4734_20260930.png?v=833a4734",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-7b54316c7a",
           "name": "Wojciech Szewczyk vs James Aranas | GIÀNG A PHỌ",
@@ -4984,78 +4912,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7b54316c7a_92b347e7_20260930.png?v=92b347e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4d883253d8",
-          "name": "Seoa Seo vs Chia-Chia Chou | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d883253d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d883253d8",
-                  "name": "Seoa Seo vs Chia-Chia Chou",
-                  "streams": [
-                    {
-                      "id": "st-4d883253d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d883253d8",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Seoa Seo",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
-            "time": "17:00 30/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
             "width": 1600,
             "height": 1200
           }
@@ -5133,6 +4989,78 @@
           }
         },
         {
+          "id": "chtv-4d883253d8",
+          "name": "Seoa Seo vs Chia-Chia Chou | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4d883253d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4d883253d8",
+                  "name": "Seoa Seo vs Chia-Chia Chou",
+                  "streams": [
+                    {
+                      "id": "st-4d883253d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d883253d8",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Seoa Seo",
+            "team_b": "Chia-Chia Chou",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
+            "time": "17:00 30/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790762400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-3420ecb4bf",
           "name": "Kristina Tkach vs Venus Lim | Xinh Yeu",
           "type": "single",
@@ -5205,8 +5133,8 @@
           }
         },
         {
-          "id": "chtv-80b1f4d32e",
-          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
+          "id": "chtv-d83cffaeef",
+          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5220,23 +5148,58 @@
           ],
           "sources": [
             {
-              "id": "src-80b1f4d32e",
+              "id": "src-d83cffaeef",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-80b1f4d32e",
-                  "name": "WPA USA Men vs WPA Spain Men",
+                  "id": "ct-d83cffaeef",
+                  "name": "WPA Singapore Men vs WPA Vietnam Men",
                   "streams": [
                     {
-                      "id": "st-80b1f4d32e",
+                      "id": "st-d83cffaeef",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-80b1f4d32e",
+                          "id": "lnk-d83cffaeef",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8518/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-059d349516",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-059d349516",
+                  "name": "WPA Singapore Men vs WPA Vietnam Men",
+                  "streams": [
+                    {
+                      "id": "st-059d349516",
+                      "name": "Choang",
+                      "stream_links": [
+                        {
+                          "id": "lnk-059d349516",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5256,11 +5219,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
-            "team_a": "WPA USA Men",
-            "team_b": "WPA Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "league": "TV4 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Singapore Men",
+            "team_b": "WPA Vietnam Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738312426_YAPP%20B%C3%A9o.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
             "time": "19:30 30/09",
             "blv": "",
             "is_live": false,
@@ -5271,7 +5234,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d83cffaeef_36e6614c_20260930.png?v=36e6614c",
             "width": 1600,
             "height": 1200
           }
@@ -5384,8 +5347,8 @@
           }
         },
         {
-          "id": "chtv-059d349516",
-          "name": "WPA Singapore Men vs WPA Vietnam Men | 19:30 30/09",
+          "id": "chtv-80b1f4d32e",
+          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5399,58 +5362,23 @@
           ],
           "sources": [
             {
-              "id": "src-059d349516",
+              "id": "src-80b1f4d32e",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-059d349516",
-                  "name": "WPA Singapore Men vs WPA Vietnam Men",
+                  "id": "ct-80b1f4d32e",
+                  "name": "WPA USA Men vs WPA Spain Men",
                   "streams": [
                     {
-                      "id": "st-059d349516",
+                      "id": "st-80b1f4d32e",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-059d349516",
+                          "id": "lnk-80b1f4d32e",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8517/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d83cffaeef",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d83cffaeef",
-                  "name": "WPA Singapore Men vs WPA Vietnam Men",
-                  "streams": [
-                    {
-                      "id": "st-d83cffaeef",
-                      "name": "Choang",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d83cffaeef",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8518/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5470,11 +5398,11 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
-            "team_a": "WPA Singapore Men",
-            "team_b": "WPA Vietnam Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790738237171_YAPP%20B%C3%A9o.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1777147534048_Screenshot%202026-04-26%20030527.png",
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
+            "team_a": "WPA USA Men",
+            "team_b": "WPA Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
             "time": "19:30 30/09",
             "blv": "",
             "is_live": false,
@@ -5485,7 +5413,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-059d349516_61a39fcd_20260930.png?v=61a39fcd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
             "width": 1600,
             "height": 1200
           }
