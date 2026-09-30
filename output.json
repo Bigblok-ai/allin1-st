@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1269,6 +1269,181 @@
           }
         },
         {
+          "id": "gv-ef45619d75",
+          "name": "Hồng Kông vs Brunei | 19:00 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ef45619d75",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ef45619d75",
+                  "name": "Hồng Kông vs Brunei",
+                  "streams": [
+                    {
+                      "id": "st-ef45619d75",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-75b2615d15",
+                          "name": "Bón",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790693391_hd/1790693391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-641345b3f6",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-641345b3f6",
+                  "name": "Hong Kong vs Brunei",
+                  "streams": [
+                    {
+                      "id": "st-641345b3f6",
+                      "name": "CCport - Chuối Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-921b6de9fe",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-921b6de9fe",
+                  "name": "Hong Kong vs Brunei Darussalam",
+                  "streams": [
+                    {
+                      "id": "st-921b6de9fe",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4eff752005",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/fddedf9505e04adbac68a2d73d710152/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Hồng Kông",
+            "team_b": "Brunei",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/brunei-darussalam.png",
+            "time": "19:00 30/09",
+            "blv": "Bón",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bd7_72f8aff8_20260930.png?v=72f8aff8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-ae5e5d97ec",
           "name": "Đông Timor vs Campuchia | 16:00 30/09",
           "type": "single",
@@ -1304,7 +1479,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1321,7 +1496,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1338,7 +1513,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1355,7 +1530,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1430,7 +1605,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1447,7 +1622,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1622,181 +1797,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1642011_23c72813_20260930.png?v=23c72813",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ef45619d75",
-          "name": "Hồng Kông vs Brunei | 19:00 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef45619d75",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef45619d75",
-                  "name": "Hồng Kông vs Brunei",
-                  "streams": [
-                    {
-                      "id": "st-ef45619d75",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-75b2615d15",
-                          "name": "Bón",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790693391_hd/1790693391_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-641345b3f6",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-641345b3f6",
-                  "name": "Hong Kong vs Brunei",
-                  "streams": [
-                    {
-                      "id": "st-641345b3f6",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-921b6de9fe",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-921b6de9fe",
-                  "name": "Hong Kong vs Brunei Darussalam",
-                  "streams": [
-                    {
-                      "id": "st-921b6de9fe",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4eff752005",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/fddedf9505e04adbac68a2d73d710152/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA ASEAN Cup",
-            "team_a": "Hồng Kông",
-            "team_b": "Brunei",
-            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/brunei-darussalam.png",
-            "time": "19:00 30/09",
-            "blv": "Bón",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab468f8b057b828a8092bd7_72f8aff8_20260930.png?v=72f8aff8",
             "width": 1600,
             "height": 1200
           }
@@ -2926,7 +2926,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3001,7 +3001,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3018,7 +3018,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3093,7 +3093,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3168,7 +3168,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3243,7 +3243,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3318,7 +3318,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3335,7 +3335,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3410,7 +3410,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3554,7 +3554,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3733,7 +3733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3750,7 +3750,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3860,7 +3860,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3877,7 +3877,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3896,8 +3896,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Indonesia",
             "team_b": "Bangladesh",
-            "logo_a": "https://xoiche2.live/media/teams/logos/team_484.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_37951.gif",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_484.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_37951.gif",
             "time": "18:30",
             "date": "01/10",
             "blv": "Chim Nhỏ, Tam Mao",
@@ -3911,7 +3911,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24978_3ad2a35f_20260930.png?v=3ad2a35f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24978_ef00cf6a_20260930.png?v=ef00cf6a",
             "width": 1600,
             "height": 1200
           }
@@ -3952,7 +3952,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3971,8 +3971,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Malaysia",
             "team_b": "Singapore",
-            "logo_a": "https://xoiche2.live/media/teams/logos/team_478.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_483.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_478.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_483.jpg",
             "time": "18:30",
             "date": "01/10",
             "blv": "Tày",
@@ -3986,7 +3986,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24979_858df16e_20260930.png?v=858df16e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24979_86842d48_20260930.png?v=86842d48",
             "width": 1600,
             "height": 1200
           }
@@ -4027,7 +4027,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4102,7 +4102,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4177,7 +4177,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4252,7 +4252,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4327,7 +4327,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4344,7 +4344,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4544,307 +4544,19 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-ae082445a1",
-          "name": "Sydney vs Brisbane Bullets | 16:30 30/09",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae082445a1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ae082445a1",
-                  "name": "Sydney vs Brisbane Bullets",
-                  "streams": [
-                    {
-                      "id": "st-ae082445a1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4970ed7f1b",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790760097_hd/1790760097_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League (New Zealand)",
-            "team_a": "Sydney",
-            "team_b": "Brisbane Bullets",
-            "logo_a": "https://static.flashscore.com/res/image/data/rRiJRJAr-UJXdVtIC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fFs1TVYA-860zcpZK.png",
-            "time": "16:30 30/09",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/v7vdcbwe4cqy_505f31c5_20260930.png?v=505f31c5",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-3420ecb4bf",
-          "name": "Kristina Tkach vs Venus Lim | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3420ecb4bf",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3420ecb4bf",
-                  "name": "Kristina Tkach vs Venus Lim",
-                  "streams": [
-                    {
-                      "id": "st-3420ecb4bf",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3420ecb4bf",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8511/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Kristina Tkach",
-            "team_b": "Venus Lim",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733119101_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733115966_Venus%20Lim.jpg",
-            "time": "17:00 30/09",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3420ecb4bf_9828f2eb_20260930.png?v=9828f2eb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-7358967e5c",
-          "name": "Chieh-Yu Chou vs Zhu Qing Bi | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7358967e5c",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7358967e5c",
-                  "name": "Chieh-Yu Chou vs Zhu Qing Bi",
-                  "streams": [
-                    {
-                      "id": "st-7358967e5c",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7358967e5c",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8512/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Chieh-Yu Chou",
-            "team_b": "Zhu Qing Bi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733163926_Chieh-Yu%20Chou.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1767589654308_images.png",
-            "time": "17:00 30/09",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7358967e5c_1d869447_20260930.png?v=1d869447",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4d883253d8",
-          "name": "Seoa Seo vs Chia-Chia Chou | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4d883253d8",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4d883253d8",
-                  "name": "Seoa Seo vs Chia-Chia Chou",
-                  "streams": [
-                    {
-                      "id": "st-4d883253d8",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d883253d8",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv24.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
-            "team_a": "Seoa Seo",
-            "team_b": "Chia-Chia Chou",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
-            "time": "17:00 30/09",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1790762400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-496eeb4df8",
           "name": "Annita Kanjaya vs Pia Filler | GIÀNG A PHỌ",
@@ -4918,38 +4630,38 @@
           }
         },
         {
-          "id": "chtv-80b1f4d32e",
-          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
+          "id": "chtv-3420ecb4bf",
+          "name": "Kristina Tkach vs Venus Lim | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-80b1f4d32e",
+              "id": "src-3420ecb4bf",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-80b1f4d32e",
-                  "name": "WPA USA Men vs WPA Spain Men",
+                  "id": "ct-3420ecb4bf",
+                  "name": "Kristina Tkach vs Venus Lim",
                   "streams": [
                     {
-                      "id": "st-80b1f4d32e",
+                      "id": "st-3420ecb4bf",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-80b1f4d32e",
-                          "name": "Stream",
+                          "id": "lnk-3420ecb4bf",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8511/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4969,59 +4681,59 @@
             }
           ],
           "org_metadata": {
-            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
-            "team_a": "WPA USA Men",
-            "team_b": "WPA Spain Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
-            "time": "19:30 30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
+            "league": "TV3 Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Kristina Tkach",
+            "team_b": "Venus Lim",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733119101_Kristina%20Tkach.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733115966_Venus%20Lim.jpg",
+            "time": "17:00 30/09",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790762400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3420ecb4bf_9828f2eb_20260930.png?v=9828f2eb",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-ca090b7680",
-          "name": "WPA Germany Men vs WPA Poland Men | 19:30 30/09",
+          "id": "chtv-4d883253d8",
+          "name": "Seoa Seo vs Chia-Chia Chou | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
             {
-              "id": "src-ca090b7680",
+              "id": "src-4d883253d8",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ca090b7680",
-                  "name": "WPA Germany Men vs WPA Poland Men",
+                  "id": "ct-4d883253d8",
+                  "name": "Seoa Seo vs Chia-Chia Chou",
                   "streams": [
                     {
-                      "id": "st-ca090b7680",
+                      "id": "st-4d883253d8",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ca090b7680",
-                          "name": "Stream",
+                          "id": "lnk-4d883253d8",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8516/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8510/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5041,22 +4753,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV3  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
-            "team_a": "WPA Germany Men",
-            "team_b": "WPA Poland Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790738143760_Joshua%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790738162033_Wojciech%20Szewczyk.jpg",
-            "time": "19:30 30/09",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790771400,
+            "league": "TV2  Ƹ̴Ӂ̴Ʒ nhánh thắng",
+            "team_a": "Seoa Seo",
+            "team_b": "Chia-Chia Chou",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790733034314_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790733019794_Chia-Chia%20Chou.jpg",
+            "time": "17:00 30/09",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1790762400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ca090b7680_653c7b47_20260930.png?v=653c7b47",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4d883253d8_ac8ba8be_20260930.png?v=ac8ba8be",
             "width": 1600,
             "height": 1200
           }
@@ -5169,6 +4881,78 @@
           }
         },
         {
+          "id": "chtv-ca090b7680",
+          "name": "WPA Germany Men vs WPA Poland Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca090b7680",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ca090b7680",
+                  "name": "WPA Germany Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-ca090b7680",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ca090b7680",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8516/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội",
+            "team_a": "WPA Germany Men",
+            "team_b": "WPA Poland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790738143760_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790738162033_Wojciech%20Szewczyk.jpg",
+            "time": "19:30 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ca090b7680_653c7b47_20260930.png?v=653c7b47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-becc7b568c",
           "name": "WPA Albania Men vs WPA Philippines Men | 19:30 30/09",
           "type": "single",
@@ -5274,6 +5058,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-80b1f4d32e",
+          "name": "WPA USA Men vs WPA Spain Men | 19:30 30/09",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80b1f4d32e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-80b1f4d32e",
+                  "name": "WPA USA Men vs WPA Spain Men",
+                  "streams": [
+                    {
+                      "id": "st-80b1f4d32e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80b1f4d32e",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8515/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 ▄︻デ𝒜ℛℐℱ━一💥 Đấu Đội đóng muộn",
+            "team_a": "WPA USA Men",
+            "team_b": "WPA Spain Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790735324256_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1764532016323_Francisco%20Sanchez%20Ruiz.jpg",
+            "time": "19:30 30/09",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790771400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-80b1f4d32e_e80d8705_20260930.png?v=e80d8705",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -5320,7 +5176,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5339,8 +5195,8 @@
             "league": "ASIAD GAME",
             "team_a": "Ấn Độ",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/Flag_of_India.svg.webp",
-            "logo_b": "https://xoiche2.live/media/teams/logos/download_sbv5hbq.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/Flag_of_India.svg.webp",
+            "logo_b": "https://xoiche.live/media/teams/logos/download_sbv5hbq.png",
             "time": "08:00",
             "date": "01/10",
             "blv": "Tày",
@@ -5354,7 +5210,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26418_19bc2434_20260930.png?v=19bc2434",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26418_337a527e_20260930.png?v=337a527e",
             "width": 1600,
             "height": 1200
           }
@@ -5395,7 +5251,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5414,8 +5270,8 @@
             "league": "ASIAD GAME",
             "team_a": "Kyrgyzstan",
             "team_b": "Đài Loan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/images.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
+            "logo_a": "https://xoiche.live/media/teams/logos/images.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/Flag_of_the_Republic_of_China.svg.webp",
             "time": "11:00",
             "date": "01/10",
             "blv": "Enzo",
@@ -5429,7 +5285,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26419_9a721d46_20260930.png?v=9a721d46",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26419_f00bc72b_20260930.png?v=f00bc72b",
             "width": 1600,
             "height": 1200
           }
@@ -5470,7 +5326,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5489,8 +5345,8 @@
             "league": "ASIAD GAME",
             "team_a": "Hàn Quốc",
             "team_b": "Iran",
-            "logo_a": "https://xoiche2.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_xjljaQl.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/Flag_of_South_Korea.svg.webp",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_xjljaQl.jpg",
             "time": "11:00",
             "date": "01/10",
             "blv": "KaKa",
@@ -5504,7 +5360,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26420_41b03cad_20260930.png?v=41b03cad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26420_db543e19_20260930.png?v=db543e19",
             "width": 1600,
             "height": 1200
           }
@@ -5545,7 +5401,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5564,8 +5420,8 @@
             "league": "ASIAD GAME",
             "team_a": "Việt Nam",
             "team_b": "Uzbekistan",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_hdpF9Rm.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/team_646_P1KUFYE.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_hdpF9Rm.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_646_P1KUFYE.png",
             "time": "14:00",
             "date": "01/10",
             "blv": "Lee Sin",
@@ -5579,7 +5435,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26421_987099a8_20260930.png?v=987099a8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26421_5ffdaba1_20260930.png?v=5ffdaba1",
             "width": 1600,
             "height": 1200
           }
@@ -5620,7 +5476,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5639,8 +5495,8 @@
             "league": "ASIAD GAME",
             "team_a": "Thái Lan",
             "team_b": "Trung Quốc",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_Q9mUTFM.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_OOrZwnR.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_Q9mUTFM.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_OOrZwnR.jpg",
             "time": "14:00",
             "date": "01/10",
             "blv": "KaKa",
@@ -5654,7 +5510,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26422_d943dfa0_20260930.png?v=d943dfa0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26422_0c887404_20260930.png?v=0c887404",
             "width": 1600,
             "height": 1200
           }
@@ -5695,7 +5551,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5714,8 +5570,8 @@
             "league": "ASIAD GAME",
             "team_a": "Philippines",
             "team_b": "Indonesia",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_njudfFz.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_WqmhllM.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_njudfFz.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_WqmhllM.jpg",
             "time": "17:00",
             "date": "01/10",
             "blv": "Enzo",
@@ -5729,7 +5585,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26423_23edd8b0_20260930.png?v=23edd8b0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26423_3adc1f05_20260930.png?v=3adc1f05",
             "width": 1600,
             "height": 1200
           }
@@ -5770,7 +5626,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5789,8 +5645,8 @@
             "league": "ASIAD GAME",
             "team_a": "Nhật Bản",
             "team_b": "Qatar",
-            "logo_a": "https://xoiche2.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/OIP_TkTkw3i.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_TkTkw3i.jpg",
             "time": "17:20",
             "date": "01/10",
             "blv": "KaKa",
@@ -5804,7 +5660,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_a90c87dc_20260930.png?v=a90c87dc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_262e5b62_20260930.png?v=262e5b62",
             "width": 1600,
             "height": 1200
           }
