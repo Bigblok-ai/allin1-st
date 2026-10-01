@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1772,10 +1772,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1857,7 +1857,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_133743_9c285531.png",
             "time": "23:45 01/10",
             "blv": "Chuối Tây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1865,6 +1865,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638293_5ad7a4d2_20261001.png?v=5ad7a4d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-f1013a3c44",
+          "name": "Hungary U21 vs Lithuania U21 | 00:00 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f1013a3c44",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-f1013a3c44",
+                  "name": "Hungary U21 vs Lithuania U21",
+                  "streams": [
+                    {
+                      "id": "st-f1013a3c44",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5391ff6a7c",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/5bb15e6768ef4bc181257fac591354e0/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA European U21 Championship qualification",
+            "team_a": "Hungary U21",
+            "team_b": "Lithuania U21",
+            "logo_a": "https://img.sports-data.online/football/team/fab02be525c1579918412f73a5f2c245.png",
+            "logo_b": "https://img.sports-data.online/football/team/3990c8b000f60d3377135bf8c6337231.png",
+            "time": "00:00 02/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhv0p9xmd7_e7c39eba_20261001.png?v=e7c39eba",
             "width": 1600,
             "height": 1200
           }
@@ -1936,77 +2007,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683e3b421f892a5e5c09030c_f1b497e4_20261001.png?v=f1b497e4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-f1013a3c44",
-          "name": "Hungary U21 vs Lithuania U21 | 00:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f1013a3c44",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-f1013a3c44",
-                  "name": "Hungary U21 vs Lithuania U21",
-                  "streams": [
-                    {
-                      "id": "st-f1013a3c44",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5391ff6a7c",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/5bb15e6768ef4bc181257fac591354e0/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA European U21 Championship qualification",
-            "team_a": "Hungary U21",
-            "team_b": "Lithuania U21",
-            "logo_a": "https://img.sports-data.online/football/team/fab02be525c1579918412f73a5f2c245.png",
-            "logo_b": "https://img.sports-data.online/football/team/3990c8b000f60d3377135bf8c6337231.png",
-            "time": "00:00 02/10",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhv0p9xmd7_e7c39eba_20261001.png?v=e7c39eba",
             "width": 1600,
             "height": 1200
           }
@@ -3220,6 +3220,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/m6tjtypisckh_94139bc1_20261001.png?v=94139bc1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-113f741d92",
+          "name": "Bryne vs Lyn | 19:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-113f741d92",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-113f741d92",
+                  "name": "Bryne vs Lyn",
+                  "streams": [
+                    {
+                      "id": "st-113f741d92",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d7d01b909",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1790841270_hd/1790841270_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Norway - OBOS-ligaen",
+            "team_a": "Bryne",
+            "team_b": "Lyn",
+            "logo_a": "https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QFujrmCa-GEWDK90d.png",
+            "time": "19:30 02/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4s35pabksefh_418a8525_20261001.png?v=418a8525",
             "width": 1600,
             "height": 1200
           }
