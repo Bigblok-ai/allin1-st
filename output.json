@@ -2752,11 +2752,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2769,11 +2769,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2800,7 +2800,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Gà Rừng, Pháo Thủ",
+            "blv": "Pháo Thủ, Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -4578,7 +4578,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4662,10 +4662,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4713,7 +4713,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQspwrh-Dk7JtfASP2qpK4oJgKz4Xd02T8keMrfzJeQ02gF-3s7n3mKY&s=10",
             "time": "10:00 01/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -5030,7 +5030,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5319,6 +5319,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cbf1e77c9f_9abedd34_20261001.png?v=9abedd34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a9aeb8af58",
+          "name": "Shi Tianqi vs Pia Filler | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a9aeb8af58",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a9aeb8af58",
+                  "name": "Shi Tianqi vs Pia Filler",
+                  "streams": [
+                    {
+                      "id": "st-a9aeb8af58",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a9aeb8af58",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8532/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv24.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 Ƹ̴Ӂ̴Ʒ Losers qualification",
+            "team_a": "Shi Tianqi",
+            "team_b": "Pia Filler",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790803272454_SHI%20Tianqi.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790803279029_Pia%20Filler.jpg",
+            "time": "10:00 01/10",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1790823600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a9aeb8af58_333fd651_20261001.png?v=333fd651",
             "width": 1600,
             "height": 1200
           }
@@ -5981,8 +6053,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-f39f667239",
-          "name": "Ấn Độ vs Pakistan | 08:00 01/10",
+          "id": "gv-fb7c3e296c",
+          "name": "Hàn Quốc vs Iran | 11:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5992,77 +6064,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f39f667239",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f39f667239",
-                  "name": "Ấn Độ vs Pakistan",
-                  "streams": [
-                    {
-                      "id": "st-f39f667239",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-41a9a55ae8",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790779235_hd/1790779235_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asiad 2026",
-            "team_a": "Ấn Độ",
-            "team_b": "Pakistan",
-            "logo_a": "https://static.flashscore.com/res/image/data/nqz3kJDa-YB0DoGZt.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/S2JTFXGG-vafZSxgs.png",
-            "time": "08:00 01/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/t0icwepfho50_697bc428_20261001.png?v=697bc428",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fb7c3e296c",
-          "name": "Hàn Quốc vs Iran | 11:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -6180,7 +6181,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/iran.png",
             "time": "11:00 01/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
