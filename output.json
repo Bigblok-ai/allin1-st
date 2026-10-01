@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1269,6 +1269,146 @@
           }
         },
         {
+          "id": "gv-1ded950ed3",
+          "name": "Guinea vs Kenya | 23:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ded950ed3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1ded950ed3",
+                  "name": "Guinea vs Kenya",
+                  "streams": [
+                    {
+                      "id": "st-1ded950ed3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c7ed9f3b5",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790839884_hd/1790839884_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-41d10082f6",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-41d10082f6",
+                  "name": "Guinea vs Kenya",
+                  "streams": [
+                    {
+                      "id": "st-41d10082f6",
+                      "name": "CCport - Chuối Kem",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54fbd1fdde",
+                          "name": "Chuối Kem HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc824527c7",
+                          "name": "Chuối Kem HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-262f74ad58",
+                          "name": "Chuối Kem FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Guinea",
+            "team_b": "Kenya",
+            "logo_a": "https://images.keovip88.net/images/teams/guinea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kenya.png",
+            "time": "23:00 01/10",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a35da18dbc86fdf90016039_ed160edd_20261001.png?v=ed160edd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-a176657a83",
           "name": "Azerbaijan vs Liechtenstein | 23:00 01/10",
           "type": "single",
@@ -1339,7 +1479,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1479,6 +1619,77 @@
           }
         },
         {
+          "id": "gv-a3163362a2",
+          "name": "U21 FYR Macedonia vs U21 Montenegro | 23:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a3163362a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a3163362a2",
+                  "name": "U21 FYR Macedonia vs U21 Montenegro",
+                  "streams": [
+                    {
+                      "id": "st-a3163362a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72b2c2f599",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790841543_hd/1790841543_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 FYR Macedonia",
+            "team_b": "U21 Montenegro",
+            "logo_a": "https://images.keovip88.net/images/teams/north-macedonia-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/montenegro-u21.png",
+            "time": "23:00 01/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683ce9d16fa477d4b303700d_6b8f1883_20261001.png?v=6b8f1883",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5b6a98d170",
           "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
           "type": "single",
@@ -1514,7 +1725,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1541,7 +1752,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 0
           },
           "image": {
@@ -1689,217 +1900,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1640512_695035b3_20261001.png?v=695035b3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1ded950ed3",
-          "name": "Guinea vs Kenya | 23:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ded950ed3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ded950ed3",
-                  "name": "Guinea vs Kenya",
-                  "streams": [
-                    {
-                      "id": "st-1ded950ed3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c7ed9f3b5",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790839884_hd/1790839884_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-41d10082f6",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-41d10082f6",
-                  "name": "Guinea vs Kenya",
-                  "streams": [
-                    {
-                      "id": "st-41d10082f6",
-                      "name": "CCport - Chuối Kem",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54fbd1fdde",
-                          "name": "Chuối Kem HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc824527c7",
-                          "name": "Chuối Kem HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-262f74ad58",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Guinea",
-            "team_b": "Kenya",
-            "logo_a": "https://images.keovip88.net/images/teams/guinea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kenya.png",
-            "time": "23:00 01/10",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a35da18dbc86fdf90016039_ed160edd_20261001.png?v=ed160edd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a3163362a2",
-          "name": "U21 FYR Macedonia vs U21 Montenegro | 23:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a3163362a2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a3163362a2",
-                  "name": "U21 FYR Macedonia vs U21 Montenegro",
-                  "streams": [
-                    {
-                      "id": "st-a3163362a2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-72b2c2f599",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790841543_hd/1790841543_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCK U21 Châu Âu",
-            "team_a": "U21 FYR Macedonia",
-            "team_b": "U21 Montenegro",
-            "logo_a": "https://images.keovip88.net/images/teams/north-macedonia-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/montenegro-u21.png",
-            "time": "23:00 01/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683ce9d16fa477d4b303700d_6b8f1883_20261001.png?v=6b8f1883",
             "width": 1600,
             "height": 1200
           }
@@ -2293,7 +2293,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2399,7 +2399,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2609,7 +2609,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3400,7 +3400,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3475,7 +3475,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3550,7 +3550,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3625,7 +3625,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3696,8 +3696,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Việt Nam",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/images_t97Qc0H.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/images_t97Qc0H.png",
             "time": "16:00",
             "date": "02/10",
             "blv": "Khô Cay",
@@ -3711,7 +3711,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_4ef84d14_20261001.png?v=4ef84d14",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_fcc915b6_20261001.png?v=fcc915b6",
             "width": 1600,
             "height": 1200
           }
@@ -3752,7 +3752,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3806,8 +3806,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Thái Lan",
             "team_b": "Philippines",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_341.jpg",
             "time": "16:00",
             "date": "02/10",
             "blv": "Tam Mao",
@@ -3821,7 +3821,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261001.png?v=f84ec839",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_4d16f9a5_20261001.png?v=4d16f9a5",
             "width": 1600,
             "height": 1200
           }
@@ -3862,7 +3862,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3972,7 +3972,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4082,7 +4082,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4157,7 +4157,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4232,7 +4232,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4291,7 +4291,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4304,10 +4304,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4355,7 +4355,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/baacc764f89f2ce4c22b48768946ca5a.png",
             "time": "23:00 01/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
