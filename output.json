@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1197,7 +1197,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1214,7 +1214,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1424,7 +1424,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1441,7 +1441,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1652,6 +1652,77 @@
           }
         },
         {
+          "id": "gv-7e2d356f88",
+          "name": "U21 Hy Lạp vs U21 Latvia | 22:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7e2d356f88",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7e2d356f88",
+                  "name": "U21 Hy Lạp vs U21 Latvia",
+                  "streams": [
+                    {
+                      "id": "st-7e2d356f88",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8efcc031c",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790862754_hd/1790862754_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 Hy Lạp",
+            "team_b": "U21 Latvia",
+            "logo_a": "https://images.keovip88.net/images/teams/greece-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/latvia-u21.png",
+            "time": "22:00 01/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683f8cbd5d282c5198021ebb_42116b67_20261001.png?v=42116b67",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-3aca5559a8",
           "name": "Uzbekistan vs Syria | 21:00 01/10",
           "type": "single",
@@ -1687,7 +1758,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1901,7 +1972,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1932,77 +2003,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/s0o5rb17kycl_77af3cd4_20261001.png?v=77af3cd4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7e2d356f88",
-          "name": "U21 Hy Lạp vs U21 Latvia | 22:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7e2d356f88",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7e2d356f88",
-                  "name": "U21 Hy Lạp vs U21 Latvia",
-                  "streams": [
-                    {
-                      "id": "st-7e2d356f88",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8efcc031c",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790862754_hd/1790862754_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VCK U21 Châu Âu",
-            "team_a": "U21 Hy Lạp",
-            "team_b": "U21 Latvia",
-            "logo_a": "https://images.keovip88.net/images/teams/greece-u21.png",
-            "logo_b": "https://images.keovip88.net/images/teams/latvia-u21.png",
-            "time": "22:00 01/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683f8cbd5d282c5198021ebb_42116b67_20261001.png?v=42116b67",
             "width": 1600,
             "height": 1200
           }
@@ -2078,7 +2078,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2253,7 +2253,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2270,7 +2270,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2798,7 +2798,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2815,7 +2815,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2921,7 +2921,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2938,7 +2938,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3148,7 +3148,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3165,7 +3165,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3921,81 +3921,6 @@
           }
         },
         {
-          "id": "xc-14318e2a43",
-          "name": "Betis vs Ceuta | 01:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14318e2a43",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-14318e2a43",
-                  "name": "Betis vs Ceuta",
-                  "streams": [
-                    {
-                      "id": "st-14318e2a43",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Club Friendlies",
-            "team_a": "Betis",
-            "team_b": "Ceuta",
-            "logo_a": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6853_ceuta.jpg",
-            "time": "01:00",
-            "date": "02/10",
-            "blv": "Táo Dai",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/24317_ac9fa359_20261001.png?v=ac9fa359",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-f7da8deec4",
           "name": "Hy Lạp vs Hà Lan | 01:45 02/10",
           "type": "single",
@@ -4031,7 +3956,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4106,7 +4031,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4181,7 +4106,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4256,7 +4181,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4331,7 +4256,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4406,7 +4331,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4423,7 +4348,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4494,8 +4419,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Việt Nam",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/images_t97Qc0H.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/images_t97Qc0H.png",
             "time": "16:00",
             "date": "02/10",
             "blv": "Chim Nhỏ, Tày",
@@ -4509,7 +4434,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_4ef84d14_20261001.png?v=4ef84d14",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_fcc915b6_20261001.png?v=fcc915b6",
             "width": 1600,
             "height": 1200
           }
@@ -4550,7 +4475,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4567,7 +4492,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4621,8 +4546,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Thái Lan",
             "team_b": "Philippines",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_341.jpg",
             "time": "16:00",
             "date": "02/10",
             "blv": "Tam Mao, Lee Sin",
@@ -4636,7 +4561,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261001.png?v=f84ec839",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_4d16f9a5_20261001.png?v=4d16f9a5",
             "width": 1600,
             "height": 1200
           }
@@ -4677,7 +4602,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4787,7 +4712,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4804,7 +4729,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4914,7 +4839,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4931,7 +4856,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5006,7 +4931,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5081,7 +5006,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5156,7 +5081,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5518,86 +5443,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-085041a0a9",
-          "name": "Philippines vs Indonesia | 17:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-085041a0a9",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-085041a0a9",
-                  "name": "Philippines vs Indonesia",
-                  "streams": [
-                    {
-                      "id": "st-085041a0a9",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b324cec71d",
-                          "name": "Enzo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://luong.phaohoa.live/live/phaohoa2/index.m3u8?expire=1815505159&sign=d3bfcbaa36f949863f22cc89e1cc1afa",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIAD GAME",
-            "team_a": "Philippines",
-            "team_b": "Indonesia",
-            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_njudfFz.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_WqmhllM.jpg",
-            "time": "17:00",
-            "date": "01/10",
-            "blv": "Enzo",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26423_626a1ec2_20261001.png?v=626a1ec2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-b4915aab19",
           "name": "Nhật Bản vs Qatar | 17:20 01/10",
@@ -5634,7 +5484,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5653,8 +5503,8 @@
             "league": "ASIAD GAME",
             "team_a": "Nhật Bản",
             "team_b": "Qatar",
-            "logo_a": "https://xoiche1.live/media/teams/logos/OIP_4xNC98N.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/OIP_TkTkw3i.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/OIP_4xNC98N.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/OIP_TkTkw3i.jpg",
             "time": "17:20",
             "date": "01/10",
             "blv": "KaKa",
@@ -5668,7 +5518,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_c3d2a7ad_20261001.png?v=c3d2a7ad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26424_262e5b62_20261001.png?v=262e5b62",
             "width": 1600,
             "height": 1200
           }
