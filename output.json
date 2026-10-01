@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1408,7 +1408,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1619,8 +1619,8 @@
           }
         },
         {
-          "id": "xc-5b6a98d170",
-          "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
+          "id": "gv-87a20c02eb",
+          "name": "U21 Armenia vs U21 Ý | 23:30 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1630,81 +1630,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b6a98d170",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5b6a98d170",
-                  "name": "Al-Gharafa vs Al Mesaimeer",
-                  "streams": [
-                    {
-                      "id": "st-5b6a98d170",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche1.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "QSL Cup",
-            "team_a": "Al-Gharafa",
-            "team_b": "Al Mesaimeer",
-            "logo_a": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8588_al-mesaimeer.jpg",
-            "time": "22:00",
-            "date": "01/10",
-            "blv": "Táo Dai",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23864_9521afab_20261001.png?v=9521afab",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-87a20c02eb",
-          "name": "U21 Armenia vs U21 Ý | 23:30 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1752,7 +1677,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/italy-u21.png",
             "time": "23:30 01/10",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1760,6 +1685,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683b98524bc32556c602744a_f04445d9_20261001.png?v=f04445d9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5b6a98d170",
+          "name": "Al-Gharafa vs Al Mesaimeer | 22:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5b6a98d170",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5b6a98d170",
+                  "name": "Al-Gharafa vs Al Mesaimeer",
+                  "streams": [
+                    {
+                      "id": "st-5b6a98d170",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "QSL Cup",
+            "team_a": "Al-Gharafa",
+            "team_b": "Al Mesaimeer",
+            "logo_a": "https://apiv3.apifootball.com/badges/391_al-gharafa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8588_al-mesaimeer.jpg",
+            "time": "22:00",
+            "date": "01/10",
+            "blv": "Táo Dai",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 3,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/23864_9521afab_20261001.png?v=9521afab",
             "width": 1600,
             "height": 1200
           }
@@ -2082,7 +2082,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2188,7 +2188,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2398,7 +2398,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3260,7 +3260,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3335,7 +3335,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3410,7 +3410,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3485,7 +3485,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3556,8 +3556,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Việt Nam",
             "team_b": "Pakistan",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_479.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/images_t97Qc0H.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_479.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/images_t97Qc0H.png",
             "time": "16:00",
             "date": "02/10",
             "blv": "Khô Cay",
@@ -3571,7 +3571,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_4ef84d14_20261001.png?v=4ef84d14",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26496_fcc915b6_20261001.png?v=fcc915b6",
             "width": 1600,
             "height": 1200
           }
@@ -3612,7 +3612,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3666,8 +3666,8 @@
             "league": "Copa De La Liga - Play Offs",
             "team_a": "Thái Lan",
             "team_b": "Philippines",
-            "logo_a": "https://xoiche1.live/media/teams/logos/team_480.jpg",
-            "logo_b": "https://xoiche1.live/media/teams/logos/team_341.jpg",
+            "logo_a": "https://xoiche.live/media/teams/logos/team_480.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_341.jpg",
             "time": "16:00",
             "date": "02/10",
             "blv": "Tam Mao",
@@ -3681,7 +3681,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_f84ec839_20261001.png?v=f84ec839",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/26497_4d16f9a5_20261001.png?v=4d16f9a5",
             "width": 1600,
             "height": 1200
           }
@@ -3722,7 +3722,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3832,7 +3832,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3942,7 +3942,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4017,7 +4017,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4092,7 +4092,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche1.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
