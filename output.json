@@ -2962,11 +2962,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng",
+                          "id": "lnk-f536973e27",
+                          "name": "Pháo Thủ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2979,11 +2979,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f536973e27",
-                          "name": "Pháo Thủ",
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa4/index.m3u8?expire=1815505159&sign=faaa23580764370ed378ecd708c9f262",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3010,7 +3010,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/692_norway.jpg",
             "time": "01:45",
             "date": "02/10",
-            "blv": "Gà Rừng, Pháo Thủ",
+            "blv": "Pháo Thủ, Gà Rừng",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -3867,11 +3867,11 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-d94a9f6f03",
+                          "name": "Chim Nhỏ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3884,11 +3884,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-d94a9f6f03",
-                          "name": "Chim Nhỏ",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://luong.phaohoa.live/live/phaohoa5/index.m3u8?expire=1815505159&sign=67cc5bcdcabb081229f5406e5b07483d",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3915,7 +3915,7 @@
             "logo_b": "https://xoiche1.live/media/teams/logos/team_37951.gif",
             "time": "18:30",
             "date": "01/10",
-            "blv": "Tam Mao, Chim Nhỏ",
+            "blv": "Chim Nhỏ, Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -4696,14 +4696,85 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-a74008bf85",
+          "name": "Tokyo Open vs 2026 | 09:00 01/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a74008bf85",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a74008bf85",
+                  "name": "Tokyo Open vs 2026",
+                  "streams": [
+                    {
+                      "id": "st-a74008bf85",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fba206c43c",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790781031_hd/1790781031_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Tokyo Open",
+            "team_a": "Tokyo Open",
+            "team_b": "2026",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10",
+            "logo_b": "https://tennissignals.com/wp-content/uploads/2026/09/atp-tokyo-japan-open-2026-draw-featured-image.png",
+            "time": "09:00 01/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/yo9o97ecn3ju_f5a9f638_20261001.png?v=f5a9f638",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c37ef3cdb4",
-          "name": "Beijing Open vs 2026 | 09:00 01/10",
+          "name": "Beijing Open vs 2026 | 10:00 01/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4758,7 +4829,7 @@
             "team_b": "2026",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTADC3pRGirDoA1eaQtvYds8PQ-vmcEESiPHvywMVtvYU3ERTP__FyL8m8F&s=10",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsQspwrh-Dk7JtfASP2qpK4oJgKz4Xd02T8keMrfzJeQ02gF-3s7n3mKY&s=10",
-            "time": "09:00 01/10",
+            "time": "10:00 01/10",
             "blv": "Ben",
             "is_live": false,
             "cate_type": "tennis"
@@ -4768,77 +4839,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/wcw23uj5ldtg_1ad43bdf_20261001.png?v=1ad43bdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a74008bf85",
-          "name": "Tokyo Open vs 2026 | 09:00 01/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a74008bf85",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a74008bf85",
-                  "name": "Tokyo Open vs 2026",
-                  "streams": [
-                    {
-                      "id": "st-a74008bf85",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fba206c43c",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790781031_hd/1790781031_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Tokyo Open",
-            "team_a": "Tokyo Open",
-            "team_b": "2026",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScASzyMboTqvaXcsCvqZO4pouOAu1HBj0MKVDdJhRvOY8MuXuWxc8j6CA&s=10",
-            "logo_b": "https://tennissignals.com/wp-content/uploads/2026/09/atp-tokyo-japan-open-2026-draw-featured-image.png",
-            "time": "09:00 01/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/yo9o97ecn3ju_f5a9f638_20261001.png?v=f5a9f638",
             "width": 1600,
             "height": 1200
           }
@@ -7735,7 +7735,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7819,10 +7819,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7870,7 +7870,7 @@
             "logo_b": "https://1000logos.net/wp-content/uploads/2017/07/Chicago-Cubs-Logo.png",
             "time": "09:00 01/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
