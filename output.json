@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1197,7 +1197,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1389,7 +1389,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1597,6 +1597,147 @@
           }
         },
         {
+          "id": "gv-991a2736ed",
+          "name": "North Korea W vs Japan W | 17:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-991a2736ed",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-991a2736ed",
+                  "name": "North Korea W vs Japan W",
+                  "streams": [
+                    {
+                      "id": "st-991a2736ed",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97837eee3b",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904627_hd/1790904627_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a6d01d2e4f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a6d01d2e4f",
+                  "name": "North Korea W vs Japan W",
+                  "streams": [
+                    {
+                      "id": "st-a6d01d2e4f",
+                      "name": "PhaoHoa - Táo Dai",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f945d702bc",
+                          "name": "Táo Dai",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche1.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-36d08fb996",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-36d08fb996",
+                  "name": "North Korea Women vs Japan Women",
+                  "streams": [
+                    {
+                      "id": "st-36d08fb996",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-529365025c",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/47ff9f2f026e4d678e480c8ef73cc562/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASIA - Asian Games Women - Play Offs",
+            "team_a": "North Korea W",
+            "team_b": "Japan W",
+            "logo_a": "https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QRlYWUhl-E1YhvyqD.png",
+            "time": "17:30 02/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ckpqb2xlp71a_b2c6a73c_20261002.png?v=b2c6a73c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-ef134c35b4",
           "name": "Thailand vs Philippines | 16:40 02/10",
           "type": "single",
@@ -1663,147 +1804,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y0or5jh875e9qwz_59d7a76c_20261002.png?v=59d7a76c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-991a2736ed",
-          "name": "North Korea W vs Japan W | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-991a2736ed",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-991a2736ed",
-                  "name": "North Korea W vs Japan W",
-                  "streams": [
-                    {
-                      "id": "st-991a2736ed",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97837eee3b",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790904627_hd/1790904627_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a6d01d2e4f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a6d01d2e4f",
-                  "name": "North Korea W vs Japan W",
-                  "streams": [
-                    {
-                      "id": "st-a6d01d2e4f",
-                      "name": "PhaoHoa - Táo Dai",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f945d702bc",
-                          "name": "Táo Dai",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-36d08fb996",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-36d08fb996",
-                  "name": "North Korea Women vs Japan Women",
-                  "streams": [
-                    {
-                      "id": "st-36d08fb996",
-                      "name": "Phalang - LÝ LINH LỰC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-529365025c",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/47ff9f2f026e4d678e480c8ef73cc562/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASIA - Asian Games Women - Play Offs",
-            "team_a": "North Korea W",
-            "team_b": "Japan W",
-            "logo_a": "https://static.flashscore.com/res/image/data/tYIRtYDa-xpPmazWa.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QRlYWUhl-E1YhvyqD.png",
-            "time": "17:30 02/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ckpqb2xlp71a_b2c6a73c_20261002.png?v=b2c6a73c",
             "width": 1600,
             "height": 1200
           }
@@ -2445,7 +2445,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2797,7 +2797,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3394,7 +3394,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4429,7 +4429,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4504,7 +4504,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4579,7 +4579,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4654,7 +4654,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4729,7 +4729,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4839,7 +4839,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4914,7 +4914,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4989,7 +4989,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5064,7 +5064,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5139,7 +5139,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5776,83 +5776,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-fcda9d60aa",
-          "name": "Carlo Biado vs Olivér Szolnoki | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fcda9d60aa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-fcda9d60aa",
-                  "name": "Carlo Biado vs Olivér Szolnoki",
-                  "streams": [
-                    {
-                      "id": "st-fcda9d60aa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fcda9d60aa",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8605/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 Last thirtytwo Đơn Nam",
-            "team_a": "Carlo Biado",
-            "team_b": "Olivér Szolnoki",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883197351_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790923899566_Screenshot%202026-10-02%20135134.png",
-            "time": "15:30 02/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790929800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fcda9d60aa_a7de4396_20261002.png?v=a7de4396",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3dc574f225",
           "name": "Aloysius Yapp vs Eklent Kaçi | BÚN CHÓ",
@@ -5921,222 +5849,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3dc574f225_7869b2d3_20261002.png?v=7869b2d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-6c8e2b8864",
-          "name": "Seoa Seo vs Chezka Centeno | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c8e2b8864",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6c8e2b8864",
-                  "name": "Seoa Seo vs Chezka Centeno",
-                  "streams": [
-                    {
-                      "id": "st-6c8e2b8864",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c8e2b8864",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8608/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Seoa Seo",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883342173_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883334075_Chezka%20Centeno.jpg",
-            "time": "17:30 02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790937000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c8e2b8864_79a4412e_20261002.png?v=79a4412e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-dfce206b76",
-          "name": "Chia Hua Chen vs Chihiro Kawahara | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dfce206b76",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-dfce206b76",
-                  "name": "Chia Hua Chen vs Chihiro Kawahara",
-                  "streams": [
-                    {
-                      "id": "st-dfce206b76",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dfce206b76",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8610/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Chia Hua Chen",
-            "team_b": "Chihiro Kawahara",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883450818_Chia%20Hua%20Chen.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883454232_CHIHIRO%20KAWAHARA.jpg",
-            "time": "17:30 02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790937000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-8d6c2159a2",
-          "name": "Kristina Tkach vs Tzu-Chien Wei | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d6c2159a2",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-8d6c2159a2",
-                  "name": "Kristina Tkach vs Tzu-Chien Wei",
-                  "streams": [
-                    {
-                      "id": "st-8d6c2159a2",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d6c2159a2",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8609/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Kristina Tkach",
-            "team_b": "Tzu-Chien Wei",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883401624_Kristina%20Tkach.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883404778_Tzu-Chien%20Wei.jpg",
-            "time": "17:30 02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790937000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8d6c2159a2_62a93c8d_20261002.png?v=62a93c8d",
             "width": 1600,
             "height": 1200
           }
@@ -6510,83 +6222,11 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-798af1f921",
-          "name": "Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix | 15:00 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-798af1f921",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-798af1f921",
-                  "name": "Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-798af1f921",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4a43ce8fa0",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790840310_hd/1790840310_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Gulf Air Bahrain Grand Prix",
-            "team_a": "Gulf Air Bahrain Grand Prix",
-            "team_b": "Gulf Air Bahrain Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10",
-            "time": "15:00 02/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/v68ny63irrsg_05e45ea8_20261002.png?v=05e45ea8",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-bàn",
