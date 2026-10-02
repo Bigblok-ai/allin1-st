@@ -5239,7 +5239,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5252,10 +5252,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5303,7 +5303,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6a6d3d4063e675d1ce3e701153e3f367.png",
             "time": "16:30 02/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -5897,78 +5897,6 @@
           }
         },
         {
-          "id": "chtv-6c8e2b8864",
-          "name": "Seoa Seo vs Chezka Centeno | 17:30 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c8e2b8864",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-6c8e2b8864",
-                  "name": "Seoa Seo vs Chezka Centeno",
-                  "streams": [
-                    {
-                      "id": "st-6c8e2b8864",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c8e2b8864",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8608/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Tứ Kết Nữ",
-            "team_a": "Seoa Seo",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790883342173_SEO%20SEOA.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790883334075_Chezka%20Centeno.jpg",
-            "time": "17:30 02/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1790937000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c8e2b8864_79a4412e_20261002.png?v=79a4412e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-dfce206b76",
           "name": "Chia Hua Chen vs Chihiro Kawahara | 17:30 02/10",
           "type": "single",
@@ -6036,6 +5964,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dfce206b76_73f8dca8_20261002.png?v=73f8dca8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6c8e2b8864",
+          "name": "Seoa Seo vs Chezka Centeno | 17:30 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c8e2b8864",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6c8e2b8864",
+                  "name": "Seoa Seo vs Chezka Centeno",
+                  "streams": [
+                    {
+                      "id": "st-6c8e2b8864",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c8e2b8864",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8608/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Tứ Kết Nữ",
+            "team_a": "Seoa Seo",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790883342173_SEO%20SEOA.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790883334075_Chezka%20Centeno.jpg",
+            "time": "17:30 02/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1790937000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6c8e2b8864_79a4412e_20261002.png?v=79a4412e",
             "width": 1600,
             "height": 1200
           }
@@ -6116,11 +6116,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "pl-94f1cfecff",
+          "name": "Nhật Bản vs Trung Quốc | 17:20 02/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-94f1cfecff",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-94f1cfecff",
+                  "name": "Nhật Bản vs Trung Quốc",
+                  "streams": [
+                    {
+                      "id": "st-94f1cfecff",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87b9ab8878",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/fdffac894a8144b69da2102c1413c607/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asian Games",
+            "team_a": "Nhật Bản",
+            "team_b": "Trung Quốc",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
+            "time": "17:20 02/10",
+            "blv": "LÝ LÊN LỬA",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d818ee81a1bc40999ee2f36649863cd7_ff08cc5b_20261002.png?v=ff08cc5b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-1837951cdf",
           "name": "Việt Nam vs Indonesia | 17:00 02/10",
@@ -6188,77 +6259,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d0f9a0d9587642858d03d23faba80006_7a09f34d_20261002.png?v=7a09f34d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-94f1cfecff",
-          "name": "Nhật Bản vs Trung Quốc | 17:20 02/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-94f1cfecff",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-94f1cfecff",
-                  "name": "Nhật Bản vs Trung Quốc",
-                  "streams": [
-                    {
-                      "id": "st-94f1cfecff",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87b9ab8878",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/fdffac894a8144b69da2102c1413c607/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asian Games",
-            "team_a": "Nhật Bản",
-            "team_b": "Trung Quốc",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/b337fa1acec0642f9ded3da29456d58a.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/da0f5c2d7a7ced93056baddc54135a74.png!w80",
-            "time": "17:20 02/10",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d818ee81a1bc40999ee2f36649863cd7_ff08cc5b_20261002.png?v=ff08cc5b",
             "width": 1600,
             "height": 1200
           }
