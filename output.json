@@ -5705,7 +5705,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5718,10 +5718,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5769,7 +5769,7 @@
             "logo_b": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Flag_of_Chinese_Taipei_for_Olympic_Games.svg",
             "time": "17:00 03/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -5789,10 +5789,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5840,7 +5840,7 @@
             "logo_b": "https://img0.aiscore.com/volleyball/team/93ff8d7f8cbb4a363bee874b30e2a263.png!w80",
             "time": "17:00 03/10",
             "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
@@ -6639,83 +6639,11 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-798af1f921",
-          "name": "Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix | 15:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-798af1f921",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-798af1f921",
-                  "name": "Gulf Air Bahrain Grand Prix vs Gulf Air Bahrain Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-798af1f921",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4a43ce8fa0",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790840310_hd/1790840310_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Gulf Air Bahrain Grand Prix",
-            "team_a": "Gulf Air Bahrain Grand Prix",
-            "team_b": "Gulf Air Bahrain Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg-QFVk7ywVZkSYvxmUj-esyt7lv4--MPtntztVQQP_OWo7Lp7-XvpMB8&s=10",
-            "time": "15:00 03/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/v68ny63irrsg_05e45ea8_20261003.png?v=05e45ea8",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-bàn",
