@@ -1365,7 +1365,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -4778,7 +4778,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4856,6 +4856,78 @@
           }
         },
         {
+          "id": "chtv-d200d22bbd",
+          "name": "WPA USA Men vs WPA Indonesia Men | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d200d22bbd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d200d22bbd",
+                  "name": "WPA USA Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-d200d22bbd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d200d22bbd",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8660/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 ( -_•)▄︻━一💥 tứ kết đôi nam",
+            "team_a": "WPA USA Men",
+            "team_b": "WPA Indonesia Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791009791685_Shane%20Van%20Boening.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791009797246_ALBERT%20JANURATA.jpg",
+            "time": "17:30 03/10",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d200d22bbd_7c5fd8d2_20261003.png?v=7c5fd8d2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-90d2c19949",
           "name": "WPA Poland Men vs WPA Finland Men | Xinh Yeu",
           "type": "single",
@@ -4923,6 +4995,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d2c19949_c4c142f6_20261003.png?v=c4c142f6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b7bedb7f75",
+          "name": "WPA Syria Men vs WPA Philippines Men | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b7bedb7f75",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b7bedb7f75",
+                  "name": "WPA Syria Men vs WPA Philippines Men",
+                  "streams": [
+                    {
+                      "id": "st-b7bedb7f75",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7bedb7f75",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8661/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ( -_•)▄︻━一💥 tứ kết đôi nam",
+            "team_a": "WPA Syria Men",
+            "team_b": "WPA Philippines Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791009898850_MOHAMMAD%20SOUFI.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791009865563_AJ%20MANAS.jpg",
+            "time": "17:30 03/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b7bedb7f75_1b5e8154_20261003.png?v=1b5e8154",
             "width": 1600,
             "height": 1200
           }
@@ -5000,8 +5144,8 @@
           }
         },
         {
-          "id": "chtv-d200d22bbd",
-          "name": "WPA USA Men vs WPA Indonesia Men | VÁNG",
+          "id": "chtv-bf05c07152",
+          "name": "HUY C300 vs UYỂN NHI | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5015,23 +5159,23 @@
           ],
           "sources": [
             {
-              "id": "src-d200d22bbd",
+              "id": "src-bf05c07152",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-d200d22bbd",
-                  "name": "WPA USA Men vs WPA Indonesia Men",
+                  "id": "ct-bf05c07152",
+                  "name": "HUY C300 vs UYỂN NHI",
                   "streams": [
                     {
-                      "id": "st-d200d22bbd",
+                      "id": "st-bf05c07152",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-d200d22bbd",
-                          "name": "VÁNG",
+                          "id": "lnk-bf05c07152",
+                          "name": "Kèn Kèn",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8660/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8672/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5051,94 +5195,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV1 ( -_•)▄︻━一💥 tứ kết đôi nam",
-            "team_a": "WPA USA Men",
-            "team_b": "WPA Indonesia Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791009791685_Shane%20Van%20Boening.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791009797246_ALBERT%20JANURATA.jpg",
-            "time": "17:30 03/10",
-            "blv": "VÁNG",
+            "league": "VN",
+            "team_a": "HUY C300",
+            "team_b": "UYỂN NHI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765348908885_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765417529949_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "20:08 03/10",
+            "blv": "Kèn Kèn",
             "is_live": true,
-            "time_sort": 1791023400,
+            "time_sort": 1791032880,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d200d22bbd_7c5fd8d2_20261003.png?v=7c5fd8d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-b7bedb7f75",
-          "name": "WPA Syria Men vs WPA Philippines Men | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b7bedb7f75",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b7bedb7f75",
-                  "name": "WPA Syria Men vs WPA Philippines Men",
-                  "streams": [
-                    {
-                      "id": "st-b7bedb7f75",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7bedb7f75",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8661/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  ( -_•)▄︻━一💥 tứ kết đôi nam",
-            "team_a": "WPA Syria Men",
-            "team_b": "WPA Philippines Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791009898850_MOHAMMAD%20SOUFI.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791009865563_AJ%20MANAS.jpg",
-            "time": "17:30 03/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791023400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b7bedb7f75_1b5e8154_20261003.png?v=1b5e8154",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf05c07152_43a84cb9_20261003.png?v=43a84cb9",
             "width": 1600,
             "height": 1200
           }
@@ -5147,7 +5219,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5254,81 +5326,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/k9j81v0gyph6_290e854d_20261003.png?v=290e854d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ae71f3fbfe",
-          "name": "VakifBank vs Besiktas | 18:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ae71f3fbfe",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ae71f3fbfe",
-                  "name": "VakifBank vs Besiktas",
-                  "streams": [
-                    {
-                      "id": "st-ae71f3fbfe",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "Xôi Gà",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi Nữ",
-            "team_a": "VakifBank",
-            "team_b": "Besiktas",
-            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_187.png",
-            "time": "18:00",
-            "date": "03/10",
-            "blv": "Xôi Gà",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_757ecac9_20261003.png?v=757ecac9",
             "width": 1600,
             "height": 1200
           }
