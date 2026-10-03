@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1410,6 +1410,150 @@
           }
         },
         {
+          "id": "xc-b8df2222fc",
+          "name": "Hong Kong vs Cambodia | 17:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b8df2222fc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b8df2222fc",
+                  "name": "Hong Kong vs Cambodia",
+                  "streams": [
+                    {
+                      "id": "st-b8df2222fc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ec244d9f3f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-ec244d9f3f",
+                  "name": "Hong Kong vs Cambodia",
+                  "streams": [
+                    {
+                      "id": "st-ec244d9f3f",
+                      "name": "CCport - Chuối Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Fifa Asean Cup - Division 2 - Play Offs",
+            "team_a": "Hong Kong",
+            "team_b": "Cambodia",
+            "logo_a": "https://xoiche.live/media/teams/logos/download_IAaCYjl.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/team_358.jpg",
+            "time": "17:00",
+            "date": "03/10",
+            "blv": "Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31831_5910bb1c_20261003.png?v=5910bb1c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-14a3d1303a",
           "name": "Oita Trinita vs Yamagata Montedio | 15:00 03/10",
           "type": "single",
@@ -1476,6 +1620,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab9ae1924d46db870ba25d7_53b951a1_20261003.png?v=53b951a1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-7031fb603b",
+          "name": "Hồng Kông vs Campuchia | 17:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7031fb603b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7031fb603b",
+                  "name": "Hồng Kông vs Campuchia",
+                  "streams": [
+                    {
+                      "id": "st-7031fb603b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96a90d2978",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791019536_hd/1791019536_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Hồng Kông",
+            "team_b": "Campuchia",
+            "logo_a": "https://images.keovip88.net/images/teams/hong-kong.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cambodia.png",
+            "time": "17:00 03/10",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6abef40c24d46db870905051_753651a8_20261003.png?v=753651a8",
             "width": 1600,
             "height": 1200
           }
@@ -4079,150 +4294,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/27717_80e7abdd_20261003.png?v=80e7abdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-b8df2222fc",
-          "name": "Hong Kong vs Cambodia | 17:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b8df2222fc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b8df2222fc",
-                  "name": "Hong Kong vs Cambodia",
-                  "streams": [
-                    {
-                      "id": "st-b8df2222fc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ec244d9f3f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-ec244d9f3f",
-                  "name": "Hong Kong vs Cambodia",
-                  "streams": [
-                    {
-                      "id": "st-ec244d9f3f",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Fifa Asean Cup - Division 2 - Play Offs",
-            "team_a": "Hong Kong",
-            "team_b": "Cambodia",
-            "logo_a": "https://xoiche.live/media/teams/logos/download_IAaCYjl.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_358.jpg",
-            "time": "17:00",
-            "date": "03/10",
-            "blv": "Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31831_5910bb1c_20261003.png?v=5910bb1c",
             "width": 1600,
             "height": 1200
           }
