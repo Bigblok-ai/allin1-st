@@ -1121,11 +1121,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-adf921de5f",
+          "name": "FC Tulsa vs Sacramento Republic FC | 07:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-adf921de5f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-adf921de5f",
+                  "name": "FC Tulsa vs Sacramento Republic FC",
+                  "streams": [
+                    {
+                      "id": "st-adf921de5f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-36874263b1",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791051657_hd/1791051657_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "USL Championship Mỹ",
+            "team_a": "FC Tulsa",
+            "team_b": "Sacramento Republic FC",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-tulsa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sacramento-republic-fc.png",
+            "time": "07:00 04/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab9ae2f24d46db870ba4387_f83630df_20261004.png?v=f83630df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-ab44339603",
           "name": "Argentina vs Burkina Faso | 07:00 04/10",
@@ -1406,77 +1477,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1492310_f3c32c62_20261004.png?v=f3c32c62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-adf921de5f",
-          "name": "FC Tulsa vs Sacramento Republic FC | 07:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-adf921de5f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-adf921de5f",
-                  "name": "FC Tulsa vs Sacramento Republic FC",
-                  "streams": [
-                    {
-                      "id": "st-adf921de5f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-36874263b1",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791051657_hd/1791051657_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "USL Championship Mỹ",
-            "team_a": "FC Tulsa",
-            "team_b": "Sacramento Republic FC",
-            "logo_a": "https://images.keovip88.net/images/teams/fc-tulsa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sacramento-republic-fc.png",
-            "time": "07:00 04/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab9ae2f24d46db870ba4387_f83630df_20261004.png?v=f83630df",
             "width": 1600,
             "height": 1200
           }
@@ -4549,6 +4549,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-fd78d7a7ff",
+          "name": "WPA Spain Men vs WPA Poland Men | 12:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd78d7a7ff",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-fd78d7a7ff",
+                  "name": "WPA Spain Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-fd78d7a7ff",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fd78d7a7ff",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8691/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-358b4520c5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-358b4520c5",
+                  "name": "WPA Spain Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-358b4520c5",
+                      "name": "Choang",
+                      "stream_links": [
+                        {
+                          "id": "lnk-358b4520c5",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8685/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8c54d6c24b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8c54d6c24b",
+                  "name": "WPA Spain Men vs WPA Poland Men",
+                  "streams": [
+                    {
+                      "id": "st-8c54d6c24b",
+                      "name": "Choang",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8c54d6c24b",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8687/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bán Kết Đôi Nam kèo đóng muộn",
+            "team_a": "WPA Spain Men",
+            "team_b": "WPA Poland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1764310938354_t%E1%BA%A3i%20xu%E1%BB%91ng.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791051381856_Marco%20Teutscher.jpg",
+            "time": "12:30 04/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791091800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-fd78d7a7ff_04b22211_20261004.png?v=04b22211",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cabd37236c",
+          "name": "WPA Philippines Men vs WPA Indonesia Men | 12:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cabd37236c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cabd37236c",
+                  "name": "WPA Philippines Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-cabd37236c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cabd37236c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8686/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b07f317cfc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b07f317cfc",
+                  "name": "WPA Philippines Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-b07f317cfc",
+                      "name": "Choang",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b07f317cfc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8689/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8bcb274ef2",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8bcb274ef2",
+                  "name": "WPA Philippines Men vs WPA Indonesia Men",
+                  "streams": [
+                    {
+                      "id": "st-8bcb274ef2",
+                      "name": "Choang",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8bcb274ef2",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8690/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Con gấu kiếm ăn đủ thì nó mới có thể ngủ đông.",
+            "team_a": "WPA Philippines Men",
+            "team_b": "WPA Indonesia Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791050012483_AJ%20MANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791050025392_ALBERT%20JANURATA.jpg",
+            "time": "12:30 04/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1791091800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cabd37236c_45b122c4_20261004.png?v=45b122c4",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -5264,7 +5548,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5348,10 +5632,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5399,7 +5683,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
             "time": "07:30 04/10",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
