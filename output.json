@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1718,10 +1718,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1769,7 +1769,7 @@
             "logo_b": "https://sta.vnres.co/file/common/20261001/7e771db40108915be2f42d45d089ac9c.png",
             "time": "00:00 04/10",
             "blv": "LÝ LINH LỰC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3589,6 +3589,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab9ae3124d46db870ba4622_fc23eddf_20261003.png?v=fc23eddf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-4c8fc4e69b",
+          "name": "Bryne vs Lyn | 19:30 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4c8fc4e69b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-4c8fc4e69b",
+                  "name": "Bryne vs Lyn",
+                  "streams": [
+                    {
+                      "id": "st-4c8fc4e69b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef40a579ad",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791017188_hd/1791017188_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Norway - OBOS-ligaen",
+            "team_a": "Bryne",
+            "team_b": "Lyn",
+            "logo_a": "https://static.flashscore.com/res/image/data/zyDlfTYA-MgUxY1Yb.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QFujrmCa-GEWDK90d.png",
+            "time": "19:30 04/10",
+            "blv": "BLV Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/vjhvyt6kxy80_418a8525_20261003.png?v=418a8525",
             "width": 1600,
             "height": 1200
           }
