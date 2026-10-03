@@ -3766,10 +3766,27 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-c210608a27",
                           "name": "Khô Cay",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
@@ -3797,7 +3814,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/9_austria.jpg",
             "time": "23:00",
             "date": "04/10",
-            "blv": "Khô Cay",
+            "blv": "Xôi Xoài, Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
