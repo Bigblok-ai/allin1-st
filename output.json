@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1197,7 +1197,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1303,76 +1303,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ed301f3fa4",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-ed301f3fa4",
-                  "name": "U23 Hàn Quốc vs Japan U23",
-                  "streams": [
-                    {
-                      "id": "st-ed301f3fa4",
-                      "name": "CCport - Camry",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f711260388",
-                          "name": "Camry HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/camry/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-efc1647dba",
-                          "name": "Camry HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/camryhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70c2ac45cf",
-                          "name": "Camry FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/camryhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1438,6 +1369,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/u6fiwz5ggwyg_c4926fd9_20261003.png?v=c4926fd9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-84b3d713b3",
+          "name": "Phần Lan vs Albania | 20:00 03/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-84b3d713b3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-84b3d713b3",
+                  "name": "Phần Lan vs Albania",
+                  "streams": [
+                    {
+                      "id": "st-84b3d713b3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3109dd3acb",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791025759_hd/1791025759_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Phần Lan",
+            "team_b": "Albania",
+            "logo_a": "https://images.keovip88.net/images/teams/finland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/albania.png",
+            "time": "20:00 03/10",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f2a1a2bb398665fd0908e1_e833bcda_20261003.png?v=e833bcda",
             "width": 1600,
             "height": 1200
           }
@@ -1583,77 +1585,6 @@
           }
         },
         {
-          "id": "gv-84b3d713b3",
-          "name": "Phần Lan vs Albania | 20:00 03/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-84b3d713b3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-84b3d713b3",
-                  "name": "Phần Lan vs Albania",
-                  "streams": [
-                    {
-                      "id": "st-84b3d713b3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3109dd3acb",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791025759_hd/1791025759_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Phần Lan",
-            "team_b": "Albania",
-            "logo_a": "https://images.keovip88.net/images/teams/finland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/albania.png",
-            "time": "20:00 03/10",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f2a1a2bb398665fd0908e1_e833bcda_20261003.png?v=e833bcda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-57683db2b8",
           "name": "Ấn Độ vs Brazil | 21:00 03/10",
           "type": "single",
@@ -1724,7 +1655,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2005,7 +1936,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2266,7 +2197,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2690,7 +2621,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2796,7 +2727,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2902,7 +2833,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3901,7 +3832,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3976,7 +3907,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4051,7 +3982,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4195,7 +4126,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4270,7 +4201,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4449,7 +4380,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4524,7 +4455,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4948,14 +4879,14 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-90d2c19949",
-          "name": "WPA Poland Men vs WPA Finland Men | Xinh Yeu",
+          "id": "chtv-289fff51d7",
+          "name": "JAYBEE SUCAL vs IAN JASPER (8-10) | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4969,23 +4900,23 @@
           ],
           "sources": [
             {
-              "id": "src-90d2c19949",
+              "id": "src-289fff51d7",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-90d2c19949",
-                  "name": "WPA Poland Men vs WPA Finland Men",
+                  "id": "ct-289fff51d7",
+                  "name": "JAYBEE SUCAL vs IAN JASPER (8-10)",
                   "streams": [
                     {
-                      "id": "st-90d2c19949",
+                      "id": "st-289fff51d7",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-90d2c19949",
-                          "name": "Xinh Yeu",
+                          "id": "lnk-289fff51d7",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8659/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8667/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5005,22 +4936,22 @@
             }
           ],
           "org_metadata": {
-            "league": "TV4  ( -_•)▄︻━一💥 tứ kết đôi nam",
-            "team_a": "WPA Poland Men",
-            "team_b": "WPA Finland Men",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791009570645_Screenshot%202026-10-03%20133815.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791009570277_Screenshot%202026-10-03%20133928.png",
-            "time": "17:30 03/10",
-            "blv": "Xinh Yeu",
+            "league": "Anh như con cáo, em như một cành nho xanh.",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "IAN JASPER (8-10)",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791030102334_JAYBEE%20SUCAL.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765797026729_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "00:00 03/10",
+            "blv": "Tào A Man",
             "is_live": true,
-            "time_sort": 1791023400,
+            "time_sort": 1790960400,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d2c19949_c4c142f6_20261003.png?v=c4c142f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-289fff51d7_7ee96f4c_20261003.png?v=7ee96f4c",
             "width": 1600,
             "height": 1200
           }
@@ -5240,25 +5171,16 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-ee2ec1836b",
-          "name": "Iran vs Nhật Bản | 17:20 03/10",
+          "id": "chtv-90d2c19949",
+          "name": "WPA Poland Men vs WPA Finland Men | Xinh Yeu",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
@@ -5266,62 +5188,27 @@
           ],
           "sources": [
             {
-              "id": "src-ee2ec1836b",
-              "name": "GiovangTV",
+              "id": "src-90d2c19949",
+              "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ee2ec1836b",
-                  "name": "Iran vs Nhật Bản",
+                  "id": "ct-90d2c19949",
+                  "name": "WPA Poland Men vs WPA Finland Men",
                   "streams": [
                     {
-                      "id": "st-ee2ec1836b",
-                      "name": "GV",
+                      "id": "st-90d2c19949",
+                      "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-a9ecadc36a",
-                          "name": "Sún",
+                          "id": "lnk-90d2c19949",
+                          "name": "Xinh Yeu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1790967120_hd/1790967120_hd@720p.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8659/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-549ba1b267",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-549ba1b267",
-                  "name": "Nhật Bản vs Iran",
-                  "streams": [
-                    {
-                      "id": "st-549ba1b267",
-                      "name": "Phalang - LÝ LÊN LỬA",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25b239665e",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/9ebf9b79758e46cfaebfedcc8dc4a674/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://choangtv25.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -5337,25 +5224,35 @@
             }
           ],
           "org_metadata": {
-            "league": "Asiad 2026 Chung kết",
-            "team_a": "Iran",
-            "team_b": "Nhật Bản",
-            "logo_a": "https://images.keovip88.net/images/teams/iran.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/b7IyW1Br-Ea76SXrf.png",
-            "time": "17:20 03/10",
-            "blv": "Sún",
+            "league": "TV4  ( -_•)▄︻━一💥 tứ kết đôi nam",
+            "team_a": "WPA Poland Men",
+            "team_b": "WPA Finland Men",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791009570645_Screenshot%202026-10-03%20133815.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791009570277_Screenshot%202026-10-03%20133928.png",
+            "time": "17:30 03/10",
+            "blv": "Xinh Yeu",
             "is_live": true,
-            "cate_type": "bongchuyen"
+            "time_sort": 1791023400,
+            "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/lbwt390xmhlb_9e51f9cc_20261003.png?v=9e51f9cc",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d2c19949_c4c142f6_20261003.png?v=c4c142f6",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "grp-bóng-chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "xc-ae71f3fbfe",
           "name": "VakifBank vs Besiktas | 18:00 03/10",
@@ -5392,7 +5289,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche1.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5411,8 +5308,8 @@
             "league": "Sultanlar Ligi Nữ",
             "team_a": "VakifBank",
             "team_b": "Besiktas",
-            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_187.png",
+            "logo_a": "https://xoiche1.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche1.live/media/teams/logos/team_187.png",
             "time": "18:00",
             "date": "03/10",
             "blv": "Xôi Gà",
@@ -5426,7 +5323,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_757ecac9_20261003.png?v=757ecac9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/31174_41b06691_20261003.png?v=41b06691",
             "width": 1600,
             "height": 1200
           }
