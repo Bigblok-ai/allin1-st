@@ -4586,7 +4586,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4599,10 +4599,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4650,7 +4650,7 @@
             "logo_b": "https://storage.allsportdb.com/orig/event/4106f4c6-3113-497e-9755-a5745c9b7fbc",
             "time": "09:00 03/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -5044,6 +5044,78 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "chtv-35d182450b",
+          "name": "James Aranas vs Robbie Capito | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-35d182450b",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-35d182450b",
+                  "name": "James Aranas vs Robbie Capito",
+                  "streams": [
+                    {
+                      "id": "st-35d182450b",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35d182450b",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8640/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3  ( -_•)▄︻━一💥 Last sixteen",
+            "team_a": "James Aranas",
+            "team_b": "Robbie Capito",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1790954649043_JAMES%20ARANAS.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1790954651893_ROBBIE%20CAPITO.jpg",
+            "time": "08:00 03/10",
+            "blv": "Xinh Yeu",
+            "is_live": true,
+            "time_sort": 1790989200,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-35d182450b_c2a23bf9_20261003.png?v=c2a23bf9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-c1e45d111a",
           "name": "Daniel Macioł vs Jeffrey De Luna | BÚN CHÓ",
           "type": "single",
@@ -5183,78 +5255,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7eee25fb14_81a53fcb_20261003.png?v=81a53fcb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-35d182450b",
-          "name": "James Aranas vs Robbie Capito | Xinh Yeu",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35d182450b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-35d182450b",
-                  "name": "James Aranas vs Robbie Capito",
-                  "streams": [
-                    {
-                      "id": "st-35d182450b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35d182450b",
-                          "name": "Xinh Yeu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8640/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3  ( -_•)▄︻━一💥 Last sixteen",
-            "team_a": "James Aranas",
-            "team_b": "Robbie Capito",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1790954649043_JAMES%20ARANAS.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1790954651893_ROBBIE%20CAPITO.jpg",
-            "time": "08:00 03/10",
-            "blv": "Xinh Yeu",
-            "is_live": true,
-            "time_sort": 1790989200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-35d182450b_c2a23bf9_20261003.png?v=c2a23bf9",
             "width": 1600,
             "height": 1200
           }
@@ -6756,7 +6756,7 @@
         },
         {
           "id": "gv-4ca705961f",
-          "name": "ONE Fight Night 48: Erdogan vs. Elliott vs ONE Fight Night 48: Erdogan vs. Elliott | 08:00 03/10",
+          "name": "Erdogan vs Elliott | 08:00 03/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6775,7 +6775,7 @@
               "contents": [
                 {
                   "id": "ct-4ca705961f",
-                  "name": "ONE Fight Night 48: Erdogan vs. Elliott vs ONE Fight Night 48: Erdogan vs. Elliott",
+                  "name": "Erdogan vs Elliott",
                   "streams": [
                     {
                       "id": "st-4ca705961f",
@@ -6807,10 +6807,10 @@
           ],
           "org_metadata": {
             "league": "ONE Fight Night 48: Erdogan vs. Elliott",
-            "team_a": "ONE Fight Night 48: Erdogan vs. Elliott",
-            "team_b": "ONE Fight Night 48: Erdogan vs. Elliott",
-            "logo_a": "",
-            "logo_b": "",
+            "team_a": "Erdogan",
+            "team_b": "Elliott",
+            "logo_a": "https://static.flashscore.com/res/image/data/671U0L9r-0CHCDEUd.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bmP0HwdM-UmL8FhZH.png",
             "time": "08:00 03/10",
             "blv": "Dory",
             "is_live": true,
@@ -6820,7 +6820,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zpwa3q34tzjj_6654c734_20261003.png?v=6654c734",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zpwa3q34tzjj_0a57043c_20261003.png?v=0a57043c",
             "width": 1600,
             "height": 1200
           }
