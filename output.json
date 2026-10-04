@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1227,6 +1227,146 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1569954_ed194e0f_20261004.png?v=ed194e0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-c3800fd90b",
+          "name": "Kosovo vs Austria | 23:00 04/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3800fd90b",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-c3800fd90b",
+                  "name": "Kosovo vs Austria",
+                  "streams": [
+                    {
+                      "id": "st-c3800fd90b",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6e9a94f678",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6e9a94f678",
+                  "name": "Kosovo vs Austria",
+                  "streams": [
+                    {
+                      "id": "st-6e9a94f678",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c83753a70b",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/5449405df9e84c7f8eff058a5ff0c0c2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Kosovo",
+            "team_b": "Austria",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134300_f5f28cb7.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125502_71d98139.png",
+            "time": "23:00 04/10",
+            "blv": "Chuối Nhỏ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528938_b603a566_20261004.png?v=b603a566",
             "width": 1600,
             "height": 1200
           }
@@ -1579,146 +1719,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f7e7425c39b5554409bf5a_625c8318_20261004.png?v=625c8318",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-c3800fd90b",
-          "name": "Kosovo vs Austria | 23:00 04/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c3800fd90b",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-c3800fd90b",
-                  "name": "Kosovo vs Austria",
-                  "streams": [
-                    {
-                      "id": "st-c3800fd90b",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6e9a94f678",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-6e9a94f678",
-                  "name": "Kosovo vs Austria",
-                  "streams": [
-                    {
-                      "id": "st-6e9a94f678",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c83753a70b",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/5449405df9e84c7f8eff058a5ff0c0c2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Kosovo",
-            "team_b": "Austria",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134300_f5f28cb7.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125502_71d98139.png",
-            "time": "23:00 04/10",
-            "blv": "Chuối Nhỏ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528938_b603a566_20261004.png?v=b603a566",
             "width": 1600,
             "height": 1200
           }
@@ -4455,7 +4455,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4645,10 +4645,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4696,7 +4696,7 @@
             "logo_b": "https://img0.aiscore.com/volleyball/team/c6a08c3e390a071f4143d6ea1c4f2b11.png!w80",
             "time": "23:00 04/10",
             "blv": "LÝ LINH LỰC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchuyen"
           },
           "image": {
