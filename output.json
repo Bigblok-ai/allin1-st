@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1398,14 +1398,14 @@
                   "streams": [
                     {
                       "id": "st-7184ccb00d",
-                      "name": "PhaoHoa - Tam Mao, Khô Chè",
+                      "name": "PhaoHoa - Khô Chè, Tam Mao",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "Tam Mao",
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "Khô Chè",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1418,11 +1418,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "Khô Chè",
+                          "id": "lnk-f22a137722",
+                          "name": "Tam Mao",
                           "type": "hls",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2249,8 +2249,8 @@
           }
         },
         {
-          "id": "pl-fd42ba6cd8",
-          "name": "Egypt vs South Africa | 01:00 05/10",
+          "id": "cc-934b6ac029",
+          "name": "Wales vs Denmark | 01:45 05/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2260,77 +2260,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd42ba6cd8",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-fd42ba6cd8",
-                  "name": "Egypt vs South Africa",
-                  "streams": [
-                    {
-                      "id": "st-fd42ba6cd8",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1a3dc7ff2",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/098bf6dee22745e39f81db4a67e32f5c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "International Friendly",
-            "team_a": "Egypt",
-            "team_b": "South Africa",
-            "logo_a": "https://sta.vnres.co/file/common/20261002/c068b43e2988e67c11e4c710b6867ff8.png",
-            "logo_b": "https://sta.vnres.co/file/common/20261002/37c740f4d0a64968a9420bb15a97c35f.png",
-            "time": "01:00 05/10",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergphk0y3yr8k_c9845890_20261005.png?v=c9845890",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-934b6ac029",
-          "name": "Wales vs Denmark | 01:45 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2412,7 +2341,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125453_4487c0dd.png",
             "time": "01:45 05/10",
             "blv": "Chuối Tây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2420,6 +2349,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528942_875427d4_20261005.png?v=875427d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-fd42ba6cd8",
+          "name": "Egypt vs South Africa | 01:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd42ba6cd8",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-fd42ba6cd8",
+                  "name": "Egypt vs South Africa",
+                  "streams": [
+                    {
+                      "id": "st-fd42ba6cd8",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1a3dc7ff2",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/098bf6dee22745e39f81db4a67e32f5c/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "Egypt",
+            "team_b": "South Africa",
+            "logo_a": "https://sta.vnres.co/file/common/20261002/c068b43e2988e67c11e4c710b6867ff8.png",
+            "logo_b": "https://sta.vnres.co/file/common/20261002/37c740f4d0a64968a9420bb15a97c35f.png",
+            "time": "01:00 05/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergphk0y3yr8k_c9845890_20261005.png?v=c9845890",
             "width": 1600,
             "height": 1200
           }
@@ -3628,6 +3628,217 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1632820_57966c02_20261005.png?v=57966c02",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fcc5a862a9",
+          "name": "U21 Montenegro vs U21 Armenia | 21:30 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fcc5a862a9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fcc5a862a9",
+                  "name": "U21 Montenegro vs U21 Armenia",
+                  "streams": [
+                    {
+                      "id": "st-fcc5a862a9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa818775ec",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791131991_hd/1791131991_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VCK U21 Châu Âu",
+            "team_a": "U21 Montenegro",
+            "team_b": "U21 Armenia",
+            "logo_a": "https://images.keovip88.net/images/teams/montenegro-u21.png",
+            "logo_b": "https://images.keovip88.net/images/teams/armenia-u21.png",
+            "time": "21:30 05/10",
+            "blv": "Ngu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/683b98524bc32556c602744b_1c158d17_20261005.png?v=1c158d17",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-a44665475f",
+          "name": "Montenegro U21 vs Armenia U21 | 21:30 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a44665475f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-a44665475f",
+                  "name": "Montenegro U21 vs Armenia U21",
+                  "streams": [
+                    {
+                      "id": "st-a44665475f",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54fbd1fdde",
+                          "name": "Chuối Kem HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc824527c7",
+                          "name": "Chuối Kem HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-262f74ad58",
+                          "name": "Chuối Kem FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-cfcabca9f1",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-cfcabca9f1",
+                  "name": "Montenegro U21 vs Armenia U21",
+                  "streams": [
+                    {
+                      "id": "st-cfcabca9f1",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc8bcab600",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/442a980492dd4903a107569b5a3611dc/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA U21 Championship - Qualification",
+            "team_a": "Montenegro U21",
+            "team_b": "Armenia U21",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_145129_f2ce05fe.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_145120_0c07455f.png",
+            "time": "21:30 05/10",
+            "blv": "Chuối Kem",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1350194_395d9f06_20261005.png?v=395d9f06",
             "width": 1600,
             "height": 1200
           }
