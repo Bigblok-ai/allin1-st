@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1134,10 +1134,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1185,7 +1185,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/APZRCReM-0toPMBYu.png",
             "time": "08:00 05/10",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -5863,61 +5863,26 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-0effa68955",
-          "name": "Mi Le vs Joshua Filler | 08:00 05/10",
+          "id": "chtv-e7d56bdcb8",
+          "name": "Mi Le vs Joshua Filler | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
-            {
-              "id": "src-0effa68955",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0effa68955",
-                  "name": "Mi Le vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-0effa68955",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0effa68955",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8720/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "id": "src-e7d56bdcb8",
               "name": "ChoangTV",
@@ -5928,7 +5893,7 @@
                   "streams": [
                     {
                       "id": "st-e7d56bdcb8",
-                      "name": "Choang - Đại Kê",
+                      "name": "CHTV",
                       "stream_links": [
                         {
                           "id": "lnk-e7d56bdcb8",
@@ -5952,52 +5917,17 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-59b28af945",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-59b28af945",
-                  "name": "Mi Le vs Joshua Filler",
-                  "streams": [
-                    {
-                      "id": "st-59b28af945",
-                      "name": "Choang",
-                      "stream_links": [
-                        {
-                          "id": "lnk-59b28af945",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8721/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "🔞🔞🔞Luồng Cược Séc 1 🔞🔞🔞",
+            "league": "▄︻デ𝒜ℛℐℱ━一💥 CHUNG KẾT",
             "team_a": "Mi Le",
             "team_b": "Joshua Filler",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791158847436_Mi%20Le.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791158850070_Joshua%20Filler.jpg",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791133031756_Mi%20Le.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791133034910_Joshua%20Filler.jpg",
             "time": "08:00 05/10",
-            "blv": "",
-            "is_live": false,
+            "blv": "Đại Kê",
+            "is_live": true,
             "time_sort": 1791162000,
             "cate_type": "billiards"
           },
@@ -6005,7 +5935,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0effa68955_4b4356ba_20261005.png?v=4b4356ba",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e7d56bdcb8_717d8478_20261005.png?v=717d8478",
             "width": 1600,
             "height": 1200
           }
