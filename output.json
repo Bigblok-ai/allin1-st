@@ -1233,116 +1233,6 @@
           }
         },
         {
-          "id": "xc-632e3ccec2",
-          "name": "Malaysia vs Việt Nam | 16:00 05/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-632e3ccec2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-632e3ccec2",
-                  "name": "Malaysia vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-632e3ccec2",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-17ee54fb54",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-17ee54fb54",
-                  "name": "Malaysia vs Vietnam",
-                  "streams": [
-                    {
-                      "id": "st-17ee54fb54",
-                      "name": "Phalang - LÝ LA LÀNG, LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a979fb3319",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/097cdeddd5f94534982e3e7e5cee7044/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FF ASEAN CUP",
-            "team_a": "Malaysia",
-            "team_b": "Việt Nam",
-            "logo_a": "https://xoiche.live/media/teams/logos/team_478.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/team_479.jpg",
-            "time": "16:00",
-            "date": "05/10",
-            "blv": "Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33191_916f2b53_20261005.png?v=916f2b53",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a8c5a73459",
           "name": "Nhật Bản vs New Zealand | 17:30 05/10",
           "type": "single",
@@ -1517,6 +1407,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33192_c9fbc7d0_20261005.png?v=c9fbc7d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-17ee54fb54",
+          "name": "Malaysia vs Vietnam | 16:00 05/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17ee54fb54",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-17ee54fb54",
+                  "name": "Malaysia vs Vietnam",
+                  "streams": [
+                    {
+                      "id": "st-17ee54fb54",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a979fb3319",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/097cdeddd5f94534982e3e7e5cee7044/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA ASEAN Cup",
+            "team_a": "Malaysia",
+            "team_b": "Vietnam",
+            "logo_a": "https://static.bongda24h.vn/Medias/icon/2026/07/28/malaysia-logo-2807160158.jpg",
+            "logo_b": "https://img0.aiscore.com/football/team/a68eee511575e8f28b16f27ff608234a.png!w80",
+            "time": "16:00 05/10",
+            "blv": "LÝ LA LÀNG, LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllh45npeqvy_85ede278_20261005.png?v=85ede278",
             "width": 1600,
             "height": 1200
           }
