@@ -1789,7 +1789,7 @@
                   "streams": [
                     {
                       "id": "st-be1fe5a4cb",
-                      "name": "PhaoHoa - Khô Chè",
+                      "name": "PhaoHoa - Khô Chè, Gà Rừng BLV",
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
@@ -1797,6 +1797,23 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
