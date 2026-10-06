@@ -1121,11 +1121,188 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b4e2b8c8d2",
+          "name": "Colombia vs Peru | 06:45 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b4e2b8c8d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b4e2b8c8d2",
+                  "name": "Colombia vs Peru",
+                  "streams": [
+                    {
+                      "id": "st-b4e2b8c8d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c3fe707d8c",
+                          "name": "BLV Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326481_hd/1791326481_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Colombia",
+            "team_b": "Peru",
+            "logo_a": "https://images.keovip88.net/images/teams/colombia.png",
+            "logo_b": "https://images.keovip88.net/images/teams/peru.png",
+            "time": "06:45 07/10",
+            "blv": "BLV Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac045a024d46db8705b2fac_9f9a39a3_20261007.png?v=9f9a39a3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-124f0d975f",
+          "name": "Mỹ vs Canada | 07:00 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-124f0d975f",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-124f0d975f",
+                  "name": "Mỹ vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-124f0d975f",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35e62f1907",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276801_hd/1791276801_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e2d988c728",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2d988c728",
+                  "name": "Mỹ vs Canada",
+                  "streams": [
+                    {
+                      "id": "st-e2d988c728",
+                      "name": "PhaoHoa - Khô Cay",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Mỹ",
+            "team_b": "Canada",
+            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/canada.png",
+            "time": "07:00 07/10",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac2e88b24d46db87056dd9f_11edcac8_20261007.png?v=11edcac8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-3c3aa68fd1",
           "name": "Argentina vs Benin | 06:00 07/10",
@@ -1162,7 +1339,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1292,7 +1469,7 @@
             "blv": "Gà Rừng BLV",
             "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1306,8 +1483,8 @@
           }
         },
         {
-          "id": "pl-47abe0b30a",
-          "name": "Argentina vs Benin | 06:30 07/10",
+          "id": "cc-11f151c727",
+          "name": "USA vs Canada | 07:00 07/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1317,254 +1494,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-47abe0b30a",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-47abe0b30a",
-                  "name": "Argentina vs Benin",
-                  "streams": [
-                    {
-                      "id": "st-47abe0b30a",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8a02d5e990",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a96faaed11754b8a8dbc766eb53846e9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "International Friendly",
-            "team_a": "Argentina",
-            "team_b": "Benin",
-            "logo_a": "https://sta.vnres.co/file/common/20261004/65d15340f62440e61295cb1d60b72b93.png",
-            "logo_b": "https://sta.vnres.co/file/common/20261004/ceb53cb011eea786554474552c0c4869.png",
-            "time": "06:30 07/10",
-            "blv": "LÝ LA LÀNG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hdvwjymoj_207b0f88_20261007.png?v=207b0f88",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b4e2b8c8d2",
-          "name": "Colombia vs Peru | 06:45 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b4e2b8c8d2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b4e2b8c8d2",
-                  "name": "Colombia vs Peru",
-                  "streams": [
-                    {
-                      "id": "st-b4e2b8c8d2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c3fe707d8c",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791326481_hd/1791326481_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Colombia",
-            "team_b": "Peru",
-            "logo_a": "https://images.keovip88.net/images/teams/colombia.png",
-            "logo_b": "https://images.keovip88.net/images/teams/peru.png",
-            "time": "06:45 07/10",
-            "blv": "BLV Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac045a024d46db8705b2fac_9f9a39a3_20261007.png?v=9f9a39a3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-124f0d975f",
-          "name": "Mỹ vs Canada | 07:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-124f0d975f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-124f0d975f",
-                  "name": "Mỹ vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-124f0d975f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35e62f1907",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791276801_hd/1791276801_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e2d988c728",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e2d988c728",
-                  "name": "Mỹ vs Canada",
-                  "streams": [
-                    {
-                      "id": "st-e2d988c728",
-                      "name": "PhaoHoa - Khô Cay",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Mỹ",
-            "team_b": "Canada",
-            "logo_a": "https://images.keovip88.net/images/teams/usa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/canada.png",
-            "time": "07:00 07/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac2e88b24d46db87056dd9f_11edcac8_20261007.png?v=11edcac8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-11f151c727",
-          "name": "USA vs Canada | 07:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1646,7 +1575,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132742_666d88b2.png",
             "time": "07:00 07/10",
             "blv": "Chuối Kem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1654,6 +1583,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1629007_d6f50d65_20261007.png?v=d6f50d65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-47abe0b30a",
+          "name": "Argentina vs Benin | 06:30 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47abe0b30a",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-47abe0b30a",
+                  "name": "Argentina vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-47abe0b30a",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a02d5e990",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a96faaed11754b8a8dbc766eb53846e9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "Argentina",
+            "team_b": "Benin",
+            "logo_a": "https://sta.vnres.co/file/common/20261004/65d15340f62440e61295cb1d60b72b93.png",
+            "logo_b": "https://sta.vnres.co/file/common/20261004/ceb53cb011eea786554474552c0c4869.png",
+            "time": "06:30 07/10",
+            "blv": "LÝ LA LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hdvwjymoj_207b0f88_20261007.png?v=207b0f88",
             "width": 1600,
             "height": 1200
           }
@@ -2225,7 +2225,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2366,7 +2366,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2792,7 +2792,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2809,7 +2809,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2884,7 +2884,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3028,7 +3028,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3103,7 +3103,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3178,7 +3178,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3195,7 +3195,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3270,7 +3270,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3380,7 +3380,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3474,7 +3474,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -3558,10 +3558,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -3609,7 +3609,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
             "time": "07:00 07/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
