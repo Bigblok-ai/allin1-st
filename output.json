@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1228,6 +1228,147 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93733afccd5ecc44060db5_c04f142a_20261006.png?v=c04f142a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db3a9ee656",
+          "name": "Hàn Quốc vs Uzbekistan | 18:00 06/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db3a9ee656",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db3a9ee656",
+                  "name": "Hàn Quốc vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-db3a9ee656",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3524e6dc29",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132263_hd/1791132263_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4a0d4e0d21",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4a0d4e0d21",
+                  "name": "Hàn Quốc vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-4a0d4e0d21",
+                      "name": "PhaoHoa - Gà Rừng BLV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3cc5d1cb89",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-3cc5d1cb89",
+                  "name": "South Korea vs Uzbekistan",
+                  "streams": [
+                    {
+                      "id": "st-3cc5d1cb89",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f03935dcc0",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/eb1651ffb10f4ce7b4f65ed9b94415c0/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "Hàn Quốc",
+            "team_b": "Uzbekistan",
+            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
+            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
+            "time": "18:00 06/10",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac0459d24d46db8705b2c2e_f62d41c1_20261006.png?v=f62d41c1",
             "width": 1600,
             "height": 1200
           }
@@ -1374,7 +1515,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1514,8 +1655,8 @@
           }
         },
         {
-          "id": "gv-db3a9ee656",
-          "name": "Hàn Quốc vs Uzbekistan | 18:00 06/10",
+          "id": "gv-e554b3b969",
+          "name": "Langfang Glory City vs Xi'an Ronghai | 18:30 06/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1529,23 +1670,23 @@
           ],
           "sources": [
             {
-              "id": "src-db3a9ee656",
+              "id": "src-e554b3b969",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-db3a9ee656",
-                  "name": "Hàn Quốc vs Uzbekistan",
+                  "id": "ct-e554b3b969",
+                  "name": "Langfang Glory City vs Xi'an Ronghai",
                   "streams": [
                     {
-                      "id": "st-db3a9ee656",
+                      "id": "st-e554b3b969",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3524e6dc29",
-                          "name": "Cận",
+                          "id": "lnk-66786553b8",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132263_hd/1791132263_hd@720p.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132371_hd/1791132371_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1562,86 +1703,16 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-4a0d4e0d21",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4a0d4e0d21",
-                  "name": "Hàn Quốc vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-4a0d4e0d21",
-                      "name": "PhaoHoa - Gà Rừng BLV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Gà Rừng BLV",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3cc5d1cb89",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-3cc5d1cb89",
-                  "name": "South Korea vs Uzbekistan",
-                  "streams": [
-                    {
-                      "id": "st-3cc5d1cb89",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f03935dcc0",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/eb1651ffb10f4ce7b4f65ed9b94415c0/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "Hàn Quốc",
-            "team_b": "Uzbekistan",
-            "logo_a": "https://images.keovip88.net/images/teams/south-korea.png",
-            "logo_b": "https://images.keovip88.net/images/teams/uzbekistan.png",
-            "time": "18:00 06/10",
-            "blv": "Cận",
+            "league": "China - China League Two",
+            "team_a": "Langfang Glory City",
+            "team_b": "Xi'an Ronghai",
+            "logo_a": "https://cdn.footystats.org/img/teams/china-langfang-glory-city-fc.png",
+            "logo_b": "https://cdn.footystats.org/img/teams/china-xian-ronghai-fc.png",
+            "time": "18:30 06/10",
+            "blv": "Trĩ",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1649,7 +1720,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac0459d24d46db8705b2c2e_f62d41c1_20261006.png?v=f62d41c1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/9bwq0j63lrgb_2520ebd7_20261006.png?v=2520ebd7",
             "width": 1600,
             "height": 1200
           }
@@ -1725,7 +1796,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1862,77 +1933,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhvjn3jmd7_c4216b22_20261006.png?v=c4216b22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e554b3b969",
-          "name": "Langfang Glory City vs Xi'an Ronghai | 18:30 06/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e554b3b969",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e554b3b969",
-                  "name": "Langfang Glory City vs Xi'an Ronghai",
-                  "streams": [
-                    {
-                      "id": "st-e554b3b969",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66786553b8",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132371_hd/1791132371_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China - China League Two",
-            "team_a": "Langfang Glory City",
-            "team_b": "Xi'an Ronghai",
-            "logo_a": "https://cdn.footystats.org/img/teams/china-langfang-glory-city-fc.png",
-            "logo_b": "https://cdn.footystats.org/img/teams/china-xian-ronghai-fc.png",
-            "time": "18:30 06/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/9bwq0j63lrgb_2520ebd7_20261006.png?v=2520ebd7",
             "width": 1600,
             "height": 1200
           }
@@ -2747,7 +2747,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2922,7 +2922,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3028,7 +3028,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3045,7 +3045,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3062,7 +3062,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3323,7 +3323,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3852,7 +3852,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4028,7 +4028,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4224,7 +4224,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4368,7 +4368,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4443,7 +4443,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4518,7 +4518,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4593,7 +4593,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4668,7 +4668,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4743,7 +4743,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4922,7 +4922,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4997,7 +4997,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5176,7 +5176,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6822,7 +6822,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6839,7 +6839,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6858,8 +6858,8 @@
             "league": "AXA Sigorta Şampiyonlar Kupası (nữ)",
             "team_a": "VakıfBank",
             "team_b": "Eczacıbaşı Peron İstanbul",
-            "logo_a": "https://xoiche2.live/media/teams/logos/images_RHi333C.jpg",
-            "logo_b": "https://xoiche2.live/media/teams/logos/big_1677603180cIuV2.webp",
+            "logo_a": "https://xoiche.live/media/teams/logos/images_RHi333C.jpg",
+            "logo_b": "https://xoiche.live/media/teams/logos/big_1677603180cIuV2.webp",
             "time": "22:00",
             "date": "06/10",
             "blv": "Xôi Gà",
@@ -6873,7 +6873,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34831_ab4bd75d_20261006.png?v=ab4bd75d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34831_fa56c584_20261006.png?v=fa56c584",
             "width": 1600,
             "height": 1200
           }
