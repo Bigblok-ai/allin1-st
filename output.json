@@ -1127,7 +1127,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-3c3aa68fd1",
+          "id": "gv-9c6cc77a1e",
           "name": "Argentina vs Benin | 06:00 07/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1142,6 +1142,41 @@
           ],
           "sources": [
             {
+              "id": "src-9c6cc77a1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c6cc77a1e",
+                  "name": "Argentina vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-9c6cc77a1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cdca8439bc",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791326250_hd/1791326250_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-3c3aa68fd1",
               "name": "XoiChe TV",
               "contents": [
@@ -1151,7 +1186,7 @@
                   "streams": [
                     {
                       "id": "st-3c3aa68fd1",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - Gà Rừng BLV",
                       "stream_links": [
                         {
                           "id": "lnk-d96bd0dded",
@@ -1299,25 +1334,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Friendlies",
+            "league": "Giao hữu quốc tế",
             "team_a": "Argentina",
             "team_b": "Benin",
-            "logo_a": "https://apiv3.apifootball.com/badges/536_argentina.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/741_benin.jpg",
-            "time": "06:00",
-            "date": "07/10",
-            "blv": "Gà Rừng BLV",
+            "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
+            "logo_b": "https://images.keovip88.net/images/teams/benin.png",
+            "time": "06:00 07/10",
+            "blv": "Chồn",
             "is_live": true,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32136_0e94269d_20261007.png?v=0e94269d",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac045a024d46db8705b2fb4_aec99105_20261007.png?v=aec99105",
             "width": 1600,
             "height": 1200
           }
