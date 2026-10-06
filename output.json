@@ -1121,7 +1121,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1255,7 +1255,7 @@
                   "streams": [
                     {
                       "id": "st-b320a59cee",
-                      "name": "Phalang - LÝ LA LÀNG, LÝ LONG",
+                      "name": "Phalang - LÝ LONG",
                       "stream_links": [
                         {
                           "id": "lnk-cbce8d7a88",
@@ -1263,23 +1263,6 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://pull.digitalcdn.net/live/dd8c98e5376e4bd38eb851e0c4831a7e/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8a02d5e990",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://pull.digitalcdn.net/live/a96faaed11754b8a8dbc766eb53846e9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1309,7 +1292,7 @@
             "blv": "Gà Rừng BLV",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1318,6 +1301,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32136_0e94269d_20261007.png?v=0e94269d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-47abe0b30a",
+          "name": "Argentina vs Benin | 06:30 07/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-47abe0b30a",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-47abe0b30a",
+                  "name": "Argentina vs Benin",
+                  "streams": [
+                    {
+                      "id": "st-47abe0b30a",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8a02d5e990",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a96faaed11754b8a8dbc766eb53846e9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "Argentina",
+            "team_b": "Benin",
+            "logo_a": "https://sta.vnres.co/file/common/20261004/65d15340f62440e61295cb1d60b72b93.png",
+            "logo_b": "https://sta.vnres.co/file/common/20261004/ceb53cb011eea786554474552c0c4869.png",
+            "time": "06:30 07/10",
+            "blv": "LÝ LA LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hdvwjymoj_207b0f88_20261007.png?v=207b0f88",
             "width": 1600,
             "height": 1200
           }
@@ -3084,6 +3138,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/32162_1b4986b6_20261007.png?v=1b4986b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-f9a7f25376",
+          "name": "Lion City vs Cong An Ha Noi | 18:30 08/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9a7f25376",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f9a7f25376",
+                  "name": "Lion City vs Cong An Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-f9a7f25376",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Gà Rừng BLV 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-a2f0db0c21",
+                          "name": "Gà Rừng BLV 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub4.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ASEAN Club Championship",
+            "team_a": "Lion City",
+            "team_b": "Cong An Ha Noi",
+            "logo_a": "https://apiv3.apifootball.com/badges/468_lion-city-sailors-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8045_cong-an-ha-ni.jpg",
+            "time": "18:30",
+            "date": "08/10",
+            "blv": "Gà Rừng BLV",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33113_52df8fc8_20261007.png?v=52df8fc8",
             "width": 1600,
             "height": 1200
           }
