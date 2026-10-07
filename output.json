@@ -1121,82 +1121,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6e01911882",
-          "name": "Tai'an Tiankuang vs Ganzhou Ruishi | 15:00 07/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6e01911882",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6e01911882",
-                  "name": "Tai'an Tiankuang vs Ganzhou Ruishi",
-                  "streams": [
-                    {
-                      "id": "st-6e01911882",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-82473e2394",
-                          "name": "BLV Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791132704_hd/1791132704_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "China - China League Two",
-            "team_a": "Tai'an Tiankuang",
-            "team_b": "Ganzhou Ruishi",
-            "logo_a": "https://static.flashscore.com/res/image/data/2P5VbT9r-QRt3o64U.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YPa0CHwS-C0bzbE1c.png",
-            "time": "15:00 07/10",
-            "blv": "BLV Hấu",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/jxdps6bcgmh1_2a3fab64_20261007.png?v=2a3fab64",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-03a8e4e402",
           "name": "Urawa Reds vs Omiya Ardija | 16:00 07/10",
@@ -3456,6 +3385,98 @@
           }
         },
         {
+          "id": "xc-c652aee4df",
+          "name": "Santos vs Flamengo RJ | 05:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c652aee4df",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c652aee4df",
+                  "name": "Santos vs Flamengo RJ",
+                  "streams": [
+                    {
+                      "id": "st-c652aee4df",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ef896631a",
+                          "name": "Xôi Xoài 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Santos",
+            "team_b": "Flamengo RJ",
+            "logo_a": "https://apiv3.apifootball.com/badges/566_santos.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/542_flamengo.jpg",
+            "time": "05:30",
+            "date": "09/10",
+            "blv": "Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34299_b3a5e3da_20261007.png?v=b3a5e3da",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-c1d5134430",
           "name": "Cruzeiro vs Sao Paulo | 07:30 08/10",
           "type": "single",
@@ -4645,7 +4666,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4658,10 +4679,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4709,7 +4730,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/b7N9NHdM-MZFHcn8n.png",
             "time": "18:00 07/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
