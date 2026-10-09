@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1693,6 +1693,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6abda2c024d46db870d76b42_ddb36654_20261009.png?v=ddb36654",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e55fc7f133",
+          "name": "Incheon vs Pohang | 14:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e55fc7f133",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e55fc7f133",
+                  "name": "Incheon vs Pohang",
+                  "streams": [
+                    {
+                      "id": "st-e55fc7f133",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-61f3cec5ec",
+                          "name": "BLV Khô Cay 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub9.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Incheon",
+            "team_b": "Pohang",
+            "logo_a": "https://apiv3.apifootball.com/badges/5170_incheon-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/396_pohang-steelers.jpg",
+            "time": "14:30",
+            "date": "09/10",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 3,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34318_0baed7e3_20261009.png?v=0baed7e3",
             "width": 1600,
             "height": 1200
           }
@@ -7406,78 +7498,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-7bff74ed90",
-          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7bff74ed90",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7bff74ed90",
-                  "name": "JERRICO BONUS vs JEFF DE LUNA",
-                  "streams": [
-                    {
-                      "id": "st-7bff74ed90",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7bff74ed90",
-                          "name": "Lee Min Hoo",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
-            "team_a": "JERRICO BONUS",
-            "team_b": "JEFF DE LUNA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
-            "time": "14:30 09/10",
-            "blv": "Lee Min Hoo",
-            "is_live": true,
-            "time_sort": 1791531000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-19c63f58e5",
           "name": "AJ MANAS vs AMEER ALI | Bỉm Sữa",
           "type": "single",
@@ -7545,6 +7565,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19c63f58e5_f74349f3_20261009.png?v=f74349f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-7bff74ed90",
+          "name": "JERRICO BONUS vs JEFF DE LUNA | Lee Min Hoo",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7bff74ed90",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7bff74ed90",
+                  "name": "JERRICO BONUS vs JEFF DE LUNA",
+                  "streams": [
+                    {
+                      "id": "st-7bff74ed90",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7bff74ed90",
+                          "name": "Lee Min Hoo",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8947/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "BÁN KẾT 2 | RBC 9 BALL BALI INTERNATIONAL OPEN 2026",
+            "team_a": "JERRICO BONUS",
+            "team_b": "JEFF DE LUNA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791530326966_Philippines.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791531223465_Jeff%20De%20Luna.png",
+            "time": "14:30 09/10",
+            "blv": "Lee Min Hoo",
+            "is_live": true,
+            "time_sort": 1791531000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7bff74ed90_2b846385_20261009.png?v=2b846385",
             "width": 1600,
             "height": 1200
           }
