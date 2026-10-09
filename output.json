@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1505,8 +1505,8 @@
           }
         },
         {
-          "id": "xc-a999280d94",
-          "name": "Atl. Nacional vs Deportes Tolima | 06:05 09/10",
+          "id": "gv-c7815f6330",
+          "name": "Fluminense (RJ) vs Coritiba (PR) | 07:30 09/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1516,98 +1516,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a999280d94",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a999280d94",
-                  "name": "Atl. Nacional vs Deportes Tolima",
-                  "streams": [
-                    {
-                      "id": "st-a999280d94",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ef896631a",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub3.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primera A",
-            "team_a": "Atl. Nacional",
-            "team_b": "Deportes Tolima",
-            "logo_a": "https://apiv3.apifootball.com/badges/575_atletico-nacional.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/2271_deportes-tolima.jpg",
-            "time": "06:05",
-            "date": "09/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33102_c85d3d7b_20261009.png?v=c85d3d7b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c7815f6330",
-          "name": "Fluminense (RJ) vs Coritiba (PR) | 07:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1724,7 +1632,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/coritiba-pr.png",
             "time": "07:30 09/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1744,10 +1652,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1847,7 +1755,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/bahia.png",
             "time": "07:30 09/10",
             "blv": "Ngọng",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1855,6 +1763,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e635e5e6975d550f0812_2cfbc38e_20261009.png?v=2cfbc38e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a999280d94",
+          "name": "Atl. Nacional vs Deportes Tolima | 06:05 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a999280d94",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a999280d94",
+                  "name": "Atl. Nacional vs Deportes Tolima",
+                  "streams": [
+                    {
+                      "id": "st-a999280d94",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ef896631a",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Primera A",
+            "team_a": "Atl. Nacional",
+            "team_b": "Deportes Tolima",
+            "logo_a": "https://apiv3.apifootball.com/badges/575_atletico-nacional.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/2271_deportes-tolima.jpg",
+            "time": "06:05",
+            "date": "09/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "half_time",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/33102_c85d3d7b_20261009.png?v=c85d3d7b",
             "width": 1600,
             "height": 1200
           }
