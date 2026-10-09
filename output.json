@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1773,6 +1773,202 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34497_a1c56e99_20261009.png?v=a1c56e99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-2bb054c144",
+          "name": "Braunschweig vs Holstein Kiel | 23:30 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2bb054c144",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2bb054c144",
+                  "name": "Braunschweig vs Holstein Kiel",
+                  "streams": [
+                    {
+                      "id": "st-2bb054c144",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f788bd15ca",
+                          "name": "BLV Tam Mao 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub8.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1e0551f003",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-1e0551f003",
+                  "name": "Eintracht Braunschweig vs Holstein Kiel",
+                  "streams": [
+                    {
+                      "id": "st-1e0551f003",
+                      "name": "CCport - Chuối Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-585cc760ff",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-585cc760ff",
+                  "name": "Eintracht Braunschweig vs Holstein Kiel",
+                  "streams": [
+                    {
+                      "id": "st-585cc760ff",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1b92e2deeb",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/36319b38ac8b41eab0adf6d12d77dd27/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Braunschweig",
+            "team_b": "Holstein Kiel",
+            "logo_a": "https://apiv3.apifootball.com/badges/3925_eintracht-braunschweig.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3914_holstein-kiel.jpg",
+            "time": "23:30",
+            "date": "09/10",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34550_dabc5eb9_20261009.png?v=dabc5eb9",
             "width": 1600,
             "height": 1200
           }
@@ -3663,6 +3859,112 @@
           }
         },
         {
+          "id": "gv-770ae2acf6",
+          "name": "Rayo Vallecano vs Athletic Bilbao | 19:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-770ae2acf6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-770ae2acf6",
+                  "name": "Rayo Vallecano vs Athletic Bilbao",
+                  "streams": [
+                    {
+                      "id": "st-770ae2acf6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3018ff6919",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1791480035_hd/1791480035_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7c16af272c",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-7c16af272c",
+                  "name": "Rayo Vallecano vs Athletic Club",
+                  "streams": [
+                    {
+                      "id": "st-7c16af272c",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dba59d5ebb",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/8b9c6bec5ac04dc1a70872046db47911/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Athletic Bilbao",
+            "logo_a": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
+            "logo_b": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
+            "time": "19:00 10/10",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0747_992c7e0c_20261009.png?v=992c7e0c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e736230e56",
           "name": "Galatasaray vs Kasimpasa | 00:00 10/10",
           "type": "single",
@@ -4400,202 +4702,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35125_6fa5a06b_20261009.png?v=6fa5a06b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2bb054c144",
-          "name": "Braunschweig vs Holstein Kiel | 23:30 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2bb054c144",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2bb054c144",
-                  "name": "Braunschweig vs Holstein Kiel",
-                  "streams": [
-                    {
-                      "id": "st-2bb054c144",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f788bd15ca",
-                          "name": "BLV Tam Mao 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub8.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-1e0551f003",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-1e0551f003",
-                  "name": "Eintracht Braunschweig vs Holstein Kiel",
-                  "streams": [
-                    {
-                      "id": "st-1e0551f003",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-585cc760ff",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-585cc760ff",
-                  "name": "Eintracht Braunschweig vs Holstein Kiel",
-                  "streams": [
-                    {
-                      "id": "st-585cc760ff",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1b92e2deeb",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/36319b38ac8b41eab0adf6d12d77dd27/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "Braunschweig",
-            "team_b": "Holstein Kiel",
-            "logo_a": "https://apiv3.apifootball.com/badges/3925_eintracht-braunschweig.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3914_holstein-kiel.jpg",
-            "time": "23:30",
-            "date": "09/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34550_dabc5eb9_20261009.png?v=dabc5eb9",
             "width": 1600,
             "height": 1200
           }
