@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1312,7 +1312,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1329,7 +1329,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1504,7 +1504,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1521,7 +1521,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1596,6 +1596,81 @@
           }
         },
         {
+          "id": "xc-f79d3409da",
+          "name": "SJK vs Lahti | 22:00 09/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f79d3409da",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f79d3409da",
+                  "name": "SJK vs Lahti",
+                  "streams": [
+                    {
+                      "id": "st-f79d3409da",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "BLV Gà Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "SJK",
+            "team_b": "Lahti",
+            "logo_a": "https://apiv3.apifootball.com/badges/3543_sjk.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3548_lahti.jpg",
+            "time": "22:00",
+            "date": "09/10",
+            "blv": "BLV Gà Rừng",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34502_41f40e05_20261009.png?v=41f40e05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d77de86dc8",
           "name": "Corvinul vs FC Voluntari | 22:00 09/10",
           "type": "single",
@@ -1631,7 +1706,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1648,7 +1723,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2323,7 +2398,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2340,7 +2415,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2973,111 +3048,6 @@
           }
         },
         {
-          "id": "cc-6b469af5e8",
-          "name": "Tigres UANL vs Toluca | 10:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6b469af5e8",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-6b469af5e8",
-                  "name": "Tigres UANL vs Toluca",
-                  "streams": [
-                    {
-                      "id": "st-6b469af5e8",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54fbd1fdde",
-                          "name": "Chuối Kem HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc824527c7",
-                          "name": "Chuối Kem HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-262f74ad58",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Mexico",
-            "team_a": "Tigres UANL",
-            "team_b": "Toluca",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133406_3bc30a80.png",
-            "logo_b": "https://media.chuoichientv.net/media/20250921_010707_d23dff4c.png",
-            "time": "10:00 10/10",
-            "blv": "Chuối Kem",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1550986_fc396e15_20261009.png?v=fc396e15",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-b8eeec52cc",
           "name": "FC Seoul vs Jeju United FC | 12:00 10/10",
           "type": "single",
@@ -3503,7 +3473,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3520,7 +3490,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3630,7 +3600,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3647,7 +3617,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3664,7 +3634,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3681,7 +3651,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3825,7 +3795,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3842,7 +3812,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3986,7 +3956,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4003,7 +3973,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4038,6 +4008,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36418_3d164708_20261009.png?v=3d164708",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8f9b9fd0f3",
+          "name": "Tigres UANL vs Toluca | 10:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8f9b9fd0f3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8f9b9fd0f3",
+                  "name": "Tigres UANL vs Toluca",
+                  "streams": [
+                    {
+                      "id": "st-8f9b9fd0f3",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "BLV Gà Rừng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6b469af5e8",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-6b469af5e8",
+                  "name": "Tigres UANL vs Toluca",
+                  "streams": [
+                    {
+                      "id": "st-6b469af5e8",
+                      "name": "CCport - Chuối Kem",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54fbd1fdde",
+                          "name": "Chuối Kem HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc824527c7",
+                          "name": "Chuối Kem HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-262f74ad58",
+                          "name": "Chuối Kem FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Tigres UANL",
+            "team_b": "Toluca",
+            "logo_a": "https://apiv3.apifootball.com/badges/275_tigres-uanl.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5347_toluca.jpg",
+            "time": "10:00",
+            "date": "10/10",
+            "blv": "BLV Gà Rừng",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35050_bff27d27_20261009.png?v=bff27d27",
             "width": 1600,
             "height": 1200
           }
@@ -4078,7 +4192,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4153,7 +4267,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4170,7 +4284,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4187,7 +4301,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4222,98 +4336,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35125_6fa5a06b_20261009.png?v=6fa5a06b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f79d3409da",
-          "name": "SJK vs Lahti | 22:00 09/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f79d3409da",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f79d3409da",
-                  "name": "SJK vs Lahti",
-                  "streams": [
-                    {
-                      "id": "st-f79d3409da",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c4e6a4ba43",
-                          "name": "BLV Khô Chè 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ce4efc789c",
-                          "name": "BLV Khô Chè 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub5.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "SJK",
-            "team_b": "Lahti",
-            "logo_a": "https://apiv3.apifootball.com/badges/3543_sjk.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3548_lahti.jpg",
-            "time": "22:00",
-            "date": "09/10",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/34502_41f40e05_20261009.png?v=41f40e05",
             "width": 1600,
             "height": 1200
           }
@@ -4354,7 +4376,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4371,7 +4393,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4550,7 +4572,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4567,7 +4589,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4711,7 +4733,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4728,7 +4750,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4803,7 +4825,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4820,7 +4842,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4895,7 +4917,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4912,7 +4934,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4929,7 +4951,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4946,7 +4968,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6632,7 +6654,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6649,7 +6671,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6724,7 +6746,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6799,7 +6821,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6816,7 +6838,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6833,7 +6855,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6850,7 +6872,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6925,7 +6947,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6942,7 +6964,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6959,7 +6981,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6976,7 +6998,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
