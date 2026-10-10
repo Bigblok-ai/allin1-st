@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2127,10 +2127,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2178,7 +2178,7 @@
             "logo_b": "https://img.sports-data.online/football/team/abbb31d42c55612737713aac6567a226.png",
             "time": "19:00 10/10",
             "blv": "LÝ LINH LỰC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -9091,28 +9091,20 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": []
-    },
-    {
-      "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "pl-311b868ea4",
-          "name": "Hisamitsu Springs Nữ vs Body Queenseis Nữ | 16:00 10/10",
+          "id": "chtv-0bd462a1e0",
+          "name": "KHIÊM CHUNG vs TIỂU CƯỜNG | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
@@ -9120,27 +9112,27 @@
           ],
           "sources": [
             {
-              "id": "src-311b868ea4",
-              "name": "PhaLangTV",
+              "id": "src-0bd462a1e0",
+              "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-311b868ea4",
-                  "name": "Hisamitsu Springs Nữ vs Body Queenseis Nữ",
+                  "id": "ct-0bd462a1e0",
+                  "name": "KHIÊM CHUNG vs TIỂU CƯỜNG",
                   "streams": [
                     {
-                      "id": "st-311b868ea4",
-                      "name": "PL",
+                      "id": "st-0bd462a1e0",
+                      "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-bb2905f4c1",
-                          "name": "LÝ LIỀU LĨNH",
+                          "id": "lnk-0bd462a1e0",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/de4e8c774fc0410eb61fd2a878d4d6a2/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9017/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://choangtv25.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -9156,25 +9148,35 @@
             }
           ],
           "org_metadata": {
-            "league": "SV.League Women",
-            "team_a": "Hisamitsu Springs Nữ",
-            "team_b": "Body Queenseis Nữ",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/30a8757bc201fed57fcb779c30bb14db.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/d368a77f41e9c3fc5fceb30b0f1f1669.png!w80",
-            "time": "16:00 10/10",
-            "blv": "LÝ LIỀU LĨNH",
+            "league": "TỨ KẾT  LAS VEGAS",
+            "team_a": "KHIÊM CHUNG",
+            "team_b": "TIỂU CƯỜNG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791632024595_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791632027615_1765337449015_t%C3%A1%C2%BA%C2%A3i%20xu%C3%A1%C2%BB_ng.png",
+            "time": "18:33 10/10",
+            "blv": "Bỉm Sữa",
             "is_live": true,
-            "cate_type": "bongchuyen"
+            "time_sort": 1791631980,
+            "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/944d0095a406427c83478f40d2acd3a5_a59c60d2_20261010.png?v=a59c60d2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0bd462a1e0_16240313_20261010.png?v=16240313",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "grp-bóng-chuyền",
+      "name": "🏐 Bóng Chuyền",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "gv-633ec13a0c",
           "name": "Hisamitsu Springs Nữ vs Aleeza Aichi Nữ | 16:05 10/10",
