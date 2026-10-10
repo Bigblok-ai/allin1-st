@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1595,8 +1595,8 @@
           }
         },
         {
-          "id": "xc-5cbcd79fd6",
-          "name": "South Melbourne vs Melbourne Victory | 15:35 10/10",
+          "id": "gv-029554177e",
+          "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1606,98 +1606,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5cbcd79fd6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5cbcd79fd6",
-                  "name": "South Melbourne vs Melbourne Victory",
-                  "streams": [
-                    {
-                      "id": "st-5cbcd79fd6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Tam Mao 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Australia Cup",
-            "team_a": "South Melbourne",
-            "team_b": "Melbourne Victory",
-            "logo_a": "https://apiv3.apifootball.com/badges/10421_south-melbourne.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
-            "time": "15:35",
-            "date": "10/10",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35125_6fa5a06b_20261010.png?v=6fa5a06b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-029554177e",
-          "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1849,7 +1757,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
             "time": "17:00 10/10",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1857,6 +1765,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6abef44124d46db870907a04_752294fa_20261010.png?v=752294fa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5cbcd79fd6",
+          "name": "South Melbourne vs Melbourne Victory | 15:35 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5cbcd79fd6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5cbcd79fd6",
+                  "name": "South Melbourne vs Melbourne Victory",
+                  "streams": [
+                    {
+                      "id": "st-5cbcd79fd6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Australia Cup",
+            "team_a": "South Melbourne",
+            "team_b": "Melbourne Victory",
+            "logo_a": "https://apiv3.apifootball.com/badges/10421_south-melbourne.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
+            "time": "15:35",
+            "date": "10/10",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35125_6fa5a06b_20261010.png?v=6fa5a06b",
             "width": 1600,
             "height": 1200
           }
@@ -9315,83 +9315,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-4150fd7cfd",
-          "name": "Văn Sinh vs MIRAFLOR | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4150fd7cfd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4150fd7cfd",
-                  "name": "Văn Sinh vs MIRAFLOR",
-                  "streams": [
-                    {
-                      "id": "st-4150fd7cfd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4150fd7cfd",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9004/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "99Billiards",
-            "team_a": "Văn Sinh",
-            "team_b": "MIRAFLOR",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791613906743_Screenshot%202026-10-10%20133023.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791613903293_Screenshot%202026-10-10%20133130.png",
-            "time": "14:00 10/10",
-            "blv": "Đại Kê",
-            "is_live": true,
-            "time_sort": 1791615600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4150fd7cfd_cd653d77_20261010.png?v=cd653d77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-852ef5c5eb",
           "name": "Vinh Côn Đảo vs Minh Hoàn | Bỉm Sữa",
