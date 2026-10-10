@@ -1236,117 +1236,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-029554177e",
-          "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng | 17:00 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-029554177e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-029554177e",
-                  "name": "Hoàng Anh Gia Lai vs SHB Đà Nẵng",
-                  "streams": [
-                    {
-                      "id": "st-029554177e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-934f0f1894",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791479723_hd/1791479723_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ba13f752cd",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-ba13f752cd",
-                  "name": "Hoang Anh Gia Lai vs SHB Da Nang",
-                  "streams": [
-                    {
-                      "id": "st-ba13f752cd",
-                      "name": "Phalang - LÝ LÊN LỬA",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ce8d7be8f",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/2521d4ae795c4bd59f5445d53d46c71d/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hoàng Anh Gia Lai",
-            "team_b": "SHB Đà Nẵng",
-            "logo_a": "https://images.keovip88.net/images/teams/hoang-anh-gia-lai.png",
-            "logo_b": "https://images.keovip88.net/images/teams/da-nang.png",
-            "time": "17:00 10/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6abef44124d46db870907a04_752294fa_20261010.png?v=752294fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-5d9f2da141",
           "name": "Thép Xanh Nam Định vs Phu Dong | 18:00 10/10",
@@ -6667,6 +6561,41 @@
                             {
                               "key": "Referer",
                               "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-1c0b4a41c1",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-1c0b4a41c1",
+                  "name": "Elche CF vs RC Celta",
+                  "streams": [
+                    {
+                      "id": "st-1c0b4a41c1",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63f9c373e3",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/26c9e42e8f32432f89fd60ef1b5c8d76/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
