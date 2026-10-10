@@ -1307,75 +1307,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-7c39ef9fb4",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-7c39ef9fb4",
-                  "name": "Puebla vs Leon",
-                  "streams": [
-                    {
-                      "id": "st-7c39ef9fb4",
-                      "name": "CCport - Chuối Chao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e27b03ef2f",
-                          "name": "Chuối Chao HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e97f9e8cee",
-                          "name": "Chuối Chao HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-582600ada5",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -5512,6 +5443,81 @@
           }
         },
         {
+          "id": "xc-36179605b1",
+          "name": "Cerezo Osaka vs Yokohama F. Marinos | 12:00 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36179605b1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-36179605b1",
+                  "name": "Cerezo Osaka vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-36179605b1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c4e6a4ba43",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Cerezo Osaka",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://apiv3.apifootball.com/badges/5045_cerezo-osaka.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "time": "12:00",
+            "date": "10/10",
+            "blv": "BLV Khô Chè",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/35062_90b9ed69_20261010.png?v=90b9ed69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5fb48cf4ff",
           "name": "Gwangju FC vs Ulsan HD | 12:00 11/10",
           "type": "single",
@@ -6847,8 +6853,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-ac74b43dc8",
-          "name": "Nga vs Ukaraina | 10:00 10/10",
+          "id": "chtv-1bf43632ec",
+          "name": "hung vs phap | 11:00 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6862,23 +6868,23 @@
           ],
           "sources": [
             {
-              "id": "src-ac74b43dc8",
+              "id": "src-1bf43632ec",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ac74b43dc8",
-                  "name": "Nga vs Ukaraina",
+                  "id": "ct-1bf43632ec",
+                  "name": "hung vs phap",
                   "streams": [
                     {
-                      "id": "st-ac74b43dc8",
+                      "id": "st-1bf43632ec",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ac74b43dc8",
+                          "id": "lnk-1bf43632ec",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live8998/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9000/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -6898,22 +6904,22 @@
             }
           ],
           "org_metadata": {
-            "league": "test test",
-            "team_a": "Nga",
-            "team_b": "Ukaraina",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1764104177522_photo_2025-11-26_03-55-44.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764104188356_photo_2025-11-26_03-55-53.jpg",
-            "time": "10:00 10/10",
+            "league": "test",
+            "team_a": "hung",
+            "team_b": "phap",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791600816692_Hungary.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791600816467_Ph%C3%A1p.png",
+            "time": "11:00 10/10",
             "blv": "",
             "is_live": false,
-            "time_sort": 1791601200,
+            "time_sort": 1791604800,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ac74b43dc8_3c5fe383_20261010.png?v=3c5fe383",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1bf43632ec_3ba07616_20261010.png?v=3ba07616",
             "width": 1600,
             "height": 1200
           }
