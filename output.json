@@ -9433,11 +9433,120 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-356ce221cc",
+          "name": "Nippon Steel Sakai Blazers vs Wolfdogs Nagoya | 15:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-356ce221cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-356ce221cc",
+                  "name": "Nippon Steel Sakai Blazers vs Wolfdogs Nagoya",
+                  "streams": [
+                    {
+                      "id": "st-356ce221cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2e6fe61c9c",
+                          "name": "BLV Xôi Bắp 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao Hữu",
+            "team_a": "Nippon Steel Sakai Blazers",
+            "team_b": "Wolfdogs Nagoya",
+            "logo_a": "https://xoiche.live/media/teams/logos/nippon-steel-sakai-blazers-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/wolfdogs-nagoya-vb.png",
+            "time": "15:30",
+            "date": "10/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39251_ddf43e69_20261010.png?v=ddf43e69",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-311b868ea4",
           "name": "Hisamitsu Springs Nữ vs Body Queenseis Nữ | 16:00 10/10",
@@ -10236,115 +10345,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38593_4a92781b_20261010.png?v=4a92781b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-356ce221cc",
-          "name": "Nippon Steel Sakai Blazers vs Wolfdogs Nagoya | 15:30 10/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-356ce221cc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-356ce221cc",
-                  "name": "Nippon Steel Sakai Blazers vs Wolfdogs Nagoya",
-                  "streams": [
-                    {
-                      "id": "st-356ce221cc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2e6fe61c9c",
-                          "name": "BLV Xôi Bắp 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao Hữu",
-            "team_a": "Nippon Steel Sakai Blazers",
-            "team_b": "Wolfdogs Nagoya",
-            "logo_a": "https://xoiche.live/media/teams/logos/nippon-steel-sakai-blazers-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/wolfdogs-nagoya-vb.png",
-            "time": "15:30",
-            "date": "10/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39251_ddf43e69_20261010.png?v=ddf43e69",
             "width": 1600,
             "height": 1200
           }
