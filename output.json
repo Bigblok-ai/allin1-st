@@ -1236,11 +1236,169 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-7aba5dddfe",
+          "name": "Barcelona vs Getafe | 23:30 10/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7aba5dddfe",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7aba5dddfe",
+                  "name": "Barcelona vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-7aba5dddfe",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a31eea65bb",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791340626_hd/1791340626_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-aeb677b971",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-aeb677b971",
+                  "name": "Barcelona vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-aeb677b971",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Tam Mao 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b34e6e8dbd",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b34e6e8dbd",
+                  "name": "FC Barcelona vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-b34e6e8dbd",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1468eec54b",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/404ef1c12a874532b903607950f92c98/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Barcelona",
+            "team_b": "Getafe",
+            "logo_a": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
+            "time": "23:30 10/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0749_30f91fa0_20261011.png?v=30f91fa0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-4ab81e919e",
           "name": "Al Hilal vs Al Ittihad Jeddah | 01:00 11/10",
@@ -2011,8 +2169,8 @@
           }
         },
         {
-          "id": "xc-aeb677b971",
-          "name": "Barcelona vs Getafe | 23:30 10/10",
+          "id": "xc-f4a2ddac49",
+          "name": "Manchester Utd vs Tottenham | 23:30 10/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2026,23 +2184,23 @@
           ],
           "sources": [
             {
-              "id": "src-aeb677b971",
+              "id": "src-f4a2ddac49",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-aeb677b971",
-                  "name": "Barcelona vs Getafe",
+                  "id": "ct-f4a2ddac49",
+                  "name": "Manchester Utd vs Tottenham",
                   "streams": [
                     {
-                      "id": "st-aeb677b971",
+                      "id": "st-f4a2ddac49",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao 1",
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2056,10 +2214,44 @@
                         },
                         {
                           "id": "lnk-4db4eeb939",
-                          "name": "BLV Tam Mao 2",
+                          "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f144c43884",
+                          "name": "BLV Tày 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2079,25 +2271,25 @@
             }
           ],
           "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Barcelona",
-            "team_b": "Getafe",
-            "logo_a": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "league": "Premier League",
+            "team_a": "Manchester Utd",
+            "team_b": "Tottenham",
+            "logo_a": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/164_tottenham-hotspur.jpg",
             "time": "23:30",
             "date": "10/10",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Tày, BLV Khô Cay",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 3,
-            "away_score": 0
+            "home_score": 1,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36297_50ccfeac_20261011.png?v=50ccfeac",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/36305_894833b8_20261011.png?v=894833b8",
             "width": 1600,
             "height": 1200
           }
