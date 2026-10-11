@@ -6284,7 +6284,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6504,25 +6504,16 @@
             "width": 1600,
             "height": 1200
           }
-        }
-      ]
-    },
-    {
-      "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
-      "display": "vertical",
-      "grid_number": 2,
-      "enable_detail": false,
-      "channels": [
+        },
         {
-          "id": "gv-415173b311",
-          "name": "Goztepe Nữ vs Vakifbank Nữ | 20:00 11/10",
+          "id": "chtv-e902eaef4c",
+          "name": "kledio kaci vs eklent kaci | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
@@ -6530,27 +6521,27 @@
           ],
           "sources": [
             {
-              "id": "src-415173b311",
-              "name": "GiovangTV",
+              "id": "src-e902eaef4c",
+              "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-415173b311",
-                  "name": "Goztepe Nữ vs Vakifbank Nữ",
+                  "id": "ct-e902eaef4c",
+                  "name": "kledio kaci vs eklent kaci",
                   "streams": [
                     {
-                      "id": "st-415173b311",
-                      "name": "GV",
+                      "id": "st-e902eaef4c",
+                      "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-b1a1f02255",
-                          "name": "Sún",
+                          "id": "lnk-e902eaef4c",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655957_hd/1791655957_hd@720p.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9065/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
+                              "value": "https://choangtv25.com/"
                             },
                             {
                               "key": "User-Agent",
@@ -6566,25 +6557,35 @@
             }
           ],
           "org_metadata": {
-            "league": "Sultanlar Ligi Nữ Vòng 2",
-            "team_a": "Goztepe Nữ",
-            "team_b": "Vakifbank Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/CS0WQUh5-27rUgAz8.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YRICRqzB-A3UKTsyj.png",
-            "time": "20:00 11/10",
-            "blv": "Sún",
+            "league": "Đời Là Phú Lê | ae cùng 1 chuồng chung kết",
+            "team_a": "kledio kaci",
+            "team_b": "eklent kaci",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791729592185_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791729597405_Eklent%20Ka%C3%A7i.jpg",
+            "time": "21:37 11/10",
+            "blv": "Lee Min Hoo",
             "is_live": true,
-            "cate_type": "bongchuyen"
+            "time_sort": 1791729420,
+            "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/hjhki4dtknlf_4794e193_20261011.png?v=4794e193",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e902eaef4c_f092dad5_20261011.png?v=f092dad5",
             "width": 1600,
             "height": 1200
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "grp-bóng-chuyền",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "display": "vertical",
+      "grid_number": 2,
+      "enable_detail": false,
+      "channels": [
         {
           "id": "xc-ef58f7ffe0",
           "name": "CBF Balducci HR Macerata vs Numia Vero Volley Milano | 21:00 11/10",
@@ -7286,83 +7287,11 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe (1 LIVE)",
+      "name": "🏎️ Đua Xe",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-6a21300a28",
-          "name": "F1 vs F1  Singapore Grand Prix | 19:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6a21300a28",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6a21300a28",
-                  "name": "F1 vs F1  Singapore Grand Prix",
-                  "streams": [
-                    {
-                      "id": "st-6a21300a28",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-33c97b16c3",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791703836_hd/1791703836_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Singapore Grand Prix",
-            "team_a": "F1",
-            "team_b": "F1  Singapore Grand Prix",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Gb3S_hVBxADavywtKLX_sSpJUrlsxbdBeKq6YIXZqQ&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjVAwoONb3nJT__FcIYbiwlWgJZq81_swcbaq2XSOIwQ&s=10",
-            "time": "19:00 11/10",
-            "blv": "Ngu",
-            "is_live": true,
-            "cate_type": "duaxe"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/iuzhyxzxeln4_35aaa9bb_20261011.png?v=35aaa9bb",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-bóng-bàn",
