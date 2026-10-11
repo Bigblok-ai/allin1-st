@@ -1236,82 +1236,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-abeef8527e",
-          "name": "Real Sociedad vs Deportivo La Coruna | 21:15 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-abeef8527e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-abeef8527e",
-                  "name": "Real Sociedad vs Deportivo La Coruna",
-                  "streams": [
-                    {
-                      "id": "st-abeef8527e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1292949f18",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791655350_hd/1791655350_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Deportivo La Coruna",
-            "logo_a": "https://images.keovip88.net/images/teams/real-sociedad.png",
-            "logo_b": "https://images.keovip88.net/images/teams/deportivo-la-coruna.png",
-            "time": "21:15 11/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5bce5e6975d550f074c_e6aa4f79_20261011.png?v=e6aa4f79",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-26c21a201f",
           "name": "Liverpool vs Manchester City | 22:30 11/10",
@@ -2218,8 +2147,8 @@
           }
         },
         {
-          "id": "xc-ccc5dd5279",
-          "name": "Real Sociedad vs Dep. A Coruna | 21:15 11/10",
+          "id": "xc-bf69bbe59f",
+          "name": "Benfica vs Vitoria Guimaraes | 00:00 12/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2233,23 +2162,23 @@
           ],
           "sources": [
             {
-              "id": "src-ccc5dd5279",
+              "id": "src-bf69bbe59f",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ccc5dd5279",
-                  "name": "Real Sociedad vs Dep. A Coruna",
+                  "id": "ct-bf69bbe59f",
+                  "name": "Benfica vs Vitoria Guimaraes",
                   "streams": [
                     {
-                      "id": "st-ccc5dd5279",
+                      "id": "st-bf69bbe59f",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao 1",
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2262,11 +2191,28 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Tam Mao 2",
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d96bd0dded",
+                          "name": "Server",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2283,65 +2229,25 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "Dep. A Coruna",
-            "logo_a": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7200_deportivo-de-la-coruna.jpg",
-            "time": "21:15",
-            "date": "11/10",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37291_9569d590_20261011.png?v=9569d590",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-90ac7bc46d",
-          "name": "Real Sociedad vs RC Deportivo | 21:15 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
+            },
             {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90ac7bc46d",
+              "id": "src-d6edf44a5d",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-90ac7bc46d",
-                  "name": "Real Sociedad vs RC Deportivo",
+                  "id": "ct-d6edf44a5d",
+                  "name": "Benfica vs Vitoria Guimaraes",
                   "streams": [
                     {
-                      "id": "st-90ac7bc46d",
-                      "name": "PL",
+                      "id": "st-d6edf44a5d",
+                      "name": "Phalang - LÝ LINH LỰC",
                       "stream_links": [
                         {
-                          "id": "lnk-5a844c09f5",
+                          "id": "lnk-3d02e8f62c",
                           "name": "LÝ LINH LỰC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/9efb796a4bb343c4b2b33c1c8178b7d9/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/898e07af7ea646818f7334382d53006c/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2361,21 +2267,25 @@
             }
           ],
           "org_metadata": {
-            "league": "Spanish La Liga",
-            "team_a": "Real Sociedad",
-            "team_b": "RC Deportivo",
-            "logo_a": "https://img.sports-data.online/football/team/579db6e95905545973035e6eab8df2cd.png",
-            "logo_b": "https://img.sports-data.online/football/team/d7f9ac6cceee4a1d472eea59be7f8581.png",
-            "time": "21:15 11/10",
-            "blv": "LÝ LINH LỰC",
+            "league": "Primeira Liga",
+            "team_a": "Benfica",
+            "team_b": "Vitoria Guimaraes",
+            "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6005_vitoria-guimaraes.jpg",
+            "time": "00:00",
+            "date": "12/10",
+            "blv": "BLV Khô Mật, Server",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgk165r51_4e37c5a9_20261011.png?v=4e37c5a9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37498_fdc59390_20261011.png?v=fdc59390",
             "width": 1600,
             "height": 1200
           }
@@ -3290,150 +3200,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/bqfshrxcp62c_05b07e87_20261011.png?v=05b07e87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-bf69bbe59f",
-          "name": "Benfica vs Vitoria Guimaraes | 00:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf69bbe59f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bf69bbe59f",
-                  "name": "Benfica vs Vitoria Guimaraes",
-                  "streams": [
-                    {
-                      "id": "st-bf69bbe59f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d96bd0dded",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d6edf44a5d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d6edf44a5d",
-                  "name": "Benfica vs Vitoria Guimaraes",
-                  "streams": [
-                    {
-                      "id": "st-d6edf44a5d",
-                      "name": "Phalang - LÝ LINH LỰC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3d02e8f62c",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/898e07af7ea646818f7334382d53006c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Primeira Liga",
-            "team_a": "Benfica",
-            "team_b": "Vitoria Guimaraes",
-            "logo_a": "https://apiv3.apifootball.com/badges/147_benfica.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6005_vitoria-guimaraes.jpg",
-            "time": "00:00",
-            "date": "12/10",
-            "blv": "BLV Khô Mật, Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37498_fdc59390_20261011.png?v=fdc59390",
             "width": 1600,
             "height": 1200
           }
@@ -5698,7 +5464,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5771,6 +5537,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c7ed647e87_ac067c51_20261011.png?v=ac067c51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-a58c133111",
+          "name": "JR SILANG vs JASON 5710 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a58c133111",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-a58c133111",
+                  "name": "JR SILANG vs JASON 5710",
+                  "streams": [
+                    {
+                      "id": "st-a58c133111",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a58c133111",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9068/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Siêu Độ Phủi Phi",
+            "team_a": "JR SILANG",
+            "team_b": "JASON 5710",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765802364327_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "22:10 11/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791731400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a58c133111_a0e82a26_20261011.png?v=a0e82a26",
             "width": 1600,
             "height": 1200
           }
