@@ -1236,7 +1236,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1337,8 +1337,8 @@
             "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
+            "status": "half_time",
+            "home_score": 1,
             "away_score": 1
           },
           "image": {
@@ -1456,77 +1456,6 @@
           }
         },
         {
-          "id": "gv-fa7e9bb726",
-          "name": "JEF United Ichihara vs V-Varen Nagasaki | 12:00 11/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa7e9bb726",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa7e9bb726",
-                  "name": "JEF United Ichihara vs V-Varen Nagasaki",
-                  "streams": [
-                    {
-                      "id": "st-fa7e9bb726",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-295c3ea22e",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616866_hd/1791616866_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "JEF United Ichihara",
-            "team_b": "V-Varen Nagasaki",
-            "logo_a": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
-            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
-            "time": "12:00 11/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac045c524d46db8705b5947_cde2f907_20261011.png?v=cde2f907",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-ba726df160",
           "name": "Gwangju FC vs Ulsan Hyundai FC | 12:00 11/10",
           "type": "single",
@@ -1534,10 +1463,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1619,7 +1548,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_131435_b1a26b97.png",
             "time": "12:00 11/10",
             "blv": "Chuối Kem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1627,6 +1556,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1507081_f9fd60eb_20261011.png?v=f9fd60eb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-fa7e9bb726",
+          "name": "JEF United Ichihara vs V-Varen Nagasaki | 12:00 11/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa7e9bb726",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fa7e9bb726",
+                  "name": "JEF United Ichihara vs V-Varen Nagasaki",
+                  "streams": [
+                    {
+                      "id": "st-fa7e9bb726",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-295c3ea22e",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791616866_hd/1791616866_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "JEF United Ichihara",
+            "team_b": "V-Varen Nagasaki",
+            "logo_a": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
+            "logo_b": "https://images.keovip88.net/images/teams/v-varen-nagasaki.png",
+            "time": "12:00 11/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac045c524d46db8705b5947_cde2f907_20261011.png?v=cde2f907",
             "width": 1600,
             "height": 1200
           }
