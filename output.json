@@ -5873,7 +5873,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5886,10 +5886,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5937,7 +5937,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/EwLW3og5-6NHltuug.png",
             "time": "11:00 12/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -6032,83 +6032,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-8f8a486803",
-          "name": "Denver Nuggets vs Chicago Bulls | 08:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f8a486803",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8f8a486803",
-                  "name": "Denver Nuggets vs Chicago Bulls",
-                  "streams": [
-                    {
-                      "id": "st-8f8a486803",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-09ef2a2480",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791722282_hd/1791722282_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Denver Nuggets",
-            "team_b": "Chicago Bulls",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c73eca8b9cc18ff386bf6ff4c1236b9e.png",
-            "time": "08:00 12/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/27612275_7235cfd1_20261012.png?v=7235cfd1",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-billiards",
@@ -6185,78 +6113,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-dc8107ff2a_aa8f6d2e_20261012.png?v=aa8f6d2e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-d725524d81",
-          "name": "Paolo Gallito vs Giàng A Báo | Tào A Man",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d725524d81",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-d725524d81",
-                  "name": "Paolo Gallito vs Giàng A Báo",
-                  "streams": [
-                    {
-                      "id": "st-d725524d81",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d725524d81",
-                          "name": "Tào A Man",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9077/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
-            "team_a": "Paolo Gallito",
-            "team_b": "Giàng A Báo",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00 12/10",
-            "blv": "Tào A Man",
-            "is_live": true,
-            "time_sort": 1791774000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d725524d81_3139eab5_20261012.png?v=3139eab5",
             "width": 1600,
             "height": 1200
           }
@@ -6406,8 +6262,8 @@
           }
         },
         {
-          "id": "chtv-4ef307f2c0",
-          "name": "Cao Văn Hào vs Bình Chuẩn | Thập Cẩm",
+          "id": "chtv-d725524d81",
+          "name": "Paolo Gallito vs Giàng A Báo | Tào A Man",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6421,23 +6277,23 @@
           ],
           "sources": [
             {
-              "id": "src-4ef307f2c0",
+              "id": "src-d725524d81",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-4ef307f2c0",
-                  "name": "Cao Văn Hào vs Bình Chuẩn",
+                  "id": "ct-d725524d81",
+                  "name": "Paolo Gallito vs Giàng A Báo",
                   "streams": [
                     {
-                      "id": "st-4ef307f2c0",
+                      "id": "st-d725524d81",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-4ef307f2c0",
-                          "name": "Thập Cẩm",
+                          "id": "lnk-d725524d81",
+                          "name": "Tào A Man",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9075/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9077/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -6458,12 +6314,12 @@
           ],
           "org_metadata": {
             "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
-            "team_a": "Cao Văn Hào",
-            "team_b": "Bình Chuẩn",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791762148750_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "team_a": "Paolo Gallito",
+            "team_b": "Giàng A Báo",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765226684776_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "10:00 12/10",
-            "blv": "Thập Cẩm",
+            "blv": "Tào A Man",
             "is_live": true,
             "time_sort": 1791774000,
             "cate_type": "billiards"
@@ -6472,7 +6328,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ef307f2c0_2744af6a_20261012.png?v=2744af6a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d725524d81_3139eab5_20261012.png?v=3139eab5",
             "width": 1600,
             "height": 1200
           }
@@ -6545,6 +6401,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-a991a32e57_b03cae7a_20261012.png?v=b03cae7a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-4ef307f2c0",
+          "name": "Cao Văn Hào vs Bình Chuẩn | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ef307f2c0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4ef307f2c0",
+                  "name": "Cao Văn Hào vs Bình Chuẩn",
+                  "streams": [
+                    {
+                      "id": "st-4ef307f2c0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ef307f2c0",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9075/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Winner Round 1 - Nhánh thắng 99 ALLIN C2",
+            "team_a": "Cao Văn Hào",
+            "team_b": "Bình Chuẩn",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1778354244961_1683_0dFQWA_96x96.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791762148750_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
+            "time": "10:00 12/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1791774000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4ef307f2c0_2744af6a_20261012.png?v=2744af6a",
             "width": 1600,
             "height": 1200
           }
