@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1659,77 +1659,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1629927_85c1e05b_20261012.png?v=85c1e05b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-8934ed4523",
-          "name": "Real Valladolid CF vs Albacete Balompié SAD | 19:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8934ed4523",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-8934ed4523",
-                  "name": "Real Valladolid CF vs Albacete Balompié SAD",
-                  "streams": [
-                    {
-                      "id": "st-8934ed4523",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-807021a5eb",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6cf8069e5f3c44d1972cd757d9c67a02/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Spanish Segunda Division",
-            "team_a": "Real Valladolid CF",
-            "team_b": "Albacete Balompié SAD",
-            "logo_a": "https://img.sports-data.online/football/team/fdf63461c00668597319a4f0db14dcee.png",
-            "logo_b": "https://img.sports-data.online/football/team/a2f731e9147f64082f22b9a561425308.png",
-            "time": "19:00 12/10",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgk2dxr51_8b37602e_20261012.png?v=8b37602e",
             "width": 1600,
             "height": 1200
           }
@@ -6962,11 +6891,103 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-e430746200",
+          "name": "Ziraat Bankkart vs Galatasaray | 21:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e430746200",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e430746200",
+                  "name": "Ziraat Bankkart vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-e430746200",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4ead39db03",
+                          "name": "BLV Xôi Gà 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Xôi Gà 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AXA Sigorta Şampiyonlar Kupası / M",
+            "team_a": "Ziraat Bankkart",
+            "team_b": "Galatasaray",
+            "logo_a": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
+            "time": "21:00",
+            "date": "12/10",
+            "blv": "BLV Xôi Gà",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_816b27b9_20261012.png?v=816b27b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-512b14adc6",
           "name": "Ziraat Bankasi vs Galatasaray | 22:00 12/10",
@@ -7358,6 +7379,148 @@
           }
         },
         {
+          "id": "pl-d7f522161a",
+          "name": "VTV BĐ Long An vs Vietinbank | 17:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7f522161a",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d7f522161a",
+                  "name": "VTV BĐ Long An vs Vietinbank",
+                  "streams": [
+                    {
+                      "id": "st-d7f522161a",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1776525592",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a9e5805ae00243fc8a6efd9934e412f6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải bóng chuyền VĐQG 2026",
+            "team_a": "VTV BĐ Long An",
+            "team_b": "Vietinbank",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/e/ec/Logo_VTV_B%C3%ACnh_%C4%90i%E1%BB%81n_Long_An.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/9/9d/Logo_Vietinbank.png",
+            "time": "17:00 14/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45577673ff51403e8f697eb82a999fc6_f7f451ec_20261012.png?v=f7f451ec",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-46d240b8ec",
+          "name": "XMLS Thanh Hoá vs LB Bank Ninh Bình | 20:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46d240b8ec",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-46d240b8ec",
+                  "name": "XMLS Thanh Hoá vs LB Bank Ninh Bình",
+                  "streams": [
+                    {
+                      "id": "st-46d240b8ec",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a0a034b7d3",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/c4bef67c466d423faab00207858959dd/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải bóng chuyền VĐQG 2026",
+            "team_a": "XMLS Thanh Hoá",
+            "team_b": "LB Bank Ninh Bình",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/vi/thumb/e/e3/Logo_XMLS_Thanh_H%C3%B3a.png/250px-Logo_XMLS_Thanh_H%C3%B3a.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png",
+            "time": "20:00 14/10",
+            "blv": "LÝ LÊN LỬA",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/683d97d25d634280b245f6600d1214b9_26fae5b2_20261012.png?v=26fae5b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-e875effedd",
           "name": "Heungkuk Life Pink Spiders vs IBK Altos | 17:00 13/10",
           "type": "single",
@@ -7479,98 +7642,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_fc945e63_20261012.png?v=fc945e63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e430746200",
-          "name": "Ziraat Bankkart vs Galatasaray | 21:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e430746200",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e430746200",
-                  "name": "Ziraat Bankkart vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-e430746200",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Gà 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AXA Sigorta Şampiyonlar Kupası / M",
-            "team_a": "Ziraat Bankkart",
-            "team_b": "Galatasaray",
-            "logo_a": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
-            "time": "21:00",
-            "date": "12/10",
-            "blv": "BLV Xôi Gà",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_816b27b9_20261012.png?v=816b27b9",
             "width": 1600,
             "height": 1200
           }
