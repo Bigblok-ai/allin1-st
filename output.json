@@ -1618,7 +1618,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -6969,112 +6969,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-512b14adc6",
-          "name": "Ziraat Bankasi vs Galatasaray | 22:00 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-512b14adc6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-512b14adc6",
-                  "name": "Ziraat Bankasi vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-512b14adc6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-77ead4e51d",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780435_hd/1791780435_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7558ab6e80",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-7558ab6e80",
-                  "name": "Ziraat Bankasi vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-7558ab6e80",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f9520c250",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/97e5f9567d7941d5b3c6c987d74731fe/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Thổ Nhĩ Kỳ Super Cup - Chung kết",
-            "team_a": "Ziraat Bankasi",
-            "team_b": "Galatasaray",
-            "logo_a": "https://static.flashscore.com/res/image/data/nN1hHJYA-vaQC7xt4.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/5/51/Galatasaray_daikin_voleybol_logo.png",
-            "time": "22:00 12/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/gha1i94ivme2_663fa393_20261012.png?v=663fa393",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-e430746200",
           "name": "Ziraat Bankkart vs Galatasaray | 22:00 12/10",
           "type": "single",
@@ -7162,6 +7056,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_816b27b9_20261012.png?v=816b27b9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-7558ab6e80",
+          "name": "Ziraat Bankasi vs Galatasaray | 22:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7558ab6e80",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-7558ab6e80",
+                  "name": "Ziraat Bankasi vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-7558ab6e80",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f9520c250",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/97e5f9567d7941d5b3c6c987d74731fe/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Super Cup",
+            "team_a": "Ziraat Bankasi",
+            "team_b": "Galatasaray",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/509aa9190a2b64dac9ffa248906a94d9.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/2b340a75f4a904fd8c37f8396c293db5.png!w80",
+            "time": "22:00 12/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/664e63a734374eefb04eb88f0a07e667_480299a8_20261012.png?v=480299a8",
             "width": 1600,
             "height": 1200
           }
