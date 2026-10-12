@@ -1940,7 +1940,7 @@
           }
         },
         {
-          "id": "cc-f89981a474",
+          "id": "xc-eea4b36884",
           "name": "Torino vs Udinese | 01:45 13/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1955,6 +1955,41 @@
           ],
           "sources": [
             {
+              "id": "src-eea4b36884",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-eea4b36884",
+                  "name": "Torino vs Udinese",
+                  "streams": [
+                    {
+                      "id": "st-eea4b36884",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-f89981a474",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1964,7 +1999,7 @@
                   "streams": [
                     {
                       "id": "st-f89981a474",
-                      "name": "CC",
+                      "name": "CCport - Chuối Ngao",
                       "stream_links": [
                         {
                           "id": "lnk-371745cb51",
@@ -2063,18 +2098,22 @@
             "league": "Serie A",
             "team_a": "Torino",
             "team_b": "Udinese",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125604_aafec1fd.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125601_d19dd636.png",
-            "time": "01:45 13/10",
-            "blv": "Chuối Ngao",
+            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4984_udinese.jpg",
+            "time": "01:45",
+            "date": "13/10",
+            "blv": "Server",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1550146_30b633fa_20261013.png?v=30b633fa",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39102_1454a0e3_20261013.png?v=1454a0e3",
             "width": 1600,
             "height": 1200
           }
@@ -6192,103 +6231,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-e430746200",
-          "name": "Ziraat Bankkart vs Galatasaray | 23:30 12/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e430746200",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e430746200",
-                  "name": "Ziraat Bankkart vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-e430746200",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4ead39db03",
-                          "name": "BLV Xôi Gà 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Xôi Gà 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AXA Sigorta Şampiyonlar Kupası / M",
-            "team_a": "Ziraat Bankkart",
-            "team_b": "Galatasaray",
-            "logo_a": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
-            "time": "23:30",
-            "date": "12/10",
-            "blv": "BLV Xôi Gà",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_816b27b9_20261013.png?v=816b27b9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "pl-7558ab6e80",
           "name": "Ziraat Bankasi vs Galatasaray | 23:30 12/10",
