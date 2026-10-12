@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1147,7 +1147,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1156,15 +1156,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1181,7 +1181,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1462,7 +1462,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1471,15 +1471,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Gấc 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1496,7 +1496,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1636,6 +1636,173 @@
           }
         },
         {
+          "id": "xc-ec3b845037",
+          "name": "FC Arges vs CFR Cluj | 22:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ec3b845037",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ec3b845037",
+                  "name": "FC Arges vs CFR Cluj",
+                  "streams": [
+                    {
+                      "id": "st-ec3b845037",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d7fe2804d9",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "FC Arges",
+            "team_b": "CFR Cluj",
+            "logo_a": "https://apiv3.apifootball.com/badges/6190_arge.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/120_cfr-cluj.jpg",
+            "time": "22:00",
+            "date": "12/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37704_c6082cb9_20261012.png?v=c6082cb9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-dbe3bcfb77",
+          "name": "VPS vs Gnistan | 22:00 12/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dbe3bcfb77",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-dbe3bcfb77",
+                  "name": "VPS vs Gnistan",
+                  "streams": [
+                    {
+                      "id": "st-dbe3bcfb77",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c210608a27",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "Gnistan",
+            "logo_a": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3541_gnistan.jpg",
+            "time": "22:00",
+            "date": "12/10",
+            "blv": "Server",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37711_1acc98e1_20261012.png?v=1acc98e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1abcd28456",
           "name": "Tractor vs Shamal | 23:00 12/10",
           "type": "single",
@@ -1671,7 +1838,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1688,7 +1855,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1705,7 +1872,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1808,7 +1975,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37743_79ab5f91_20261013.png?v=79ab5f91",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37743_79ab5f91_20261012.png?v=79ab5f91",
             "width": 1600,
             "height": 1200
           }
@@ -1849,7 +2016,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1858,15 +2025,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Chè 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1900,7 +2067,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37744_6d14dbc6_20261013.png?v=6d14dbc6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37744_6d14dbc6_20261012.png?v=6d14dbc6",
             "width": 1600,
             "height": 1200
           }
@@ -1941,7 +2108,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1958,7 +2125,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2061,7 +2228,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37747_c674e9d1_20261013.png?v=c674e9d1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/37747_c674e9d1_20261012.png?v=c674e9d1",
             "width": 1600,
             "height": 1200
           }
@@ -2237,7 +2404,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hky9gkrz8_8c7a585b_20261013.png?v=8c7a585b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hky9gkrz8_8c7a585b_20261012.png?v=8c7a585b",
             "width": 1600,
             "height": 1200
           }
@@ -2313,7 +2480,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2322,15 +2489,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tày 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2347,7 +2514,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2517,7 +2684,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whwjdejryo_f7d21352_20261013.png?v=f7d21352",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whwjdejryo_f7d21352_20261012.png?v=f7d21352",
             "width": 1600,
             "height": 1200
           }
@@ -2768,7 +2935,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2785,7 +2952,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2960,7 +3127,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2969,15 +3136,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Gấc 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2994,7 +3161,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3360,7 +3527,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3369,15 +3536,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tam Mao 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3587,7 +3754,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3604,7 +3771,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3621,7 +3788,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3971,7 +4138,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3980,15 +4147,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Bò 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4005,7 +4172,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4211,7 +4378,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whwjdxzryo_7ff69dd8_20261013.png?v=7ff69dd8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whwjdxzryo_7ff69dd8_20261012.png?v=7ff69dd8",
             "width": 1600,
             "height": 1200
           }
@@ -4387,7 +4554,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/965mkyhkvx0or1g_878fa490_20261013.png?v=878fa490",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/965mkyhkvx0or1g_878fa490_20261012.png?v=878fa490",
             "width": 1600,
             "height": 1200
           }
@@ -4463,7 +4630,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4472,15 +4639,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Tam Mao 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4690,7 +4857,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4699,15 +4866,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Chè 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4882,7 +5049,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4891,15 +5058,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Chè 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4933,7 +5100,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39091_2e48379f_20261013.png?v=2e48379f",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39091_2e48379f_20261012.png?v=2e48379f",
             "width": 1600,
             "height": 1200
           }
@@ -4974,7 +5141,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4991,7 +5158,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5025,7 +5192,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39557_49402ee9_20261013.png?v=49402ee9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39557_49402ee9_20261012.png?v=49402ee9",
             "width": 1600,
             "height": 1200
           }
@@ -5066,7 +5233,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5100,7 +5267,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39559_4a08f3f6_20261013.png?v=4a08f3f6",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39559_4a08f3f6_20261012.png?v=4a08f3f6",
             "width": 1600,
             "height": 1200
           }
@@ -5141,7 +5308,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5158,7 +5325,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5175,7 +5342,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5278,7 +5445,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39132_a7f6b6fd_20261013.png?v=a7f6b6fd",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39132_a7f6b6fd_20261012.png?v=a7f6b6fd",
             "width": 1600,
             "height": 1200
           }
@@ -5319,7 +5486,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5328,15 +5495,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Khô Cay 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5370,7 +5537,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39143_25aa97b8_20261013.png?v=25aa97b8",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39143_25aa97b8_20261012.png?v=25aa97b8",
             "width": 1600,
             "height": 1200
           }
@@ -5411,7 +5578,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5420,15 +5587,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Xoài 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5462,7 +5629,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39244_ea8b79a0_20261013.png?v=ea8b79a0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39244_ea8b79a0_20261012.png?v=ea8b79a0",
             "width": 1600,
             "height": 1200
           }
@@ -6563,7 +6730,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-188206f00f_bd52b772_20261013.png?v=bd52b772",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-188206f00f_bd52b772_20261012.png?v=bd52b772",
             "width": 1600,
             "height": 1200
           }
@@ -6635,7 +6802,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db7d895f86_446245c2_20261013.png?v=446245c2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-db7d895f86_446245c2_20261012.png?v=446245c2",
             "width": 1600,
             "height": 1200
           }
@@ -6707,7 +6874,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cc1354ec74_f191eb44_20261013.png?v=f191eb44",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cc1354ec74_f191eb44_20261012.png?v=f191eb44",
             "width": 1600,
             "height": 1200
           }
@@ -6863,7 +7030,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6880,7 +7047,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6899,8 +7066,8 @@
             "league": "Tauron Liga Ba Lan Nữ",
             "team_a": "KS DevelopRes Rzeszów",
             "team_b": "Sokół & Hagric Mogilno",
-            "logo_a": "https://xoiche.live/media/teams/logos/ks-developres-rzeszow-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/sokol-hagric-mogilno-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/ks-developres-rzeszow-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/sokol-hagric-mogilno-vb.png",
             "time": "22:30",
             "date": "12/10",
             "blv": "BLV Xôi Bắp",
@@ -6914,7 +7081,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38657_edca5cad_20261013.png?v=edca5cad",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38657_29351aa9_20261012.png?v=29351aa9",
             "width": 1600,
             "height": 1200
           }
@@ -6955,7 +7122,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6964,15 +7131,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-4db4eeb939",
+                          "id": "lnk-d7fe2804d9",
                           "name": "BLV Xôi Gà 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6991,8 +7158,8 @@
             "league": "AXA Sigorta Şampiyonlar Kupası / M",
             "team_a": "Ziraat Bankkart",
             "team_b": "Galatasaray",
-            "logo_a": "https://xoiche.live/media/teams/logos/ziraat-bankkart-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/galatasaray-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/ziraat-bankkart-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/galatasaray-vb.png",
             "time": "23:30",
             "date": "12/10",
             "blv": "BLV Xôi Gà",
@@ -7006,7 +7173,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_816b27b9_20261013.png?v=816b27b9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38602_9ef916d9_20261012.png?v=9ef916d9",
             "width": 1600,
             "height": 1200
           }
@@ -7219,7 +7386,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/5d3eb7a273bc4a59964540d940a144b3_599a7129_20261013.png?v=599a7129",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/5d3eb7a273bc4a59964540d940a144b3_599a7129_20261012.png?v=599a7129",
             "width": 1600,
             "height": 1200
           }
@@ -7290,7 +7457,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4e8be905a71a4ae5a97cedc6e1f04bf9_2b14a5c1_20261013.png?v=2b14a5c1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4e8be905a71a4ae5a97cedc6e1f04bf9_2b14a5c1_20261012.png?v=2b14a5c1",
             "width": 1600,
             "height": 1200
           }
@@ -7361,7 +7528,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45577673ff51403e8f697eb82a999fc6_f7f451ec_20261013.png?v=f7f451ec",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45577673ff51403e8f697eb82a999fc6_f7f451ec_20261012.png?v=f7f451ec",
             "width": 1600,
             "height": 1200
           }
@@ -7432,7 +7599,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/683d97d25d634280b245f6600d1214b9_26fae5b2_20261013.png?v=26fae5b2",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/683d97d25d634280b245f6600d1214b9_26fae5b2_20261012.png?v=26fae5b2",
             "width": 1600,
             "height": 1200
           }
@@ -7503,7 +7670,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/14f6bb02e9af4e98a0a1ba5903152123_75460d64_20261013.png?v=75460d64",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/14f6bb02e9af4e98a0a1ba5903152123_75460d64_20261012.png?v=75460d64",
             "width": 1600,
             "height": 1200
           }
@@ -7574,7 +7741,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6d7234725c4c4060a5be4348a2baf3fa_da39df13_20261013.png?v=da39df13",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6d7234725c4c4060a5be4348a2baf3fa_da39df13_20261012.png?v=da39df13",
             "width": 1600,
             "height": 1200
           }
@@ -7615,7 +7782,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7624,15 +7791,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-9f1ad19924",
+                          "id": "lnk-39c24460c3",
                           "name": "BLV Xôi Bắp 1",
                           "type": "hls",
                           "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "url": "https://xoiche2.live/live/backup/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7649,7 +7816,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7666,7 +7833,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7685,8 +7852,8 @@
             "league": "KOVO Cup Hàn Quốc / W",
             "team_a": "Heungkuk Life Pink Spiders",
             "team_b": "IBK Altos",
-            "logo_a": "https://xoiche.live/media/teams/logos/heungkuk-life-pink-spiders-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/ibk-altos-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/heungkuk-life-pink-spiders-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/ibk-altos-vb.png",
             "time": "17:00",
             "date": "13/10",
             "blv": "BLV Xôi Gà, BLV Xôi Bắp, Server",
@@ -7700,7 +7867,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_fc945e63_20261013.png?v=fc945e63",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_a42e5b93_20261012.png?v=a42e5b93",
             "width": 1600,
             "height": 1200
           }
