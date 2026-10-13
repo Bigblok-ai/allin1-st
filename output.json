@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1084,10 +1084,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1291,7 +1291,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/gamba-osaka.png",
             "time": "14:45 13/10",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -5427,6 +5427,248 @@
           }
         },
         {
+          "id": "xc-a463cac232",
+          "name": "Aston Villa vs Fenerbahce | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a463cac232",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a463cac232",
+                  "name": "Aston Villa vs Fenerbahce",
+                  "streams": [
+                    {
+                      "id": "st-a463cac232",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Aston Villa",
+            "team_b": "Fenerbahce",
+            "logo_a": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7694_fenerbahce.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39993_0208a28d_20261013.png?v=0208a28d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-95831099d5",
+          "name": "Betis vs FC Porto | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-95831099d5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-95831099d5",
+                  "name": "Betis vs FC Porto",
+                  "streams": [
+                    {
+                      "id": "st-95831099d5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Betis",
+            "team_b": "FC Porto",
+            "logo_a": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/81_porto.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39994_f72b0e6b_20261013.png?v=f72b0e6b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-16ecd261ac",
+          "name": "Manchester City vs PSG | 02:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16ecd261ac",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-16ecd261ac",
+                  "name": "Manchester City vs PSG",
+                  "streams": [
+                    {
+                      "id": "st-16ecd261ac",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-873eea3f40",
+                          "name": "BLV Tày 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Tày 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Manchester City",
+            "team_b": "PSG",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/100_psg.jpg",
+            "time": "02:00",
+            "date": "15/10",
+            "blv": "BLV Tày",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/39996_02fdf2aa_20261013.png?v=02fdf2aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-4ce4011e6b",
           "name": "Melbourne Victory vs Seoul | 14:45 14/10",
           "type": "single",
@@ -6596,83 +6838,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-b893000fb9",
-          "name": "Bình Chuẩn vs Quyền Lê | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b893000fb9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b893000fb9",
-                  "name": "Bình Chuẩn vs Quyền Lê",
-                  "streams": [
-                    {
-                      "id": "st-b893000fb9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b893000fb9",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9175/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Round 3",
-            "team_a": "Bình Chuẩn",
-            "team_b": "Quyền Lê",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791872010407_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791872010072_Vi%E1%BB%87t%20Nam.png",
-            "time": "00:00 13/10",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1791824400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b893000fb9_28d565fd_20261013.png?v=28d565fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-96299f5523",
           "name": "Dũng Baby vs Hoàng Tễu | Lee Min Hoo",
@@ -6746,8 +6916,8 @@
           }
         },
         {
-          "id": "chtv-21016f4418",
-          "name": "Trung Lạng vs Tkon | Đại Kê",
+          "id": "chtv-b893000fb9",
+          "name": "Bình Chuẩn vs Quyền Lê | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6761,23 +6931,23 @@
           ],
           "sources": [
             {
-              "id": "src-21016f4418",
+              "id": "src-b893000fb9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-21016f4418",
-                  "name": "Trung Lạng vs Tkon",
+                  "id": "ct-b893000fb9",
+                  "name": "Bình Chuẩn vs Quyền Lê",
                   "streams": [
                     {
-                      "id": "st-21016f4418",
+                      "id": "st-b893000fb9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-21016f4418",
-                          "name": "Đại Kê",
+                          "id": "lnk-b893000fb9",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9174/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9175/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -6798,12 +6968,84 @@
           ],
           "org_metadata": {
             "league": "Loser Round 3",
-            "team_a": "Trung Lạng",
-            "team_b": "Tkon",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791871987694_Vi%E1%BB%87t%20Nam.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791871986909_Tkon.png",
+            "team_a": "Bình Chuẩn",
+            "team_b": "Quyền Lê",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791872010407_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791872010072_Vi%E1%BB%87t%20Nam.png",
+            "time": "00:00 13/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1791824400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b893000fb9_28d565fd_20261013.png?v=28d565fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e8e28b03f6",
+          "name": "Dũng TB vs Bảo Ngô | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8e28b03f6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e8e28b03f6",
+                  "name": "Dũng TB vs Bảo Ngô",
+                  "streams": [
+                    {
+                      "id": "st-e8e28b03f6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e8e28b03f6",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9170/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 3",
+            "team_a": "Dũng TB",
+            "team_b": "Bảo Ngô",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791871836875_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791871836535_Vi%E1%BB%87t%20Nam.png",
             "time": "14:00 13/10",
-            "blv": "Đại Kê",
+            "blv": "Kèn Kèn",
             "is_live": true,
             "time_sort": 1791874800,
             "cate_type": "billiards"
@@ -6812,7 +7054,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-21016f4418_355605d4_20261013.png?v=355605d4",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e8e28b03f6_457b0526_20261013.png?v=457b0526",
             "width": 1600,
             "height": 1200
           }
@@ -6885,6 +7127,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-289132eb9d_4605a431_20261013.png?v=4605a431",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-21016f4418",
+          "name": "Trung Lạng vs Tkon | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-21016f4418",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-21016f4418",
+                  "name": "Trung Lạng vs Tkon",
+                  "streams": [
+                    {
+                      "id": "st-21016f4418",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-21016f4418",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9174/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Round 3",
+            "team_a": "Trung Lạng",
+            "team_b": "Tkon",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791871987694_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791871986909_Tkon.png",
+            "time": "14:00 13/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1791874800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-21016f4418_355605d4_20261013.png?v=355605d4",
             "width": 1600,
             "height": 1200
           }
