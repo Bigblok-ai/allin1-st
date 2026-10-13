@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1426,6 +1426,146 @@
           }
         },
         {
+          "id": "gv-1c97caa6b8",
+          "name": "Shanghai Port vs Daejeon Citizen | 17:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c97caa6b8",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1c97caa6b8",
+                  "name": "Shanghai Port vs Daejeon Citizen",
+                  "streams": [
+                    {
+                      "id": "st-1c97caa6b8",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-727cec49c5",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791735358_hd/1791735358_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-14c5e9d72a",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-14c5e9d72a",
+                  "name": "Shanghai Port vs Daejeon",
+                  "streams": [
+                    {
+                      "id": "st-14c5e9d72a",
+                      "name": "PhaoHoa - BLV Khô Bò",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4db4eeb939",
+                          "name": "BLV Khô Bò 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/backup/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-800e867b4f",
+                          "name": "BLV Khô Bò 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Shanghai Port",
+            "team_b": "Daejeon Citizen",
+            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
+            "logo_b": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
+            "time": "17:00 13/10",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8795fce207814bf00bf3a4_b9ea166b_20261013.png?v=b9ea166b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a0ec6296fa",
           "name": "Pohang vs Johor DT | 17:00 13/10",
           "type": "single",
@@ -1760,146 +1900,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whwjdxzryo_7ff69dd8_20261013.png?v=7ff69dd8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1c97caa6b8",
-          "name": "Shanghai Port vs Daejeon Citizen | 17:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c97caa6b8",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c97caa6b8",
-                  "name": "Shanghai Port vs Daejeon Citizen",
-                  "streams": [
-                    {
-                      "id": "st-1c97caa6b8",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-727cec49c5",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791735358_hd/1791735358_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-14c5e9d72a",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-14c5e9d72a",
-                  "name": "Shanghai Port vs Daejeon",
-                  "streams": [
-                    {
-                      "id": "st-14c5e9d72a",
-                      "name": "PhaoHoa - BLV Khô Bò",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3e89c2b5b",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4db4eeb939",
-                          "name": "BLV Khô Bò 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/backup/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-800e867b4f",
-                          "name": "BLV Khô Bò 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Shanghai Port",
-            "team_b": "Daejeon Citizen",
-            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
-            "logo_b": "https://images.keovip88.net/images/teams/daejeon-citizen.png",
-            "time": "17:00 13/10",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8795fce207814bf00bf3a4_b9ea166b_20261013.png?v=b9ea166b",
             "width": 1600,
             "height": 1200
           }
@@ -6088,7 +6088,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6101,10 +6101,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6152,7 +6152,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/xEzx16Fa-p45uyGM1.png",
             "time": "17:00 13/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -6160,77 +6160,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/l2rz98zcxyfu_08a15bea_20261013.png?v=08a15bea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ded4b8dd1b",
-          "name": "Hubert Hurkacz vs Alejandro Davivdovich Fokina | 17:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ded4b8dd1b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ded4b8dd1b",
-                  "name": "Hubert Hurkacz vs Alejandro Davivdovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-ded4b8dd1b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-49c4a33de1",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791875453_hd/1791875453_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Hubert Hurkacz",
-            "team_b": "Alejandro Davivdovich Fokina",
-            "logo_a": "https://static.flashscore.com/res/image/data/xGuYHTGG-xEfD5uDB.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png",
-            "time": "17:00 13/10",
-            "blv": "Mù",
-            "is_live": false,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/f9228tv44lbj_d9004ef1_20261013.png?v=d9004ef1",
             "width": 1600,
             "height": 1200
           }
@@ -6247,7 +6176,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6260,10 +6189,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6311,7 +6240,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/Q7U6ouhl-8M6D6J3r.png",
             "time": "17:00 13/10",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -6974,78 +6903,6 @@
           }
         },
         {
-          "id": "chtv-3cbe7959fa",
-          "name": "Tkon vs Xuân NA | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3cbe7959fa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-3cbe7959fa",
-                  "name": "Tkon vs Xuân NA",
-                  "streams": [
-                    {
-                      "id": "st-3cbe7959fa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3cbe7959fa",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9181/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Loser Qualification | Loạt 16h | Race 9",
-            "team_a": "Tkon",
-            "team_b": "Xuân NA",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1791878261837_Tkon.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1791878258970_Vi%E1%BB%87t%20Nam.png",
-            "time": "16:00 13/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1791882000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cbe7959fa_f6b39aee_20261013.png?v=f6b39aee",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-5350d6615d",
           "name": "Quyền Lê vs Phương He | Kèn Kèn",
           "type": "single",
@@ -7113,6 +6970,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5350d6615d_56f89c2a_20261013.png?v=56f89c2a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-3cbe7959fa",
+          "name": "Tkon vs Xuân NA | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3cbe7959fa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3cbe7959fa",
+                  "name": "Tkon vs Xuân NA",
+                  "streams": [
+                    {
+                      "id": "st-3cbe7959fa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3cbe7959fa",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9181/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loser Qualification | Loạt 16h | Race 9",
+            "team_a": "Tkon",
+            "team_b": "Xuân NA",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1791878261837_Tkon.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1791878258970_Vi%E1%BB%87t%20Nam.png",
+            "time": "16:00 13/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1791882000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3cbe7959fa_f6b39aee_20261013.png?v=f6b39aee",
             "width": 1600,
             "height": 1200
           }
@@ -7337,11 +7266,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2d4cad1065",
+          "name": "Hungkuk Nữ vs IBK nữ | 17:00 13/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2d4cad1065",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2d4cad1065",
+                  "name": "Hungkuk Nữ vs IBK nữ",
+                  "streams": [
+                    {
+                      "id": "st-2d4cad1065",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b102ef15b8",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780555_hd/1791780555_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Cúp KOVO Nữ",
+            "team_a": "Hungkuk Nữ",
+            "team_b": "IBK nữ",
+            "logo_a": "https://upload-wikimedia-org.translate.goog/wikipedia/en/0/0f/Heungkuk_Life_Pink_Spiders.png?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=tc",
+            "logo_b": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "time": "17:00 13/10",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/u1778fz3g6tv_9372c01a_20261013.png?v=9372c01a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-e875effedd",
           "name": "Heungkuk Life Pink Spiders vs IBK Altos | 17:00 13/10",
@@ -7464,77 +7464,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38660_fc945e63_20261013.png?v=fc945e63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2d4cad1065",
-          "name": "Hungkuk Nữ vs IBK nữ | 17:00 13/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d4cad1065",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2d4cad1065",
-                  "name": "Hungkuk Nữ vs IBK nữ",
-                  "streams": [
-                    {
-                      "id": "st-2d4cad1065",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b102ef15b8",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791780555_hd/1791780555_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Cúp KOVO Nữ",
-            "team_a": "Hungkuk Nữ",
-            "team_b": "IBK nữ",
-            "logo_a": "https://upload-wikimedia-org.translate.goog/wikipedia/en/0/0f/Heungkuk_Life_Pink_Spiders.png?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi&_x_tr_pto=tc",
-            "logo_b": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
-            "time": "17:00 13/10",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/u1778fz3g6tv_9372c01a_20261013.png?v=9372c01a",
             "width": 1600,
             "height": 1200
           }
