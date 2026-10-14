@@ -4516,7 +4516,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4529,10 +4529,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4580,7 +4580,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4c56f517bc64726563ed7f0d226a828e.png",
             "time": "23:00 14/10",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -5820,6 +5820,112 @@
           }
         },
         {
+          "id": "gv-2f22d39e43",
+          "name": "Fenerbahce Nữ vs Goztepe Nữ | 23:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f22d39e43",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2f22d39e43",
+                  "name": "Fenerbahce Nữ vs Goztepe Nữ",
+                  "streams": [
+                    {
+                      "id": "st-2f22d39e43",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4c7819ffa6",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791990891_hd/1791990891_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a73da6e127",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-a73da6e127",
+                  "name": "Fenerbahce Nữ vs Goztepe Nữ",
+                  "streams": [
+                    {
+                      "id": "st-a73da6e127",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0cda6066d5",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/aa9ddd35f2cb4746a1c35e62a0ea6bfb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi Nữ ",
+            "team_a": "Fenerbahce Nữ",
+            "team_b": "Goztepe Nữ",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/am1hqNcHXX7QHNzqOjT6qw_96x96.png",
+            "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/WB1orOJBxA3j12X_54XREg_96x96.png",
+            "time": "23:00 14/10",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/fpe1qt6jgbsl_e51709f3_20261014.png?v=e51709f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5c5f4a8a56",
           "name": "Aras Kargo vs Galatasaray Daikin | 20:00 14/10",
           "type": "single",
@@ -5995,77 +6101,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/14f6bb02e9af4e98a0a1ba5903152123_75460d64_20261014.png?v=75460d64",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-a73da6e127",
-          "name": "Fenerbahce Nữ vs Goztepe Nữ | 23:00 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a73da6e127",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-a73da6e127",
-                  "name": "Fenerbahce Nữ vs Goztepe Nữ",
-                  "streams": [
-                    {
-                      "id": "st-a73da6e127",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0cda6066d5",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/aa9ddd35f2cb4746a1c35e62a0ea6bfb/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi",
-            "team_a": "Fenerbahce Nữ",
-            "team_b": "Goztepe Nữ",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/faa46ea1d338402036b2e573b72f9b43.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/053d02b1d47e14160ce6534a12bd90ba.png!w80",
-            "time": "23:00 14/10",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6d7234725c4c4060a5be4348a2baf3fa_da39df13_20261014.png?v=da39df13",
             "width": 1600,
             "height": 1200
           }
