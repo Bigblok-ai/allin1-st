@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1497,8 +1497,8 @@
           }
         },
         {
-          "id": "cc-64cdfd9634",
-          "name": "Manchester City U19 vs PSG U19 | 21:00 14/10",
+          "id": "pl-7a60ee8c11",
+          "name": "Batman Petrolspor vs Istanbulspor | 18:30 14/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1508,6 +1508,77 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7a60ee8c11",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-7a60ee8c11",
+                  "name": "Batman Petrolspor vs Istanbulspor",
+                  "streams": [
+                    {
+                      "id": "st-7a60ee8c11",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce9408e05e",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/2c0bd8c4e56a49179d667c6192354042/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Batman Petrolspor",
+            "team_b": "Istanbulspor",
+            "logo_a": "https://img.sports-data.online/football/team/76f8bb9319b6286ffe099b3eb1edae41.png",
+            "logo_b": "https://img.sports-data.online/football/team/0bfea2ba6182289ed677f5b2450baf4b.png",
+            "time": "18:30 14/10",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/3glrw7hn2n4pqdy_91dc3201_20261014.png?v=91dc3201",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-64cdfd9634",
+          "name": "Manchester City U19 vs PSG U19 | 21:00 14/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1589,7 +1660,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134416_11cf8169.png",
             "time": "21:00 14/10",
             "blv": "Chuối Nhỏ",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -1597,77 +1668,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1637340_2366c504_20261014.png?v=2366c504",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-7a60ee8c11",
-          "name": "Batman Petrolspor vs Istanbulspor | 18:30 14/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7a60ee8c11",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-7a60ee8c11",
-                  "name": "Batman Petrolspor vs Istanbulspor",
-                  "streams": [
-                    {
-                      "id": "st-7a60ee8c11",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ce9408e05e",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/2c0bd8c4e56a49179d667c6192354042/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Batman Petrolspor",
-            "team_b": "Istanbulspor",
-            "logo_a": "https://img.sports-data.online/football/team/76f8bb9319b6286ffe099b3eb1edae41.png",
-            "logo_b": "https://img.sports-data.online/football/team/0bfea2ba6182289ed677f5b2450baf4b.png",
-            "time": "18:30 14/10",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/3glrw7hn2n4pqdy_91dc3201_20261014.png?v=91dc3201",
             "width": 1600,
             "height": 1200
           }
