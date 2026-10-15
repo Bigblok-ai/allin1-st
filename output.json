@@ -1077,8 +1077,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-9ec4e151cc",
-          "name": "Svay Rieng FC vs Shanghai Shenhua | 19:15 15/10",
+          "id": "xc-8686fa633c",
+          "name": "Pathum United vs Adelaide United | 19:15 15/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1092,27 +1092,44 @@
           ],
           "sources": [
             {
-              "id": "src-9ec4e151cc",
-              "name": "GiovangTV",
+              "id": "src-8686fa633c",
+              "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-9ec4e151cc",
-                  "name": "Svay Rieng FC vs Shanghai Shenhua",
+                  "id": "ct-8686fa633c",
+                  "name": "Pathum United vs Adelaide United",
                   "streams": [
                     {
-                      "id": "st-9ec4e151cc",
-                      "name": "GV",
+                      "id": "st-8686fa633c",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-78179641b6",
-                          "name": "Trĩ",
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051391_hd/1792051391_hd@720p.m3u8",
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1125,7 +1142,47 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Pathum United",
+            "team_b": "Adelaide United",
+            "logo_a": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "time": "19:15",
+            "date": "15/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40076_7ad69c3a_20261015.png?v=7ad69c3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6078c5a808",
+          "name": "Svay Rieng vs Shanghai Shenhua | 19:15 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
             {
               "id": "src-6078c5a808",
               "name": "XoiChe TV",
@@ -1136,7 +1193,7 @@
                   "streams": [
                     {
                       "id": "st-6078c5a808",
-                      "name": "PhaoHoa - BLV Tam Mao",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
                           "id": "lnk-f22a137722",
@@ -1147,7 +1204,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1198,182 +1255,25 @@
             }
           ],
           "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Svay Rieng FC",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
-            "time": "19:15 15/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d956e_a06fe5ca_20261015.png?v=a06fe5ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8686fa633c",
-          "name": "Pathum United vs Adelaide United | 19:15 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8686fa633c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8686fa633c",
-                  "name": "Pathum United vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-8686fa633c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-83d9778a1f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-83d9778a1f",
-                  "name": "Pathum United vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-83d9778a1f",
-                      "name": "CCport - Chuối Sấy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
             "league": "AFC Champions League Two",
-            "team_a": "Pathum United",
-            "team_b": "Adelaide United",
-            "logo_a": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "team_a": "Svay Rieng",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://apiv3.apifootball.com/badges/443_svay-rieng.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
             "time": "19:15",
             "date": "15/10",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
-            "away_score": 2
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40076_7ad69c3a_20261015.png?v=7ad69c3a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40077_17ab3f92_20261015.png?v=17ab3f92",
             "width": 1600,
             "height": 1200
           }
@@ -1414,7 +1314,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1431,7 +1331,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1459,7 +1359,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -2016,7 +1916,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2033,7 +1933,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2139,7 +2039,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2156,7 +2056,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2437,7 +2337,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2454,7 +2354,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2664,7 +2564,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3262,7 +3162,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3279,7 +3179,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3385,7 +3285,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3595,7 +3495,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3612,7 +3512,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3980,7 +3880,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3997,7 +3897,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4081,6 +3981,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-81adabdc85",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-81adabdc85",
+                  "name": "Sydney FC vs Western Sydney Wanderers FC",
+                  "streams": [
+                    {
+                      "id": "st-81adabdc85",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d7b8f1ea68",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/f84dac1970b047c795e050975dbb4c5e/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4099,6 +4034,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac6dd5024d46db870d13a66_a5badc60_20261015.png?v=a5badc60",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-02de5d6945",
+          "name": "Dong Thap vs Quy Nhon United | 17:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-02de5d6945",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-02de5d6945",
+                  "name": "Dong Thap vs Quy Nhon United",
+                  "streams": [
+                    {
+                      "id": "st-02de5d6945",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-173b2142d7",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/4413c8e5950c4ae9b7bce2bebee4faf7/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Dong Thap",
+            "team_b": "Quy Nhon United",
+            "logo_a": "https://img.sports-data.online/football/team/aaf7ff777567dba636caf52a05a45c31.png",
+            "logo_b": "https://img.sports-data.online/football/team/d8a1a7a944d3701818056b1632ad6ed5.png",
+            "time": "17:00 16/10",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergph4gd52r8k_88018ae1_20261015.png?v=88018ae1",
             "width": 1600,
             "height": 1200
           }
@@ -4139,7 +4145,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4156,7 +4162,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4231,7 +4237,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4248,7 +4254,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4323,7 +4329,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4340,7 +4346,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4484,7 +4490,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4559,7 +4565,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4576,7 +4582,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4651,7 +4657,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4668,7 +4674,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4743,7 +4749,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4760,7 +4766,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4835,7 +4841,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4852,7 +4858,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4927,7 +4933,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5002,7 +5008,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5146,7 +5152,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5221,7 +5227,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5238,7 +5244,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6565,7 +6571,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6582,7 +6588,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6601,8 +6607,8 @@
             "league": "PlusLiga Ba Lan Nam",
             "team_a": "GKS Katowice",
             "team_b": "Aluron CMC Warta Zawiercie",
-            "logo_a": "https://xoiche2.live/media/teams/logos/gks-katowice-vb.png",
-            "logo_b": "https://xoiche2.live/media/teams/logos/aluron-cmc-warta-zawiercie-vb.png",
+            "logo_a": "https://xoiche.live/media/teams/logos/gks-katowice-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/aluron-cmc-warta-zawiercie-vb.png",
             "time": "22:30",
             "date": "16/10",
             "blv": "BLV Xôi Bắp",
@@ -6616,7 +6622,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38675_1f547514_20261015.png?v=1f547514",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38675_4ee48e3a_20261015.png?v=4ee48e3a",
             "width": 1600,
             "height": 1200
           }
