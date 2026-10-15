@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1084,10 +1084,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1169,7 +1169,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_141342_86178f2b.png",
             "time": "15:30 15/10",
             "blv": "Chuối Tây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1475,6 +1475,216 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7955d02aeccba0052a3_0fcbd5b2_20261015.png?v=0fcbd5b2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9ec4e151cc",
+          "name": "Svay Rieng FC vs Shanghai Shenhua | 19:15 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ec4e151cc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9ec4e151cc",
+                  "name": "Svay Rieng FC vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-9ec4e151cc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-78179641b6",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051391_hd/1792051391_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6078c5a808",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6078c5a808",
+                  "name": "Svay Rieng vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-6078c5a808",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4e9c738948",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-4e9c738948",
+                  "name": "Svay Rieng vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-4e9c738948",
+                      "name": "CCport - Trốc Tru",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b86fc8933e",
+                          "name": "Trốc Tru HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ca6424e649",
+                          "name": "Trốc Tru HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-24863c2dbc",
+                          "name": "Trốc Tru FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-38dd1a02f8",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-38dd1a02f8",
+                  "name": "Preah Khan Reach Svay Rieng FC vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-38dd1a02f8",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-af0e12c51e",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/67ecc0c6526f42b2b1e81e4bcd5ec7f4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Svay Rieng FC",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
+            "time": "19:15 15/10",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d956e_a06fe5ca_20261015.png?v=a06fe5ca",
             "width": 1600,
             "height": 1200
           }
@@ -1808,6 +2018,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1603049_de3ecbcc_20261015.png?v=de3ecbcc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8d8c6da589",
+          "name": "Al-Hazm vs Al-Fateh SC | 22:15 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8d8c6da589",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8d8c6da589",
+                  "name": "Al-Hazm vs Al-Fateh SC",
+                  "streams": [
+                    {
+                      "id": "st-8d8c6da589",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dca4177450",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051439_hd/1792051439_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Hazm",
+            "team_b": "Al-Fateh SC",
+            "logo_a": "https://images.keovip88.net/images/teams/al-hazm.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-fateh.png",
+            "time": "22:15 15/10",
+            "blv": "Điếc",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac58bd524d46db870fc74ee_4d37c664_20261015.png?v=4d37c664",
             "width": 1600,
             "height": 1200
           }
@@ -4885,185 +5166,6 @@
           }
         },
         {
-          "id": "xc-6078c5a808",
-          "name": "Svay Rieng vs Shanghai Shenhua | 19:15 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6078c5a808",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6078c5a808",
-                  "name": "Svay Rieng vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-6078c5a808",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4e9c738948",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-4e9c738948",
-                  "name": "Svay Rieng vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-4e9c738948",
-                      "name": "CCport - Trốc Tru",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b86fc8933e",
-                          "name": "Trốc Tru HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca6424e649",
-                          "name": "Trốc Tru HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24863c2dbc",
-                          "name": "Trốc Tru FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-38dd1a02f8",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-38dd1a02f8",
-                  "name": "Preah Khan Reach Svay Rieng FC vs Shanghai Shenhua",
-                  "streams": [
-                    {
-                      "id": "st-38dd1a02f8",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-af0e12c51e",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/67ecc0c6526f42b2b1e81e4bcd5ec7f4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Svay Rieng",
-            "team_b": "Shanghai Shenhua",
-            "logo_a": "https://apiv3.apifootball.com/badges/443_svay-rieng.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
-            "time": "19:15",
-            "date": "15/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40077_17ab3f92_20261015.png?v=17ab3f92",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a843139328",
           "name": "Tampines vs Machida | 19:15 15/10",
           "type": "single",
@@ -5778,6 +5880,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/b7am2olm1em3_1bf6cab3_20261015.png?v=1bf6cab3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a5c0667ee7",
+          "name": "Alexander Zverev vs Alex de Minaur | 17:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a5c0667ee7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a5c0667ee7",
+                  "name": "Alexander Zverev vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-a5c0667ee7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c74d66e3a7",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051529_hd/1792051529_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Shanghai Open",
+            "team_a": "Alexander Zverev",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
+            "time": "17:00 15/10",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/aand6kw5rsqo_1fe2b6d5_20261015.png?v=1fe2b6d5",
             "width": 1600,
             "height": 1200
           }
@@ -6812,6 +6985,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/47a77697302c410787cb0da40eb61e5d_1fc9aadc_20261015.png?v=1fc9aadc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-15c9a861bc",
+          "name": "IBK Nữ vs Daejeon JKJ Nữ | 17:00 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15c9a861bc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-15c9a861bc",
+                  "name": "IBK Nữ vs Daejeon JKJ Nữ",
+                  "streams": [
+                    {
+                      "id": "st-15c9a861bc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-60e49c8cba",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792051601_hd/1792051601_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Cúp KOVO Nữ",
+            "team_a": "IBK Nữ",
+            "team_b": "Daejeon JKJ Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/C6oehGYg-YPeUstG1.png",
+            "time": "17:00 15/10",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/rbepwqxocd6z_dde94a07_20261015.png?v=dde94a07",
             "width": 1600,
             "height": 1200
           }
