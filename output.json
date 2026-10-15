@@ -4660,7 +4660,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4673,10 +4673,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4724,7 +4724,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png",
             "time": "13:30 15/10",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -5409,11 +5409,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-fa86b49f6a",
+          "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ | 13:30 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fa86b49f6a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fa86b49f6a",
+                  "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ",
+                  "streams": [
+                    {
+                      "id": "st-fa86b49f6a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7633900b8e",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944255_hd/1791944255_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Cúp KOVO Nữ",
+            "team_a": "Pepper Savings Bank Nữ",
+            "team_b": "Hungkuk Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-Y57t5X1j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/8bAPfUCa-SfuGhwLE.png",
+            "time": "13:30 15/10",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/f881h08giym0_8340ec8d_20261015.png?v=8340ec8d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-2aa147bda9",
           "name": "Hà Nội Tasco Auto vs HCĐG Lào Cai | 12:00 15/10",
@@ -5481,77 +5552,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/e3d7595a349d43c5ac3739f698a2f9cb_d2fffc76_20261015.png?v=d2fffc76",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-fa86b49f6a",
-          "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ | 13:30 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fa86b49f6a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fa86b49f6a",
-                  "name": "Pepper Savings Bank Nữ vs Hungkuk Nữ",
-                  "streams": [
-                    {
-                      "id": "st-fa86b49f6a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7633900b8e",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791944255_hd/1791944255_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Cúp KOVO Nữ",
-            "team_a": "Pepper Savings Bank Nữ",
-            "team_b": "Hungkuk Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-Y57t5X1j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/8bAPfUCa-SfuGhwLE.png",
-            "time": "13:30 15/10",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/f881h08giym0_8340ec8d_20261015.png?v=8340ec8d",
             "width": 1600,
             "height": 1200
           }
