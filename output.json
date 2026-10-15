@@ -1287,8 +1287,8 @@
           }
         },
         {
-          "id": "xc-b3579acde2",
-          "name": "Gangwon vs Phnom Penh Crown | 17:00 15/10",
+          "id": "xc-a843139328",
+          "name": "Tampines vs Machida | 19:15 15/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1302,23 +1302,23 @@
           ],
           "sources": [
             {
-              "id": "src-b3579acde2",
+              "id": "src-a843139328",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-b3579acde2",
-                  "name": "Gangwon vs Phnom Penh Crown",
+                  "id": "ct-a843139328",
+                  "name": "Tampines vs Machida",
                   "streams": [
                     {
-                      "id": "st-b3579acde2",
+                      "id": "st-a843139328",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-873eea3f40",
-                          "name": "BLV Tày 1",
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub10/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1331,11 +1331,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-58a006abe0",
-                          "name": "BLV Tày 2",
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub10.flv",
+                          "url": "https://live.khoga.space/live/livehub13.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1354,27 +1354,61 @@
               ]
             },
             {
-              "id": "src-d1e114f2cd",
-              "name": "PhaLangTV",
+              "id": "src-b6df76b99c",
+              "name": "ChuoiChienTV",
               "contents": [
                 {
-                  "id": "ct-d1e114f2cd",
-                  "name": "Gangwon FC vs Phnom Penh Crown FC",
+                  "id": "ct-b6df76b99c",
+                  "name": "Tampines Rovers vs Machida Zelvia",
                   "streams": [
                     {
-                      "id": "st-d1e114f2cd",
-                      "name": "Phalang - LÝ LINH LỰC",
+                      "id": "st-b6df76b99c",
+                      "name": "CCport - Chuối Lá",
                       "stream_links": [
                         {
-                          "id": "lnk-5e7f89bcfa",
-                          "name": "LÝ LINH LỰC",
+                          "id": "lnk-15d5e70700",
+                          "name": "Chuối Lá HD1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/252ac23835bc4e7da6852623ed1d0ab4/index.m3u8",
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0001f270a8",
+                          "name": "Chuối Lá HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e91447f6ff",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
                             },
                             {
                               "key": "User-Agent",
@@ -1391,24 +1425,24 @@
           ],
           "org_metadata": {
             "league": "AFC Champions League Two",
-            "team_a": "Gangwon",
-            "team_b": "Phnom Penh Crown",
-            "logo_a": "https://apiv3.apifootball.com/badges/5171_gangwon.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/9715_phnom-penh-crown-fc.jpg",
-            "time": "17:00",
+            "team_a": "Tampines",
+            "team_b": "Machida",
+            "logo_a": "https://apiv3.apifootball.com/badges/410_tampines-rovers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
+            "time": "19:15",
             "date": "15/10",
-            "blv": "BLV Tày",
+            "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 2
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40064_80d3e195_20261015.png?v=80d3e195",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40078_a130b95b_20261015.png?v=a130b95b",
             "width": 1600,
             "height": 1200
           }
@@ -1575,8 +1609,8 @@
           }
         },
         {
-          "id": "xc-a843139328",
-          "name": "Tampines vs Machida | 19:15 15/10",
+          "id": "pl-d1e114f2cd",
+          "name": "Gangwon FC vs Phnom Penh Crown FC | 17:00 15/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1590,113 +1624,27 @@
           ],
           "sources": [
             {
-              "id": "src-a843139328",
-              "name": "XoiChe TV",
+              "id": "src-d1e114f2cd",
+              "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-a843139328",
-                  "name": "Tampines vs Machida",
+                  "id": "ct-d1e114f2cd",
+                  "name": "Gangwon FC vs Phnom Penh Crown FC",
                   "streams": [
                     {
-                      "id": "st-a843139328",
-                      "name": "XoiChe TV",
+                      "id": "st-d1e114f2cd",
+                      "name": "PL",
                       "stream_links": [
                         {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
+                          "id": "lnk-5e7f89bcfa",
+                          "name": "LÝ LINH LỰC",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/252ac23835bc4e7da6852623ed1d0ab4/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b6df76b99c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-b6df76b99c",
-                  "name": "Tampines Rovers vs Machida Zelvia",
-                  "streams": [
-                    {
-                      "id": "st-b6df76b99c",
-                      "name": "CCport - Chuối Lá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15d5e70700",
-                          "name": "Chuối Lá HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0001f270a8",
-                          "name": "Chuối Lá HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e91447f6ff",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1713,24 +1661,20 @@
           ],
           "org_metadata": {
             "league": "AFC Champions League Two",
-            "team_a": "Tampines",
-            "team_b": "Machida",
-            "logo_a": "https://apiv3.apifootball.com/badges/410_tampines-rovers.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5085_machida-zelvia.jpg",
-            "time": "19:15",
-            "date": "15/10",
-            "blv": "BLV Khô Mật",
+            "team_a": "Gangwon FC",
+            "team_b": "Phnom Penh Crown FC",
+            "logo_a": "https://img.sports-data.online/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
+            "logo_b": "https://img.sports-data.online/football/team/03dd1707147dbd5897a8dcae40991e2c.png",
+            "time": "17:00 15/10",
+            "blv": "LÝ LINH LỰC",
             "is_live": true,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40078_a130b95b_20261015.png?v=a130b95b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghgn2xvq82_42f45094_20261015.png?v=42f45094",
             "width": 1600,
             "height": 1200
           }
