@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1287,6 +1287,167 @@
           }
         },
         {
+          "id": "xc-8686fa633c",
+          "name": "Pathum United vs Adelaide United | 19:15 15/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8686fa633c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8686fa633c",
+                  "name": "Pathum United vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-8686fa633c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-83d9778a1f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-83d9778a1f",
+                  "name": "Pathum United vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-83d9778a1f",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League Two",
+            "team_a": "Pathum United",
+            "team_b": "Adelaide United",
+            "logo_a": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "time": "19:15",
+            "date": "15/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40076_7ad69c3a_20261015.png?v=7ad69c3a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a843139328",
           "name": "Tampines vs Machida | 19:15 15/10",
           "type": "single",
@@ -1443,238 +1604,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40078_a130b95b_20261015.png?v=a130b95b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8686fa633c",
-          "name": "Pathum United vs Adelaide United | 19:15 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8686fa633c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8686fa633c",
-                  "name": "Pathum United vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-8686fa633c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-83d9778a1f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-83d9778a1f",
-                  "name": "Pathum United vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-83d9778a1f",
-                      "name": "CCport - Chuối Sấy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Pathum United",
-            "team_b": "Adelaide United",
-            "logo_a": "https://apiv3.apifootball.com/badges/418_bg-pathum-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
-            "time": "19:15",
-            "date": "15/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40076_7ad69c3a_20261015.png?v=7ad69c3a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-d1e114f2cd",
-          "name": "Gangwon FC vs Phnom Penh Crown FC | 17:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d1e114f2cd",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d1e114f2cd",
-                  "name": "Gangwon FC vs Phnom Penh Crown FC",
-                  "streams": [
-                    {
-                      "id": "st-d1e114f2cd",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e7f89bcfa",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/252ac23835bc4e7da6852623ed1d0ab4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Two",
-            "team_a": "Gangwon FC",
-            "team_b": "Phnom Penh Crown FC",
-            "logo_a": "https://img.sports-data.online/football/team/771a93ae7f62b1a47a71c3d62b89dca3.png",
-            "logo_b": "https://img.sports-data.online/football/team/03dd1707147dbd5897a8dcae40991e2c.png",
-            "time": "17:00 15/10",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghgn2xvq82_42f45094_20261015.png?v=42f45094",
             "width": 1600,
             "height": 1200
           }
@@ -4289,41 +4218,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-dc064e02ac",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-dc064e02ac",
-                  "name": "Al Ahli SC vs Al Nassr",
-                  "streams": [
-                    {
-                      "id": "st-dc064e02ac",
-                      "name": "Phalang - LÝ LỀNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7ddead5d7a",
-                          "name": "LÝ LỀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/d77f8ded796c4d2a9dd822c769ff68e6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -6473,7 +6367,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6545,77 +6439,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/rbepwqxocd6z_dde94a07_20261015.png?v=dde94a07",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-0f56ebc387",
-          "name": "Geleximco Hưng Yên vs LB Bank Ninh Bình | 17:00 15/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f56ebc387",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-0f56ebc387",
-                  "name": "Geleximco Hưng Yên vs LB Bank Ninh Bình",
-                  "streams": [
-                    {
-                      "id": "st-0f56ebc387",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f29a20df0",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/57cf5acf8f7b43508c4c8464d6ed81a0/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải bóng chuyền VĐQG 2026",
-            "team_a": "Geleximco Hưng Yên",
-            "team_b": "LB Bank Ninh Bình",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7a/Logo_Geleximco_H%C6%B0ng_Y%C3%AAn.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png ",
-            "time": "17:00 15/10",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ecd25de58a51434eb7b7fecc9b574b2b_f77d6460_20261015.png?v=f77d6460",
             "width": 1600,
             "height": 1200
           }
@@ -6758,6 +6581,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/fntgwdtprbd0_0387c538_20261015.png?v=0387c538",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-6bfa966187",
+          "name": "GKS Katowice vs Aluron CMC Warta Zawiercie | 22:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6bfa966187",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6bfa966187",
+                  "name": "GKS Katowice vs Aluron CMC Warta Zawiercie",
+                  "streams": [
+                    {
+                      "id": "st-6bfa966187",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PlusLiga Ba Lan Nam",
+            "team_a": "GKS Katowice",
+            "team_b": "Aluron CMC Warta Zawiercie",
+            "logo_a": "https://xoiche.live/media/teams/logos/gks-katowice-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/aluron-cmc-warta-zawiercie-vb.png",
+            "time": "22:30",
+            "date": "16/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "volleyball",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38675_4ee48e3a_20261015.png?v=4ee48e3a",
             "width": 1600,
             "height": 1200
           }
