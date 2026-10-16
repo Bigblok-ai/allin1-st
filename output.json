@@ -1071,11 +1071,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-30780eca10",
+          "name": "Malut United vs Bali United FC | 19:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30780eca10",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30780eca10",
+                  "name": "Malut United vs Bali United FC",
+                  "streams": [
+                    {
+                      "id": "st-30780eca10",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b2ce131b6d",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792067706_hd/1792067706_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Malut United",
+            "team_b": "Bali United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/malut-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/bali-united.png",
+            "time": "19:00 16/10",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac6dd5124d46db870d13acc_52c5e36d_20261016.png?v=52c5e36d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b90a50943f",
           "name": "Kelantan Red Warrior vs Imigresen FC | 20:00 16/10",
@@ -1415,6 +1486,111 @@
           }
         },
         {
+          "id": "cc-c5ab35cb3e",
+          "name": "Arema FC vs Bali United | 19:00 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5ab35cb3e",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-c5ab35cb3e",
+                  "name": "Arema FC vs Bali United",
+                  "streams": [
+                    {
+                      "id": "st-c5ab35cb3e",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b86fc8933e",
+                          "name": "Trốc Tru HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ca6424e649",
+                          "name": "Trốc Tru HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-24863c2dbc",
+                          "name": "Trốc Tru FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "Arema FC",
+            "team_b": "Bali United",
+            "logo_a": "https://media.chuoichientv.net/media/20260913_083933_ccd775e2.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134617_73ab7535.png",
+            "time": "19:00 16/10",
+            "blv": "Trốc Tru",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1622792_f980099b_20261016.png?v=f980099b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-ffd71a65b9",
           "name": "Al-Qadisiyah FC vs Abha | 20:15 16/10",
           "type": "single",
@@ -1503,77 +1679,6 @@
           }
         },
         {
-          "id": "pl-b190e35af5",
-          "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club | 21:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b190e35af5",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b190e35af5",
-                  "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club",
-                  "streams": [
-                    {
-                      "id": "st-b190e35af5",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d5350b1c3",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/eeb6f0b0c8494fad8c48b2f832e53498/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al-Ahli Sports Club(Qatar)",
-            "team_b": "Al-Wakrah Sports Club",
-            "logo_a": "https://img.sports-data.online/football/team/99b9e5475b90aa5b91fe68685bcd5e78.png",
-            "logo_b": "https://img.sports-data.online/football/team/7dc879cf9017e0afa51a45de8aab7ec4.png",
-            "time": "21:30 16/10",
-            "blv": "LÝ LONG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1h6l528moj_177f58e0_20261016.png?v=177f58e0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-1c9561fe08",
           "name": "Al-Ahli Doha vs Al-Wakra | 21:30 16/10",
           "type": "single",
@@ -1640,6 +1745,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac6dd5124d46db870d13be6_08b40e65_20261016.png?v=08b40e65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-b190e35af5",
+          "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club | 21:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b190e35af5",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b190e35af5",
+                  "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club",
+                  "streams": [
+                    {
+                      "id": "st-b190e35af5",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d5350b1c3",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/eeb6f0b0c8494fad8c48b2f832e53498/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Qatar Stars League",
+            "team_a": "Al-Ahli Sports Club(Qatar)",
+            "team_b": "Al-Wakrah Sports Club",
+            "logo_a": "https://img.sports-data.online/football/team/99b9e5475b90aa5b91fe68685bcd5e78.png",
+            "logo_b": "https://img.sports-data.online/football/team/7dc879cf9017e0afa51a45de8aab7ec4.png",
+            "time": "21:30 16/10",
+            "blv": "LÝ LONG",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1h6l528moj_177f58e0_20261016.png?v=177f58e0",
             "width": 1600,
             "height": 1200
           }
@@ -3814,98 +3990,6 @@
           }
         },
         {
-          "id": "xc-261474eb96",
-          "name": "Wellington Phoenix vs Melbourne Victory | 09:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-261474eb96",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-261474eb96",
-                  "name": "Wellington Phoenix vs Melbourne Victory",
-                  "streams": [
-                    {
-                      "id": "st-261474eb96",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Wellington Phoenix",
-            "team_b": "Melbourne Victory",
-            "logo_a": "https://apiv3.apifootball.com/badges/1054_wellington-phoenix.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
-            "time": "09:00",
-            "date": "18/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43449_871bbdcc_20261016.png?v=871bbdcc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-b2f07227df",
           "name": "Club Tijuana vs Puebla | 10:05 17/10",
           "type": "single",
@@ -4454,6 +4538,190 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42002_3d610d3f_20261016.png?v=3d610d3f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d7686a221f",
+          "name": "Fulham vs Hull | 21:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d7686a221f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d7686a221f",
+                  "name": "Fulham vs Hull",
+                  "streams": [
+                    {
+                      "id": "st-d7686a221f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Fulham",
+            "team_b": "Hull",
+            "logo_a": "https://apiv3.apifootball.com/badges/3085_fulham.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3119_hull-city.jpg",
+            "time": "21:00",
+            "date": "17/10",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42152_a1e4cfcb_20261016.png?v=a1e4cfcb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-70217dd96d",
+          "name": "Manchester City vs Ipswich | 21:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70217dd96d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-70217dd96d",
+                  "name": "Manchester City vs Ipswich",
+                  "streams": [
+                    {
+                      "id": "st-70217dd96d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4ef896631a",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub3.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester City",
+            "team_b": "Ipswich",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+            "time": "21:00",
+            "date": "17/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42153_4c1dfb8b_20261016.png?v=4c1dfb8b",
             "width": 1600,
             "height": 1200
           }
