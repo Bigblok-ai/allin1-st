@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1329,8 +1329,8 @@
           }
         },
         {
-          "id": "cc-de9c85cdd1",
-          "name": "Holstein Kiel vs Hertha BSC | 23:30 16/10",
+          "id": "pl-b190e35af5",
+          "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club | 21:30 16/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1340,6 +1340,77 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b190e35af5",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b190e35af5",
+                  "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club",
+                  "streams": [
+                    {
+                      "id": "st-b190e35af5",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0d5350b1c3",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/eeb6f0b0c8494fad8c48b2f832e53498/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Qatar Stars League",
+            "team_a": "Al-Ahli Sports Club(Qatar)",
+            "team_b": "Al-Wakrah Sports Club",
+            "logo_a": "https://img.sports-data.online/football/team/99b9e5475b90aa5b91fe68685bcd5e78.png",
+            "logo_b": "https://img.sports-data.online/football/team/7dc879cf9017e0afa51a45de8aab7ec4.png",
+            "time": "21:30 16/10",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1h6l528moj_177f58e0_20261016.png?v=177f58e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-de9c85cdd1",
+          "name": "Holstein Kiel vs Hertha BSC | 23:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1421,7 +1492,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130259_7b7cc6ff.png",
             "time": "23:30 16/10",
             "blv": "Chuối Nhỏ",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -1429,77 +1500,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1576201_4efe99fd_20261016.png?v=4efe99fd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-b190e35af5",
-          "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club | 21:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b190e35af5",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b190e35af5",
-                  "name": "Al-Ahli Sports Club(Qatar) vs Al-Wakrah Sports Club",
-                  "streams": [
-                    {
-                      "id": "st-b190e35af5",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0d5350b1c3",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/eeb6f0b0c8494fad8c48b2f832e53498/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Qatar Stars League",
-            "team_a": "Al-Ahli Sports Club(Qatar)",
-            "team_b": "Al-Wakrah Sports Club",
-            "logo_a": "https://img.sports-data.online/football/team/99b9e5475b90aa5b91fe68685bcd5e78.png",
-            "logo_b": "https://img.sports-data.online/football/team/7dc879cf9017e0afa51a45de8aab7ec4.png",
-            "time": "21:30 16/10",
-            "blv": "LÝ LONG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1h6l528moj_177f58e0_20261016.png?v=177f58e0",
             "width": 1600,
             "height": 1200
           }
