@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1214,6 +1214,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac6dd5124d46db870d13be6_08b40e65_20261016.png?v=08b40e65",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-756f3d220f",
+          "name": "Holstein Kiel vs Hertha Berlin | 23:30 16/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-756f3d220f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-756f3d220f",
+                  "name": "Holstein Kiel vs Hertha Berlin",
+                  "streams": [
+                    {
+                      "id": "st-756f3d220f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-dc21e3211d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-dc21e3211d",
+                  "name": "Holstein Kiel vs Hertha Berlin",
+                  "streams": [
+                    {
+                      "id": "st-dc21e3211d",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f29d5e0206",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/690926cd763b448eb61535cecb7469a1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Holstein Kiel",
+            "team_b": "Hertha Berlin",
+            "logo_a": "https://apiv3.apifootball.com/badges/3914_holstein-kiel.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4268_hertha-bsc.jpg",
+            "time": "23:30",
+            "date": "16/10",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40678_97db2e43_20261016.png?v=97db2e43",
             "width": 1600,
             "height": 1200
           }
@@ -5023,116 +5133,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42002_3d610d3f_20261016.png?v=3d610d3f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-756f3d220f",
-          "name": "Holstein Kiel vs Hertha Berlin | 23:30 16/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-756f3d220f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-756f3d220f",
-                  "name": "Holstein Kiel vs Hertha Berlin",
-                  "streams": [
-                    {
-                      "id": "st-756f3d220f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-dc21e3211d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-dc21e3211d",
-                  "name": "Holstein Kiel vs Hertha Berlin",
-                  "streams": [
-                    {
-                      "id": "st-dc21e3211d",
-                      "name": "Phalang - LÝ LÊN LỬA",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f29d5e0206",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/690926cd763b448eb61535cecb7469a1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "2. Bundesliga",
-            "team_a": "Holstein Kiel",
-            "team_b": "Hertha Berlin",
-            "logo_a": "https://apiv3.apifootball.com/badges/3914_holstein-kiel.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4268_hertha-bsc.jpg",
-            "time": "23:30",
-            "date": "16/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/40678_97db2e43_20261016.png?v=97db2e43",
             "width": 1600,
             "height": 1200
           }
