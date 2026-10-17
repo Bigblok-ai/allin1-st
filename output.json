@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1178,6 +1178,167 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac82ed324d46db87090d6a5_4b370d0a_20261017.png?v=4b370d0a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8c6dfa6b68",
+          "name": "Macarthur FC vs Perth Glory | 13:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c6dfa6b68",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8c6dfa6b68",
+                  "name": "Macarthur FC vs Perth Glory",
+                  "streams": [
+                    {
+                      "id": "st-8c6dfa6b68",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c13a111b86",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-c13a111b86",
+                  "name": "Macarthur vs Perth Glory",
+                  "streams": [
+                    {
+                      "id": "st-c13a111b86",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Macarthur FC",
+            "team_b": "Perth Glory",
+            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
+            "time": "13:00",
+            "date": "17/10",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41192_b299fb4b_20261017.png?v=b299fb4b",
             "width": 1600,
             "height": 1200
           }
@@ -5189,8 +5350,8 @@
           }
         },
         {
-          "id": "xc-8c6dfa6b68",
-          "name": "Macarthur FC vs Perth Glory | 13:00 17/10",
+          "id": "xc-a4caf71cf3",
+          "name": "Okayama vs Vissel Kobe | 11:55 18/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5204,113 +5365,27 @@
           ],
           "sources": [
             {
-              "id": "src-8c6dfa6b68",
+              "id": "src-a4caf71cf3",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-8c6dfa6b68",
-                  "name": "Macarthur FC vs Perth Glory",
+                  "id": "ct-a4caf71cf3",
+                  "name": "Okayama vs Vissel Kobe",
                   "streams": [
                     {
-                      "id": "st-8c6dfa6b68",
+                      "id": "st-a4caf71cf3",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
+                          "id": "lnk-c210608a27",
+                          "name": "BLV Khô Cay",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
                               "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c13a111b86",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-c13a111b86",
-                  "name": "Macarthur vs Perth Glory",
-                  "streams": [
-                    {
-                      "id": "st-c13a111b86",
-                      "name": "CCport - Chuối Sấy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
                             },
                             {
                               "key": "User-Agent",
@@ -5326,14 +5401,14 @@
             }
           ],
           "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Macarthur FC",
-            "team_b": "Perth Glory",
-            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
-            "time": "13:00",
-            "date": "17/10",
-            "blv": "BLV Khô Mật",
+            "league": "J1 League",
+            "team_a": "Okayama",
+            "team_b": "Vissel Kobe",
+            "logo_a": "https://apiv3.apifootball.com/badges/5084_fagiano-okayama.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/383_vissel-kobe.jpg",
+            "time": "11:55",
+            "date": "18/10",
+            "blv": "BLV Khô Cay",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -5344,7 +5419,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41192_b299fb4b_20261017.png?v=b299fb4b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43463_6815e63b_20261017.png?v=6815e63b",
             "width": 1600,
             "height": 1200
           }
@@ -8063,11 +8138,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-8da642f622",
+          "name": "DŨNG MOI + ÁO ĐEN vs HÀ THÀNH + ÁO XÁM | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8da642f622",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-8da642f622",
+                  "name": "DŨNG MOI + ÁO ĐEN vs HÀ THÀNH + ÁO XÁM",
+                  "streams": [
+                    {
+                      "id": "st-8da642f622",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8da642f622",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9291/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TOPTOP",
+            "team_a": "DŨNG MOI + ÁO ĐEN",
+            "team_b": "HÀ THÀNH + ÁO XÁM",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792213958803_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792213958330_Vi%E1%BB%87t%20Nam.png",
+            "time": "12:12 17/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792213920,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8da642f622_86cefd23_20261017.png?v=86cefd23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-3906614c51",
           "name": "Team Asia vs World Team | 17:59 17/10",
