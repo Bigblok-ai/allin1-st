@@ -7322,6 +7322,98 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-9688c999c6",
+          "name": "Malaga vs Real Sociedad | 23:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9688c999c6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9688c999c6",
+                  "name": "Malaga vs Real Sociedad",
+                  "streams": [
+                    {
+                      "id": "st-9688c999c6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Malaga",
+            "team_b": "Real Sociedad",
+            "logo_a": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/153_real-sociedad.jpg",
+            "time": "23:30",
+            "date": "18/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44520_dad04c09_20261017.png?v=dad04c09",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -7486,82 +7578,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1751dc3dda",
-          "name": "Golden State Warriors vs Portland Trail Blazers | 09:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1751dc3dda",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1751dc3dda",
-                  "name": "Golden State Warriors vs Portland Trail Blazers",
-                  "streams": [
-                    {
-                      "id": "st-1751dc3dda",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3f360b1392",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138340_hd/1792138340_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Golden State Warriors",
-            "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c7341a14964f12885ea2ae80b76cebe8.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "time": "09:00 17/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/37728273_f82db0e9_20261017.png?v=f82db0e9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-ee26a0a517",
           "name": "Los Angeles Lakers vs Denver Nuggets | 09:30 17/10",
@@ -8285,11 +8306,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-2843d1fe93",
+          "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2843d1fe93",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2843d1fe93",
+                  "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ",
+                  "streams": [
+                    {
+                      "id": "st-2843d1fe93",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ea5e333b15",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138977_hd/1792138977_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Astemo Rivale Ibaraki Nữ",
+            "team_b": "Gunma Greenwings Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/0rpuWOAr-6FZ2yXJ6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
+            "time": "12:05 17/10",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/eqel2equr8l7_095c93dc_20261017.png?v=095c93dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-d692938baf",
           "name": "PFU BlueCats vs Toray Arrows Shiga | 11:05 17/10",
@@ -8554,77 +8646,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/5056014350f0402a81f0302526956775_5e03b0e5_20261017.png?v=5e03b0e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-2843d1fe93",
-          "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ | 12:05 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2843d1fe93",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-2843d1fe93",
-                  "name": "Astemo Rivale Ibaraki Nữ vs Gunma Greenwings Nữ",
-                  "streams": [
-                    {
-                      "id": "st-2843d1fe93",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ea5e333b15",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138977_hd/1792138977_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Astemo Rivale Ibaraki Nữ",
-            "team_b": "Gunma Greenwings Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/0rpuWOAr-6FZ2yXJ6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
-            "time": "12:05 17/10",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/eqel2equr8l7_095c93dc_20261017.png?v=095c93dc",
             "width": 1600,
             "height": 1200
           }
