@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1567,8 +1567,8 @@
           }
         },
         {
-          "id": "xc-bf1d663039",
-          "name": "Kashiwa Reysol vs Nagoya Grampus | 17:00 17/10",
+          "id": "gv-e63ee85b80",
+          "name": "Everton vs Chelsea FC | 18:30 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1578,98 +1578,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf1d663039",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bf1d663039",
-                  "name": "Kashiwa Reysol vs Nagoya Grampus",
-                  "streams": [
-                    {
-                      "id": "st-bf1d663039",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Nagoya Grampus",
-            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
-            "time": "17:00",
-            "date": "17/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 1,
-            "away_score": 2
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41297_6c8ff1e5_20261017.png?v=6c8ff1e5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e63ee85b80",
-          "name": "Everton vs Chelsea FC | 18:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1873,7 +1781,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/chelsea.png",
             "time": "18:30 17/10",
             "blv": "Hứa, BLV Hấu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1881,6 +1789,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ea_f8d0390f_20261017.png?v=f8d0390f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bf1d663039",
+          "name": "Kashiwa Reysol vs Nagoya Grampus | 17:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf1d663039",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bf1d663039",
+                  "name": "Kashiwa Reysol vs Nagoya Grampus",
+                  "streams": [
+                    {
+                      "id": "st-bf1d663039",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Nagoya Grampus",
+            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/415_nagoya-grampus.jpg",
+            "time": "17:00",
+            "date": "17/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41297_6c8ff1e5_20261017.png?v=6c8ff1e5",
             "width": 1600,
             "height": 1200
           }
@@ -6847,82 +6847,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-9f5973b9fa",
-          "name": "Alexander Zverev vs Alejandro Davidovich Fokina | 15:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f5973b9fa",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9f5973b9fa",
-                  "name": "Alexander Zverev vs Alejandro Davidovich Fokina",
-                  "streams": [
-                    {
-                      "id": "st-9f5973b9fa",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67e7bc82dc",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792169628_hd/1792169628_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Shanghai Open",
-            "team_a": "Alexander Zverev",
-            "team_b": "Alejandro Davidovich Fokina",
-            "logo_a": "https://static.flashscore.com/res/image/data/tO5cePjl-2DqYxEbl.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/fLk5DXhl-SbT3RDiH.png",
-            "time": "15:30 17/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/2j74krgs62u7_3d0239a9_20261017.png?v=3d0239a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-3485cc0d7b",
           "name": "Rafael Jodar vs Daniil Medvedev | 18:00 17/10",
@@ -7006,7 +6935,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7019,10 +6948,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7070,7 +6999,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c95a72565d21fd4797acfbfb63c829e8.PNG",
             "time": "18:35 17/10",
             "blv": "Tôm",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -7090,10 +7019,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7141,7 +7070,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/513a673e2abf3080d21b0dc4d0b0dad8.png",
             "time": "18:35 17/10",
             "blv": "Vịt",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -7654,11 +7583,82 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-da40674c71",
+          "name": "Team Asia vs Team Rest of the World (ROW) | 18:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da40674c71",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da40674c71",
+                  "name": "Team Asia vs Team Rest of the World (ROW)",
+                  "streams": [
+                    {
+                      "id": "st-da40674c71",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-663affad2b",
+                          "name": "BLV Kim Chon",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138322_hd/1792138322_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Reyes Cup 2026",
+            "team_a": "Team Asia",
+            "team_b": "Team Rest of the World (ROW)",
+            "logo_a": "https://img-evg4.tv360.vn/2026/10/b0812ead772c79a3860c9bad2e602698-1024x576.jpg",
+            "logo_b": "https://worldnineballtour.com/wp-content/uploads/B-REYES-CUP-21.jpg",
+            "time": "18:00 17/10",
+            "blv": "BLV Kim Chon",
+            "is_live": true,
+            "cate_type": "Billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/7zcc37ilhphr_a48f1384_20261017.png?v=a48f1384",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-aca7260cf4",
           "name": "Team Asia vs World Team | GIÀNG A PHỌ",
@@ -7727,77 +7727,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aca7260cf4_e6c236ea_20261017.png?v=e6c236ea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da40674c71",
-          "name": "Team Asia vs Team Rest of the World (ROW) | 18:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da40674c71",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da40674c71",
-                  "name": "Team Asia vs Team Rest of the World (ROW)",
-                  "streams": [
-                    {
-                      "id": "st-da40674c71",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-663affad2b",
-                          "name": "BLV Kim Chon",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792138322_hd/1792138322_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Reyes Cup 2026",
-            "team_a": "Team Asia",
-            "team_b": "Team Rest of the World (ROW)",
-            "logo_a": "https://img-evg4.tv360.vn/2026/10/b0812ead772c79a3860c9bad2e602698-1024x576.jpg",
-            "logo_b": "https://worldnineballtour.com/wp-content/uploads/B-REYES-CUP-21.jpg",
-            "time": "18:00 17/10",
-            "blv": "BLV Kim Chon",
-            "is_live": false,
-            "cate_type": "Billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/7zcc37ilhphr_a48f1384_20261017.png?v=a48f1384",
             "width": 1600,
             "height": 1200
           }
