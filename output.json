@@ -1077,8 +1077,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-2c98005815",
-          "name": "Bologna vs Inter | 23:00 17/10",
+          "id": "gv-65c6b7a407",
+          "name": "Bologna vs Inter Milan | 23:00 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1092,6 +1092,41 @@
           ],
           "sources": [
             {
+              "id": "src-65c6b7a407",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-65c6b7a407",
+                  "name": "Bologna vs Inter Milan",
+                  "streams": [
+                    {
+                      "id": "st-65c6b7a407",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2aefd50554",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248177_hd/1792248177_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-2c98005815",
               "name": "XoiChe TV",
               "contents": [
@@ -1101,7 +1136,7 @@
                   "streams": [
                     {
                       "id": "st-2c98005815",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Khô Chè",
                       "stream_links": [
                         {
                           "id": "lnk-c4e6a4ba43",
@@ -1232,32 +1267,28 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
+            "league": "Seria A",
             "team_a": "Bologna",
-            "team_b": "Inter",
-            "logo_a": "https://apiv3.apifootball.com/badges/4983_bologna.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
-            "time": "23:00",
-            "date": "17/10",
-            "blv": "BLV Khô Chè",
+            "team_b": "Inter Milan",
+            "logo_a": "https://images.keovip88.net/images/teams/bologna.png",
+            "logo_b": "https://images.keovip88.net/images/teams/inter-milan.png",
+            "time": "23:00 17/10",
+            "blv": "Bee",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42482_263cd708_20261018.png?v=263cd708",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac82ee324d46db87090ec00_91dc9f6d_20261018.png?v=91dc9f6d",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-b8516fae69",
-          "name": "Betis vs Barcelona | 23:30 17/10",
+          "id": "gv-b3f55fb0cc",
+          "name": "Newcastle United vs Aston Villa | 23:30 17/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1271,27 +1302,27 @@
           ],
           "sources": [
             {
-              "id": "src-b8516fae69",
-              "name": "XoiChe TV",
+              "id": "src-b3f55fb0cc",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b8516fae69",
-                  "name": "Betis vs Barcelona",
+                  "id": "ct-b3f55fb0cc",
+                  "name": "Newcastle United vs Aston Villa",
                   "streams": [
                     {
-                      "id": "st-b8516fae69",
-                      "name": "XoiChe TV",
+                      "id": "st-b3f55fb0cc",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-279a6a366f",
+                          "name": "Mason",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950605_hd/1791950605_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche2.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
@@ -1305,277 +1336,6 @@
                 }
               ]
             },
-            {
-              "id": "src-de85c81436",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-de85c81436",
-                  "name": "Real Betis vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-de85c81436",
-                      "name": "CCport - Chuối Chao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e27b03ef2f",
-                          "name": "Chuối Chao HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e97f9e8cee",
-                          "name": "Chuối Chao HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-582600ada5",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-773dc6818c",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-773dc6818c",
-                  "name": "Real Betis vs FC Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-773dc6818c",
-                      "name": "Phalang - LÝ LA LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-233f44ba86",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a7c90f994d2d4dcca6cf5d795845bf7a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Betis",
-            "team_b": "Barcelona",
-            "logo_a": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "time": "23:30",
-            "date": "17/10",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42551_23bbc9c2_20261018.png?v=23bbc9c2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fb19cd16b3",
-          "name": "Bayern Munich vs RB Leipzig | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fb19cd16b3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fb19cd16b3",
-                  "name": "Bayern Munich vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-fb19cd16b3",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche2.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-7af025d204",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-7af025d204",
-                  "name": "FC Bayern Munich vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-7af025d204",
-                      "name": "Phalang - LÝ LỀNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23d9a0b58e",
-                          "name": "LÝ LỀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b53bffcd6879477d9250c522f939f3af/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Bayern Munich",
-            "team_b": "RB Leipzig",
-            "logo_a": "https://apiv3.apifootball.com/badges/72_bayern-munchen.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-            "time": "23:30",
-            "date": "17/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 3,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42556_4521ce85_20261018.png?v=4521ce85",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-721fcc3b7c",
-          "name": "Newcastle vs Aston Villa | 23:30 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
             {
               "id": "src-721fcc3b7c",
               "name": "XoiChe TV",
@@ -1586,7 +1346,7 @@
                   "streams": [
                     {
                       "id": "st-721fcc3b7c",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Khô Mật",
                       "stream_links": [
                         {
                           "id": "lnk-c1c41ef192",
@@ -1734,25 +1494,389 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Newcastle",
+            "league": "Ngoại hạng Anh",
+            "team_a": "Newcastle United",
             "team_b": "Aston Villa",
-            "logo_a": "https://apiv3.apifootball.com/badges/3100_newcastle-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3088_aston-villa.jpg",
-            "time": "23:30",
-            "date": "17/10",
-            "blv": "BLV Khô Mật",
+            "logo_a": "https://images.keovip88.net/images/teams/newcastle-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/aston-villa.png",
+            "time": "23:30 17/10",
+            "blv": "Mason",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/42558_52a05220_20261018.png?v=52a05220",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06ee_552bb3bb_20261018.png?v=552bb3bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0b1205f246",
+          "name": "Real Betis vs Barcelona | 23:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0b1205f246",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0b1205f246",
+                  "name": "Real Betis vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-0b1205f246",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ed5e9b39e",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950686_hd/1791950686_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b8516fae69",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b8516fae69",
+                  "name": "Betis vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-b8516fae69",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-de85c81436",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-de85c81436",
+                  "name": "Real Betis vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-de85c81436",
+                      "name": "CCport - Chuối Chao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e27b03ef2f",
+                          "name": "Chuối Chao HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e97f9e8cee",
+                          "name": "Chuối Chao HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-582600ada5",
+                          "name": "Chuối Chao FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-773dc6818c",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-773dc6818c",
+                  "name": "Real Betis vs FC Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-773dc6818c",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-233f44ba86",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a7c90f994d2d4dcca6cf5d795845bf7a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Betis",
+            "team_b": "Barcelona",
+            "logo_a": "https://images.keovip88.net/images/teams/real-betis.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-barcelona.png",
+            "time": "23:30 17/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5bce5e6975d550f0753_2ccca2d4_20261018.png?v=2ccca2d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9da782eaf6",
+          "name": "Bayern Munich vs RB Leipzig | 23:30 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9da782eaf6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9da782eaf6",
+                  "name": "Bayern Munich vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-9da782eaf6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-247eb2adff",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791950863_hd/1791950863_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-fb19cd16b3",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-fb19cd16b3",
+                  "name": "Bayern Munich vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-fb19cd16b3",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-698a969677",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7af025d204",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-7af025d204",
+                  "name": "FC Bayern Munich vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-7af025d204",
+                      "name": "Phalang - LÝ LỀNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23d9a0b58e",
+                          "name": "LÝ LỀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b53bffcd6879477d9250c522f939f3af/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Bayern Munich",
+            "team_b": "RB Leipzig",
+            "logo_a": "https://images.keovip88.net/images/teams/bayern-munchen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/rb-leipzig.png",
+            "time": "23:30 17/10",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077b_4381d682_20261018.png?v=4381d682",
             "width": 1600,
             "height": 1200
           }
@@ -8147,11 +8271,82 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật",
+      "name": "🥊 Võ Thuật (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a832b8b1a2",
+          "name": "Dubois vs Wardley | 22:00 17/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a832b8b1a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a832b8b1a2",
+                  "name": "Dubois vs Wardley",
+                  "streams": [
+                    {
+                      "id": "st-a832b8b1a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7692fde463",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792170062_hd/1792170062_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WBO Heavyweight Title",
+            "team_a": "Dubois",
+            "team_b": "Wardley",
+            "logo_a": "https://static.flashscore.com/res/image/data/06x6Z2Yg-4Y9TamWM.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/rwQ0FieM-lxCLakwH.png",
+            "time": "22:00 17/10",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "vothuat"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/xj9dgdv5uota_79ede6f2_20261018.png?v=79ede6f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-af934093b3",
           "name": "Joaquin Buckley vs Mike Malott | 04:00 18/10",
