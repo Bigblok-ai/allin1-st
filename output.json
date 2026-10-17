@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1963,98 +1963,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07b7_50174a8e_20261017.png?v=50174a8e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8633886c25",
-          "name": "Venezia vs Napoli | 20:00 17/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8633886c25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8633886c25",
-                  "name": "Venezia vs Napoli",
-                  "streams": [
-                    {
-                      "id": "st-8633886c25",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c210608a27",
-                          "name": "BLV Khô Cay 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-61f3cec5ec",
-                          "name": "BLV Khô Cay 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub9.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Venezia",
-            "team_b": "Napoli",
-            "logo_a": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/152_napoli.jpg",
-            "time": "20:00",
-            "date": "17/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/41838_0cdb68da_20261017.png?v=0cdb68da",
             "width": 1600,
             "height": 1200
           }
@@ -6479,6 +6387,77 @@
       "enable_detail": false,
       "channels": [
         {
+          "id": "gv-ee1c2a33d7",
+          "name": "Golden State Valkyries vs Atlanta Dream | 02:30 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ee1c2a33d7",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ee1c2a33d7",
+                  "name": "Golden State Valkyries vs Atlanta Dream",
+                  "streams": [
+                    {
+                      "id": "st-ee1c2a33d7",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d2f2e9b8ba",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792248620_hd/1792248620_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Women’s National Basketball Association",
+            "team_a": "Golden State Valkyries",
+            "team_b": "Atlanta Dream",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/911d51e9d324e887960542ac17a87e1b.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/f527c983cab3560c60e7b9d147904d7d.png",
+            "time": "02:30 18/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/26335478_ec8579d0_20261017.png?v=ec8579d0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9eab81e6fe",
           "name": "Tasmania JackJumpers vs New Zealand Breakers | 11:00 18/10",
           "type": "single",
@@ -8543,41 +8522,6 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://ftlh5sc02iliv.vcdn.cloud/1791951122_hd/1791951122_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c39a4b2a40",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c39a4b2a40",
-                  "name": "Dubois vs Wardley 2",
-                  "streams": [
-                    {
-                      "id": "st-c39a4b2a40",
-                      "name": "gv - Cầy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1411dd20b7",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1791128060_hd/1791128060_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
