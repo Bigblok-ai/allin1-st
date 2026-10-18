@@ -1071,11 +1071,186 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-ccdad8f8f6",
+          "name": "Công An Hà Nội vs Hà Nội | 19:15 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ccdad8f8f6",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ccdad8f8f6",
+                  "name": "Công An Hà Nội vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-ccdad8f8f6",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99fd1a30da",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792288526_hd/1792288526_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0be8394e1d",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-0be8394e1d",
+                  "name": "Công An Hà Nội vs Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-0be8394e1d",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c2b9506bff",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c2b9506bff",
+                  "name": "Cong An Ha Noi FC vs Hanoi FC",
+                  "streams": [
+                    {
+                      "id": "st-c2b9506bff",
+                      "name": "Phalang - LÝ LỀNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-096839d5f3",
+                          "name": "LÝ LỀNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b356df533c09468cb9e37ab9d32c9fe1/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Công An Hà Nội",
+            "team_b": "Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
+            "time": "19:15 18/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac9805824d46db8704f9730_aab54e30_20261018.png?v=aab54e30",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-d2c9fe5f90",
           "name": "Wuhan Three Towns vs Shanghai Shenhua | 17:00 18/10",
@@ -1663,181 +1838,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1633910_aa687a0a_20261018.png?v=aa687a0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ccdad8f8f6",
-          "name": "Công An Hà Nội vs Hà Nội | 19:15 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ccdad8f8f6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ccdad8f8f6",
-                  "name": "Công An Hà Nội vs Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-ccdad8f8f6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99fd1a30da",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792288526_hd/1792288526_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0be8394e1d",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-0be8394e1d",
-                  "name": "Công An Hà Nội vs Ha Noi",
-                  "streams": [
-                    {
-                      "id": "st-0be8394e1d",
-                      "name": "CCport - Chuối Sấy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c2b9506bff",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-c2b9506bff",
-                  "name": "Cong An Ha Noi FC vs Hanoi FC",
-                  "streams": [
-                    {
-                      "id": "st-c2b9506bff",
-                      "name": "Phalang - LÝ LỀNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-096839d5f3",
-                          "name": "LÝ LỀNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b356df533c09468cb9e37ab9d32c9fe1/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Công An Hà Nội",
-            "team_b": "Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
-            "time": "19:15 18/10",
-            "blv": "Súp",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac9805824d46db8704f9730_aab54e30_20261018.png?v=aab54e30",
             "width": 1600,
             "height": 1200
           }
