@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1322,7 +1322,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1773,6 +1773,129 @@
           }
         },
         {
+          "id": "gv-0362ac3eb3",
+          "name": "Brighton   Hove Albion vs Crystal Palace | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0362ac3eb3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0362ac3eb3",
+                  "name": "Brighton   Hove Albion vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-0362ac3eb3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e9b6169e47",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173307_hd/1792173307_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5b2aad0352",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5b2aad0352",
+                  "name": "Brighton vs Crystal Palace",
+                  "streams": [
+                    {
+                      "id": "st-5b2aad0352",
+                      "name": "PhaoHoa - BLV Khô Mật",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ngoại hạng Anh",
+            "team_a": "Brighton   Hove Albion",
+            "team_b": "Crystal Palace",
+            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
+            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "time": "20:00 18/10",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac9805824d46db8704f9797_5ed43657_20261018.png?v=5ed43657",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-530b3b13bf",
           "name": "Phu Dong Ninh Binh vs Gia Lai | 18:00 18/10",
           "type": "single",
@@ -1808,7 +1931,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1939,7 +2062,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 2
           },
           "image": {
@@ -1947,6 +2070,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/43721_e2bdbd1d_20261018.png?v=e2bdbd1d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9e78649769",
+          "name": "Leeds vs Manchester Utd | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9e78649769",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9e78649769",
+                  "name": "Leeds vs Manchester Utd",
+                  "streams": [
+                    {
+                      "id": "st-9e78649769",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f22a137722",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Leeds",
+            "team_b": "Manchester Utd",
+            "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "time": "20:00",
+            "date": "18/10",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44010_8ab98f77_20261018.png?v=8ab98f77",
             "width": 1600,
             "height": 1200
           }
@@ -2087,129 +2285,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1633910_aa687a0a_20261018.png?v=aa687a0a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0362ac3eb3",
-          "name": "Brighton   Hove Albion vs Crystal Palace | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0362ac3eb3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0362ac3eb3",
-                  "name": "Brighton   Hove Albion vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-0362ac3eb3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e9b6169e47",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792173307_hd/1792173307_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5b2aad0352",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5b2aad0352",
-                  "name": "Brighton vs Crystal Palace",
-                  "streams": [
-                    {
-                      "id": "st-5b2aad0352",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ngoại hạng Anh",
-            "team_a": "Brighton   Hove Albion",
-            "team_b": "Crystal Palace",
-            "logo_a": "https://images.keovip88.net/images/teams/brighton-hove-albion.png",
-            "logo_b": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "time": "20:00 18/10",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ac9805824d46db8704f9797_5ed43657_20261018.png?v=5ed43657",
             "width": 1600,
             "height": 1200
           }
@@ -2442,7 +2517,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2459,7 +2534,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2720,7 +2795,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2826,7 +2901,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2843,7 +2918,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3089,7 +3164,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3106,7 +3181,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3316,7 +3391,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3827,7 +3902,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3844,7 +3919,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3919,7 +3994,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3936,7 +4011,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4011,7 +4086,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4086,7 +4161,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4161,7 +4236,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4236,7 +4311,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4311,7 +4386,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4328,7 +4403,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4437,81 +4512,6 @@
           }
         },
         {
-          "id": "xc-9e78649769",
-          "name": "Leeds vs Manchester Utd | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9e78649769",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9e78649769",
-                  "name": "Leeds vs Manchester Utd",
-                  "streams": [
-                    {
-                      "id": "st-9e78649769",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f22a137722",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Leeds",
-            "team_b": "Manchester Utd",
-            "logo_a": "https://apiv3.apifootball.com/badges/3103_leeds-united.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
-            "time": "20:00",
-            "date": "18/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/44010_8ab98f77_20261018.png?v=8ab98f77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0b845236da",
           "name": "Fiorentina vs Como | 20:00 18/10",
           "type": "single",
@@ -4547,7 +4547,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4622,7 +4622,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4639,7 +4639,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4749,7 +4749,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4824,7 +4824,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4899,7 +4899,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5009,7 +5009,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5084,7 +5084,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5246,7 +5246,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5263,7 +5263,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5280,7 +5280,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -6927,7 +6927,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (3 LIVE)",
+      "name": "🏐 Bóng Chuyền (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6999,6 +6999,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/8udj37hhitpc_168b441d_20261018.png?v=168b441d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8a46c74a81",
+          "name": "ZAKSA Kędzierzyn-Koźle vs BOGDANKA LUK Lublin | 20:00 18/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8a46c74a81",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8a46c74a81",
+                  "name": "ZAKSA Kędzierzyn-Koźle vs BOGDANKA LUK Lublin",
+                  "streams": [
+                    {
+                      "id": "st-8a46c74a81",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9f449fe69c",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche2.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "PlusLiga Ba Lan Nam",
+            "team_a": "ZAKSA Kędzierzyn-Koźle",
+            "team_b": "BOGDANKA LUK Lublin",
+            "logo_a": "https://xoiche2.live/media/teams/logos/zaksa-kedzierzyn-kozle-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/bogdanka-luk-lublin-vb.png",
+            "time": "20:00",
+            "date": "18/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38709_9f7bed62_20261018.png?v=9f7bed62",
             "width": 1600,
             "height": 1200
           }
@@ -7536,98 +7628,6 @@
           }
         },
         {
-          "id": "xc-8a46c74a81",
-          "name": "ZAKSA Kędzierzyn-Koźle vs BOGDANKA LUK Lublin | 20:00 18/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a46c74a81",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8a46c74a81",
-                  "name": "ZAKSA Kędzierzyn-Koźle vs BOGDANKA LUK Lublin",
-                  "streams": [
-                    {
-                      "id": "st-8a46c74a81",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9f449fe69c",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "PlusLiga Ba Lan Nam",
-            "team_a": "ZAKSA Kędzierzyn-Koźle",
-            "team_b": "BOGDANKA LUK Lublin",
-            "logo_a": "https://xoiche.live/media/teams/logos/zaksa-kedzierzyn-kozle-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/bogdanka-luk-lublin-vb.png",
-            "time": "20:00",
-            "date": "18/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38709_abad347b_20261018.png?v=abad347b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-e42265358e",
           "name": "Laica UYBA Busto Arsizio vs ChorusLife Volley Bergamo | 23:00 18/10",
           "type": "single",
@@ -7663,7 +7663,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7680,7 +7680,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -7699,8 +7699,8 @@
             "league": "Serie A1 Ý / W",
             "team_a": "Laica UYBA Busto Arsizio",
             "team_b": "ChorusLife Volley Bergamo",
-            "logo_a": "https://xoiche.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/choruslife-volley-bergamo-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/laica-uyba-busto-arsizio-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/choruslife-volley-bergamo-vb.png",
             "time": "23:00",
             "date": "18/10",
             "blv": "BLV Xôi Bắp",
@@ -7714,7 +7714,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38717_5ccb0182_20261018.png?v=5ccb0182",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38717_572d5745_20261018.png?v=572d5745",
             "width": 1600,
             "height": 1200
           }
