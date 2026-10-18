@@ -1071,117 +1071,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-fca33536b7",
-          "name": "Lyonnais vs Nice | 01:45 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fca33536b7",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fca33536b7",
-                  "name": "Lyonnais vs Nice",
-                  "streams": [
-                    {
-                      "id": "st-fca33536b7",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9431ec3fd5",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792339154_hd/1792339154_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-019344ffa8",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-019344ffa8",
-                  "name": "Lyon vs Nice",
-                  "streams": [
-                    {
-                      "id": "st-019344ffa8",
-                      "name": "PhaoHoa - BLV Xôi Xoài",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Lyonnais",
-            "team_b": "Nice",
-            "logo_a": "https://images.keovip88.net/images/teams/lyon.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nice.png",
-            "time": "01:45 19/10",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5f5e5e6975d550f07be_72d44bc9_20261019.png?v=72d44bc9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-dc96501eac",
           "name": "Real Madrid vs Sevilla | 02:00 19/10",
@@ -1270,7 +1164,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1410,8 +1304,8 @@
           }
         },
         {
-          "id": "xc-1cc7c66acd",
-          "name": "Juventus vs Lazio | 01:45 19/10",
+          "id": "xc-019344ffa8",
+          "name": "Lyon vs Nice | 01:45 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1425,79 +1319,27 @@
           ],
           "sources": [
             {
-              "id": "src-1cc7c66acd",
+              "id": "src-019344ffa8",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-1cc7c66acd",
-                  "name": "Juventus vs Lazio",
+                  "id": "ct-019344ffa8",
+                  "name": "Lyon vs Nice",
                   "streams": [
                     {
-                      "id": "st-1cc7c66acd",
+                      "id": "st-019344ffa8",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-698a969677",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
                           "type": "hls",
                           "default": true,
-                          "url": "https://live.khoga.space/live/livehub11/index.m3u8",
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-fd06948909",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-fd06948909",
-                  "name": "Juventus vs Lazio",
-                  "streams": [
-                    {
-                      "id": "st-fd06948909",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-912b9fd86e",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/4de258eae22344929cf3b0b5f1aa5f78/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1513,25 +1355,25 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Juventus",
-            "team_b": "Lazio",
-            "logo_a": "https://apiv3.apifootball.com/badges/96_juventus-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/93_lazio.jpg",
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Nice",
+            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/145_nice.jpg",
             "time": "01:45",
             "date": "19/10",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
-            "away_score": 3
+            "home_score": 2,
+            "away_score": 2
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45206_e5aef59e_20261019.png?v=e5aef59e",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45207_2d4315fb_20261019.png?v=2d4315fb",
             "width": 1600,
             "height": 1200
           }
@@ -1572,7 +1414,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1589,7 +1431,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1964,7 +1806,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1981,7 +1823,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2442,7 +2284,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2584,7 +2426,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2601,7 +2443,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2676,7 +2518,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2693,7 +2535,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2803,7 +2645,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2878,7 +2720,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2988,7 +2830,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3005,7 +2847,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3149,7 +2991,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3224,7 +3066,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3299,7 +3141,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3316,7 +3158,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3426,7 +3268,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3443,7 +3285,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3460,7 +3302,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4575,7 +4417,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4592,7 +4434,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche2.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4611,8 +4453,8 @@
             "league": "Tauron Liga Ba Lan Nữ",
             "team_a": "UNI Opole",
             "team_b": "PGE Budowlani Łódź",
-            "logo_a": "https://xoiche.live/media/teams/logos/uni-opole-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/pge-budowlani-lodz-vb.png",
+            "logo_a": "https://xoiche2.live/media/teams/logos/uni-opole-vb.png",
+            "logo_b": "https://xoiche2.live/media/teams/logos/pge-budowlani-lodz-vb.png",
             "time": "01:30",
             "date": "19/10",
             "blv": "BLV Xôi Bắp",
@@ -4626,7 +4468,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38724_c6ad2a82_20261019.png?v=c6ad2a82",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38724_25245365_20261019.png?v=25245365",
             "width": 1600,
             "height": 1200
           }
@@ -5157,7 +4999,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5170,10 +5012,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5221,7 +5063,7 @@
             "logo_b": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/zGJ5ZWjK2s9nUNXy8CGf5A_96x96.png",
             "time": "04:00 19/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
