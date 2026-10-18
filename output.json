@@ -2731,7 +2731,7 @@
                   "streams": [
                     {
                       "id": "st-5b2aad0352",
-                      "name": "PhaoHoa - BLV Khô Mật, BLV Xôi Xoài",
+                      "name": "PhaoHoa - BLV Khô Mật",
                       "stream_links": [
                         {
                           "id": "lnk-c1c41ef192",
@@ -2756,40 +2756,6 @@
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4ef896631a",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub3.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4548,10 +4514,27 @@
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
                           "id": "lnk-f22a137722",
                           "name": "BLV Tam Mao",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://live.khoga.space/live/livehub8/index.m3u8",
                           "request_headers": [
                             {
@@ -4579,7 +4562,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/5357_juarez.jpg",
             "time": "10:10",
             "date": "18/10",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Xôi Xoài, BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -4966,23 +4949,6 @@
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
                         }
                       ]
                     }
@@ -4999,7 +4965,7 @@
             "logo_b": "https://apiv3.apifootball.com/badges/381_shanghai-shenhua.jpg",
             "time": "17:00",
             "date": "18/10",
-            "blv": "BLV Tam Mao, BLV Xôi Xoài",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
