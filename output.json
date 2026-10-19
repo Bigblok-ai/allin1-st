@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1112,7 +1112,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1147,6 +1147,185 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45344_2d670c23_20261019.png?v=2d670c23",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c3583cf2c1",
+          "name": "Al Fayha vs Al Ahli SC | 22:05 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c3583cf2c1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c3583cf2c1",
+                  "name": "Al Fayha vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-c3583cf2c1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c1c41ef192",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche3.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-75f3b76c5e",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-75f3b76c5e",
+                  "name": "Al-Fayha vs Al-Ahli Jeddah",
+                  "streams": [
+                    {
+                      "id": "st-75f3b76c5e",
+                      "name": "CCport - Chuối To",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebd9df999c",
+                          "name": "Chuối To HD",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-822ad47302",
+                          "name": "Chuối To FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-91e2d008e3",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-91e2d008e3",
+                  "name": "Al Fayha vs Al Ahli SC",
+                  "streams": [
+                    {
+                      "id": "st-91e2d008e3",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3d78d9ebe",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a242a6ba3ff641bdac3cbc49d64a6739/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Fayha",
+            "team_b": "Al Ahli SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
+            "time": "22:05",
+            "date": "19/10",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261019.png?v=55bc17c3",
             "width": 1600,
             "height": 1200
           }
@@ -1821,7 +2000,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1927,7 +2106,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2208,7 +2387,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2225,7 +2404,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2436,7 +2615,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2453,7 +2632,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2628,7 +2807,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2838,7 +3017,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3539,7 +3718,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3556,7 +3735,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3666,7 +3845,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3741,7 +3920,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3816,7 +3995,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3833,7 +4012,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3908,7 +4087,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3983,7 +4162,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4000,7 +4179,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4075,7 +4254,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4185,7 +4364,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4260,7 +4439,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4335,7 +4514,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4352,7 +4531,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4427,7 +4606,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4502,7 +4681,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4519,7 +4698,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4554,185 +4733,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46231_e21a8213_20261019.png?v=e21a8213",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c3583cf2c1",
-          "name": "Al Fayha vs Al Ahli SC | 22:05 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c3583cf2c1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c3583cf2c1",
-                  "name": "Al Fayha vs Al Ahli SC",
-                  "streams": [
-                    {
-                      "id": "st-c3583cf2c1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1c41ef192",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-75f3b76c5e",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-75f3b76c5e",
-                  "name": "Al-Fayha vs Al-Ahli Jeddah",
-                  "streams": [
-                    {
-                      "id": "st-75f3b76c5e",
-                      "name": "CCport - Chuối To",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebd9df999c",
-                          "name": "Chuối To HD",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoito/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-822ad47302",
-                          "name": "Chuối To FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-91e2d008e3",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-91e2d008e3",
-                  "name": "Al Fayha vs Al Ahli SC",
-                  "streams": [
-                    {
-                      "id": "st-91e2d008e3",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3d78d9ebe",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a242a6ba3ff641bdac3cbc49d64a6739/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Fayha",
-            "team_b": "Al Ahli SC",
-            "logo_a": "https://apiv3.apifootball.com/badges/6308_al-fayha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/359_al-ahli.jpg",
-            "time": "22:05",
-            "date": "19/10",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/45367_55bc17c3_20261019.png?v=55bc17c3",
             "width": 1600,
             "height": 1200
           }
@@ -4773,7 +4773,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4848,7 +4848,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4865,7 +4865,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4940,7 +4940,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4957,7 +4957,7 @@
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://xoiche3.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5593,11 +5593,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-d9589c4153",
+          "name": "kyle amoroto vs abet januata | Kèn Kèn",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d9589c4153",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d9589c4153",
+                  "name": "kyle amoroto vs abet januata",
+                  "streams": [
+                    {
+                      "id": "st-d9589c4153",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9589c4153",
+                          "name": "Kèn Kèn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9334/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "siêu bịp độ phi",
+            "team_a": "kyle amoroto",
+            "team_b": "abet januata",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792418806461_kyle%20amoroto.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792418819917_ALBERT%20JANURATA.jpg",
+            "time": "00:00 19/10",
+            "blv": "Kèn Kèn",
+            "is_live": true,
+            "time_sort": 1792342800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d9589c4153_2cbed22c_20261019.png?v=2cbed22c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-63d6d0dee4",
           "name": "Jaycee BATA Garciq vs ALex PaguLayan | Thập Cẩm",
