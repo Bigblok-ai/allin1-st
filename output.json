@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1362,8 +1362,8 @@
           }
         },
         {
-          "id": "pl-d976459bc3",
-          "name": "Karagumruk vs Ankara Keciorengucu | 21:00 19/10",
+          "id": "cc-aaff361b29",
+          "name": "El Gouna FC vs Smouha SC | 21:00 19/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1373,77 +1373,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d976459bc3",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d976459bc3",
-                  "name": "Karagumruk vs Ankara Keciorengucu",
-                  "streams": [
-                    {
-                      "id": "st-d976459bc3",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5e3d3f7d68",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b9b4a345bb184cdcad9660bab2d63241/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkish First League",
-            "team_a": "Karagumruk",
-            "team_b": "Ankara Keciorengucu",
-            "logo_a": "https://img.sports-data.online/football/team/0d3eabc5ecaf407ef8dc5cae3840930d.png",
-            "logo_b": "https://img.sports-data.online/football/team/8c04d7e93c287878ef0ddc9f8d214491.png",
-            "time": "21:00 19/10",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4jwq2ghnynglm0v_dcf83318_20261019.png?v=dcf83318",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-aaff361b29",
-          "name": "El Gouna FC vs Smouha SC | 21:00 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1525,7 +1454,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130126_bb68da1f.png",
             "time": "21:00 19/10",
             "blv": "Chuối Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1533,6 +1462,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1612259_21889a8e_20261019.png?v=21889a8e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-d976459bc3",
+          "name": "Karagumruk vs Ankara Keciorengucu | 21:00 19/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d976459bc3",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d976459bc3",
+                  "name": "Karagumruk vs Ankara Keciorengucu",
+                  "streams": [
+                    {
+                      "id": "st-d976459bc3",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5e3d3f7d68",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b9b4a345bb184cdcad9660bab2d63241/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkish First League",
+            "team_a": "Karagumruk",
+            "team_b": "Ankara Keciorengucu",
+            "logo_a": "https://img.sports-data.online/football/team/0d3eabc5ecaf407ef8dc5cae3840930d.png",
+            "logo_b": "https://img.sports-data.online/football/team/8c04d7e93c287878ef0ddc9f8d214491.png",
+            "time": "21:00 19/10",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4jwq2ghnynglm0v_dcf83318_20261019.png?v=dcf83318",
             "width": 1600,
             "height": 1200
           }
@@ -4911,82 +4911,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-823e3aa36b",
-          "name": "Suzhou Dragons Kentier vs Shenzhen Leopards | 18:35 19/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-823e3aa36b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-823e3aa36b",
-                  "name": "Suzhou Dragons Kentier vs Shenzhen Leopards",
-                  "streams": [
-                    {
-                      "id": "st-823e3aa36b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cba0afc1f9",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311528_hd/1792311528_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Suzhou Dragons Kentier",
-            "team_b": "Shenzhen Leopards",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/4d9ec843176ad902c32b3b317118e543.png",
-            "time": "18:35 19/10",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/21363474_e4fa1edf_20261019.png?v=e4fa1edf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-b393bd42c5",
           "name": "Seoul SK Knights vs Anyang Jung Kwan Jang Red Boosters | 17:00 20/10",
