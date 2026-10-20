@@ -1071,82 +1071,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bb891883d2",
-          "name": "Adhyaksa Farmel FC vs Malut United | 15:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb891883d2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb891883d2",
-                  "name": "Adhyaksa Farmel FC vs Malut United",
-                  "streams": [
-                    {
-                      "id": "st-bb891883d2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eee8913e2f",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310180_hd/1792310180_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "Adhyaksa Farmel FC",
-            "team_b": "Malut United",
-            "logo_a": "https://images.keovip88.net/images/teams/adhyaksa-farmel-fc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malut-united.png",
-            "time": "15:30 20/10",
-            "blv": "Tỵ ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6acd74c924d46db870dcff8a_3e43e10f_20261020.png?v=3e43e10f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-8433ddfeaa",
           "name": "Isenmulang Kalteng vs Java United | 15:30 20/10",
@@ -4440,6 +4369,98 @@
           }
         },
         {
+          "id": "xc-b5257afcdc",
+          "name": "FC Porto vs PSV | 02:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b5257afcdc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b5257afcdc",
+                  "name": "FC Porto vs PSV",
+                  "streams": [
+                    {
+                      "id": "st-b5257afcdc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "FC Porto",
+            "team_b": "PSV",
+            "logo_a": "https://apiv3.apifootball.com/badges/81_porto.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/150_psv.jpg",
+            "time": "02:00",
+            "date": "21/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47304_c55bcb14_20261020.png?v=c55bcb14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-1af9a11176",
           "name": "Napoli vs Bodo/Glimt | 02:00 21/10",
           "type": "single",
@@ -5258,6 +5279,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46185_b00669e5_20261020.png?v=b00669e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3c2e272d8c",
+          "name": "Persija Jakarta vs Arema FC | 19:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c2e272d8c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3c2e272d8c",
+                  "name": "Persija Jakarta vs Arema FC",
+                  "streams": [
+                    {
+                      "id": "st-3c2e272d8c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3e89c2b5b",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Persija Jakarta",
+            "team_b": "Arema FC",
+            "logo_a": "https://apiv3.apifootball.com/badges/4721_persija.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4724_arema.jpg",
+            "time": "19:00",
+            "date": "21/10",
+            "blv": "BLV Khô Bò",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/47399_d97f1f59_20261020.png?v=d97f1f59",
             "width": 1600,
             "height": 1200
           }
@@ -6790,7 +6903,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7012,6 +7125,222 @@
           }
         },
         {
+          "id": "chtv-85cf621cc5",
+          "name": "Thorsten Hohmann vs Chezka Centeno | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-85cf621cc5",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-85cf621cc5",
+                  "name": "Thorsten Hohmann vs Chezka Centeno",
+                  "streams": [
+                    {
+                      "id": "st-85cf621cc5",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-85cf621cc5",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9357/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Thorsten Hohmann",
+            "team_b": "Chezka Centeno",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792479379097_Screenshot%202026-10-20%20112142.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792479397169_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30 20/10",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1792485000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85cf621cc5_70aca5f8_20261020.png?v=70aca5f8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-04240e3f3f",
+          "name": "Ronel Nalaunan vs Marc Cunanan | 15:30 20/10 | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-04240e3f3f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-04240e3f3f",
+                  "name": "Ronel Nalaunan vs Marc Cunanan",
+                  "streams": [
+                    {
+                      "id": "st-04240e3f3f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-04240e3f3f",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9362/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Ronel Nalaunan",
+            "team_b": "Marc Cunanan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792481066798_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792481067047_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30 20/10",
+            "blv": "SÊ KÔÔ",
+            "is_live": false,
+            "time_sort": 1792485000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04240e3f3f_86a1f2d4_20261020.png?v=86a1f2d4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-23d43269ab",
+          "name": "Eric Navarrete vs Dennis Po | 15:30 20/10 | Xinh Yeu",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-23d43269ab",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-23d43269ab",
+                  "name": "Eric Navarrete vs Dennis Po",
+                  "streams": [
+                    {
+                      "id": "st-23d43269ab",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-23d43269ab",
+                          "name": "Xinh Yeu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9363/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV4 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Eric Navarrete",
+            "team_b": "Dennis Po",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792481211264_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792481210868_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "15:30 20/10",
+            "blv": "Xinh Yeu",
+            "is_live": false,
+            "time_sort": 1792485000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23d43269ab_ea0a6591_20261020.png?v=ea0a6591",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-5805cc082f",
           "name": "Jeffrey De Luna vs Ryosuke Maruoka | 15:30 20/10",
           "type": "single",
@@ -7084,294 +7413,6 @@
           }
         },
         {
-          "id": "chtv-e404f4d540",
-          "name": "Jayson Shaw vs Kelson Juan | 15:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e404f4d540",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e404f4d540",
-                  "name": "Jayson Shaw vs Kelson Juan",
-                  "streams": [
-                    {
-                      "id": "st-e404f4d540",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e404f4d540",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9360/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV3 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Jayson Shaw",
-            "team_b": "Kelson Juan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792480433450_Screenshot%202026-10-20%20141346.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792479825055_Screenshot%202026-10-20%20112142.png",
-            "time": "15:30 20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792485000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e404f4d540_6bdbcbdf_20261020.png?v=6bdbcbdf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-85cf621cc5",
-          "name": "Thorsten Hohmann vs Chezka Centeno | 15:30 20/10 | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-85cf621cc5",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-85cf621cc5",
-                  "name": "Thorsten Hohmann vs Chezka Centeno",
-                  "streams": [
-                    {
-                      "id": "st-85cf621cc5",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-85cf621cc5",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9357/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV1 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Thorsten Hohmann",
-            "team_b": "Chezka Centeno",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792479379097_Screenshot%202026-10-20%20112142.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792479397169_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:30 20/10",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": false,
-            "time_sort": 1792485000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-85cf621cc5_70aca5f8_20261020.png?v=70aca5f8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-23d43269ab",
-          "name": "Eric Navarrete vs Dennis Po | 15:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-23d43269ab",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-23d43269ab",
-                  "name": "Eric Navarrete vs Dennis Po",
-                  "streams": [
-                    {
-                      "id": "st-23d43269ab",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-23d43269ab",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9363/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV4 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Eric Navarrete",
-            "team_b": "Dennis Po",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792481211264_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792481210868_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:30 20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792485000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-23d43269ab_ea0a6591_20261020.png?v=ea0a6591",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-04240e3f3f",
-          "name": "Ronel Nalaunan vs Marc Cunanan | 15:30 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-04240e3f3f",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-04240e3f3f",
-                  "name": "Ronel Nalaunan vs Marc Cunanan",
-                  "streams": [
-                    {
-                      "id": "st-04240e3f3f",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-04240e3f3f",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9362/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV2 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Ronel Nalaunan",
-            "team_b": "Marc Cunanan",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792481066798_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792481067047_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "15:30 20/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792485000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-04240e3f3f_86a1f2d4_20261020.png?v=86a1f2d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d89aeb8639",
           "name": "Billy Thorpe vs Esteban Robles | 15:30 20/10",
           "type": "single",
@@ -7439,6 +7480,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d89aeb8639_135a8bc2_20261020.png?v=135a8bc2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-e404f4d540",
+          "name": "Jayson Shaw vs Kelson Juan | 15:30 20/10 | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e404f4d540",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-e404f4d540",
+                  "name": "Jayson Shaw vs Kelson Juan",
+                  "streams": [
+                    {
+                      "id": "st-e404f4d540",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e404f4d540",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9360/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV3 | 𝐃𝐀𝐘 𝟏 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Jayson Shaw",
+            "team_b": "Kelson Juan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792480433450_Screenshot%202026-10-20%20141346.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792479825055_Screenshot%202026-10-20%20112142.png",
+            "time": "15:30 20/10",
+            "blv": "Thập Cẩm",
+            "is_live": false,
+            "time_sort": 1792485000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e404f4d540_6bdbcbdf_20261020.png?v=6bdbcbdf",
             "width": 1600,
             "height": 1200
           }
