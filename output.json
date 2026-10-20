@@ -1071,82 +1071,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-6f77d8a409",
-          "name": "Hajer vs Al Najma | 21:45 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6f77d8a409",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6f77d8a409",
-                  "name": "Hajer vs Al Najma",
-                  "streams": [
-                    {
-                      "id": "st-6f77d8a409",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-670731310a",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792310354_hd/1792310354_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cúp Hoàng tử Faisal bin Fahd",
-            "team_a": "Hajer",
-            "team_b": "Al Najma",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/8/86/Hajer_FC_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/66/Al_Najma_Sports_club_%28Official%29.png",
-            "time": "21:45 20/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/wmdfe6913xsw_347a48ec_20261020.png?v=347a48ec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-aa9ebef1ea",
           "name": "Al-Draih vs Al-Riyadh | 22:00 20/10",
@@ -5944,7 +5873,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6022,6 +5951,78 @@
           }
         },
         {
+          "id": "chtv-726b6f923f",
+          "name": "Borussia Dortmund vs Sabah | Thập Cẩm",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-726b6f923f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-726b6f923f",
+                  "name": "Borussia Dortmund vs Sabah",
+                  "streams": [
+                    {
+                      "id": "st-726b6f923f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-726b6f923f",
+                          "name": "Thập Cẩm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9350/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng Đá Cup C1",
+            "team_a": "Borussia Dortmund",
+            "team_b": "Sabah",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792477945302_Screenshot%202026-10-20%20133215.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792478037832_Screenshot%202026-10-20%20133353.png",
+            "time": "23:45 20/10",
+            "blv": "Thập Cẩm",
+            "is_live": true,
+            "time_sort": 1792514700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-726b6f923f_bd2c0f48_20261020.png?v=bd2c0f48",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-cd55f83ac8",
           "name": "Napoli vs Bodø / Glimt | 02:00 21/10",
           "type": "single",
@@ -6089,150 +6090,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd55f83ac8_cad61325_20261020.png?v=cad61325",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-cd2e9182d0",
-          "name": "Paris Saint-Germain vs Barcelona | 02:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cd2e9182d0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-cd2e9182d0",
-                  "name": "Paris Saint-Germain vs Barcelona",
-                  "streams": [
-                    {
-                      "id": "st-cd2e9182d0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cd2e9182d0",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9351/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng Đá Cup C1",
-            "team_a": "Paris Saint-Germain",
-            "team_b": "Barcelona",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792478083891_Screenshot%202026-10-20%20133420.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792478083363_Screenshot%202026-10-20%20133439.png",
-            "time": "02:00 21/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792522800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd2e9182d0_7b8b5120_20261020.png?v=7b8b5120",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-1d5940f536",
-          "name": "Manchester City vs AEK Athens | 02:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1d5940f536",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-1d5940f536",
-                  "name": "Manchester City vs AEK Athens",
-                  "streams": [
-                    {
-                      "id": "st-1d5940f536",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1d5940f536",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9353/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bóng Đá Cup C1",
-            "team_a": "Manchester City",
-            "team_b": "AEK Athens",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792478147488_Screenshot%202026-10-20%20133506.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792478146697_Screenshot%202026-10-20%20133536.png",
-            "time": "02:00 21/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792522800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d5940f536_d706d7df_20261020.png?v=d706d7df",
             "width": 1600,
             "height": 1200
           }
@@ -6377,6 +6234,150 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e3a01329a2_0e7780a2_20261020.png?v=0e7780a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1d5940f536",
+          "name": "Manchester City vs AEK Athens | 02:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1d5940f536",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1d5940f536",
+                  "name": "Manchester City vs AEK Athens",
+                  "streams": [
+                    {
+                      "id": "st-1d5940f536",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1d5940f536",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9353/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng Đá Cup C1",
+            "team_a": "Manchester City",
+            "team_b": "AEK Athens",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792478147488_Screenshot%202026-10-20%20133506.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792478146697_Screenshot%202026-10-20%20133536.png",
+            "time": "02:00 21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792522800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1d5940f536_d706d7df_20261020.png?v=d706d7df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-cd2e9182d0",
+          "name": "Paris Saint-Germain vs Barcelona | 02:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cd2e9182d0",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-cd2e9182d0",
+                  "name": "Paris Saint-Germain vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-cd2e9182d0",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cd2e9182d0",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9351/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bóng Đá Cup C1",
+            "team_a": "Paris Saint-Germain",
+            "team_b": "Barcelona",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792478083891_Screenshot%202026-10-20%20133420.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792478083363_Screenshot%202026-10-20%20133439.png",
+            "time": "02:00 21/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792522800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-cd2e9182d0_7b8b5120_20261020.png?v=7b8b5120",
             "width": 1600,
             "height": 1200
           }
