@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1428,6 +1428,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46185_b00669e5_20261020.png?v=b00669e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9adb0d5271",
+          "name": "Fortis vs Goa | 20:25 20/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9adb0d5271",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9adb0d5271",
+                  "name": "Fortis vs Goa",
+                  "streams": [
+                    {
+                      "id": "st-9adb0d5271",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-afc0aa1332",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Challenge League",
+            "team_a": "Fortis",
+            "team_b": "Goa",
+            "logo_a": "https://apiv3.apifootball.com/badges/30434_fortis.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/404_goa.jpg",
+            "time": "20:25",
+            "date": "20/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46207_dc64c886_20261020.png?v=dc64c886",
             "width": 1600,
             "height": 1200
           }
@@ -5032,81 +5107,6 @@
           }
         },
         {
-          "id": "xc-9adb0d5271",
-          "name": "Fortis vs Goa | 20:25 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9adb0d5271",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9adb0d5271",
-                  "name": "Fortis vs Goa",
-                  "streams": [
-                    {
-                      "id": "st-9adb0d5271",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-afc0aa1332",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://live.khoga.space/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Challenge League",
-            "team_a": "Fortis",
-            "team_b": "Goa",
-            "logo_a": "https://apiv3.apifootball.com/badges/30434_fortis.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/404_goa.jpg",
-            "time": "20:25",
-            "date": "20/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/46207_dc64c886_20261020.png?v=dc64c886",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-239f33b424",
           "name": "Istiqlol Dushanbe vs Al Arabi | 21:00 20/10",
           "type": "single",
@@ -5627,82 +5627,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-4a27f0d882",
-          "name": "Beijing Shougang Ducks vs Guangdong Southern Tigers | 18:35 20/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4a27f0d882",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-4a27f0d882",
-                  "name": "Beijing Shougang Ducks vs Guangdong Southern Tigers",
-                  "streams": [
-                    {
-                      "id": "st-4a27f0d882",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7efa63795f",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792311621_hd/1792311621_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Chinese Basketball Association",
-            "team_a": "Beijing Shougang Ducks",
-            "team_b": "Guangdong Southern Tigers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/58867afcb7d9cb68ffd5338c62c7af6a.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/37b8668860b7f12aeb8a40fafaaa2e83.png",
-            "time": "18:35 20/10",
-            "blv": "Cầy",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/38363471_b9d2d653_20261020.png?v=b9d2d653",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6bcf0c9707",
           "name": "Jilin Northeast Tigers vs SiChuan Jingqiang Blue Whales | 18:35 20/10",
