@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1190,10 +1190,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1481,7 +1481,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/manchester-united.png",
             "time": "23:45 21/10",
             "blv": "Fan MU: Hấu, Đầu Cầu Vui Vẻ: Cầy + Dory, Trung lập Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1489,6 +1489,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a92220607a55a68f709da99_8e31df05_20261021.png?v=8e31df05",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-e01ea603d7",
+          "name": "Como vs Man Utd | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e01ea603d7",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-e01ea603d7",
+                  "name": "Como vs Man Utd",
+                  "streams": [
+                    {
+                      "id": "st-e01ea603d7",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7e3aa6f76c",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/8453f8b2d9294798aef51e3c5ab409fe/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Como",
+            "team_b": "Man Utd",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hnz4q0j6/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/l965mkyh98gr1ge/image/small",
+            "time": "23:45 21/10",
+            "blv": "LÝ LA LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4wyrn4h6jpl6q86_d5e3c98f_20261021.png?v=d5e3c98f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-15071af903",
+          "name": "LOSC vs Galatasaray | 23:45 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-15071af903",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-15071af903",
+                  "name": "LOSC vs Galatasaray",
+                  "streams": [
+                    {
+                      "id": "st-15071af903",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-39bde40033",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/37c44ced8ead4f04a9be96dad30f9d6f/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "LOSC",
+            "team_b": "Galatasaray",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2pdqdyj/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
+            "time": "23:45 21/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhy6851ryk_640f2b65_20261021.png?v=640f2b65",
             "width": 1600,
             "height": 1200
           }
@@ -1681,148 +1823,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93737afccd5ecc44060e2b_c5ba006c_20261021.png?v=c5ba006c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-e01ea603d7",
-          "name": "Como vs Man Utd | 23:45 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e01ea603d7",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-e01ea603d7",
-                  "name": "Como vs Man Utd",
-                  "streams": [
-                    {
-                      "id": "st-e01ea603d7",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7e3aa6f76c",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/8453f8b2d9294798aef51e3c5ab409fe/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Como",
-            "team_b": "Man Utd",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/z8yomo4hnz4q0j6/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/l965mkyh98gr1ge/image/small",
-            "time": "23:45 21/10",
-            "blv": "LÝ LA LÀNG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4wyrn4h6jpl6q86_d5e3c98f_20261021.png?v=d5e3c98f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-15071af903",
-          "name": "LOSC vs Galatasaray | 23:45 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-15071af903",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-15071af903",
-                  "name": "LOSC vs Galatasaray",
-                  "streams": [
-                    {
-                      "id": "st-15071af903",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-39bde40033",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/37c44ced8ead4f04a9be96dad30f9d6f/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "LOSC",
-            "team_b": "Galatasaray",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/p3glrw7h2pdqdyj/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/z318q66hp66qo9j/image/small",
-            "time": "23:45 21/10",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhy6851ryk_640f2b65_20261021.png?v=640f2b65",
             "width": 1600,
             "height": 1200
           }
@@ -8341,83 +8341,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-e1d50034d9",
-          "name": "Anton Raga vs SEAN MARK MALAYAN | Thập Cẩm",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e1d50034d9",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-e1d50034d9",
-                  "name": "Anton Raga vs SEAN MARK MALAYAN",
-                  "streams": [
-                    {
-                      "id": "st-e1d50034d9",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1d50034d9",
-                          "name": "Thập Cẩm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9410/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Anton Raga",
-            "team_b": "SEAN MARK MALAYAN",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792586626047_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1792586652255_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:45 21/10",
-            "blv": "Thập Cẩm",
-            "is_live": true,
-            "time_sort": 1792586700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e1d50034d9_3302bcbe_20261021.png?v=3302bcbe",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-8611bc78e4",
           "name": "Edwin Gamas vs Tonton 7910 | Tào A Man",
@@ -9047,6 +8975,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/762578918a6144afb6b67a5f1f22bcc3_d6ca6337_20261021.png?v=d6ca6337",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-07ed48c01e",
+          "name": "Denso Airybees Nữ vs Hisamitsu Springs Nữ | 17:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-07ed48c01e",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-07ed48c01e",
+                  "name": "Denso Airybees Nữ vs Hisamitsu Springs Nữ",
+                  "streams": [
+                    {
+                      "id": "st-07ed48c01e",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-477bfd3402",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/17a6a692b53e4feba1b8a3a6aa829432/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Women",
+            "team_a": "Denso Airybees Nữ",
+            "team_b": "Hisamitsu Springs Nữ",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/36c10a4e1bc7d9a17ab47df2d74661a5.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/30a8757bc201fed57fcb779c30bb14db.png!w80",
+            "time": "17:00 23/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d300a4960a014ef9b293e3af10524096_d1a1e383_20261021.png?v=d1a1e383",
             "width": 1600,
             "height": 1200
           }
