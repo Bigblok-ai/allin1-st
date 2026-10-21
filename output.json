@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1445,8 +1445,8 @@
           }
         },
         {
-          "id": "pl-b100dd640b",
-          "name": "Real Madrid U19 vs RB Leipzig U19 | 21:00 21/10",
+          "id": "cc-9529c21fd9",
+          "name": "Internazionale U19 vs Shakhtar Donetsk U19 | 21:00 21/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1456,77 +1456,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b100dd640b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b100dd640b",
-                  "name": "Real Madrid U19 vs RB Leipzig U19",
-                  "streams": [
-                    {
-                      "id": "st-b100dd640b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35d9c1e71e",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/ec63859ff1f34aa99002fe299ade03d2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "Real Madrid U19",
-            "team_b": "RB Leipzig U19",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy4x8q1zp/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09npmd7o/image/small",
-            "time": "21:00 21/10",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehg7go4r51_45ad77ff_20261021.png?v=45ad77ff",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-9529c21fd9",
-          "name": "Internazionale U19 vs Shakhtar Donetsk U19 | 21:00 21/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1608,7 +1537,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134417_5234fe28.png",
             "time": "21:00 21/10",
             "blv": "Chuối Già",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1616,6 +1545,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1637357_9e55a584_20261021.png?v=9e55a584",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-b100dd640b",
+          "name": "Real Madrid U19 vs RB Leipzig U19 | 21:00 21/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b100dd640b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b100dd640b",
+                  "name": "Real Madrid U19 vs RB Leipzig U19",
+                  "streams": [
+                    {
+                      "id": "st-b100dd640b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35d9c1e71e",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/ec63859ff1f34aa99002fe299ade03d2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Youth League",
+            "team_a": "Real Madrid U19",
+            "team_b": "RB Leipzig U19",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dj2ryohy4x8q1zp/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09npmd7o/image/small",
+            "time": "21:00 21/10",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehg7go4r51_45ad77ff_20261021.png?v=45ad77ff",
             "width": 1600,
             "height": 1200
           }
