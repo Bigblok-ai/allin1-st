@@ -1339,7 +1339,7 @@
             "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 1
           },
@@ -6586,82 +6586,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (10 LIVE)",
+      "name": "🏀 Bóng Rổ (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-ef2eafd601",
-          "name": "Orlando Magic vs Atlanta Hawks | 06:00 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ef2eafd601",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ef2eafd601",
-                  "name": "Orlando Magic vs Atlanta Hawks",
-                  "streams": [
-                    {
-                      "id": "st-ef2eafd601",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-66ea89ea61",
-                          "name": "Tôm",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570166_hd/1792570166_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Orlando Magic",
-            "team_b": "Atlanta Hawks",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
-            "time": "06:00 22/10",
-            "blv": "Tôm",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/21810370_4e507d06_20261022.png?v=4e507d06",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-cf9056f5ab",
           "name": "Miami Heat vs Minnesota Timberwolves | 06:30 22/10",
@@ -8803,6 +8732,78 @@
           }
         },
         {
+          "id": "chtv-662f6c08aa",
+          "name": "Carlo Biado vs John Rebong | 11:00 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-662f6c08aa",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-662f6c08aa",
+                  "name": "Carlo Biado vs John Rebong",
+                  "streams": [
+                    {
+                      "id": "st-662f6c08aa",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-662f6c08aa",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9420/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "TV 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "Carlo Biado",
+            "team_b": "John Rebong",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792623839469_CARLO%20BIADO.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "11:00 22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792641600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-662f6c08aa_a3d93c7f_20261022.png?v=a3d93c7f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-b1dcea1bf2",
           "name": "Shane Van Boening vs John Albert Refulle | 11:00 22/10",
           "type": "single",
@@ -9014,78 +9015,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-78477312b1_9f6f7e3e_20261022.png?v=9f6f7e3e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-662f6c08aa",
-          "name": "Carlo Biado vs John Rebong | 11:00 22/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-662f6c08aa",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-662f6c08aa",
-                  "name": "Carlo Biado vs John Rebong",
-                  "streams": [
-                    {
-                      "id": "st-662f6c08aa",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-662f6c08aa",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9420/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "TV 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
-            "team_a": "Carlo Biado",
-            "team_b": "John Rebong",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1792623839469_CARLO%20BIADO.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765599062294_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "11:00 22/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1792641600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-662f6c08aa_a3d93c7f_20261022.png?v=a3d93c7f",
             "width": 1600,
             "height": 1200
           }
@@ -9446,6 +9375,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0fe0abf1e6_56f0e8fd_20261022.png?v=56f0e8fd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bf7eb272d8",
+          "name": "TKON vs James Aranas | 13:59 22/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf7eb272d8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bf7eb272d8",
+                  "name": "TKON vs James Aranas",
+                  "streams": [
+                    {
+                      "id": "st-bf7eb272d8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf7eb272d8",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9427/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Loạt 2 𝐃𝐀𝐘 3 𝐒𝐂𝐇𝐄𝐃𝐔𝐋𝐄 | 𝟐𝟎𝟐𝟔 𝐏𝐇𝐈𝐋𝐈𝐏𝐏𝐈𝐍𝐄𝐒 𝐎𝐏𝐄𝐍",
+            "team_a": "TKON",
+            "team_b": "James Aranas",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1777147422361_Screenshot%202026-04-26%20030339.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792634322948_JAMES%20ARANAS.jpg",
+            "time": "13:59 22/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1792652340,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bf7eb272d8_c8cc4bec_20261022.png?v=c8cc4bec",
             "width": 1600,
             "height": 1200
           }
