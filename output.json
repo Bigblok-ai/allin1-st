@@ -3240,7 +3240,7 @@
                   "streams": [
                     {
                       "id": "st-e030f4ce7b",
-                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "name": "PhaoHoa - BLV Xôi Gấc, BLV Test",
                       "stream_links": [
                         {
                           "id": "lnk-422f42089b",
@@ -3265,6 +3265,40 @@
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c810f7fc03",
+                          "name": "BLV Test 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=5Bacl5vZ1ptfUeoVynp4LfUMwNUiWSASvjxq6p9wcWU&expires=1855579061&token_path=%2Flive%2Flivehub10/live/livehub10/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-58a006abe0",
+                          "name": "BLV Test 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub10.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
