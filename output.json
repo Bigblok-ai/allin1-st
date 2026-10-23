@@ -1071,14 +1071,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-bb80c2c197",
-          "name": "Ipswich vs Nottingham Forest | 02:00 24/10",
+          "id": "xc-e9a0c2712f",
+          "name": "Ipswich vs Nottingham | 02:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1092,41 +1092,6 @@
           ],
           "sources": [
             {
-              "id": "src-bb80c2c197",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb80c2c197",
-                  "name": "Ipswich vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-bb80c2c197",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0530efbbfc",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577559_hd/1792577559_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-e9a0c2712f",
               "name": "XoiChe TV",
               "contents": [
@@ -1136,7 +1101,7 @@
                   "streams": [
                     {
                       "id": "st-e9a0c2712f",
-                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
                           "id": "lnk-422f42089b",
@@ -1194,233 +1159,28 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-b0094a059c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-b0094a059c",
-                  "name": "Ipswich vs Nottingham Forest",
-                  "streams": [
-                    {
-                      "id": "st-b0094a059c",
-                      "name": "CCport - Chuối Tây",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa79648022",
-                          "name": "Chuối Tây HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-36aaed7dd9",
-                          "name": "Chuối Tây HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70e532cde3",
-                          "name": "Chuối Tây FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
-            "league": "Ngoại hạng Anh",
+            "league": "Premier League",
             "team_a": "Ipswich",
-            "team_b": "Nottingham Forest",
-            "logo_a": "https://images.keovip88.net/images/teams/ipswich-town.png",
-            "logo_b": "https://images.keovip88.net/images/teams/nottingham-forest.png",
-            "time": "02:00 24/10",
-            "blv": "Súp",
+            "team_b": "Nottingham",
+            "logo_a": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
+            "time": "02:00",
+            "date": "24/10",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f3_a93d3b10_20261024.png?v=a93d3b10",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-790602c15e",
-          "name": "Alaves vs Malaga | 02:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-790602c15e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-790602c15e",
-                  "name": "Alaves vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-790602c15e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fb59143bc9",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577617_hd/1792577617_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d5ebe74a70",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d5ebe74a70",
-                  "name": "Alaves vs Malaga",
-                  "streams": [
-                    {
-                      "id": "st-d5ebe74a70",
-                      "name": "PhaoHoa - BLV Khô Bò",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f665690a76",
-                          "name": "BLV Khô Bò 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-800e867b4f",
-                          "name": "BLV Khô Bò 3",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Alaves",
-            "team_b": "Malaga",
-            "logo_a": "https://images.keovip88.net/images/teams/alaves.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
-            "time": "02:00 24/10",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695a24d46db87021ab6a_cd7cb104_20261024.png?v=cd7cb104",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49339_d773c63b_20261024.png?v=d773c63b",
             "width": 1600,
             "height": 1200
           }
