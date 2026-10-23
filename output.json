@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1710,6 +1710,77 @@
           }
         },
         {
+          "id": "pl-159e7ee994",
+          "name": "Al Ittihad(KSA) vs Diraiyah | 22:30 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-159e7ee994",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-159e7ee994",
+                  "name": "Al Ittihad(KSA) vs Diraiyah",
+                  "streams": [
+                    {
+                      "id": "st-159e7ee994",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5a7650919d",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/362723a1966440edac01b57876323007/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi Professional League",
+            "team_a": "Al Ittihad(KSA)",
+            "team_b": "Diraiyah",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghyv3r6od/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/318q66ho8e1qo9j/image/small",
+            "time": "22:30 23/10",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4h1pjg4q0j_0d815516_20261023.png?v=0d815516",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-03e829586c",
           "name": "Al-Ittihad FC vs Al Diriyah | 22:30 23/10",
           "type": "single",
@@ -1810,77 +1881,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1603066_ae176a4f_20261023.png?v=ae176a4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-159e7ee994",
-          "name": "Al Ittihad(KSA) vs Diraiyah | 22:30 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-159e7ee994",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-159e7ee994",
-                  "name": "Al Ittihad(KSA) vs Diraiyah",
-                  "streams": [
-                    {
-                      "id": "st-159e7ee994",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5a7650919d",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/362723a1966440edac01b57876323007/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Professional League",
-            "team_a": "Al Ittihad(KSA)",
-            "team_b": "Diraiyah",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghyv3r6od/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/318q66ho8e1qo9j/image/small",
-            "time": "22:30 23/10",
-            "blv": "LÝ LINH LỰC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4h1pjg4q0j_0d815516_20261023.png?v=0d815516",
             "width": 1600,
             "height": 1200
           }
@@ -6612,6 +6612,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/abff24cf49304659905f0d7c840680eb_6c1e5303_20261023.png?v=6c1e5303",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-538c8788ac",
+          "name": "Gunma Bank Green Wings Women vs Prestige Aranmare Women | 11:00 25/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-538c8788ac",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-538c8788ac",
+                  "name": "Gunma Bank Green Wings Women vs Prestige Aranmare Women",
+                  "streams": [
+                    {
+                      "id": "st-538c8788ac",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-74dcd752a1",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b2fec8adc4e148a5a44b7b6e218c4583/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Women",
+            "team_a": "Gunma Bank Green Wings Women",
+            "team_b": "Prestige Aranmare Women",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/9b24522f9f21ea1c8df198f5c5f94a34.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/576f85e1abac99403642b1ec18fd0709.png!w80",
+            "time": "11:00 25/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/15aa572687ed430f8f04625f4d830478_b76b131c_20261023.png?v=b76b131c",
             "width": 1600,
             "height": 1200
           }
