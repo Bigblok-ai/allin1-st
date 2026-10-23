@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1565,6 +1565,77 @@
           }
         },
         {
+          "id": "gv-8c418027a2",
+          "name": "Bình Định vs Lâm Đồng FC | 18:00 23/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8c418027a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8c418027a2",
+                  "name": "Bình Định vs Lâm Đồng FC",
+                  "streams": [
+                    {
+                      "id": "st-8c418027a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c02e36dace",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568653_hd/1792568653_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Bình Định",
+            "team_b": "Lâm Đồng FC",
+            "logo_a": "https://images.keovip88.net/images/teams/binh-dinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lam-dong.png",
+            "time": "18:00 23/10",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad017d524d46db8705c87b3_0b4e15dc_20261023.png?v=0b4e15dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-6de5f0ac87",
           "name": "Persipura Jayapura vs Balikpapan | 15:30 23/10",
           "type": "single",
@@ -1644,7 +1715,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 4,
+            "home_score": 5,
             "away_score": 1
           },
           "image": {
@@ -1723,77 +1794,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whw1y80ryo_4319b32e_20261023.png?v=4319b32e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8c418027a2",
-          "name": "Bình Định vs Lâm Đồng FC | 18:00 23/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8c418027a2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8c418027a2",
-                  "name": "Bình Định vs Lâm Đồng FC",
-                  "streams": [
-                    {
-                      "id": "st-8c418027a2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c02e36dace",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792568653_hd/1792568653_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hạng Nhất Việt Nam",
-            "team_a": "Bình Định",
-            "team_b": "Lâm Đồng FC",
-            "logo_a": "https://images.keovip88.net/images/teams/binh-dinh.png",
-            "logo_b": "https://images.keovip88.net/images/teams/lam-dong.png",
-            "time": "18:00 23/10",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad017d524d46db8705c87b3_0b4e15dc_20261023.png?v=0b4e15dc",
             "width": 1600,
             "height": 1200
           }
@@ -6280,7 +6280,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6364,10 +6364,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6415,7 +6415,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/21d2a46a9599ab792dc3a7884839072f.png",
             "time": "17:30 23/10",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
