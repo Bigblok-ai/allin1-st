@@ -1077,8 +1077,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-f8df10516d",
-          "name": "Stuttgart vs B. Monchengladbach | 01:30 24/10",
+          "id": "gv-fbb1d07a89",
+          "name": "VfB Stuttgart vs Monchengladbach | 01:30 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1092,6 +1092,41 @@
           ],
           "sources": [
             {
+              "id": "src-fbb1d07a89",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-fbb1d07a89",
+                  "name": "VfB Stuttgart vs Monchengladbach",
+                  "streams": [
+                    {
+                      "id": "st-fbb1d07a89",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b13c5e65db",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792742812_hd/1792742812_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-f8df10516d",
               "name": "XoiChe TV",
               "contents": [
@@ -1101,7 +1136,7 @@
                   "streams": [
                     {
                       "id": "st-f8df10516d",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Tam Mao",
                       "stream_links": [
                         {
                           "id": "lnk-3aa3868db4",
@@ -1161,6 +1196,75 @@
               ]
             },
             {
+              "id": "src-39571e4c2c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-39571e4c2c",
+                  "name": "VfB Stuttgart vs Borussia Mönchengladbach",
+                  "streams": [
+                    {
+                      "id": "st-39571e4c2c",
+                      "name": "CCport - Chuối Già",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f242e0e358",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-4398ec7ecc",
               "name": "PhaLangTV",
               "contents": [
@@ -1198,30 +1302,26 @@
           ],
           "org_metadata": {
             "league": "Bundesliga",
-            "team_a": "Stuttgart",
-            "team_b": "B. Monchengladbach",
-            "logo_a": "https://apiv3.apifootball.com/badges/3933_stuttgart.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/77_borussia-mgladbach.jpg",
-            "time": "01:30",
-            "date": "24/10",
-            "blv": "BLV Tam Mao",
+            "team_a": "VfB Stuttgart",
+            "team_b": "Monchengladbach",
+            "logo_a": "https://images.keovip88.net/images/teams/vfb-stuttgart.png",
+            "logo_b": "https://images.keovip88.net/images/teams/borussia-monchengladbach.png",
+            "time": "01:30 24/10",
+            "blv": "Trĩ",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49336_7c88a4af_20261024.png?v=7c88a4af",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5cae5e6975d550f077e_08809d45_20261024.png?v=08809d45",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-da8285d6f7",
+          "id": "gv-9c87823fd4",
           "name": "Torino vs Monza | 01:45 24/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1236,6 +1336,41 @@
           ],
           "sources": [
             {
+              "id": "src-9c87823fd4",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c87823fd4",
+                  "name": "Torino vs Monza",
+                  "streams": [
+                    {
+                      "id": "st-9c87823fd4",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cde835a193",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792742859_hd/1792742859_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-da8285d6f7",
               "name": "XoiChe TV",
               "contents": [
@@ -1245,7 +1380,7 @@
                   "streams": [
                     {
                       "id": "st-da8285d6f7",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Xôi Bắp",
                       "stream_links": [
                         {
                           "id": "lnk-31c05c8e7b",
@@ -1358,32 +1493,28 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
+            "league": "Seria A",
             "team_a": "Torino",
             "team_b": "Monza",
-            "logo_a": "https://apiv3.apifootball.com/badges/4973_torino.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4990_monza.jpg",
-            "time": "01:45",
-            "date": "24/10",
-            "blv": "BLV Xôi Bắp",
+            "logo_a": "https://images.keovip88.net/images/teams/torino.png",
+            "logo_b": "https://images.keovip88.net/images/teams/monza.png",
+            "time": "01:45 24/10",
+            "blv": "Bee",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49337_187bbe71_20261024.png?v=187bbe71",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695a24d46db87021ab00_061f78ee_20261024.png?v=061f78ee",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-79c57bf41c",
-          "name": "Brest vs Nice | 01:45 24/10",
+          "id": "gv-bb80c2c197",
+          "name": "Ipswich vs Nottingham Forest | 02:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1397,61 +1528,27 @@
           ],
           "sources": [
             {
-              "id": "src-79c57bf41c",
-              "name": "XoiChe TV",
+              "id": "src-bb80c2c197",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-79c57bf41c",
-                  "name": "Brest vs Nice",
+                  "id": "ct-bb80c2c197",
+                  "name": "Ipswich vs Nottingham Forest",
                   "streams": [
                     {
-                      "id": "st-79c57bf41c",
-                      "name": "XoiChe TV",
+                      "id": "st-bb80c2c197",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-505c243ce4",
-                          "name": "BLV Khô Cay 1",
+                          "id": "lnk-0530efbbfc",
+                          "name": "Súp",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577559_hd/1792577559_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-a56dad82a7",
-                          "name": "BLV Khô Cay 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub9/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-74004e65ec",
-                          "name": "BLV Khô Cay 3",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
@@ -1464,47 +1561,7 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ligue 1",
-            "team_a": "Brest",
-            "team_b": "Nice",
-            "logo_a": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/145_nice.jpg",
-            "time": "01:45",
-            "date": "24/10",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49338_4835eccf_20261024.png?v=4835eccf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e9a0c2712f",
-          "name": "Ipswich vs Nottingham | 02:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
+            },
             {
               "id": "src-e9a0c2712f",
               "name": "XoiChe TV",
@@ -1515,7 +1572,7 @@
                   "streams": [
                     {
                       "id": "st-e9a0c2712f",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
                       "stream_links": [
                         {
                           "id": "lnk-422f42089b",
@@ -1645,31 +1702,98 @@
             }
           ],
           "org_metadata": {
-            "league": "Premier League",
+            "league": "Ngoại hạng Anh",
             "team_a": "Ipswich",
-            "team_b": "Nottingham",
-            "logo_a": "https://apiv3.apifootball.com/badges/3121_ipswich-town.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-            "time": "02:00",
-            "date": "24/10",
-            "blv": "BLV Xôi Gấc",
+            "team_b": "Nottingham Forest",
+            "logo_a": "https://images.keovip88.net/images/teams/ipswich-town.png",
+            "logo_b": "https://images.keovip88.net/images/teams/nottingham-forest.png",
+            "time": "02:00 24/10",
+            "blv": "Súp",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49339_d773c63b_20261024.png?v=d773c63b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f3_a93d3b10_20261024.png?v=a93d3b10",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-d5ebe74a70",
+          "id": "gv-304ae03727",
+          "name": "Bolton Wanderers vs Middlesbrough | 02:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-304ae03727",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-304ae03727",
+                  "name": "Bolton Wanderers vs Middlesbrough",
+                  "streams": [
+                    {
+                      "id": "st-304ae03727",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-71ca33c391",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577588_hd/1792577588_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Anh",
+            "team_a": "Bolton Wanderers",
+            "team_b": "Middlesbrough",
+            "logo_a": "https://images.keovip88.net/images/teams/bolton-wanderers.png",
+            "logo_b": "https://images.keovip88.net/images/teams/middlesbrough.png",
+            "time": "02:00 24/10",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695b24d46db87021ab72_90aeda53_20261024.png?v=90aeda53",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-790602c15e",
           "name": "Alaves vs Malaga | 02:00 24/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1684,6 +1808,41 @@
           ],
           "sources": [
             {
+              "id": "src-790602c15e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-790602c15e",
+                  "name": "Alaves vs Malaga",
+                  "streams": [
+                    {
+                      "id": "st-790602c15e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fb59143bc9",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792577617_hd/1792577617_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-d5ebe74a70",
               "name": "XoiChe TV",
               "contents": [
@@ -1693,7 +1852,7 @@
                   "streams": [
                     {
                       "id": "st-d5ebe74a70",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Khô Bò",
                       "stream_links": [
                         {
                           "id": "lnk-4fca55e5d3",
@@ -1826,29 +1985,25 @@
             "league": "La Liga",
             "team_a": "Alaves",
             "team_b": "Malaga",
-            "logo_a": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7267_malaga.jpg",
-            "time": "02:00",
-            "date": "24/10",
-            "blv": "BLV Khô Bò",
+            "logo_a": "https://images.keovip88.net/images/teams/alaves.png",
+            "logo_b": "https://images.keovip88.net/images/teams/malaga.png",
+            "time": "02:00 24/10",
+            "blv": "Mù",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49340_2a9b1697_20261024.png?v=2a9b1697",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695a24d46db87021ab6a_cd7cb104_20261024.png?v=cd7cb104",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "cc-39571e4c2c",
-          "name": "VfB Stuttgart vs Borussia Mönchengladbach | 01:30 24/10",
+          "id": "xc-79c57bf41c",
+          "name": "Brest vs Nice | 01:45 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1862,27 +2017,27 @@
           ],
           "sources": [
             {
-              "id": "src-39571e4c2c",
-              "name": "ChuoiChienTV",
+              "id": "src-79c57bf41c",
+              "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-39571e4c2c",
-                  "name": "VfB Stuttgart vs Borussia Mönchengladbach",
+                  "id": "ct-79c57bf41c",
+                  "name": "Brest vs Nice",
                   "streams": [
                     {
-                      "id": "st-39571e4c2c",
-                      "name": "CC",
+                      "id": "st-79c57bf41c",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b14bc05945",
-                          "name": "Chuối Già HD1",
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1891,15 +2046,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-f242e0e358",
-                          "name": "Chuối Già HD2",
+                          "id": "lnk-a56dad82a7",
+                          "name": "BLV Khô Cay 2",
                           "type": "hls",
                           "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigia/playlist.m3u8",
+                          "url": "https://xoiche.live/live/livehub9/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1908,15 +2063,15 @@
                           ]
                         },
                         {
-                          "id": "lnk-2a46d78baf",
-                          "name": "Chuối Già FHD",
+                          "id": "lnk-74004e65ec",
+                          "name": "BLV Khô Cay 3",
                           "type": "hls",
                           "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1932,21 +2087,25 @@
             }
           ],
           "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "VfB Stuttgart",
-            "team_b": "Borussia Mönchengladbach",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125557_e29a3062.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125554_b218cb7e.png",
-            "time": "01:30 24/10",
-            "blv": "Chuối Già",
+            "league": "Ligue 1",
+            "team_a": "Brest",
+            "team_b": "Nice",
+            "logo_a": "https://apiv3.apifootball.com/badges/3823_brest.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/145_nice.jpg",
+            "time": "01:45",
+            "date": "24/10",
+            "blv": "BLV Khô Cay",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1575196_4b5cde32_20261024.png?v=4b5cde32",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49338_4835eccf_20261024.png?v=4835eccf",
             "width": 1600,
             "height": 1200
           }
