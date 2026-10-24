@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1181,6 +1181,115 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49341_ed36b282_20261024.png?v=ed36b282",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-ae73c1f20b",
+          "name": "Atlante vs Atl. San Luis | 10:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ae73c1f20b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ae73c1f20b",
+                  "name": "Atlante vs Atl. San Luis",
+                  "streams": [
+                    {
+                      "id": "st-ae73c1f20b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6acc3c909a",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-628f41c863",
+                          "name": "BLV Khô Mật 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub13/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3736924eb8",
+                          "name": "BLV Khô Mật 3",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga MX",
+            "team_a": "Atlante",
+            "team_b": "Atl. San Luis",
+            "logo_a": "https://apiv3.apifootball.com/badges/5365_atlante.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5353_atletico-san-luis.jpg",
+            "time": "10:00",
+            "date": "24/10",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49342_d9c619da_20261024.png?v=d9c619da",
             "width": 1600,
             "height": 1200
           }
@@ -4626,8 +4735,8 @@
           }
         },
         {
-          "id": "xc-ae73c1f20b",
-          "name": "Atlante vs Atl. San Luis | 10:00 24/10",
+          "id": "xc-92a972196a",
+          "name": "Santos vs Bahia | 07:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4641,15 +4750,15 @@
           ],
           "sources": [
             {
-              "id": "src-ae73c1f20b",
+              "id": "src-92a972196a",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-ae73c1f20b",
-                  "name": "Atlante vs Atl. San Luis",
+                  "id": "ct-92a972196a",
+                  "name": "Santos vs Bahia",
                   "streams": [
                     {
-                      "id": "st-ae73c1f20b",
+                      "id": "st-92a972196a",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -4670,25 +4779,8 @@
                           ]
                         },
                         {
-                          "id": "lnk-628f41c863",
+                          "id": "lnk-d2d164212f",
                           "name": "BLV Khô Mật 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3736924eb8",
-                          "name": "BLV Khô Mật 3",
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub13.flv",
@@ -4711,13 +4803,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Liga MX",
-            "team_a": "Atlante",
-            "team_b": "Atl. San Luis",
-            "logo_a": "https://apiv3.apifootball.com/badges/5365_atlante.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5353_atletico-san-luis.jpg",
-            "time": "10:00",
-            "date": "24/10",
+            "league": "Serie A",
+            "team_a": "Santos",
+            "team_b": "Bahia",
+            "logo_a": "https://apiv3.apifootball.com/badges/566_santos.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1985_bahia.jpg",
+            "time": "07:00",
+            "date": "25/10",
             "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
@@ -4729,7 +4821,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49342_d9c619da_20261024.png?v=d9c619da",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52130_3d4200e6_20261024.png?v=3d4200e6",
             "width": 1600,
             "height": 1200
           }
@@ -6807,11 +6899,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-3e44219c4e",
+          "name": "SP CHOANG vs SP CHOANG | SPCHOANG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3e44219c4e",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-3e44219c4e",
+                  "name": "SP CHOANG vs SP CHOANG",
+                  "streams": [
+                    {
+                      "id": "st-3e44219c4e",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3e44219c4e",
+                          "name": "SPCHOANG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9474/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SP CHOANG",
+            "team_a": "SP CHOANG",
+            "team_b": "SP CHOANG",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1792810638769_images.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1792810641787_images.jpg",
+            "time": "10:00 24/10",
+            "blv": "SPCHOANG",
+            "is_live": true,
+            "time_sort": 1792810800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3e44219c4e_8144cc1f_20261024.png?v=8144cc1f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-bfd159f942",
           "name": "Bernie Regalario vs Johann Chua | 11:00 24/10 | Đại Kê",
