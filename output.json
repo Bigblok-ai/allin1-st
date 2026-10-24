@@ -7135,7 +7135,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7214,16 +7214,16 @@
         },
         {
           "id": "chtv-bfd159f942",
-          "name": "Bernie Regalario vs Johann Chua | 11:00 24/10 | Đại Kê",
+          "name": "Bernie Regalario vs Johann Chua | Đại Kê",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7271,7 +7271,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1792801487383_JOHANN%20CHUA.jpg",
             "time": "11:00 24/10",
             "blv": "Đại Kê",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1792814400,
             "cate_type": "billiards"
           },
@@ -8882,83 +8882,11 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày (1 LIVE)",
+      "name": "⚾ Bóng Chày",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-eb9835d339",
-          "name": "Tampa Bay Rays vs Milwaukee Brewers | 07:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eb9835d339",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eb9835d339",
-                  "name": "Tampa Bay Rays vs Milwaukee Brewers",
-                  "streams": [
-                    {
-                      "id": "st-eb9835d339",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-12d6ca77cc",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792798145_hd/1792798145_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "MLB - World Series",
-            "team_a": "Tampa Bay Rays",
-            "team_b": "Milwaukee Brewers",
-            "logo_a": "https://static.flashscore.com/res/image/data/lGlxbdyB-6yNDMrbJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/nitvFMWg-xIOhFH4B.png",
-            "time": "07:00 24/10",
-            "blv": "Cận",
-            "is_live": true,
-            "cate_type": "bongchay"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/5lt43lspvig9_9c3c2977_20261024.png?v=9c3c2977",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-pickleball",
