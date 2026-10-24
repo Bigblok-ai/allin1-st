@@ -1071,13 +1071,153 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-4a3c2ae696",
+          "id": "gv-319642dad5",
+          "name": "Gamba Osaka vs Kyoto Sanga | 14:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-319642dad5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-319642dad5",
+                  "name": "Gamba Osaka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-319642dad5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7d5170d2e8",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819531_hd/1792819531_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-16f9b1c589",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-16f9b1c589",
+                  "name": "Gamba Osaka vs Kyoto Sanga",
+                  "streams": [
+                    {
+                      "id": "st-16f9b1c589",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Gamba Osaka",
+            "team_b": "Kyoto Sanga",
+            "logo_a": "https://images.keovip88.net/images/teams/gamba-osaka.png",
+            "logo_b": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
+            "time": "14:00 24/10",
+            "blv": "Mù",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695c24d46db87021acef_0a3b6b91_20261024.png?v=0a3b6b91",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-18224c3570",
           "name": "Chengdu Rongcheng vs Dalian Yingbo | 14:30 24/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1092,6 +1232,41 @@
           ],
           "sources": [
             {
+              "id": "src-18224c3570",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-18224c3570",
+                  "name": "Chengdu Rongcheng vs Dalian Yingbo",
+                  "streams": [
+                    {
+                      "id": "st-18224c3570",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0dcc52db09",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819581_hd/1792819581_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-4a3c2ae696",
               "name": "XoiChe TV",
               "contents": [
@@ -1101,7 +1276,7 @@
                   "streams": [
                     {
                       "id": "st-4a3c2ae696",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Tam Mao",
                       "stream_links": [
                         {
                           "id": "lnk-3aa3868db4",
@@ -1162,32 +1337,28 @@
             }
           ],
           "org_metadata": {
-            "league": "Chinese Super League",
+            "league": "VĐQG Trung Quốc",
             "team_a": "Chengdu Rongcheng",
             "team_b": "Dalian Yingbo",
-            "logo_a": "https://apiv3.apifootball.com/badges/2236_chengdu-rongcheng.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/31510_dalian-yingbo.jpg",
-            "time": "14:30",
-            "date": "24/10",
-            "blv": "BLV Tam Mao",
+            "logo_a": "https://images.keovip88.net/images/teams/chengdu-rongcheng-fc.PNG",
+            "logo_b": "https://images.keovip88.net/images/teams/dalian-zhixing.png",
+            "time": "14:30 24/10",
+            "blv": "Tỵ ",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49347_f2f1d7e3_20261024.png?v=f2f1d7e3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695c24d46db87021ad2f_cad12b5a_20261024.png?v=cad12b5a",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "xc-d9c892e2c2",
-          "name": "Melbourne Victory vs Melbourne City | 15:40 24/10",
+          "id": "gv-d3582b7f03",
+          "name": "Shenzhen Xinpengcheng vs Shanghai Shenhua | 14:30 24/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1201,6 +1372,183 @@
           ],
           "sources": [
             {
+              "id": "src-d3582b7f03",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3582b7f03",
+                  "name": "Shenzhen Xinpengcheng vs Shanghai Shenhua",
+                  "streams": [
+                    {
+                      "id": "st-d3582b7f03",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f37836a749",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819637_hd/1792819637_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Shenzhen Xinpengcheng",
+            "team_b": "Shanghai Shenhua",
+            "logo_a": "https://images.keovip88.net/images/teams/shenzhen-xinpengcheng.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shanghai-shenhua.png",
+            "time": "14:30 24/10",
+            "blv": "Hứa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695c24d46db87021ad43_dfca0ee2_20261024.png?v=dfca0ee2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-eed22e0956",
+          "name": "Wuhan Three Towns vs Shandong Taishan | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eed22e0956",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eed22e0956",
+                  "name": "Wuhan Three Towns vs Shandong Taishan",
+                  "streams": [
+                    {
+                      "id": "st-eed22e0956",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-291c35fa25",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792819687_hd/1792819687_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Trung Quốc",
+            "team_a": "Wuhan Three Towns",
+            "team_b": "Shandong Taishan",
+            "logo_a": "https://images.keovip88.net/images/teams/wuhan-three-towns.png",
+            "logo_b": "https://images.keovip88.net/images/teams/shandong-taishan.png",
+            "time": "14:30 24/10",
+            "blv": "Hấu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695c24d46db87021ad37_b15607a2_20261024.png?v=b15607a2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-49568ec456",
+          "name": "Melbourne Victory FC vs Melbourne City | 15:40 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49568ec456",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-49568ec456",
+                  "name": "Melbourne Victory FC vs Melbourne City",
+                  "streams": [
+                    {
+                      "id": "st-49568ec456",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b8aeadf49c",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792570579_hd/1792570579_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-d9c892e2c2",
               "name": "XoiChe TV",
               "contents": [
@@ -1210,7 +1558,7 @@
                   "streams": [
                     {
                       "id": "st-d9c892e2c2",
-                      "name": "XoiChe TV",
+                      "name": "PhaoHoa - BLV Khô Mật",
                       "stream_links": [
                         {
                           "id": "lnk-6acc3c909a",
@@ -1375,122 +1723,13 @@
             }
           ],
           "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Melbourne Victory",
+            "league": "VĐQG Úc",
+            "team_a": "Melbourne Victory FC",
             "team_b": "Melbourne City",
-            "logo_a": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/401_melbourne-city-fc.jpg",
-            "time": "15:40",
-            "date": "24/10",
-            "blv": "BLV Khô Mật",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/49348_84145e4f_20261024.png?v=84145e4f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-16f9b1c589",
-          "name": "Gamba Osaka vs Kyoto Sanga | 14:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-16f9b1c589",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-16f9b1c589",
-                  "name": "Gamba Osaka vs Kyoto Sanga",
-                  "streams": [
-                    {
-                      "id": "st-16f9b1c589",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Gamba Osaka",
-            "team_b": "Kyoto Sanga",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_132412_e5fc55e1.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132415_d79fbc72.png",
-            "time": "14:00 24/10",
-            "blv": "Chuối Sấy",
+            "logo_a": "https://images.keovip88.net/images/teams/melbourne-victory.png",
+            "logo_b": "https://images.keovip88.net/images/teams/melbourne-city.png",
+            "time": "15:40 24/10",
+            "blv": "Trĩ",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1498,7 +1737,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1556113_963f9f89_20261024.png?v=963f9f89",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695c24d46db87021ae11_9e737131_20261024.png?v=9e737131",
             "width": 1600,
             "height": 1200
           }
@@ -6694,11 +6933,153 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-83933b76eb",
+          "name": "Goyang Orions vs Jeonju KCC Egis | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-83933b76eb",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-83933b76eb",
+                  "name": "Goyang Orions vs Jeonju KCC Egis",
+                  "streams": [
+                    {
+                      "id": "st-83933b76eb",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3a2cc8d8f4",
+                          "name": "Tôm",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797719_hd/1792797719_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Goyang Orions",
+            "team_b": "Jeonju KCC Egis",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5b0e513f868dee6a403d7d5dfc3628b3.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a2ba5e8d224376506856ad5dd34de831.png",
+            "time": "14:30 24/10",
+            "blv": "Tôm",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/24060370_b5f51555_20261024.png?v=b5f51555",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1ac1e02045",
+          "name": "Ulsan Hyundai Mobis Phoebus vs Seoul Samsung Thunders | 14:30 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ac1e02045",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1ac1e02045",
+                  "name": "Ulsan Hyundai Mobis Phoebus vs Seoul Samsung Thunders",
+                  "streams": [
+                    {
+                      "id": "st-1ac1e02045",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88947fcaa9",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792797786_hd/1792797786_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Ulsan Hyundai Mobis Phoebus",
+            "team_b": "Seoul Samsung Thunders",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e22caa597076764dd0d04b55d46f764e.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/77da210054627a8fde62b8e6d76f3d74.png",
+            "time": "14:30 24/10",
+            "blv": "Vịt",
+            "is_live": true,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/25060371_adaa9ec8_20261024.png?v=adaa9ec8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-b78d3c4bf6",
           "name": "Shanghai Jiushi Sharks vs Fujian Xunxing Sturgeons | 18:35 24/10",
