@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1416,13 +1416,30 @@
                   "streams": [
                     {
                       "id": "st-98f99902f3",
-                      "name": "PhaoHoa - BLV Xôi Xoài, BLV Lương Khô",
+                      "name": "PhaoHoa - BLV Lương Khô, BLV Xôi Xoài",
                       "stream_links": [
+                        {
+                          "id": "lnk-3bd3605c6a",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-ed916b9464",
                           "name": "BLV Xôi Xoài 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
                           "request_headers": [
                             {
@@ -1458,23 +1475,6 @@
                           "type": "hls",
                           "default": false,
                           "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3bd3605c6a",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=Qlu9bUGHx8fS14O2mr32Bm0jndtWCKPpUlzAQ5DYecI&expires=1855579061&token_path=%2Flive%2Flivehub2/live/livehub2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1578,6 +1578,198 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e59ae5e6975d550f06f4_c4f0da90_20261024.png?v=c4f0da90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a8b4fd1d49",
+          "name": "Rayo Vallecano vs Elche | 19:00 24/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8b4fd1d49",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a8b4fd1d49",
+                  "name": "Rayo Vallecano vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-a8b4fd1d49",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b7b01f60ee",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572096_hd/1792572096_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-42a95a86a5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-42a95a86a5",
+                  "name": "Rayo Vallecano vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-42a95a86a5",
+                      "name": "PhaoHoa - BLV Xôi Bắp, Server",
+                      "stream_links": [
+                        {
+                          "id": "lnk-31c05c8e7b",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-4fca55e5d3",
+                          "name": "Server 1",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f665690a76",
+                          "name": "Server 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-bb7cf65bc4",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-bb7cf65bc4",
+                  "name": "Vallecano vs Elche",
+                  "streams": [
+                    {
+                      "id": "st-bb7cf65bc4",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9399128b08",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/393e5eda46f545dab1ce5be405c740b5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Rayo Vallecano",
+            "team_b": "Elche",
+            "logo_a": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
+            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
+            "time": "19:00 24/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695f24d46db87021b0f9_dde16a69_20261024.png?v=dde16a69",
             "width": 1600,
             "height": 1200
           }
@@ -1808,198 +2000,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6e995ad1ad4d44759c18405642d1fbb5_8e3174c7_20261024.png?v=8e3174c7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a8b4fd1d49",
-          "name": "Rayo Vallecano vs Elche | 19:00 24/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8b4fd1d49",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a8b4fd1d49",
-                  "name": "Rayo Vallecano vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-a8b4fd1d49",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b7b01f60ee",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792572096_hd/1792572096_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-42a95a86a5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-42a95a86a5",
-                  "name": "Rayo Vallecano vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-42a95a86a5",
-                      "name": "PhaoHoa - BLV Xôi Bắp, Server",
-                      "stream_links": [
-                        {
-                          "id": "lnk-31c05c8e7b",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=3lsMy5IgFqP3UuPYzg-wTh7YZR6ew7W8GTccyfyGvwo&expires=1855579061&token_path=%2Flive%2Flivehub6/live/livehub6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-4fca55e5d3",
-                          "name": "Server 1",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=l4pDy0sHUT4YQntQMGRIcbffxilU69IFYUv7JVypDgc&expires=1855579061&token_path=%2Flive%2Flivehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f665690a76",
-                          "name": "Server 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub12/live/livehub12/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-bb7cf65bc4",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-bb7cf65bc4",
-                  "name": "Vallecano vs Elche",
-                  "streams": [
-                    {
-                      "id": "st-bb7cf65bc4",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9399128b08",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/393e5eda46f545dab1ce5be405c740b5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Rayo Vallecano",
-            "team_b": "Elche",
-            "logo_a": "https://images.keovip88.net/images/teams/rayo-vallecano.png",
-            "logo_b": "https://images.keovip88.net/images/teams/elche.png",
-            "time": "19:00 24/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad1695f24d46db87021b0f9_dde16a69_20261024.png?v=dde16a69",
             "width": 1600,
             "height": 1200
           }
