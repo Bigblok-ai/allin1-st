@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1654,8 +1654,8 @@
           }
         },
         {
-          "id": "xc-b94bbd6ea2",
-          "name": "Inter vs Fiorentina | 13:30 25/10",
+          "id": "gv-162efd9d14",
+          "name": "Athletic Bilbao vs Getafe | 20:00 25/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1669,44 +1669,62 @@
           ],
           "sources": [
             {
-              "id": "src-b94bbd6ea2",
-              "name": "XoiChe TV",
+              "id": "src-162efd9d14",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-b94bbd6ea2",
-                  "name": "Inter vs Fiorentina",
+                  "id": "ct-162efd9d14",
+                  "name": "Athletic Bilbao vs Getafe",
                   "streams": [
                     {
-                      "id": "st-b94bbd6ea2",
-                      "name": "XoiChe TV",
+                      "id": "st-162efd9d14",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-6acc3c909a",
-                          "name": "BLV Khô Mật 1",
+                          "id": "lnk-f3c2a6ac4c",
+                          "name": "Trĩ",
                           "type": "hls",
                           "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792925458_hd/1792925458_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
                               "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
                             }
                           ]
-                        },
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-66d27fb023",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-66d27fb023",
+                  "name": "Athletic Bilbao vs Getafe",
+                  "streams": [
+                    {
+                      "id": "st-66d27fb023",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
                         {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "id": "lnk-cf5556d938",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/471a1bd8b5144545a3800b383901242c/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://xoiche.live/"
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -1722,25 +1740,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Inter",
-            "team_b": "Fiorentina",
-            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/4974_fiorentina.jpg",
-            "time": "13:30",
-            "date": "25/10",
-            "blv": "BLV Khô Mật",
+            "league": "La Liga",
+            "team_a": "Athletic Bilbao",
+            "team_b": "Getafe",
+            "logo_a": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
+            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
+            "time": "20:00 25/10",
+            "blv": "Trĩ",
             "is_live": true,
-            "cate_type": "football",
-            "status": "half_time",
-            "home_score": 0,
-            "away_score": 0
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/52640_d2c75ee3_20261025.png?v=d2c75ee3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad40c5324d46db870c48ee4_bb8fd1ac_20261025.png?v=bb8fd1ac",
             "width": 1600,
             "height": 1200
           }
@@ -2022,112 +2036,6 @@
           }
         },
         {
-          "id": "gv-162efd9d14",
-          "name": "Athletic Bilbao vs Getafe | 20:00 25/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-162efd9d14",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-162efd9d14",
-                  "name": "Athletic Bilbao vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-162efd9d14",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f3c2a6ac4c",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792925458_hd/1792925458_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-66d27fb023",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-66d27fb023",
-                  "name": "Athletic Bilbao vs Getafe",
-                  "streams": [
-                    {
-                      "id": "st-66d27fb023",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf5556d938",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/471a1bd8b5144545a3800b383901242c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Athletic Bilbao",
-            "team_b": "Getafe",
-            "logo_a": "https://images.keovip88.net/images/teams/athletic-bilbao.png",
-            "logo_b": "https://images.keovip88.net/images/teams/getafe.png",
-            "time": "20:00 25/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad40c5324d46db870c48ee4_bb8fd1ac_20261025.png?v=bb8fd1ac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "pl-2e5fca4812",
           "name": "VIỆT NAM vs MAURITIUS | 20:00 25/10",
           "type": "single",
@@ -2135,10 +2043,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2186,7 +2094,7 @@
             "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Mauritius_flag_300.png/330px-Mauritius_flag_300.png",
             "time": "20:00 25/10",
             "blv": "LÝ LINH LỰC",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
