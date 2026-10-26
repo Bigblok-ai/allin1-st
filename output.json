@@ -1071,95 +1071,26 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "cc-f1d371e730",
-          "name": "Lochin vs FarDu | 17:00 26/10",
+          "id": "pl-a71abb7380",
+          "name": "FC Lochin vs FarDU | 17:00 26/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
-            {
-              "id": "src-f1d371e730",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-f1d371e730",
-                  "name": "Lochin vs FarDu",
-                  "streams": [
-                    {
-                      "id": "st-f1d371e730",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54fbd1fdde",
-                          "name": "Chuối Kem HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc824527c7",
-                          "name": "Chuối Kem HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-262f74ad58",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
             {
               "id": "src-a71abb7380",
               "name": "PhaLangTV",
@@ -1170,7 +1101,7 @@
                   "streams": [
                     {
                       "id": "st-a71abb7380",
-                      "name": "Phalang - LÝ LONG",
+                      "name": "PL",
                       "stream_links": [
                         {
                           "id": "lnk-713e3219e6",
@@ -1197,21 +1128,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Pro League A",
-            "team_a": "Lochin",
-            "team_b": "FarDu",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_142658_7670cc2d.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142658_72f0bbb2.png",
+            "league": "Uzbekistan Pro League",
+            "team_a": "FC Lochin",
+            "team_b": "FarDU",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/ednm9whv6j8ryox/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh37l9repz/image/small",
             "time": "17:00 26/10",
-            "blv": "Chuối Kem",
-            "is_live": false,
+            "blv": "LÝ LONG",
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1531012_7e99bf10_20261026.png?v=7e99bf10",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/k82rekhge6vgrep_4f666b96_20261026.png?v=4f666b96",
             "width": 1600,
             "height": 1200
           }
@@ -4800,7 +4731,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4813,10 +4744,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4864,7 +4795,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ccac4cdb678cc18454c6aecd42e321d6.png",
             "time": "17:00 26/10",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
