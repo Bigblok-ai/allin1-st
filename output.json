@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1264,6 +1264,233 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953b_2dfbdf9c_20261026.png?v=2dfbdf9c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3f1a89796e",
+          "name": "Al Ahli Jeddah vs Al-Gharafa | 23:00 26/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3f1a89796e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3f1a89796e",
+                  "name": "Al Ahli Jeddah vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-3f1a89796e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d1f4e20bd0",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912890_hd/1792912890_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-dadbd6b5f2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-dadbd6b5f2",
+                  "name": "Al Ahli SC vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-dadbd6b5f2",
+                      "name": "PhaoHoa - BLV Khô Mật",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6acc3c909a",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8d127e23a2",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-8d127e23a2",
+                  "name": "Al-Ahli Jeddah vs Al-Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-8d127e23a2",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-745f6aa704",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-745f6aa704",
+                  "name": "Al Ahli vs Al Gharafa",
+                  "streams": [
+                    {
+                      "id": "st-745f6aa704",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9fd1dbf60",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/22b687b601ec43e3ad44102b16a6ac58/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al Ahli Jeddah",
+            "team_b": "Al-Gharafa",
+            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-garrafa.png",
+            "time": "23:00 26/10",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953c_0754a440_20261026.png?v=0754a440",
             "width": 1600,
             "height": 1200
           }
@@ -1516,233 +1743,6 @@
           }
         },
         {
-          "id": "gv-3f1a89796e",
-          "name": "Al Ahli Jeddah vs Al-Gharafa | 23:00 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3f1a89796e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3f1a89796e",
-                  "name": "Al Ahli Jeddah vs Al-Gharafa",
-                  "streams": [
-                    {
-                      "id": "st-3f1a89796e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d1f4e20bd0",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792912890_hd/1792912890_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-dadbd6b5f2",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-dadbd6b5f2",
-                  "name": "Al Ahli SC vs Al-Gharafa",
-                  "streams": [
-                    {
-                      "id": "st-dadbd6b5f2",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6acc3c909a",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8d127e23a2",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-8d127e23a2",
-                  "name": "Al-Ahli Jeddah vs Al-Gharafa",
-                  "streams": [
-                    {
-                      "id": "st-8d127e23a2",
-                      "name": "CCport - Chuối Sấy",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-745f6aa704",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-745f6aa704",
-                  "name": "Al Ahli vs Al Gharafa",
-                  "streams": [
-                    {
-                      "id": "st-745f6aa704",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d9fd1dbf60",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/22b687b601ec43e3ad44102b16a6ac58/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Al Ahli Jeddah",
-            "team_b": "Al-Gharafa",
-            "logo_a": "https://images.keovip88.net/images/teams/al-ahli-sfc.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-garrafa.png",
-            "time": "23:00 26/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953c_0754a440_20261026.png?v=0754a440",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-bf080520e4",
           "name": "Al Ain vs Teraktor-Sazi | 23:00 26/10",
           "type": "single",
@@ -1885,6 +1885,77 @@
           }
         },
         {
+          "id": "pl-70be81c742",
+          "name": "Copenhagen vs Odense BK | 01:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-70be81c742",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-70be81c742",
+                  "name": "Copenhagen vs Odense BK",
+                  "streams": [
+                    {
+                      "id": "st-70be81c742",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a99baefeed",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/cc55063cc01f4624b7a15fbded550852/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Danish Superliga",
+            "team_a": "Copenhagen",
+            "team_b": "Odense BK",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/yl5ergphjl2r8k0/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/gx7lm7phd3em2wd/image/small",
+            "time": "01:00 27/10",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dj2ryohl3400q1z_4f8b5198_20261026.png?v=4f8b5198",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-5fb9be3d2c",
           "name": "Al-Nassr FC vs Al Wasl FC | 01:15 27/10",
           "type": "single",
@@ -2002,41 +2073,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-a9dd3cb91f",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-a9dd3cb91f",
-                  "name": "Al Nassr vs Al-Wasl",
-                  "streams": [
-                    {
-                      "id": "st-a9dd3cb91f",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ddb2d43a52",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/7c5ab6695b3a4c5c8d31e4ed3b3bee64/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -2055,77 +2091,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba00527d_114e3d7f_20261026.png?v=114e3d7f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-6baad2e3cc",
-          "name": "Al Qadsiah vs Al Sadd | 01:15 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6baad2e3cc",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-6baad2e3cc",
-                  "name": "Al Qadsiah vs Al Sadd",
-                  "streams": [
-                    {
-                      "id": "st-6baad2e3cc",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0f72b376cd",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/0b4fe40994a84cf1a6191e1701af170d/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al Qadsiah",
-            "team_b": "Al Sadd",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh5p0qg8n/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlhdn6ryk0/image/small",
-            "time": "01:15 27/10",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/2y8m4zh524nxql0_45200973_20261026.png?v=45200973",
             "width": 1600,
             "height": 1200
           }
