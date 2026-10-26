@@ -1815,6 +1815,58 @@
               ]
             },
             {
+              "id": "src-0918fb76ac",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0918fb76ac",
+                  "name": "Neftchi Fargona vs Al Ittihad",
+                  "streams": [
+                    {
+                      "id": "st-0918fb76ac",
+                      "name": "PhaoHoa - BLV Khô Cay",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-b0ec6fbe7d",
               "name": "ChuoiChienTV",
               "contents": [
@@ -4239,82 +4291,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1f95f38d85",
-          "name": "Sacramento Kings vs Memphis Grizzlies | 08:00 26/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1f95f38d85",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1f95f38d85",
-                  "name": "Sacramento Kings vs Memphis Grizzlies",
-                  "streams": [
-                    {
-                      "id": "st-1f95f38d85",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9558d9233f",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792946992_hd/1792946992_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Sacramento Kings",
-            "team_b": "Memphis Grizzlies",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b7096093642227c698108ad872603a76.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1a66910c422c9a4be29bde3618ff8af5.png",
-            "time": "08:00 26/10",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/36688277_61627975_20261026.png?v=61627975",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4fd2b00ed5",
           "name": "Goyang Orions vs Changwon LG Sakers | 17:00 26/10",
