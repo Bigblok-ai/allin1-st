@@ -1071,11 +1071,134 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-e6374b8789",
+          "name": "Kyoto Sanga vs Newcastle Jets FC | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e6374b8789",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e6374b8789",
+                  "name": "Kyoto Sanga vs Newcastle Jets FC",
+                  "streams": [
+                    {
+                      "id": "st-e6374b8789",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dc5fbe7c5a",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793081066_hd/1793081066_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f5b9430e25",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-f5b9430e25",
+                  "name": "Kyoto vs Newcastle Jets",
+                  "streams": [
+                    {
+                      "id": "st-f5b9430e25",
+                      "name": "PhaoHoa - BLV Xôi Xoài",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Kyoto Sanga",
+            "team_b": "Newcastle Jets FC",
+            "logo_a": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
+            "logo_b": "https://images.keovip88.net/images/teams/newcastle-jets.png",
+            "time": "17:00 27/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8a38deeb269e70040bbd74_cb6e2b14_20261027.png?v=cb6e2b14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-edc55e2f6f",
           "name": "PSS Sleman vs Pusamania Borneo | 15:30 27/10",
@@ -1738,129 +1861,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba005266_832c9510_20261027.png?v=832c9510",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e6374b8789",
-          "name": "Kyoto Sanga vs Newcastle Jets FC | 17:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e6374b8789",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-e6374b8789",
-                  "name": "Kyoto Sanga vs Newcastle Jets FC",
-                  "streams": [
-                    {
-                      "id": "st-e6374b8789",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-dc5fbe7c5a",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793081066_hd/1793081066_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-f5b9430e25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f5b9430e25",
-                  "name": "Kyoto vs Newcastle Jets",
-                  "streams": [
-                    {
-                      "id": "st-f5b9430e25",
-                      "name": "PhaoHoa - BLV Xôi Xoài",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ed916b9464",
-                          "name": "BLV Xôi Xoài 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-3b0600d131",
-                          "name": "BLV Xôi Xoài 2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Kyoto Sanga",
-            "team_b": "Newcastle Jets FC",
-            "logo_a": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
-            "logo_b": "https://images.keovip88.net/images/teams/newcastle-jets.png",
-            "time": "17:00 27/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8a38deeb269e70040bbd74_cb6e2b14_20261027.png?v=cb6e2b14",
             "width": 1600,
             "height": 1200
           }
