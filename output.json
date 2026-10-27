@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1604,6 +1604,164 @@
           }
         },
         {
+          "id": "gv-d3b92ec80c",
+          "name": "Beijing Guoan vs Jeonbuk Hyundai Motors | 19:15 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d3b92ec80c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d3b92ec80c",
+                  "name": "Beijing Guoan vs Jeonbuk Hyundai Motors",
+                  "streams": [
+                    {
+                      "id": "st-d3b92ec80c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-80457e0ffe",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792954469_hd/1792954469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4c92f9c98f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4c92f9c98f",
+                  "name": "Beijing Guoan vs Jeonbuk",
+                  "streams": [
+                    {
+                      "id": "st-4c92f9c98f",
+                      "name": "PhaoHoa - BLV Khô Mật",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-10d14b90bd",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-10d14b90bd",
+                  "name": "Beijing Guoan vs Jeonbuk Hyundai",
+                  "streams": [
+                    {
+                      "id": "st-10d14b90bd",
+                      "name": "Phalang - LÃM LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bd0f1a6b03",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e625818649434640b47937d4813471cc/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Beijing Guoan",
+            "team_b": "Jeonbuk Hyundai Motors",
+            "logo_a": "https://images.keovip88.net/images/teams/beijing-guoan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
+            "time": "19:15 27/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba005267_d3d5e9b5_20261027.png?v=d3d5e9b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-d9c5453001",
           "name": "Johor DT vs Port MTI FC | 17:00 27/10",
           "type": "single",
@@ -1867,164 +2025,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/1l4rjnh9vg3vm7v_6f0a0d63_20261027.png?v=6f0a0d63",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d3b92ec80c",
-          "name": "Beijing Guoan vs Jeonbuk Hyundai Motors | 19:15 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3b92ec80c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d3b92ec80c",
-                  "name": "Beijing Guoan vs Jeonbuk Hyundai Motors",
-                  "streams": [
-                    {
-                      "id": "st-d3b92ec80c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-80457e0ffe",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792954469_hd/1792954469_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4c92f9c98f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4c92f9c98f",
-                  "name": "Beijing Guoan vs Jeonbuk",
-                  "streams": [
-                    {
-                      "id": "st-4c92f9c98f",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-10d14b90bd",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-10d14b90bd",
-                  "name": "Beijing Guoan vs Jeonbuk Hyundai",
-                  "streams": [
-                    {
-                      "id": "st-10d14b90bd",
-                      "name": "Phalang - LÃM LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bd0f1a6b03",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/e625818649434640b47937d4813471cc/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Beijing Guoan",
-            "team_b": "Jeonbuk Hyundai Motors",
-            "logo_a": "https://images.keovip88.net/images/teams/beijing-guoan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
-            "time": "19:15 27/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba005267_d3d5e9b5_20261027.png?v=d3d5e9b5",
             "width": 1600,
             "height": 1200
           }
@@ -6971,6 +6971,148 @@
           }
         },
         {
+          "id": "pl-9533872222",
+          "name": "Sanest Khánh Hoà vs Hà Nội | 14:30 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9533872222",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-9533872222",
+                  "name": "Sanest Khánh Hoà vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-9533872222",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cac71c20c7",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/9f8e37db7fa64751bac445560ea0e027/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải bóng chuyền VĐQG 2026",
+            "team_a": "Sanest Khánh Hoà",
+            "team_b": "Hà Nội",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/73/Logo_Sanest_Kh%C3%A1nh_H%C3%B2a_%28b%C3%B3ng_chuy%E1%BB%81n%29.png",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Logo_Hanoi.png/250px-Logo_Hanoi.png",
+            "time": "14:30 28/10",
+            "blv": "LÝ LÊN LỬA",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4aebe7f2a5cd44e18306c9a5c73c83cf_16c6d57b_20261027.png?v=16c6d57b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-0f03d54b72",
+          "name": "Biên Phòng MB vs Đà Nẵng | 17:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f03d54b72",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-0f03d54b72",
+                  "name": "Biên Phòng MB vs Đà Nẵng",
+                  "streams": [
+                    {
+                      "id": "st-0f03d54b72",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d9e4ab6025",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/d6a42b66bb3d478da8c7d3cbaed7ae59/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giải bóng chuyền VĐQG 2026",
+            "team_a": "Biên Phòng MB",
+            "team_b": "Đà Nẵng",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/7c/Logo_B%C4%90BPVN.png",
+            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/f/f6/Emblem_of_Da_Nang_City.png/250px-Emblem_of_Da_Nang_City.png",
+            "time": "17:00 28/10",
+            "blv": "LÃM LÀNG",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/da5ce47f89bd4099bbf2411dc976bf0c_d03483b6_20261027.png?v=d03483b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-41e915bdc1",
           "name": "Sungurlu Belediyesi Spor vs Galatasaray | 20:00 27/10",
           "type": "single",
@@ -7200,7 +7342,7 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7213,10 +7355,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7264,7 +7406,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/vBvIQrFa-Es4RWow3.png",
             "time": "19:00 27/10",
             "blv": "Dory",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongban"
           },
           "image": {
