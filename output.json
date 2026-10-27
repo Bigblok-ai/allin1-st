@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1195,6 +1195,164 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8a38deeb269e70040bbd74_cb6e2b14_20261027.png?v=cb6e2b14",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c35ba99f10",
+          "name": "Shanghai Port vs Công An Hà Nội | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c35ba99f10",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c35ba99f10",
+                  "name": "Shanghai Port vs Công An Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-c35ba99f10",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-742d416876",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792953267_hd/1792953267_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e2dcbeb23c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2dcbeb23c",
+                  "name": "Shanghai Port vs Cong An Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-e2dcbeb23c",
+                      "name": "PhaoHoa - BLV Khô Mật",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6acc3c909a",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e3af183a91",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-e3af183a91",
+                  "name": "Shanghai Port vs Công An Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-e3af183a91",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-97c6d2d5b8",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/bed0d5820fd34c71b05cc1c8886b607a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Shanghai Port",
+            "team_b": "Công An Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
+            "logo_b": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
+            "time": "17:00 27/10",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba005266_832c9510_20261027.png?v=832c9510",
             "width": 1600,
             "height": 1200
           }
@@ -1440,6 +1598,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1634990_a5c178b5_20261027.png?v=a5c178b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-48e8690372",
+          "name": "Văn Hiến vs Gia Định | 17:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-48e8690372",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-48e8690372",
+                  "name": "Văn Hiến vs Gia Định",
+                  "streams": [
+                    {
+                      "id": "st-48e8690372",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c387213ee",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/f2285c18975d4274a58d1820596185e7/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National First Class League",
+            "team_a": "Văn Hiến",
+            "team_b": "Gia Định",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dj2ryohj834q1zp/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/y0or5jhedgxqwzv/image/small",
+            "time": "17:00 27/10",
+            "blv": "LÝ LÀNG LÁ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/23xmvkh672gnqg8_e7ab4796_20261027.png?v=e7ab4796",
             "width": 1600,
             "height": 1200
           }
@@ -1708,164 +1937,6 @@
           }
         },
         {
-          "id": "gv-c35ba99f10",
-          "name": "Shanghai Port vs Công An Hà Nội | 17:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c35ba99f10",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c35ba99f10",
-                  "name": "Shanghai Port vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-c35ba99f10",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-742d416876",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792953267_hd/1792953267_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e2dcbeb23c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e2dcbeb23c",
-                  "name": "Shanghai Port vs Cong An Ha Noi",
-                  "streams": [
-                    {
-                      "id": "st-e2dcbeb23c",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6acc3c909a",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://khogalive.b-cdn.net/bcdn_token=2s7I168olNPU6vVKWV6SfASXbWkPwQ27KoV9g69eolg&expires=1855579061&token_path=%2Flive%2Flivehub13/live/livehub13/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e3af183a91",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-e3af183a91",
-                  "name": "Shanghai Port vs Công An Hà Nội",
-                  "streams": [
-                    {
-                      "id": "st-e3af183a91",
-                      "name": "Phalang - LÝ LA LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-97c6d2d5b8",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/bed0d5820fd34c71b05cc1c8886b607a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Shanghai Port",
-            "team_b": "Công An Hà Nội",
-            "logo_a": "https://images.keovip88.net/images/teams/shanghai-port.png",
-            "logo_b": "https://images.keovip88.net/images/teams/cong-an-ha-noi.png",
-            "time": "17:00 27/10",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba005266_832c9510_20261027.png?v=832c9510",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-c353656a97",
           "name": "SHANGHAI SIPG vs Công An Hà Nội | 17:00 27/10",
           "type": "single",
@@ -1966,77 +2037,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1629952_2cd60f7e_20261027.png?v=2cd60f7e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-48e8690372",
-          "name": "Văn Hiến vs Gia Định | 17:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-48e8690372",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-48e8690372",
-                  "name": "Văn Hiến vs Gia Định",
-                  "streams": [
-                    {
-                      "id": "st-48e8690372",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1c387213ee",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/f2285c18975d4274a58d1820596185e7/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National First Class League",
-            "team_a": "Văn Hiến",
-            "team_b": "Gia Định",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dj2ryohj834q1zp/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/y0or5jhedgxqwzv/image/small",
-            "time": "17:00 27/10",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/23xmvkh672gnqg8_e7ab4796_20261027.png?v=e7ab4796",
             "width": 1600,
             "height": 1200
           }
@@ -3145,6 +3145,58 @@
               ]
             },
             {
+              "id": "src-1625e95825",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-1625e95825",
+                  "name": "RW Essen vs RB Leipzig",
+                  "streams": [
+                    {
+                      "id": "st-1625e95825",
+                      "name": "PhaoHoa - BLV Khô Cay",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-0ed093a616",
               "name": "PhaLangTV",
               "contents": [
@@ -3845,6 +3897,58 @@
               ]
             },
             {
+              "id": "src-d1315acafd",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d1315acafd",
+                  "name": "Torino vs Como",
+                  "streams": [
+                    {
+                      "id": "st-d1315acafd",
+                      "name": "PhaoHoa - BLV Khô Cay",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-1ff8fb4f91",
               "name": "ChuoiChienTV",
               "contents": [
@@ -4249,6 +4353,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55471_14bca5d1_20261027.png?v=14bca5d1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-34ae914811",
+          "name": "Venezia vs Inter | 00:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34ae914811",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-34ae914811",
+                  "name": "Venezia vs Inter",
+                  "streams": [
+                    {
+                      "id": "st-34ae914811",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Venezia",
+            "team_b": "Inter",
+            "logo_a": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "time": "00:30",
+            "date": "29/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55503_e3ab25ca_20261027.png?v=e3ab25ca",
             "width": 1600,
             "height": 1200
           }
@@ -4691,6 +4887,98 @@
           }
         },
         {
+          "id": "xc-b9fe446b37",
+          "name": "Sunderland vs Brentford | 02:45 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b9fe446b37",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b9fe446b37",
+                  "name": "Sunderland vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-b9fe446b37",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Sunderland",
+            "team_b": "Brentford",
+            "logo_a": "https://apiv3.apifootball.com/badges/3111_sunderland.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+            "time": "02:45",
+            "date": "29/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55649_284bfe74_20261027.png?v=284bfe74",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-a75f274ac9",
           "name": "Sporting CP vs Maritimo | 03:15 28/10",
           "type": "single",
@@ -4962,6 +5250,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55090_8e12c927_20261027.png?v=8e12c927",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d678e63143",
+          "name": "Yokohama F. Marinos vs Sanfrecce Hiroshima | 17:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d678e63143",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d678e63143",
+                  "name": "Yokohama F. Marinos vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-d678e63143",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-505c243ce4",
+                          "name": "BLV Khô Cay 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=C8MIz3iBie0TxQ7IJVbKl2wxYeMCDiQBpnhj9zedeTs&expires=1855579061&token_path=%2Flive%2Flivehub9/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-bb86ed7b8f",
+                          "name": "BLV Khô Cay 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub9/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Yokohama F. Marinos",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5046_sanfrecce-hiroshima.jpg",
+            "time": "17:00",
+            "date": "28/10",
+            "blv": "BLV Khô Cay",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55099_74eff369_20261027.png?v=74eff369",
             "width": 1600,
             "height": 1200
           }
@@ -6668,6 +7048,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-3459d98e90_eeb6c21b_20261027.png?v=eeb6c21b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-1dd7d5b4cf",
+          "name": "BASHAR HUSSAIN vs ALBERT JAMES MANAS | 18:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1dd7d5b4cf",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1dd7d5b4cf",
+                  "name": "BASHAR HUSSAIN vs ALBERT JAMES MANAS",
+                  "streams": [
+                    {
+                      "id": "st-1dd7d5b4cf",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1dd7d5b4cf",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9587/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "BASHAR HUSSAIN",
+            "team_b": "ALBERT JAMES MANAS",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793093274146_Screenshot%202026-10-27%20162739.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793093274598_Screenshot%202026-10-27%20162749.png",
+            "time": "18:00 27/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793098800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1dd7d5b4cf_e2908491_20261027.png?v=e2908491",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-86ea5b0b86",
+          "name": "DƯƠNG QUỐC HOÀNG vs MAKS BENKO | 18:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-86ea5b0b86",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-86ea5b0b86",
+                  "name": "DƯƠNG QUỐC HOÀNG vs MAKS BENKO",
+                  "streams": [
+                    {
+                      "id": "st-86ea5b0b86",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86ea5b0b86",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9585/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "DƯƠNG QUỐC HOÀNG",
+            "team_b": "MAKS BENKO",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793093155758_Screenshot%202026-10-27%20162549.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793093141773_Screenshot%202026-10-27%20162537.png",
+            "time": "18:00 27/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793098800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-86ea5b0b86_e5dea27f_20261027.png?v=e5dea27f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-b46b6d17de",
+          "name": "FEDOR GORST vs MARCO TEUTSCHER | 18:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b46b6d17de",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b46b6d17de",
+                  "name": "FEDOR GORST vs MARCO TEUTSCHER",
+                  "streams": [
+                    {
+                      "id": "st-b46b6d17de",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b46b6d17de",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9586/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "FEDOR GORST",
+            "team_b": "MARCO TEUTSCHER",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793093189781_Screenshot%202026-10-27%20162625.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793093202943_Screenshot%202026-10-27%20162638.png",
+            "time": "18:00 27/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793098800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b46b6d17de_790b5fa9_20261027.png?v=790b5fa9",
             "width": 1600,
             "height": 1200
           }
