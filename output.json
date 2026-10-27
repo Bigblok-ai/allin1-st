@@ -1136,13 +1136,30 @@
                   "streams": [
                     {
                       "id": "st-a5d04859b4",
-                      "name": "PhaoHoa - BLV Khô Chè",
+                      "name": "PhaoHoa - BLV Khô Chè, Server",
                       "stream_links": [
                         {
-                          "id": "lnk-fae8ed2c4d",
+                          "id": "lnk-493383db5c",
                           "name": "BLV Khô Chè",
                           "type": "hls",
                           "default": true,
+                          "url": "https://ngoaihang2.cpcnew.store/nhlive/ngoaihang8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
@@ -1665,7 +1682,7 @@
             "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
