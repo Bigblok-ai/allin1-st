@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1552,6 +1552,198 @@
           }
         },
         {
+          "id": "gv-c4395a5c1e",
+          "name": "Al-Shamal vs Al Hilal | 01:15 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c4395a5c1e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c4395a5c1e",
+                  "name": "Al-Shamal vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-c4395a5c1e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b3bf0ca320",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913772_hd/1792913772_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-0fa99a0a64",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0fa99a0a64",
+                  "name": "Shamal vs Al Hilal",
+                  "streams": [
+                    {
+                      "id": "st-0fa99a0a64",
+                      "name": "PhaoHoa - BLV Khô Bò",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-11c7d2266c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-11c7d2266c",
+                  "name": "Al Shamal vs Al-Hilal Saudi FC",
+                  "streams": [
+                    {
+                      "id": "st-11c7d2266c",
+                      "name": "CCport - Chuối Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Champions League",
+            "team_a": "Al-Shamal",
+            "team_b": "Al Hilal",
+            "logo_a": "https://images.keovip88.net/images/teams/al-shamal.png",
+            "logo_b": "https://images.keovip88.net/images/teams/al-hilal.png",
+            "time": "01:15 28/10",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953e_76316ad9_20261028.png?v=76316ad9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5351d78cb3",
           "name": "Shabab Al-Ahli Dubai vs Esteghlal F.C. | 23:00 27/10",
           "type": "single",
@@ -1614,7 +1806,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 2,
             "away_score": 0
           },
           "image": {
@@ -1845,8 +2037,8 @@
           }
         },
         {
-          "id": "xc-1625e95825",
-          "name": "RW Essen vs RB Leipzig | 00:00 28/10",
+          "id": "pl-0ed093a616",
+          "name": "Essen vs RB Leipzig | 00:00 28/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1860,41 +2052,6 @@
           ],
           "sources": [
             {
-              "id": "src-1625e95825",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1625e95825",
-                  "name": "RW Essen vs RB Leipzig",
-                  "streams": [
-                    {
-                      "id": "st-1625e95825",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-0ed093a616",
               "name": "PhaLangTV",
               "contents": [
@@ -1904,7 +2061,7 @@
                   "streams": [
                     {
                       "id": "st-0ed093a616",
-                      "name": "Phalang - LÝ LINH LỰC",
+                      "name": "PL",
                       "stream_links": [
                         {
                           "id": "lnk-379ff1e5d6",
@@ -1932,216 +2089,20 @@
           ],
           "org_metadata": {
             "league": "DFB Pokal",
-            "team_a": "RW Essen",
+            "team_a": "Essen",
             "team_b": "RB Leipzig",
-            "logo_a": "https://apiv3.apifootball.com/badges/3929_rot-weiss-essen.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/101_rb-leipzig.jpg",
-            "time": "00:00",
-            "date": "28/10",
-            "blv": "Server",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/kjw2r09ho78rz84/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/z318q66hdleqo9j/image/small",
+            "time": "00:00 28/10",
+            "blv": "LÝ LINH LỰC",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/54900_8f9cee61_20261028.png?v=8f9cee61",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c4395a5c1e",
-          "name": "Al-Shamal vs Al Hilal | 01:15 28/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c4395a5c1e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c4395a5c1e",
-                  "name": "Al-Shamal vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-c4395a5c1e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3bf0ca320",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792913772_hd/1792913772_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0fa99a0a64",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0fa99a0a64",
-                  "name": "Shamal vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-0fa99a0a64",
-                      "name": "PhaoHoa - BLV Khô Bò",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-11c7d2266c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-11c7d2266c",
-                  "name": "Al Shamal vs Al-Hilal Saudi FC",
-                  "streams": [
-                    {
-                      "id": "st-11c7d2266c",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League",
-            "team_a": "Al-Shamal",
-            "team_b": "Al Hilal",
-            "logo_a": "https://images.keovip88.net/images/teams/al-shamal.png",
-            "logo_b": "https://images.keovip88.net/images/teams/al-hilal.png",
-            "time": "01:15 28/10",
-            "blv": "Súp",
-            "is_live": false,
             "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a6f4d3de1ad3e0d953e_76316ad9_20261028.png?v=76316ad9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/965mkyhkpxovr1g_32c253c4_20261028.png?v=32c253c4",
             "width": 1600,
             "height": 1200
           }
