@@ -1567,7 +1567,7 @@
           }
         },
         {
-          "id": "pl-0aaef0ad67",
+          "id": "cc-dc8cb0f8fd",
           "name": "Kazma vs Ajman | 21:30 27/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -1578,77 +1578,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0aaef0ad67",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-0aaef0ad67",
-                  "name": "Kazma vs Ajman",
-                  "streams": [
-                    {
-                      "id": "st-0aaef0ad67",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1a1466df88",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/11c3e474f0544e6db6a601af28403d62/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "GCC Champions League",
-            "team_a": "Kazma",
-            "team_b": "Ajman",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/n54qllh2d7pqvy9/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/y0or5jhln8nqwzv/image/small",
-            "time": "21:30 27/10",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/k82rekh2z7nprep_fb333a94_20261027.png?v=fb333a94",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-dc8cb0f8fd",
-          "name": "Kazma vs Ajman | 21:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1720,6 +1649,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-0aaef0ad67",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-0aaef0ad67",
+                  "name": "Kazma vs Ajman",
+                  "streams": [
+                    {
+                      "id": "st-0aaef0ad67",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1a1466df88",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/11c3e474f0544e6db6a601af28403d62/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1728,9 +1692,9 @@
             "team_b": "Ajman",
             "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_130609_ea2e4d93.png",
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125818_d71a2a6d.png",
-            "time": "21:00 27/10",
+            "time": "21:30 27/10",
             "blv": "Trốc Tru",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -5031,7 +4995,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5044,10 +5008,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5095,7 +5059,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/OfjQEPjl-hGuiBKos.png",
             "time": "21:00 27/10",
             "blv": "Sún",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -6491,103 +6455,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-3fd28bdb83",
-          "name": "Altekma vs Halkbank | 19:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3fd28bdb83",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3fd28bdb83",
-                  "name": "Altekma vs Halkbank",
-                  "streams": [
-                    {
-                      "id": "st-3fd28bdb83",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Efeler Ligi Thổ Nhĩ Kỳ Nam",
-            "team_a": "Altekma",
-            "team_b": "Halkbank",
-            "logo_a": "https://xoiche.live/media/teams/logos/altekma-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/halkbank-vb.png",
-            "time": "19:00",
-            "date": "27/10",
-            "blv": "BLV Lương Khô, Server",
-            "is_live": true,
-            "cate_type": "volleyball",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38797_2d912aea_20261027.png?v=2d912aea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "xc-41e915bdc1",
           "name": "Sungurlu Belediyesi Spor vs Galatasaray | 20:00 27/10",
