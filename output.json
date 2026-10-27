@@ -1071,116 +1071,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "cc-edc55e2f6f",
-          "name": "PSS Sleman vs Pusamania Borneo | 15:30 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-edc55e2f6f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-edc55e2f6f",
-                  "name": "PSS Sleman vs Pusamania Borneo",
-                  "streams": [
-                    {
-                      "id": "st-edc55e2f6f",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e27b03ef2f",
-                          "name": "Chuối Chao HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e97f9e8cee",
-                          "name": "Chuối Chao HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-582600ada5",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Indonesia",
-            "team_a": "PSS Sleman",
-            "team_b": "Pusamania Borneo",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134619_ae32ec34.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134616_2456a9ca.png",
-            "time": "15:30 27/10",
-            "blv": "Chuối Chao",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1622816_18b6cba5_20261027.png?v=18b6cba5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "cc-8db00a9191",
           "name": "Lam Dong vs PVF-CAND | 15:30 27/10",
@@ -1189,10 +1084,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1309,7 +1204,7 @@
             "logo_b": "https://media.chuoichientv.net/media/20250817_040457_e299eb36.png",
             "time": "15:30 27/10",
             "blv": "Chuối Sấy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1317,6 +1212,111 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1634990_a5c178b5_20261027.png?v=a5c178b5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-edc55e2f6f",
+          "name": "PSS Sleman vs Pusamania Borneo | 15:30 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edc55e2f6f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-edc55e2f6f",
+                  "name": "PSS Sleman vs Pusamania Borneo",
+                  "streams": [
+                    {
+                      "id": "st-edc55e2f6f",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e27b03ef2f",
+                          "name": "Chuối Chao HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e97f9e8cee",
+                          "name": "Chuối Chao HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-582600ada5",
+                          "name": "Chuối Chao FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Indonesia",
+            "team_a": "PSS Sleman",
+            "team_b": "Pusamania Borneo",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134619_ae32ec34.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134616_2456a9ca.png",
+            "time": "15:30 27/10",
+            "blv": "Chuối Chao",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1622816_18b6cba5_20261027.png?v=18b6cba5",
             "width": 1600,
             "height": 1200
           }
@@ -4327,6 +4327,98 @@
           }
         },
         {
+          "id": "xc-6fb6646fd7",
+          "name": "Manchester City vs Brighton | 02:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6fb6646fd7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6fb6646fd7",
+                  "name": "Manchester City vs Brighton",
+                  "streams": [
+                    {
+                      "id": "st-6fb6646fd7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed916b9464",
+                          "name": "BLV Xôi Xoài 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://khogalive.b-cdn.net/bcdn_token=94NMTHEad6UpOwuY7elPOUFb0h1wMdcj5SpUVwmlwg0&expires=1855579061&token_path=%2Flive%2Flivehub3/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-3b0600d131",
+                          "name": "BLV Xôi Xoài 2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://xoiche.live/live/livehub3/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup",
+            "team_a": "Manchester City",
+            "team_b": "Brighton",
+            "logo_a": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3079_brighton--hove-albion.jpg",
+            "time": "02:30",
+            "date": "29/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55613_6e897869_20261027.png?v=6e897869",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-f0281cee08",
           "name": "AS Roma vs Cagliari | 02:45 28/10",
           "type": "single",
@@ -5675,6 +5767,77 @@
           }
         },
         {
+          "id": "gv-cf8be4a198",
+          "name": "Daegu KoGas Pegasus vs Wonju Dongbu Promy | 17:00 28/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf8be4a198",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cf8be4a198",
+                  "name": "Daegu KoGas Pegasus vs Wonju Dongbu Promy",
+                  "streams": [
+                    {
+                      "id": "st-cf8be4a198",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8a3e372f7",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793086408_hd/1793086408_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Daegu KoGas Pegasus",
+            "team_b": "Wonju Dongbu Promy",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a322b3f45e8fc272b36c48003e467f20.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ad13a8e4c726a65f277f7da7a19a4126.png",
+            "time": "17:00 28/10",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/11160378_5adf0433_20261027.png?v=5adf0433",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-009c97d3d0",
           "name": "Atlanta Hawks vs Miami Heat | 06:00 29/10",
           "type": "single",
@@ -6185,78 +6348,6 @@
           }
         },
         {
-          "id": "chtv-7f12814f18",
-          "name": "KLEDIO KACI vs WIKTOR ZIELINSKI | 15:00 27/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f12814f18",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-7f12814f18",
-                  "name": "KLEDIO KACI vs WIKTOR ZIELINSKI",
-                  "streams": [
-                    {
-                      "id": "st-7f12814f18",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7f12814f18",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9574/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
-            "team_a": "KLEDIO KACI",
-            "team_b": "WIKTOR ZIELINSKI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793069048213_Kledio%20Kaci.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793069045347_Wiktor%20Zielinski.jpg",
-            "time": "15:00 27/10",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793088000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f12814f18_5c665bc1_20261027.png?v=5c665bc1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-d6c28481c8",
           "name": "AIVHAN MALUTO vs MIGUEL SALVILLA | 15:00 27/10",
           "type": "single",
@@ -6396,6 +6487,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ab2dbb2a7f_f6b3c779_20261027.png?v=f6b3c779",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a85c233cc",
+          "name": "JOSHUA FILLER vs AMEER ALI | 15:00 27/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a85c233cc",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a85c233cc",
+                  "name": "JOSHUA FILLER vs AMEER ALI",
+                  "streams": [
+                    {
+                      "id": "st-9a85c233cc",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a85c233cc",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9573/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
+            "team_a": "JOSHUA FILLER",
+            "team_b": "AMEER ALI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793069023819_Joshua%20Filler.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793069021051_AMEER%20ALI.jpg",
+            "time": "15:00 27/10",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793088000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a85c233cc_b6dd259c_20261027.png?v=b6dd259c",
             "width": 1600,
             "height": 1200
           }
@@ -6545,8 +6708,8 @@
           }
         },
         {
-          "id": "chtv-9a85c233cc",
-          "name": "JOSHUA FILLER vs AMEER ALI | 15:00 27/10",
+          "id": "chtv-7f12814f18",
+          "name": "KLEDIO KACI vs WIKTOR ZIELINSKI | 15:00 27/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6560,23 +6723,23 @@
           ],
           "sources": [
             {
-              "id": "src-9a85c233cc",
+              "id": "src-7f12814f18",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-9a85c233cc",
-                  "name": "JOSHUA FILLER vs AMEER ALI",
+                  "id": "ct-7f12814f18",
+                  "name": "KLEDIO KACI vs WIKTOR ZIELINSKI",
                   "streams": [
                     {
-                      "id": "st-9a85c233cc",
+                      "id": "st-7f12814f18",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-9a85c233cc",
+                          "id": "lnk-7f12814f18",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9573/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9574/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -6597,10 +6760,10 @@
           ],
           "org_metadata": {
             "league": "𝗤𝗔𝗧𝗔𝗥 𝗪𝗢𝗥𝗟𝗗 𝗖𝗨𝗣 𝟭𝟬-𝗕𝗔𝗟𝗟 𝟮𝟬𝟮𝟲",
-            "team_a": "JOSHUA FILLER",
-            "team_b": "AMEER ALI",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793069023819_Joshua%20Filler.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793069021051_AMEER%20ALI.jpg",
+            "team_a": "KLEDIO KACI",
+            "team_b": "WIKTOR ZIELINSKI",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793069048213_Kledio%20Kaci.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793069045347_Wiktor%20Zielinski.jpg",
             "time": "15:00 27/10",
             "blv": "",
             "is_live": false,
@@ -6611,7 +6774,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a85c233cc_b6dd259c_20261027.png?v=b6dd259c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7f12814f18_5c665bc1_20261027.png?v=5c665bc1",
             "width": 1600,
             "height": 1200
           }
