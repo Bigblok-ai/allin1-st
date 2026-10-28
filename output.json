@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1303,7 +1303,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -1420,6 +1420,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55289_3fe43e15_20261028.png?v=3fe43e15",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-72454941be",
+          "name": "Freiburg vs Wolfsburg | 00:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72454941be",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-72454941be",
+                  "name": "Freiburg vs Wolfsburg",
+                  "streams": [
+                    {
+                      "id": "st-72454941be",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "DFB Pokal",
+            "team_a": "Freiburg",
+            "team_b": "Wolfsburg",
+            "logo_a": "https://apiv3.apifootball.com/badges/3962_freiburg.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/196_wolfsburg.jpg",
+            "time": "00:00",
+            "date": "29/10",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55471_14bca5d1_20261028.png?v=14bca5d1",
             "width": 1600,
             "height": 1200
           }
@@ -1840,233 +1932,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1563670_1eaf6044_20261028.png?v=1eaf6044",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1419ac9c41",
-          "name": "AC Milan vs Bologna | 00:30 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1419ac9c41",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1419ac9c41",
-                  "name": "AC Milan vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-1419ac9c41",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3900ea3944",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1792914037_hd/1792914037_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-186e1b0ba5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-186e1b0ba5",
-                  "name": "AC Milan vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-186e1b0ba5",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebb1a11b28",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-0a8b8bf80f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-0a8b8bf80f",
-                  "name": "AC Milan vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-0a8b8bf80f",
-                      "name": "CCport - Chuối Già",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b14bc05945",
-                          "name": "Chuối Già HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c65a624da2",
-                          "name": "Chuối Già HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a46d78baf",
-                          "name": "Chuối Già FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-a1b22d415d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-a1b22d415d",
-                  "name": "Milan vs Bologna",
-                  "streams": [
-                    {
-                      "id": "st-a1b22d415d",
-                      "name": "Phalang - LÝ LINH LỰC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-288d349d0a",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/f8670fdf9ce949fab6699e127e50ff0b/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Seria A",
-            "team_a": "AC Milan",
-            "team_b": "Bologna",
-            "logo_a": "https://images.keovip88.net/images/teams/ac-milan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/bologna.png",
-            "time": "00:30 29/10",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad800c724d46db870eb09ef_3940b5d7_20261028.png?v=3940b5d7",
             "width": 1600,
             "height": 1200
           }
@@ -3684,8 +3549,8 @@
           }
         },
         {
-          "id": "xc-72454941be",
-          "name": "Freiburg vs Wolfsburg | 00:00 29/10",
+          "id": "xc-186e1b0ba5",
+          "name": "AC Milan vs Bologna | 00:30 29/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3699,23 +3564,23 @@
           ],
           "sources": [
             {
-              "id": "src-72454941be",
+              "id": "src-186e1b0ba5",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-72454941be",
-                  "name": "Freiburg vs Wolfsburg",
+                  "id": "ct-186e1b0ba5",
+                  "name": "AC Milan vs Bologna",
                   "streams": [
                     {
-                      "id": "st-72454941be",
+                      "id": "st-186e1b0ba5",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-ebb1a11b28",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3728,11 +3593,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://live.khoga.space/live/livehub13.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3749,17 +3614,121 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-0a8b8bf80f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-0a8b8bf80f",
+                  "name": "AC Milan vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-0a8b8bf80f",
+                      "name": "CCport - Chuối Già",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c65a624da2",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-a1b22d415d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-a1b22d415d",
+                  "name": "Milan vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-a1b22d415d",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-288d349d0a",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/f8670fdf9ce949fab6699e127e50ff0b/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
-            "league": "DFB Pokal",
-            "team_a": "Freiburg",
-            "team_b": "Wolfsburg",
-            "logo_a": "https://apiv3.apifootball.com/badges/3962_freiburg.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/196_wolfsburg.jpg",
-            "time": "00:00",
+            "league": "Serie A",
+            "team_a": "AC Milan",
+            "team_b": "Bologna",
+            "logo_a": "https://apiv3.apifootball.com/badges/159_milan.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4983_bologna.jpg",
+            "time": "00:30",
             "date": "29/10",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Khô Mật",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -3770,7 +3739,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55471_14bca5d1_20261028.png?v=14bca5d1",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55501_ad9afa18_20261028.png?v=ad9afa18",
             "width": 1600,
             "height": 1200
           }
