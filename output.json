@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2285,6 +2285,81 @@
           }
         },
         {
+          "id": "xc-34ae914811",
+          "name": "Venezia vs Inter | 00:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-34ae914811",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-34ae914811",
+                  "name": "Venezia vs Inter",
+                  "streams": [
+                    {
+                      "id": "st-34ae914811",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Venezia",
+            "team_b": "Inter",
+            "logo_a": "https://apiv3.apifootball.com/badges/5007_venezia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "time": "00:30",
+            "date": "29/10",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55503_e3ab25ca_20261029.png?v=e3ab25ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-13dc99fef8",
           "name": "Bayern Munich vs Magdeburg | 02:45 29/10",
           "type": "single",
@@ -2398,7 +2473,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -4485,11 +4560,103 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-5d02327b6b",
+          "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara | 02:30 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5d02327b6b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5d02327b6b",
+                  "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara",
+                  "streams": [
+                    {
+                      "id": "st-5d02327b6b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-18310047d2",
+                          "name": "BLV Xôi Bắp 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9fd6836274",
+                          "name": "BLV Xôi Bắp 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub6.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A1 Ý / W",
+            "team_a": "Savino Del Bene Scandicci",
+            "team_b": "Igor Gorgonzola Novara",
+            "logo_a": "https://xoiche.live/media/teams/logos/savino-del-bene-scandicci-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/igor-gorgonzola-novara-vb.png",
+            "time": "02:30",
+            "date": "29/10",
+            "blv": "BLV Xôi Bắp",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38809_42ef1a20_20261029.png?v=42ef1a20",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-9bfc68dd15",
           "name": "Thể Công Tân Cảng vs Ninh Bình | 12:00 29/10",
@@ -4841,98 +5008,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/25e3e1c8fb2e4ec99217c0ec78b1d39a_f4a8aafb_20261029.png?v=f4a8aafb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-5d02327b6b",
-          "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara | 02:30 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5d02327b6b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-5d02327b6b",
-                  "name": "Savino Del Bene Scandicci vs Igor Gorgonzola Novara",
-                  "streams": [
-                    {
-                      "id": "st-5d02327b6b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-18310047d2",
-                          "name": "BLV Xôi Bắp 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9fd6836274",
-                          "name": "BLV Xôi Bắp 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub6.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A1 Ý / W",
-            "team_a": "Savino Del Bene Scandicci",
-            "team_b": "Igor Gorgonzola Novara",
-            "logo_a": "https://xoiche.live/media/teams/logos/savino-del-bene-scandicci-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/igor-gorgonzola-novara-vb.png",
-            "time": "02:30",
-            "date": "29/10",
-            "blv": "BLV Xôi Bắp",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38809_42ef1a20_20261029.png?v=42ef1a20",
             "width": 1600,
             "height": 1200
           }
