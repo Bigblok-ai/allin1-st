@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1152,8 +1152,8 @@
           }
         },
         {
-          "id": "pl-87060fc4e7",
-          "name": "Krylya Sovetov vs Dynamo Makhachkala | 21:00 29/10",
+          "id": "cc-a21fe4e1a5",
+          "name": "Al Khaleej Saihat vs Al-Hazm | 21:35 29/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1163,77 +1163,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-87060fc4e7",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-87060fc4e7",
-                  "name": "Krylya Sovetov vs Dynamo Makhachkala",
-                  "streams": [
-                    {
-                      "id": "st-87060fc4e7",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-86cf315393",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/5db8cc3306234e85906beaf5027b1d4b/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Krylya Sovetov",
-            "team_b": "Dynamo Makhachkala",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9dyq82w/image/small",
-            "time": "21:00 29/10",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergph4655pr8k_2440b4d4_20261029.png?v=2440b4d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-a21fe4e1a5",
-          "name": "Al Khaleej Saihat vs Al-Hazm | 21:35 29/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1315,7 +1244,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134009_2a638385.png",
             "time": "21:35 29/10",
             "blv": "Chuối Sấy",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1323,6 +1252,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1603075_b2ce62d8_20261029.png?v=b2ce62d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-87060fc4e7",
+          "name": "Krylya Sovetov vs Dynamo Makhachkala | 21:00 29/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-87060fc4e7",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-87060fc4e7",
+                  "name": "Krylya Sovetov vs Dynamo Makhachkala",
+                  "streams": [
+                    {
+                      "id": "st-87060fc4e7",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-86cf315393",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/5db8cc3306234e85906beaf5027b1d4b/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Krylya Sovetov",
+            "team_b": "Dynamo Makhachkala",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/jednm9wh42dryox/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/zp5rzghz9dyq82w/image/small",
+            "time": "21:00 29/10",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergph4655pr8k_2440b4d4_20261029.png?v=2440b4d4",
             "width": 1600,
             "height": 1200
           }
@@ -2925,6 +2925,341 @@
           }
         },
         {
+          "id": "gv-a0ea4820cd",
+          "name": "DPMM FC vs Negeri Sembilan | 15:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0ea4820cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a0ea4820cd",
+                  "name": "DPMM FC vs Negeri Sembilan",
+                  "streams": [
+                    {
+                      "id": "st-a0ea4820cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f2e25246be",
+                          "name": "Hứa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793283088_hd/1793283088_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Malaysia",
+            "team_a": "DPMM FC",
+            "team_b": "Negeri Sembilan",
+            "logo_a": "https://images.keovip88.net/images/teams/dpmm-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/negeri-sembilan.png",
+            "time": "15:00 30/10",
+            "blv": "Hứa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad9525224d46db8709e43b6_3dea36f4_20261029.png?v=3dea36f4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-e0683c0069",
+          "name": "Brisbane Roar FC vs Auckland FC | 16:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e0683c0069",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e0683c0069",
+                  "name": "Brisbane Roar FC vs Auckland FC",
+                  "streams": [
+                    {
+                      "id": "st-e0683c0069",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92b9ffd1c5",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793283006_hd/1793283006_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-17fc5e2d66",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-17fc5e2d66",
+                  "name": "Brisbane Roar vs Auckland FC",
+                  "streams": [
+                    {
+                      "id": "st-17fc5e2d66",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-736494e872",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-736494e872",
+                  "name": "Brisbane Roar vs Auckland FC",
+                  "streams": [
+                    {
+                      "id": "st-736494e872",
+                      "name": "Phalang - LÝ LINH LỰC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1abbf34330",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/2290183dcddd46f98d38c174cef7176b/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Brisbane Roar FC",
+            "team_b": "Auckland FC",
+            "logo_a": "https://images.keovip88.net/images/teams/brisbane-roar.png",
+            "logo_b": "https://images.keovip88.net/images/teams/auckland-fc.png",
+            "time": "16:00 30/10",
+            "blv": "Tỵ ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad9525324d46db8709e43cc_922fd5df_20261029.png?v=922fd5df",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-92546a3925",
+          "name": "Thanh Hóa vs Hồng Lĩnh Hà Tĩnh | 17:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-92546a3925",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-92546a3925",
+                  "name": "Thanh Hóa vs Hồng Lĩnh Hà Tĩnh",
+                  "streams": [
+                    {
+                      "id": "st-92546a3925",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6365f140aa",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793283155_hd/1793283155_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-71db2e20bf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-71db2e20bf",
+                  "name": "Thanh Hoa vs Hong Linh Ha Tinh",
+                  "streams": [
+                    {
+                      "id": "st-71db2e20bf",
+                      "name": "PhaoHoa - BLV Khô Cay, Server",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "Server",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thanh Hóa",
+            "team_b": "Hồng Lĩnh Hà Tĩnh",
+            "logo_a": "https://images.keovip88.net/images/teams/thanh-hoa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hong-linh-ha-tinh.png",
+            "time": "17:00 30/10",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad9525324d46db8709e43d8_272a77f3_20261029.png?v=272a77f3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-c0149531e6",
           "name": "Thanh Hóa vs HL Hà Tĩnh | 17:00 30/10",
           "type": "single",
@@ -3400,335 +3735,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56797_c85e2ad2_20261029.png?v=c85e2ad2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-17fc5e2d66",
-          "name": "Brisbane Roar vs Auckland FC | 16:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17fc5e2d66",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-17fc5e2d66",
-                  "name": "Brisbane Roar vs Auckland FC",
-                  "streams": [
-                    {
-                      "id": "st-17fc5e2d66",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-736494e872",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-736494e872",
-                  "name": "Brisbane Roar vs Auckland FC",
-                  "streams": [
-                    {
-                      "id": "st-736494e872",
-                      "name": "Phalang - LÝ LINH LỰC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1abbf34330",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/2290183dcddd46f98d38c174cef7176b/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Brisbane Roar",
-            "team_b": "Auckland FC",
-            "logo_a": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/36856_auckland.jpg",
-            "time": "16:00",
-            "date": "30/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56131_c9c5b767_20261029.png?v=c9c5b767",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-71db2e20bf",
-          "name": "Thanh Hoa vs Hong Linh Ha Tinh | 17:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71db2e20bf",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-71db2e20bf",
-                  "name": "Thanh Hoa vs Hong Linh Ha Tinh",
-                  "streams": [
-                    {
-                      "id": "st-71db2e20bf",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "Server",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Thanh Hoa",
-            "team_b": "Hong Linh Ha Tinh",
-            "logo_a": "https://apiv3.apifootball.com/badges/8061_thanh-hoa.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8062_hng-lnh-ha-tnh.jpg",
-            "time": "17:00",
-            "date": "30/10",
-            "blv": "BLV Khô Cay, Server",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56140_7fc9fa86_20261029.png?v=7fc9fa86",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-1c555091db",
-          "name": "Bac Ninh vs Gia Lai | 18:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c555091db",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-1c555091db",
-                  "name": "Bac Ninh vs Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-1c555091db",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ae7b234e34",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-ae7b234e34",
-                  "name": "TDTT Bắc Ninh vs Hoàng Anh Gia Lai",
-                  "streams": [
-                    {
-                      "id": "st-ae7b234e34",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c7813f64d5",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/cb3e5dc8404e4166b6bd215c2343a469/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Bac Ninh",
-            "team_b": "Gia Lai",
-            "logo_a": "",
-            "logo_b": "https://apiv3.apifootball.com/badges/8054_hoang-anh-gia-lai.jpg",
-            "time": "18:00",
-            "date": "30/10",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56157_593d8606_20261029.png?v=593d8606",
             "width": 1600,
             "height": 1200
           }
