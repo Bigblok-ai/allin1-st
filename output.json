@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1335,10 +1335,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1386,7 +1386,7 @@
             "logo_b": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Roundel_of_Azerbaijan.svg/250px-Roundel_of_Azerbaijan.svg.png",
             "time": "22:30 29/10",
             "blv": "LÝ LÀNG LÁ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -6539,7 +6539,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-dfa1bc2e09",
+          "id": "gv-dc5fdbe990",
           "name": "ONE Friday Fights 176 vs The Inner Circle 36 | 18:30 30/10",
           "type": "single",
           "display": "thumbnail-only",
@@ -6554,6 +6554,41 @@
           ],
           "sources": [
             {
+              "id": "src-dc5fdbe990",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dc5fdbe990",
+                  "name": "ONE Friday Fights 176 vs The Inner Circle 36",
+                  "streams": [
+                    {
+                      "id": "st-dc5fdbe990",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-3c2e94fd82",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://eqr2hdarxfliv.vcdn.cloud/1793284337_hd/1793284337_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-dfa1bc2e09",
               "name": "GiovangTV",
               "contents": [
@@ -6563,7 +6598,7 @@
                   "streams": [
                     {
                       "id": "st-dfa1bc2e09",
-                      "name": "GV",
+                      "name": "gv - Điếc",
                       "stream_links": [
                         {
                           "id": "lnk-55dec3eba2",
@@ -6593,8 +6628,8 @@
             "league": "ONE Friday Fights 176 & The Inner Circle 36",
             "team_a": "ONE Friday Fights 176",
             "team_b": "The Inner Circle 36",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQumak9ckXmoAe9pifrS9T_cq7Nrz7PLUnNL4xaU0WQkg&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9PzZcJnesnf_gbL5Dme4RYQ9uau2s2URPxKh-2wFT_A&s=10",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTGEDCK198Wq-K_VDgPuNkhu_N9-JmgE1bB19asKwiJQ&s=10",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3YFd8VYBM-LG6yeNBvbIWAYEgoSAfwz3461LCXx19aHghQaTTJwF3TJIy&s=10",
             "time": "18:30 30/10",
             "blv": "Điếc",
             "is_live": false,
@@ -6604,7 +6639,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/bg2q68hn5yia_72c38974_20261029.png?v=72c38974",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/xe7crgd8oc17_a19423b4_20261029.png?v=a19423b4",
             "width": 1600,
             "height": 1200
           }
