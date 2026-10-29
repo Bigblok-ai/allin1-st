@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1708,8 +1708,8 @@
           }
         },
         {
-          "id": "xc-cef98f91b1",
-          "name": "Inter Turku vs HJK | 23:00 29/10",
+          "id": "gv-6d1e53d076",
+          "name": "Sporting Braga vs Famalicão | 01:45 30/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1723,23 +1723,75 @@
           ],
           "sources": [
             {
-              "id": "src-cef98f91b1",
+              "id": "src-6d1e53d076",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6d1e53d076",
+                  "name": "Sporting Braga vs Famalicão",
+                  "streams": [
+                    {
+                      "id": "st-6d1e53d076",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-16e952a4cb",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793115565_hd/1793115565_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8da8a6f6d3",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-cef98f91b1",
-                  "name": "Inter Turku vs HJK",
+                  "id": "ct-8da8a6f6d3",
+                  "name": "Braga vs Famalicao",
                   "streams": [
                     {
-                      "id": "st-cef98f91b1",
-                      "name": "XoiChe TV",
+                      "id": "st-8da8a6f6d3",
+                      "name": "PhaoHoa - BLV Khô Bò",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1758,23 +1810,23 @@
               ]
             },
             {
-              "id": "src-fb6a5a5553",
+              "id": "src-299ba8f6ae",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-fb6a5a5553",
-                  "name": "Inter Turku vs HJK Helsinki",
+                  "id": "ct-299ba8f6ae",
+                  "name": "Sporting Braga vs FC Famalicao",
                   "streams": [
                     {
-                      "id": "st-fb6a5a5553",
-                      "name": "Phalang - LÝ LONG",
+                      "id": "st-299ba8f6ae",
+                      "name": "Phalang - TEST",
                       "stream_links": [
                         {
-                          "id": "lnk-312874675c",
-                          "name": "LÝ LONG",
+                          "id": "lnk-8e9dbfd11a",
+                          "name": "TEST",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/27f366bb1fe14cd3b4720947a9028c06/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/56094af3f04e49618d790ede9b287ae8/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1794,25 +1846,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "Inter Turku",
-            "team_b": "HJK",
-            "logo_a": "https://apiv3.apifootball.com/badges/3542_inter-turku.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
-            "time": "23:00",
-            "date": "29/10",
-            "blv": "BLV Tam Mao",
+            "league": "Portugal - Taça da Liga",
+            "team_a": "Sporting Braga",
+            "team_b": "Famalicão",
+            "logo_a": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Braga_logo.svg/1280px-S.C._Braga_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOBpazG0WheW8t4K-iOPGPD0tOw74EKcoSOjVWN2Jvw&s=10",
+            "time": "01:45 30/10",
+            "blv": "Mason",
             "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 4
+            "cate_type": "football"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/55809_d097eac0_20261030.png?v=d097eac0",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/pluwwoqdo56p_8768ddaa_20261030.png?v=8768ddaa",
             "width": 1600,
             "height": 1200
           }
@@ -1905,204 +1953,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56039_9f9369bf_20261030.png?v=9f9369bf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c991ed71d6",
-          "name": "Al Riyadh vs Al Qadsiah | 01:00 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c991ed71d6",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c991ed71d6",
-                  "name": "Al Riyadh vs Al Qadsiah",
-                  "streams": [
-                    {
-                      "id": "st-c991ed71d6",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi League",
-            "team_a": "Al Riyadh",
-            "team_b": "Al Qadsiah",
-            "logo_a": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
-            "time": "01:00",
-            "date": "30/10",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56056_fbfa8cc5_20261030.png?v=fbfa8cc5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6d1e53d076",
-          "name": "Sporting Braga vs Famalicão | 01:45 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6d1e53d076",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6d1e53d076",
-                  "name": "Sporting Braga vs Famalicão",
-                  "streams": [
-                    {
-                      "id": "st-6d1e53d076",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-16e952a4cb",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://ftlh5sc02iliv.vcdn.cloud/1793115565_hd/1793115565_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8da8a6f6d3",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8da8a6f6d3",
-                  "name": "Braga vs Famalicao",
-                  "streams": [
-                    {
-                      "id": "st-8da8a6f6d3",
-                      "name": "PhaoHoa - BLV Khô Bò",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Portugal - Taça da Liga",
-            "team_a": "Sporting Braga",
-            "team_b": "Famalicão",
-            "logo_a": "https://thumb.wikimedia.org/wikipedia/en/thumb/7/79/S.C._Braga_logo.svg/1280px-S.C._Braga_logo.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOBpazG0WheW8t4K-iOPGPD0tOw74EKcoSOjVWN2Jvw&s=10",
-            "time": "01:45 30/10",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/pluwwoqdo56p_8768ddaa_20261030.png?v=8768ddaa",
             "width": 1600,
             "height": 1200
           }
@@ -4443,6 +4293,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56643_8d55f54e_20261030.png?v=8d55f54e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c991ed71d6",
+          "name": "Al Riyadh vs Al Qadsiah | 01:00 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c991ed71d6",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c991ed71d6",
+                  "name": "Al Riyadh vs Al Qadsiah",
+                  "streams": [
+                    {
+                      "id": "st-c991ed71d6",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Riyadh",
+            "team_b": "Al Qadsiah",
+            "logo_a": "https://apiv3.apifootball.com/badges/16129_al-riyadh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6330_al-qadsiah.jpg",
+            "time": "01:00",
+            "date": "30/10",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56056_fbfa8cc5_20261030.png?v=fbfa8cc5",
             "width": 1600,
             "height": 1200
           }
