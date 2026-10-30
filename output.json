@@ -1907,7 +1907,7 @@
                   "streams": [
                     {
                       "id": "st-b5f3152550",
-                      "name": "PhaoHoa - BLV Lương Khô",
+                      "name": "PhaoHoa - BLV Lương Khô, BLV Xôi Bắp",
                       "stream_links": [
                         {
                           "id": "lnk-245e47f94f",
@@ -1915,6 +1915,23 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
                           "request_headers": [
                             {
                               "key": "Referer",
