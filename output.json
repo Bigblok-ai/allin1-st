@@ -1071,11 +1071,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-7146875344",
+          "name": "Al-Draih vs Al-Suqoor | 21:50 30/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7146875344",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-7146875344",
+                  "name": "Al-Draih vs Al-Suqoor",
+                  "streams": [
+                    {
+                      "id": "st-7146875344",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f04b5abfb7",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793284046_hd/1793284046_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Ả Rập Xê Út",
+            "team_a": "Al-Draih",
+            "team_b": "Al-Suqoor",
+            "logo_a": "https://images.keovip88.net/images/teams/al-draih.png",
+            "logo_b": "https://images.keovip88.net/images/teams/neom.png",
+            "time": "21:50 30/10",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad9525424d46db8709e4510_6527e8b7_20261030.png?v=6527e8b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-67fd590c0c",
           "name": "Al Diriyah vs Neom SC | 21:50 30/10",
@@ -1446,77 +1517,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y0or5jh8dozvqwz_2fb4385a_20261030.png?v=2fb4385a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7146875344",
-          "name": "Al-Draih vs Al-Suqoor | 21:50 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7146875344",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-7146875344",
-                  "name": "Al-Draih vs Al-Suqoor",
-                  "streams": [
-                    {
-                      "id": "st-7146875344",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f04b5abfb7",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793284046_hd/1793284046_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Ả Rập Xê Út",
-            "team_a": "Al-Draih",
-            "team_b": "Al-Suqoor",
-            "logo_a": "https://images.keovip88.net/images/teams/al-draih.png",
-            "logo_b": "https://images.keovip88.net/images/teams/neom.png",
-            "time": "21:50 30/10",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ad9525424d46db8709e4510_6527e8b7_20261030.png?v=6527e8b7",
             "width": 1600,
             "height": 1200
           }
@@ -4087,82 +4087,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-bb51f0f7cc",
-          "name": "Adrian Mannarino vs Daniil Medvedev | 19:30 30/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb51f0f7cc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bb51f0f7cc",
-                  "name": "Adrian Mannarino vs Daniil Medvedev",
-                  "streams": [
-                    {
-                      "id": "st-bb51f0f7cc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5c89321730",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793362164_hd/1793362164_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Vienna",
-            "team_a": "Adrian Mannarino",
-            "team_b": "Daniil Medvedev",
-            "logo_a": "https://static.flashscore.com/res/image/data/6X67JIYA-4AguOuCD.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/QujxPtf5-6Z1AkBdk.png",
-            "time": "19:30 30/10",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6e6l77g5nhs1_4d9a577a_20261030.png?v=4d9a577a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4fd5352ddc",
           "name": "Tommy Paul vs Carlos Alcaraz | 21:00 30/10",
