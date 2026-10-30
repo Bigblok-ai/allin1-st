@@ -1697,30 +1697,13 @@
                   "streams": [
                     {
                       "id": "st-b5f3152550",
-                      "name": "PhaoHoa - BLV Lương Khô, BLV Xôi Bắp",
+                      "name": "PhaoHoa - BLV Xôi Bắp",
                       "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
                         {
                           "id": "lnk-486428156e",
                           "name": "BLV Xôi Bắp",
                           "type": "hls",
-                          "default": false,
+                          "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
                           "request_headers": [
                             {
@@ -7301,7 +7284,7 @@
     },
     {
       "id": "grp-võ-thuật",
-      "name": "🥊 Võ Thuật (1 LIVE)",
+      "name": "🥊 Võ Thuật (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7373,6 +7356,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/xe7crgd8oc17_a19423b4_20261030.png?v=a19423b4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9ec860cd34",
+          "name": "Superbest vs Raize | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ec860cd34",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9ec860cd34",
+                  "name": "Superbest vs Raize",
+                  "streams": [
+                    {
+                      "id": "st-9ec860cd34",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ec860cd34",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9693/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Trận 1 |  𝗧𝗵𝗲 𝗜𝗻𝗻𝗲𝗿 𝗖𝗶𝗿𝗰𝗹𝗲- 𝗕𝗟𝗩 𝗗𝗮̣𝗶 𝗞𝗲̂  | Strawweight Muay Thai",
+            "team_a": "Superbest",
+            "team_b": "Raize",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793350278993_Screenshot%202026-10-30%20155048.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793350299601_Screenshot%202026-10-30%20155132.png",
+            "time": "18:30 30/10",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1793359800,
+            "cate_type": "martial"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ec860cd34_e20cc410_20261030.png?v=e20cc410",
             "width": 1600,
             "height": 1200
           }
