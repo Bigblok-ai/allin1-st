@@ -1071,11 +1071,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8af43c6494",
+          "name": "Mito Hollyhock vs Sanfrecce Hiroshima | 12:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8af43c6494",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8af43c6494",
+                  "name": "Mito Hollyhock vs Sanfrecce Hiroshima",
+                  "streams": [
+                    {
+                      "id": "st-8af43c6494",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a993452ef4",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793373889_hd/1793373889_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Mito Hollyhock",
+            "team_b": "Sanfrecce Hiroshima",
+            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
+            "time": "12:00 31/10",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c5149_458580c5_20261031.png?v=458580c5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-d57d59f4e5",
           "name": "Okayama FC vs FC Tokyo | 12:00 31/10",
@@ -1440,77 +1511,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1551022_322b9cd8_20261031.png?v=322b9cd8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8af43c6494",
-          "name": "Mito Hollyhock vs Sanfrecce Hiroshima | 12:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8af43c6494",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8af43c6494",
-                  "name": "Mito Hollyhock vs Sanfrecce Hiroshima",
-                  "streams": [
-                    {
-                      "id": "st-8af43c6494",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a993452ef4",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793373889_hd/1793373889_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "time": "12:00 31/10",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c5149_458580c5_20261031.png?v=458580c5",
             "width": 1600,
             "height": 1200
           }
@@ -6975,6 +6975,190 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-46e99e96e8",
+          "name": "Eintracht Frankfurt vs Hamburger SV | 23:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-46e99e96e8",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-46e99e96e8",
+                  "name": "Eintracht Frankfurt vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-46e99e96e8",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Eintracht Frankfurt",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://apiv3.apifootball.com/badges/3945_eintracht-frankfurt.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
+            "time": "23:30",
+            "date": "01/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59727_74ffda99_20261031.png?v=74ffda99",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-aa0994c426",
+          "name": "Liverpool vs Arsenal | 23:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aa0994c426",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-aa0994c426",
+                  "name": "Liverpool vs Arsenal",
+                  "streams": [
+                    {
+                      "id": "st-aa0994c426",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Liverpool",
+            "team_b": "Arsenal",
+            "logo_a": "https://apiv3.apifootball.com/badges/84_liverpool.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/141_arsenal-fc.jpg",
+            "time": "23:30",
+            "date": "01/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59728_3a79f3b2_20261031.png?v=3a79f3b2",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -7001,77 +7185,6 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-82605c9eb5",
-          "name": "Phoenix Suns vs Denver Nuggets | 09:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-82605c9eb5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-82605c9eb5",
-                  "name": "Phoenix Suns vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-82605c9eb5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-572a641368",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793374463_hd/1793374463_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Phoenix Suns",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "time": "09:00 31/10",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/24718279_71f3f260_20261031.png?v=71f3f260",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-257cec4c6b",
           "name": "Golden State Warriors vs Los Angeles Lakers | 09:00 31/10",
@@ -7151,10 +7264,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -7202,7 +7315,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/t4IslGYg-vDolgDz8.png",
             "time": "12:00 31/10",
             "blv": "Nem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
