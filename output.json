@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1689,6 +1689,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c51cd_746f6dbd_20261031.png?v=746f6dbd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-0709f4c889",
+          "name": "Kashiwa Reysol vs Urawa Reds | 14:00 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0709f4c889",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0709f4c889",
+                  "name": "Kashiwa Reysol vs Urawa Reds",
+                  "streams": [
+                    {
+                      "id": "st-0709f4c889",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "Urawa Reds",
+            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5051_urawa-reds.jpg",
+            "time": "14:00",
+            "date": "31/10",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261031.png?v=073cf1d2",
             "width": 1600,
             "height": 1200
           }
@@ -6006,81 +6081,6 @@
           }
         },
         {
-          "id": "xc-0709f4c889",
-          "name": "Kashiwa Reysol vs Urawa Reds | 14:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0709f4c889",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0709f4c889",
-                  "name": "Kashiwa Reysol vs Urawa Reds",
-                  "streams": [
-                    {
-                      "id": "st-0709f4c889",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J1 League",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "Urawa Reds",
-            "logo_a": "https://apiv3.apifootball.com/badges/5055_kashiwa-reysol.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5051_urawa-reds.jpg",
-            "time": "14:00",
-            "date": "31/10",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/56911_073cf1d2_20261031.png?v=073cf1d2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-5c534e38bf",
           "name": "Machida vs Gamba Osaka | 14:00 01/11",
           "type": "single",
@@ -8407,7 +8407,7 @@
         },
         {
           "id": "chtv-4596698d87",
-          "name": "Bảo ngô vs Trung nấm | SÊ KÔÔ",
+          "name": "Bảo Ngô vs Trung Nấm | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -8426,7 +8426,7 @@
               "contents": [
                 {
                   "id": "ct-4596698d87",
-                  "name": "Bảo ngô vs Trung nấm",
+                  "name": "Bảo Ngô vs Trung Nấm",
                   "streams": [
                     {
                       "id": "st-4596698d87",
@@ -8458,8 +8458,8 @@
           ],
           "org_metadata": {
             "league": "toptop",
-            "team_a": "Bảo ngô",
-            "team_b": "Trung nấm",
+            "team_a": "Bảo Ngô",
+            "team_b": "Trung Nấm",
             "logo_a": "https://cdn-choangtv.com/img/logo/1793428643245_Vi%E1%BB%87t%20Nam.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1793428642831_Vi%E1%BB%87t%20Nam.png",
             "time": "13:37 31/10",
