@@ -1071,14 +1071,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-8af43c6494",
-          "name": "Mito Hollyhock vs Sanfrecce Hiroshima | 12:00 31/10",
+          "id": "gv-63684f274a",
+          "name": "Melbourne City vs Sydney FC | 13:00 31/10",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1092,23 +1092,23 @@
           ],
           "sources": [
             {
-              "id": "src-8af43c6494",
+              "id": "src-63684f274a",
               "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-8af43c6494",
-                  "name": "Mito Hollyhock vs Sanfrecce Hiroshima",
+                  "id": "ct-63684f274a",
+                  "name": "Melbourne City vs Sydney FC",
                   "streams": [
                     {
-                      "id": "st-8af43c6494",
+                      "id": "st-63684f274a",
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-a993452ef4",
-                          "name": "Trĩ",
+                          "id": "lnk-f349d0de80",
+                          "name": "Mason",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793373889_hd/1793373889_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793374015_hd/1793374015_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1125,65 +1125,115 @@
                   ]
                 }
               ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Mito Hollyhock",
-            "team_b": "Sanfrecce Hiroshima",
-            "logo_a": "https://images.keovip88.net/images/teams/mito-hollyhock.png",
-            "logo_b": "https://images.keovip88.net/images/teams/hiroshima-sanfrecce.png",
-            "time": "12:00 31/10",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c5149_458580c5_20261031.png?v=458580c5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d57d59f4e5",
-          "name": "Okayama FC vs FC Tokyo | 12:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
+            },
             {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d57d59f4e5",
-              "name": "GiovangTV",
+              "id": "src-9ed6952542",
+              "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-d57d59f4e5",
-                  "name": "Okayama FC vs FC Tokyo",
+                  "id": "ct-9ed6952542",
+                  "name": "Melbourne City vs Sydney FC",
                   "streams": [
                     {
-                      "id": "st-d57d59f4e5",
-                      "name": "GV",
+                      "id": "st-9ed6952542",
+                      "name": "PhaoHoa - BLV Khô Mật",
                       "stream_links": [
                         {
-                          "id": "lnk-3ced608503",
-                          "name": "Súp",
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793373924_hd/1793373924_hd@720p.m3u8",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://giovang.store/"
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-5bbab1906c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-5bbab1906c",
+                  "name": "Melbourne City vs Sydney",
+                  "streams": [
+                    {
+                      "id": "st-5bbab1906c",
+                      "name": "CCport - Chuối Lá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15d5e70700",
+                          "name": "Chuối Lá HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0001f270a8",
+                          "name": "Chuối Lá HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e91447f6ff",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
                             },
                             {
                               "key": "User-Agent",
@@ -1199,13 +1249,13 @@
             }
           ],
           "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Okayama FC",
-            "team_b": "FC Tokyo",
-            "logo_a": "https://images.keovip88.net/images/teams/fagiano-okayama.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-tokyo.png",
-            "time": "12:00 31/10",
-            "blv": "Súp",
+            "league": "VĐQG Úc",
+            "team_a": "Melbourne City",
+            "team_b": "Sydney FC",
+            "logo_a": "https://images.keovip88.net/images/teams/melbourne-city.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc.png",
+            "time": "13:00 31/10",
+            "blv": "Mason",
             "is_live": true,
             "cate_type": "football"
           },
@@ -1213,78 +1263,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c514d_548da3d3_20261031.png?v=548da3d3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-33906eed2f",
-          "name": "Kyoto Sanga vs Shimizu S-Pulse | 12:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-33906eed2f",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-33906eed2f",
-                  "name": "Kyoto Sanga vs Shimizu S-Pulse",
-                  "streams": [
-                    {
-                      "id": "st-33906eed2f",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-13eff33a13",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793373985_hd/1793373985_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Kyoto Sanga",
-            "team_b": "Shimizu S-Pulse",
-            "logo_a": "https://images.keovip88.net/images/teams/kyoto-sanga.png",
-            "logo_b": "https://images.keovip88.net/images/teams/shimizu-s-pulse.png",
-            "time": "12:00 31/10",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c5141_a09af335_20261031.png?v=a09af335",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c51cd_746f6dbd_20261031.png?v=746f6dbd",
             "width": 1600,
             "height": 1200
           }
@@ -1497,198 +1476,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c51d9_930d1d4e_20261031.png?v=930d1d4e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-63684f274a",
-          "name": "Melbourne City vs Sydney FC | 13:00 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63684f274a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-63684f274a",
-                  "name": "Melbourne City vs Sydney FC",
-                  "streams": [
-                    {
-                      "id": "st-63684f274a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f349d0de80",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793374015_hd/1793374015_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-9ed6952542",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9ed6952542",
-                  "name": "Melbourne City vs Sydney FC",
-                  "streams": [
-                    {
-                      "id": "st-9ed6952542",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-5bbab1906c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-5bbab1906c",
-                  "name": "Melbourne City vs Sydney",
-                  "streams": [
-                    {
-                      "id": "st-5bbab1906c",
-                      "name": "CCport - Chuối Lá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15d5e70700",
-                          "name": "Chuối Lá HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0001f270a8",
-                          "name": "Chuối Lá HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e91447f6ff",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Melbourne City",
-            "team_b": "Sydney FC",
-            "logo_a": "https://images.keovip88.net/images/teams/melbourne-city.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sydney-fc.png",
-            "time": "13:00 31/10",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adaa3d424d46db8704c51cd_746f6dbd_20261031.png?v=746f6dbd",
             "width": 1600,
             "height": 1200
           }
