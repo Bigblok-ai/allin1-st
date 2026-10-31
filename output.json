@@ -3779,7 +3779,7 @@
                   "streams": [
                     {
                       "id": "st-aa0994c426",
-                      "name": "PhaoHoa - BLV Khô Mật",
+                      "name": "PhaoHoa - BLV Khô Mật, BLV Khô Cá",
                       "stream_links": [
                         {
                           "id": "lnk-88fe1a05f9",
@@ -3804,6 +3804,23 @@
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4926,77 +4943,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-738a682844",
-          "name": "Utah Jazz vs Portland Trail Blazers | 02:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-738a682844",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-738a682844",
-                  "name": "Utah Jazz vs Portland Trail Blazers",
-                  "streams": [
-                    {
-                      "id": "st-738a682844",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f7b556a1d1",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793461965_hd/1793461965_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Utah Jazz",
-            "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "time": "02:00 01/11",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/30888273_6de54e0c_20261101.png?v=6de54e0c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-6d199e8628",
           "name": "Charlotte Hornets vs Philadelphia 76ers | 05:00 01/11",
           "type": "single",
@@ -5075,10 +5021,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5126,7 +5072,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
             "time": "06:00 01/11",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -7919,83 +7865,11 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-3ebe4d0fd6",
-          "name": "Lin Sidong vs Truls Moregard | 23:59 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3ebe4d0fd6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3ebe4d0fd6",
-                  "name": "Lin Sidong vs Truls Moregard",
-                  "streams": [
-                    {
-                      "id": "st-3ebe4d0fd6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a5e9b80f71",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793463380_hd/1793463380_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Champions Montpellier 2026",
-            "team_a": "Lin Sidong",
-            "team_b": "Truls Moregard",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSb15BLqV4M2xSucqaqd2kNJEO_3zZnCV-AWjkrC-8QBw&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFSEYugJP9kdR6HIaiLm5jKCM6HMbqWjZ3i8qFqq5cQ&s=10",
-            "time": "23:59 31/10",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/l6o71knqvsz8_bc099aba_20261101.png?v=bc099aba",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-võ-thuật",
