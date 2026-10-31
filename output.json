@@ -6234,81 +6234,6 @@
           }
         },
         {
-          "id": "xc-7acd9244e7",
-          "name": "Melbourne Victory vs Central Coast Mariners | 11:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7acd9244e7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-7acd9244e7",
-                  "name": "Melbourne Victory vs Central Coast Mariners",
-                  "streams": [
-                    {
-                      "id": "st-7acd9244e7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Melbourne Victory",
-            "team_b": "Central Coast Mariners",
-            "logo_a": "https://apiv3.apifootball.com/badges/376_melbourne-victory.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1050_central-coast-mariners.jpg",
-            "time": "11:00",
-            "date": "01/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58812_875b1b47_20261031.png?v=875b1b47",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0709f4c889",
           "name": "Kashiwa Reysol vs Urawa Reds | 14:00 31/10",
           "type": "single",
@@ -8578,11 +8503,103 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-e7b52ca13b",
+          "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers | 11:05 31/10",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e7b52ca13b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e7b52ca13b",
+                  "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers",
+                  "streams": [
+                    {
+                      "id": "st-e7b52ca13b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e750a8400a",
+                          "name": "BLV Khô Bò 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-8bcf71e3b1",
+                          "name": "BLV Khô Bò 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub12.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Nhật Bản Nam",
+            "team_a": "Suntory Sunbirds Osaka",
+            "team_b": "Nippon Steel Sakai Blazers",
+            "logo_a": "https://xoiche.live/media/teams/logos/suntory-sunbirds-osaka-vb.png",
+            "logo_b": "https://xoiche.live/media/teams/logos/nippon-steel-sakai-blazers-vb.png",
+            "time": "11:05",
+            "date": "31/10",
+            "blv": "BLV Khô Bò",
+            "is_live": true,
+            "cate_type": "volleyball",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38817_0312d196_20261031.png?v=0312d196",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-f2e137c777",
           "name": "Thể Công Tân Cảng vs Đà Nẵng | 12:00 31/10",
@@ -9573,98 +9590,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4637f00932fe4c5bad801717a2b4956c_66ca6df8_20261031.png?v=66ca6df8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e7b52ca13b",
-          "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers | 11:05 31/10",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e7b52ca13b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e7b52ca13b",
-                  "name": "Suntory Sunbirds Osaka vs Nippon Steel Sakai Blazers",
-                  "streams": [
-                    {
-                      "id": "st-e7b52ca13b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e750a8400a",
-                          "name": "BLV Khô Bò 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f3d9c6a005/index.m3u8?token=rr1el4pzxOrMeroS7m-gXYnBMw8InO7dtXeJtJksyhA&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-8bcf71e3b1",
-                          "name": "BLV Khô Bò 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub12.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SV.League Nhật Bản Nam",
-            "team_a": "Suntory Sunbirds Osaka",
-            "team_b": "Nippon Steel Sakai Blazers",
-            "logo_a": "https://xoiche.live/media/teams/logos/suntory-sunbirds-osaka-vb.png",
-            "logo_b": "https://xoiche.live/media/teams/logos/nippon-steel-sakai-blazers-vb.png",
-            "time": "11:05",
-            "date": "31/10",
-            "blv": "BLV Khô Bò",
-            "is_live": false,
-            "cate_type": "volleyball",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/38817_0312d196_20261031.png?v=0312d196",
             "width": 1600,
             "height": 1200
           }
