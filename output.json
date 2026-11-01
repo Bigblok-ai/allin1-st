@@ -4880,23 +4880,23 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-87158b2a2b",
-          "name": "VOGEL Felix vs MENN Luca | 02:00 02/11 | GIÀNG A PHỌ",
+          "name": "VOGEL Felix vs MENN Luca | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4944,7 +4944,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1793552843611_Luca%20Menn.jpg",
             "time": "02:00 02/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793559600,
             "cate_type": "billiards"
           },
@@ -5726,83 +5726,11 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn (1 LIVE)",
+      "name": "🏓 Bóng Bàn",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": [
-        {
-          "id": "gv-f0df05b262",
-          "name": "chung kết vs chung kết | 23:30 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0df05b262",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f0df05b262",
-                  "name": "chung kết vs chung kết",
-                  "streams": [
-                    {
-                      "id": "st-f0df05b262",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1980487e2a",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509559_hd/1793509559_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "WTT Champions Montpellier 2026",
-            "team_a": "chung kết",
-            "team_b": "chung kết",
-            "logo_a": "",
-            "logo_b": "",
-            "time": "23:30 01/11",
-            "blv": "Dory",
-            "is_live": true,
-            "cate_type": "bongban"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4x6odj76u8ju_6654c734_20261102.png?v=6654c734",
-            "width": 1600,
-            "height": 1200
-          }
-        }
-      ]
+      "channels": []
     },
     {
       "id": "grp-võ-thuật",
