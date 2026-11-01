@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1200,8 +1200,8 @@
           }
         },
         {
-          "id": "xc-31f569abcf",
-          "name": "Seoul vs Incheon | 14:30 01/11",
+          "id": "gv-7f9d94a69a",
+          "name": "Perth Glory FC vs Adelaide United FC | 15:00 01/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1211,98 +1211,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-31f569abcf",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-31f569abcf",
-                  "name": "Seoul vs Incheon",
-                  "streams": [
-                    {
-                      "id": "st-31f569abcf",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "K League 1",
-            "team_a": "Seoul",
-            "team_b": "Incheon",
-            "logo_a": "https://apiv3.apifootball.com/badges/377_seoul.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5170_incheon-united.jpg",
-            "time": "14:30",
-            "date": "01/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58839_d92a6f1e_20261101.png?v=d92a6f1e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-7f9d94a69a",
-          "name": "Perth Glory FC vs Adelaide United FC | 15:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1454,7 +1362,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/adelaide-united.png",
             "time": "15:00 01/11",
             "blv": "Tỵ ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1462,6 +1370,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6add46c424d46db870f8921f_c9a32969_20261101.png?v=c9a32969",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-31f569abcf",
+          "name": "Seoul vs Incheon | 14:30 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-31f569abcf",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-31f569abcf",
+                  "name": "Seoul vs Incheon",
+                  "streams": [
+                    {
+                      "id": "st-31f569abcf",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "K League 1",
+            "team_a": "Seoul",
+            "team_b": "Incheon",
+            "logo_a": "https://apiv3.apifootball.com/badges/377_seoul.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5170_incheon-united.jpg",
+            "time": "14:30",
+            "date": "01/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58839_d92a6f1e_20261101.png?v=d92a6f1e",
             "width": 1600,
             "height": 1200
           }
@@ -5429,7 +5429,79 @@
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
-      "channels": []
+      "channels": [
+        {
+          "id": "gv-62a06ab4cd",
+          "name": "Carlos Alcaraz vs Alex de Minaur | 20:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62a06ab4cd",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-62a06ab4cd",
+                  "name": "Carlos Alcaraz vs Alex de Minaur",
+                  "streams": [
+                    {
+                      "id": "st-62a06ab4cd",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e025e6a47e",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793518243_hd/1793518243_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "ATP Vienna",
+            "team_a": "Carlos Alcaraz",
+            "team_b": "Alex de Minaur",
+            "logo_a": "https://static.flashscore.com/res/image/data/OfjQEPjl-KjZlrI8i.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jcP2ujzB-CID30mRm.png",
+            "time": "20:00 01/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "tennis"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/b45g5ox441rx_ee70acd3_20261101.png?v=ee70acd3",
+            "width": 1600,
+            "height": 1200
+          }
+        }
+      ]
     },
     {
       "id": "grp-cầu-lông",
@@ -8779,6 +8851,77 @@
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-dd2398d714",
+          "name": "Bán kết vs Bán kết | 17:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-dd2398d714",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-dd2398d714",
+                  "name": "Bán kết vs Bán kết",
+                  "streams": [
+                    {
+                      "id": "st-dd2398d714",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5825f9ce9c",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793518479_hd/1793518479_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Montpellier 2026",
+            "team_a": "Bán kết",
+            "team_b": "Bán kết",
+            "logo_a": "https://wttwebcmsprod.blob.core.windows.net/articledetailimages/AN-Jaehyun_WTT-Champions-Montpellier-2026_Day-1_0E6A1700_34e44a8b-75f3-4243-8183-3efbee581050.png",
+            "logo_b": "https://wttwebcmsprod.blob.core.windows.net/articledetailimages/Sora-MATSUSHIMA_WTT-Champions-Montpellier-2026_Day-1_0E6A4654_e45bd613-acab-41e2-8e12-110994257ef9.png",
+            "time": "17:00 01/11",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/es9ovdhqneno_9420072d_20261101.png?v=9420072d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-f0df05b262",
           "name": "chung kết vs chung kết | 23:30 01/11",
