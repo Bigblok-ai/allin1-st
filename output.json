@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1212,81 +1212,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6adbf55224d46db8700db9cc_72e239d8_20261101.png?v=72e239d8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e2414f9b2c",
-          "name": "Perth Glory vs Adelaide United | 10:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e2414f9b2c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e2414f9b2c",
-                  "name": "Perth Glory vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-e2414f9b2c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Perth Glory",
-            "team_b": "Adelaide United",
-            "logo_a": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
-            "time": "10:00",
-            "date": "01/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58841_01c7e2ff_20261101.png?v=01c7e2ff",
             "width": 1600,
             "height": 1200
           }
@@ -4406,6 +4331,81 @@
           }
         },
         {
+          "id": "xc-e2414f9b2c",
+          "name": "Perth Glory vs Adelaide United | 10:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2414f9b2c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2414f9b2c",
+                  "name": "Perth Glory vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-e2414f9b2c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Perth Glory",
+            "team_b": "Adelaide United",
+            "logo_a": "https://apiv3.apifootball.com/badges/382_perth-glory.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1052_adelaide-united-fc.jpg",
+            "time": "10:00",
+            "date": "01/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/58841_01c7e2ff_20261101.png?v=01c7e2ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-280504d9da",
           "name": "Ho Chi Minh vs Da Nang | 13:00 01/11",
           "type": "single",
@@ -7259,6 +7259,290 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "gv-b37e9f14a2",
+          "name": "Jeonju KCC Egis vs Goyang Orions | 17:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b37e9f14a2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b37e9f14a2",
+                  "name": "Jeonju KCC Egis vs Goyang Orions",
+                  "streams": [
+                    {
+                      "id": "st-b37e9f14a2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-dffaaaf5a6",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510503_hd/1793510503_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Korea Basketball League",
+            "team_a": "Jeonju KCC Egis",
+            "team_b": "Goyang Orions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a2ba5e8d224376506856ad5dd34de831.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/5b0e513f868dee6a403d7d5dfc3628b3.png",
+            "time": "17:00 03/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/11260379_59106213_20261101.png?v=59106213",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-8957c9fe8e",
+          "name": "Beijing Shougang Ducks vs Ningbo Rockets | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8957c9fe8e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8957c9fe8e",
+                  "name": "Beijing Shougang Ducks vs Ningbo Rockets",
+                  "streams": [
+                    {
+                      "id": "st-8957c9fe8e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19fd74e457",
+                          "name": "Nem",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510527_hd/1793510527_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Beijing Shougang Ducks",
+            "team_b": "Ningbo Rockets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/58867afcb7d9cb68ffd5338c62c7af6a.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/78539aa7b6e4518265799642461ab855.png",
+            "time": "18:35 03/11",
+            "blv": "Nem",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/35963474_7d1264bc_20261101.png?v=7d1264bc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ac810fb50c",
+          "name": "Liaoning Flying Leopards vs Guangzhou Loong Lions | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ac810fb50c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ac810fb50c",
+                  "name": "Liaoning Flying Leopards vs Guangzhou Loong Lions",
+                  "streams": [
+                    {
+                      "id": "st-ac810fb50c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83472d2d99",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510573_hd/1793510573_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "Guangzhou Loong Lions",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9d93f6e7f4e54c71cd975b2be434bcf9.png",
+            "time": "18:35 03/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/34963473_4eaaebf1_20261101.png?v=4eaaebf1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1fb1a4347a",
+          "name": "NanJing Monkey Kings vs Suzhou Dragons Kentier | 18:35 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1fb1a4347a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1fb1a4347a",
+                  "name": "NanJing Monkey Kings vs Suzhou Dragons Kentier",
+                  "streams": [
+                    {
+                      "id": "st-1fb1a4347a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4db5ecf25c",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510634_hd/1793510634_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Chinese Basketball Association",
+            "team_a": "NanJing Monkey Kings",
+            "team_b": "Suzhou Dragons Kentier",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e3bbce6525ca22d736f744cd2e31ff59.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d1c8a0f21d4d300f8ddce93f11b79c70.png",
+            "time": "18:35 03/11",
+            "blv": "Mason",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/20073471_bb8e9e24_20261101.png?v=bb8e9e24",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -7270,8 +7554,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-1c6b29cdc7",
-          "name": "VOGEL Felix vs PONGERS Yannick | Đại Kê",
+          "id": "chtv-f65cdf8b96",
+          "name": "Nam Phong vs Cường Tỏi | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -7285,23 +7569,23 @@
           ],
           "sources": [
             {
-              "id": "src-1c6b29cdc7",
+              "id": "src-f65cdf8b96",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-1c6b29cdc7",
-                  "name": "VOGEL Felix vs PONGERS Yannick",
+                  "id": "ct-f65cdf8b96",
+                  "name": "Nam Phong vs Cường Tỏi",
                   "streams": [
                     {
-                      "id": "st-1c6b29cdc7",
+                      "id": "st-f65cdf8b96",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-1c6b29cdc7",
-                          "name": "Đại Kê",
+                          "id": "lnk-f65cdf8b96",
+                          "name": "Lee Min Hoo",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9744/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9745/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -7321,22 +7605,22 @@
             }
           ],
           "org_metadata": {
-            "league": "PREDATOR EUROTOUR REVORA SPANISH OPEN 2026",
-            "team_a": "VOGEL Felix",
-            "team_b": "PONGERS Yannick",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793476706410_Felix%20Vogel.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1764899471328_billad.png",
-            "time": "03:00 01/11",
-            "blv": "Đại Kê",
+            "league": "toptop",
+            "team_a": "Nam Phong",
+            "team_b": "Cường Tỏi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793510477100_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793510477057_Vi%E1%BB%87t%20Nam.png",
+            "time": "12:21 01/11",
+            "blv": "Lee Min Hoo",
             "is_live": true,
-            "time_sort": 1793476800,
+            "time_sort": 1793510460,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1c6b29cdc7_45eb2a38_20261101.png?v=45eb2a38",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f65cdf8b96_e46e22ea_20261101.png?v=e46e22ea",
             "width": 1600,
             "height": 1200
           }
@@ -8415,6 +8699,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/b7d23af412f94e4bb53b8bc4534ddfe9_fc13e053_20261101.png?v=fc13e053",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-2f06dcd39b",
+          "name": "IBK nữ vs Hyundai E&C Hillstate Nữ | 17:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2f06dcd39b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-2f06dcd39b",
+                  "name": "IBK nữ vs Hyundai E&C Hillstate Nữ",
+                  "streams": [
+                    {
+                      "id": "st-2f06dcd39b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35fc95bdba",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510396_hd/1793510396_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "IBK nữ",
+            "team_b": "Hyundai E&C Hillstate Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
+            "time": "17:00 03/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/rs8lejvvo4t3_559bd133_20261101.png?v=559bd133",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d161bd0b59",
+          "name": "Istanbul GSK vs Gaziantep Genclik | 21:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d161bd0b59",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d161bd0b59",
+                  "name": "Istanbul GSK vs Gaziantep Genclik",
+                  "streams": [
+                    {
+                      "id": "st-d161bd0b59",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6e0b69891b",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793510444_hd/1793510444_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi",
+            "team_a": "Istanbul GSK",
+            "team_b": "Gaziantep Genclik",
+            "logo_a": "https://static.flashscore.com/res/image/data/8CHi7lwS-EiasJpFF.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/QDV5xnZg-xAGvjhGj.png",
+            "time": "21:00 03/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/wnajhl4t9yni_348ecb6b_20261101.png?v=348ecb6b",
             "width": 1600,
             "height": 1200
           }
