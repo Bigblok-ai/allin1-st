@@ -2694,13 +2694,30 @@
                   "streams": [
                     {
                       "id": "st-aa0994c426",
-                      "name": "PhaoHoa - BLV Khô Mật, BLV Khô Cá",
+                      "name": "PhaoHoa - BLV Khô Cá, BLV Khô Mật",
                       "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-88fe1a05f9",
                           "name": "BLV Khô Mật 1",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
                           "request_headers": [
                             {
@@ -2719,23 +2736,6 @@
                           "type": "httpflv",
                           "default": false,
                           "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5110,6 +5110,81 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "xc-b2af94e387",
+          "name": "Lyon vs Angers | 23:15 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b2af94e387",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b2af94e387",
+                  "name": "Lyon vs Angers",
+                  "streams": [
+                    {
+                      "id": "st-b2af94e387",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-486428156e",
+                          "name": "BLV Xôi Bắp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_9f71176d0e/index.m3u8?token=3MXeEPMRAVdl2yR_TeoKTStkQwOepkXuIthvlnr9Bdw",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Ligue 1",
+            "team_a": "Lyon",
+            "team_b": "Angers",
+            "logo_a": "https://apiv3.apifootball.com/badges/3815_olympique-lyonnais.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3827_angers-sco.jpg",
+            "time": "23:15",
+            "date": "01/11",
+            "blv": "BLV Xôi Bắp",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/59720_243fb65a_20261101.png?v=243fb65a",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -6632,7 +6707,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6777,6 +6852,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5ac265e825_12715ab1_20261101.png?v=12715ab1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-72f0572fa8",
+          "name": "MINH LUÂN (F) vs TRƯỜNG PHONG (G | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-72f0572fa8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-72f0572fa8",
+                  "name": "MINH LUÂN (F) vs TRƯỜNG PHONG (G",
+                  "streams": [
+                    {
+                      "id": "st-72f0572fa8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-72f0572fa8",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9762/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "MINH LUÂN (F)",
+            "team_b": "TRƯỜNG PHONG (G",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793536618254_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793536617990_Screenshot%202026-10-15%20133326.png",
+            "time": "19:36 01/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793536560,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-72f0572fa8_f6ef214b_20261101.png?v=f6ef214b",
             "width": 1600,
             "height": 1200
           }
