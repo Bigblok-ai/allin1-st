@@ -6748,11 +6748,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-b44926e935",
+          "name": "Fenerbahce Nữ vs Galatasaray Nữ | 23:00 01/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b44926e935",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-b44926e935",
+                  "name": "Fenerbahce Nữ vs Galatasaray Nữ",
+                  "streams": [
+                    {
+                      "id": "st-b44926e935",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4e2e16fad8",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509469_hd/1793509469_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Turkey Sultanlar Ligi Nữ",
+            "team_a": "Fenerbahce Nữ",
+            "team_b": "Galatasaray Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/YkqtQ9dM-Ayf8HTfc.png",
+            "time": "23:00 01/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/j04ixz6zis0p_56ecd985_20261101.png?v=56ecd985",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-ad3fc6089f",
           "name": "Il Bisonte Firenze vs Imoco Conegliano | 22:00 01/11",
@@ -6912,77 +6983,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4637f00932fe4c5bad801717a2b4956c_66ca6df8_20261101.png?v=66ca6df8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-b44926e935",
-          "name": "Fenerbahce Nữ vs Galatasaray Nữ | 23:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b44926e935",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-b44926e935",
-                  "name": "Fenerbahce Nữ vs Galatasaray Nữ",
-                  "streams": [
-                    {
-                      "id": "st-b44926e935",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4e2e16fad8",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793509469_hd/1793509469_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkey Sultanlar Ligi Nữ",
-            "team_a": "Fenerbahce Nữ",
-            "team_b": "Galatasaray Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/8WgKWiCa-CCQtmQAB.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/YkqtQ9dM-Ayf8HTfc.png",
-            "time": "23:00 01/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/j04ixz6zis0p_56ecd985_20261101.png?v=56ecd985",
             "width": 1600,
             "height": 1200
           }
