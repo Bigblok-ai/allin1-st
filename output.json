@@ -1071,7 +1071,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2054,13 +2054,88 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60048_c8ac498a_20261102.png?v=c8ac498a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-17cdf5a212",
+          "name": "Boca Juniors vs River Plate | 01:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-17cdf5a212",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-17cdf5a212",
+                  "name": "Boca Juniors vs River Plate",
+                  "streams": [
+                    {
+                      "id": "st-17cdf5a212",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga Profesional Argentina",
+            "team_a": "Boca Juniors",
+            "team_b": "River Plate",
+            "logo_a": "https://apiv3.apifootball.com/badges/570_boca-juniors.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/554_river-plate.jpg",
+            "time": "01:00",
+            "date": "02/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60074_7466f435_20261102.png?v=7466f435",
             "width": 1600,
             "height": 1200
           }
@@ -2990,81 +3065,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4wyrn4h6n6xxq86_e0874ba2_20261102.png?v=e0874ba2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-17cdf5a212",
-          "name": "Boca Juniors vs River Plate | 01:00 02/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-17cdf5a212",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-17cdf5a212",
-                  "name": "Boca Juniors vs River Plate",
-                  "streams": [
-                    {
-                      "id": "st-17cdf5a212",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga Profesional Argentina",
-            "team_a": "Boca Juniors",
-            "team_b": "River Plate",
-            "logo_a": "https://apiv3.apifootball.com/badges/570_boca-juniors.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/554_river-plate.jpg",
-            "time": "01:00",
-            "date": "02/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60074_7466f435_20261102.png?v=7466f435",
             "width": 1600,
             "height": 1200
           }
@@ -5419,7 +5419,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5491,77 +5491,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/j04ixz6zis0p_56ecd985_20261102.png?v=56ecd985",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-088838418a",
-          "name": "Galatasaray Women vs Fenerbahce Women | 23:00 01/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-088838418a",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-088838418a",
-                  "name": "Galatasaray Women vs Fenerbahce Women",
-                  "streams": [
-                    {
-                      "id": "st-088838418a",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5ce0cb39e1",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/5e8e5a00071247c09432437c02d8bdda/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Sultanlar Ligi",
-            "team_a": "Galatasaray Women",
-            "team_b": "Fenerbahce Women",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/c6a08c3e390a071f4143d6ea1c4f2b11.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/faa46ea1d338402036b2e573b72f9b43.png!w80",
-            "time": "23:00 01/11",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4637f00932fe4c5bad801717a2b4956c_66ca6df8_20261102.png?v=66ca6df8",
             "width": 1600,
             "height": 1200
           }
