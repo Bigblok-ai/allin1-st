@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1421,6 +1421,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60242_b40a06ad_20261102.png?v=b40a06ad",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e5a6551792",
+          "name": "VPS vs HJK | 23:00 02/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e5a6551792",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e5a6551792",
+                  "name": "VPS vs HJK",
+                  "streams": [
+                    {
+                      "id": "st-e5a6551792",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Veikkausliiga",
+            "team_a": "VPS",
+            "team_b": "HJK",
+            "logo_a": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
+            "time": "23:00",
+            "date": "02/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60319_048438e5_20261102.png?v=048438e5",
             "width": 1600,
             "height": 1200
           }
@@ -3705,7 +3780,7 @@
             "cate_type": "football",
             "status": "scheduled",
             "home_score": 2,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -3854,7 +3929,7 @@
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -3862,81 +3937,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60318_dc8a7803_20261102.png?v=dc8a7803",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-e5a6551792",
-          "name": "VPS vs HJK | 05:00 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e5a6551792",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e5a6551792",
-                  "name": "VPS vs HJK",
-                  "streams": [
-                    {
-                      "id": "st-e5a6551792",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Veikkausliiga",
-            "team_a": "VPS",
-            "team_b": "HJK",
-            "logo_a": "https://apiv3.apifootball.com/badges/3544_vps.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3549_hjk.jpg",
-            "time": "05:00",
-            "date": "03/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/60319_048438e5_20261102.png?v=048438e5",
             "width": 1600,
             "height": 1200
           }
@@ -6550,6 +6550,290 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/22260370_71112b51_20261102.png?v=71112b51",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-deca12f9dc",
+          "name": "Detroit Pistons vs Philadelphia 76ers | 07:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-deca12f9dc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-deca12f9dc",
+                  "name": "Detroit Pistons vs Philadelphia 76ers",
+                  "streams": [
+                    {
+                      "id": "st-deca12f9dc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ff83544d78",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793637199_hd/1793637199_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Detroit Pistons",
+            "team_b": "Philadelphia 76ers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c4677b9a5c8823ad3070069d8741a809.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
+            "time": "07:00 05/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/24038274_133ff2e5_20261102.png?v=133ff2e5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-1516dd073a",
+          "name": "Washington Wizards vs Atlanta Hawks | 07:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1516dd073a",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1516dd073a",
+                  "name": "Washington Wizards vs Atlanta Hawks",
+                  "streams": [
+                    {
+                      "id": "st-1516dd073a",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-2bac4bb3c9",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793637222_hd/1793637222_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Washington Wizards",
+            "team_b": "Atlanta Hawks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/f4a3bba0c74c9f2b90bc5861ec26e3c7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/57bd383cc8c9b3d4f92a5d1c371e38e9.png",
+            "time": "07:00 05/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/25038275_c5417e13_20261102.png?v=c5417e13",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-49420d2310",
+          "name": "Brooklyn Nets vs Charlotte Hornets | 07:30 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-49420d2310",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-49420d2310",
+                  "name": "Brooklyn Nets vs Charlotte Hornets",
+                  "streams": [
+                    {
+                      "id": "st-49420d2310",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4bd0ac2fe4",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793637247_hd/1793637247_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Brooklyn Nets",
+            "team_b": "Charlotte Hornets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/c01b5e6f6659dd42195e9db3aaef13b7.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "time": "07:30 05/11",
+            "blv": "Sún",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/28038278_e592f5c2_20261102.png?v=e592f5c2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a521fc76c3",
+          "name": "Boston Celtics vs Milwaukee Bucks | 07:30 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a521fc76c3",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a521fc76c3",
+                  "name": "Boston Celtics vs Milwaukee Bucks",
+                  "streams": [
+                    {
+                      "id": "st-a521fc76c3",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e794a0b184",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793637279_hd/1793637279_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Boston Celtics",
+            "team_b": "Milwaukee Bucks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e82de69ea44942a3e90a5be6cf0004da.png",
+            "time": "07:30 05/11",
+            "blv": "Riko",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/26038276_e783304e_20261102.png?v=e783304e",
             "width": 1600,
             "height": 1200
           }
