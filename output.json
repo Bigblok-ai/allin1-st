@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1297,41 +1297,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-82544c163c",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-82544c163c",
-                  "name": "East Bengal vs Al Seeb",
-                  "streams": [
-                    {
-                      "id": "st-82544c163c",
-                      "name": "Phalang - LÝ LINH LỰC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6546c4a3a5",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/079d0004f99b44c1b5d583f336591e2c/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -1565,8 +1530,8 @@
           }
         },
         {
-          "id": "pl-58f98b9f9d",
-          "name": "Barcelona U19 vs Aston Villa U19 | 22:00 03/11",
+          "id": "cc-8075fe6767",
+          "name": "Al Hussein vs Al Shorta | 23:00 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1576,77 +1541,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-58f98b9f9d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-58f98b9f9d",
-                  "name": "Barcelona U19 vs Aston Villa U19",
-                  "streams": [
-                    {
-                      "id": "st-58f98b9f9d",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-99df0c448d",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/cbcfa8d9fe53443195ebffbbc8972d33/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "Barcelona U19",
-            "team_b": "Aston Villa U19",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0ngkmd7o/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/n54qllhe92wqvy9/image/small",
-            "time": "22:00 03/11",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhvxv34md7_700457c4_20261103.png?v=700457c4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-8075fe6767",
-          "name": "Al Hussein vs Al Shorta | 23:00 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1728,7 +1622,7 @@
             "logo_b": "https://media.api-sports.io/football/teams/28571.png",
             "time": "23:00 03/11",
             "blv": "Chuối Già",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1736,6 +1630,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1630391_187f8c96_20261103.png?v=187f8c96",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-58f98b9f9d",
+          "name": "Barcelona U19 vs Aston Villa U19 | 22:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-58f98b9f9d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-58f98b9f9d",
+                  "name": "Barcelona U19 vs Aston Villa U19",
+                  "streams": [
+                    {
+                      "id": "st-58f98b9f9d",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-99df0c448d",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/cbcfa8d9fe53443195ebffbbc8972d33/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Youth League",
+            "team_a": "Barcelona U19",
+            "team_b": "Aston Villa U19",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh0ngkmd7o/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/n54qllhe92wqvy9/image/small",
+            "time": "22:00 03/11",
+            "blv": "LÝ LÊN LỬA",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhvxv34md7_700457c4_20261103.png?v=700457c4",
             "width": 1600,
             "height": 1200
           }
@@ -2345,11 +2310,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-3a02dbbd48",
-                          "name": "Bee",
+                          "id": "lnk-83297e9c81",
+                          "name": "Hứa",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793516144_hd/1793516144_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793720744_hd/1793720744_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2375,7 +2340,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/atletico-madrid.png",
             "logo_b": "https://images.keovip88.net/images/teams/bayern-munchen.png",
             "time": "03:00 04/11",
-            "blv": "Bee",
+            "blv": "Hứa",
             "is_live": false,
             "cate_type": "football"
           },
