@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1281,8 +1281,8 @@
           }
         },
         {
-          "id": "pl-98aa7c045f",
-          "name": "Villarreal U19 vs PSG U19 | 19:00 03/11",
+          "id": "cc-ad5e8d1477",
+          "name": "Damac vs Al Akhdoud | 19:35 03/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1292,77 +1292,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-98aa7c045f",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-98aa7c045f",
-                  "name": "Villarreal U19 vs PSG U19",
-                  "streams": [
-                    {
-                      "id": "st-98aa7c045f",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-310f119558",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6bce2b330d2f49e18a5be406f95c7cfa/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "Villarreal U19",
-            "team_b": "PSG U19",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hjy0q86p/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4lg8moep/image/small",
-            "time": "19:00 03/11",
-            "blv": "LÝ LẠNH LÙNG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhydy5yryk_9eb54962_20261103.png?v=9eb54962",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-ad5e8d1477",
-          "name": "Damac vs Al Akhdoud | 19:35 03/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1444,7 +1373,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134006_71b12424.png",
             "time": "19:35 03/11",
             "blv": "Chuối Tây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1452,6 +1381,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1604052_94f43978_20261103.png?v=94f43978",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-98aa7c045f",
+          "name": "Villarreal U19 vs PSG U19 | 19:00 03/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-98aa7c045f",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-98aa7c045f",
+                  "name": "Villarreal U19 vs PSG U19",
+                  "streams": [
+                    {
+                      "id": "st-98aa7c045f",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-310f119558",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/6bce2b330d2f49e18a5be406f95c7cfa/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Youth League",
+            "team_a": "Villarreal U19",
+            "team_b": "PSG U19",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hjy0q86p/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4lg8moep/image/small",
+            "time": "19:00 03/11",
+            "blv": "LÝ LẠNH LÙNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhydy5yryk_9eb54962_20261103.png?v=9eb54962",
             "width": 1600,
             "height": 1200
           }
