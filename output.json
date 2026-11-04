@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1135,6 +1135,233 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aa5ea751d1aab51a804b868_ac91c1c1_20261104.png?v=ac91c1c1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c81c000376",
+          "name": "Seoul vs Viettel | 17:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c81c000376",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c81c000376",
+                  "name": "Seoul vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-c81c000376",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15de28dfde",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793589260_hd/1793589260_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-19d3465518",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-19d3465518",
+                  "name": "Seoul vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-19d3465518",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c6f3bba8a0",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-c6f3bba8a0",
+                  "name": "FC Seoul vs Viettel",
+                  "streams": [
+                    {
+                      "id": "st-c6f3bba8a0",
+                      "name": "CCport - Chuối Già",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c65a624da2",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6f7a4107bd",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6f7a4107bd",
+                  "name": "Seoul FC vs Thể Công Viettel",
+                  "streams": [
+                    {
+                      "id": "st-6f7a4107bd",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-309e4ff74d",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/9d7bedcddaf1476b99e08625fa2429f6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Asia - AFC Champions League Two",
+            "team_a": "Seoul",
+            "team_b": "Viettel",
+            "logo_a": "https://static.flashscore.com/res/image/data/lYmWcCfM-8rKfsneA.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/0Qfb99EG-vcLqLXYS.png",
+            "time": "17:00 04/11",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/8ov1pkt9cnun_af8560b9_20261104.png?v=af8560b9",
             "width": 1600,
             "height": 1200
           }
@@ -1486,233 +1713,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8795fce207814bf00bf3a5_fd6a5832_20261104.png?v=fd6a5832",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-c81c000376",
-          "name": "Seoul vs Viettel | 17:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c81c000376",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c81c000376",
-                  "name": "Seoul vs Viettel",
-                  "streams": [
-                    {
-                      "id": "st-c81c000376",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15de28dfde",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793589260_hd/1793589260_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-19d3465518",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-19d3465518",
-                  "name": "Seoul vs Viettel",
-                  "streams": [
-                    {
-                      "id": "st-19d3465518",
-                      "name": "PhaoHoa - BLV Xôi Gấc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c6f3bba8a0",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-c6f3bba8a0",
-                  "name": "FC Seoul vs Viettel",
-                  "streams": [
-                    {
-                      "id": "st-c6f3bba8a0",
-                      "name": "CCport - Chuối Già",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b14bc05945",
-                          "name": "Chuối Già HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c65a624da2",
-                          "name": "Chuối Già HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a46d78baf",
-                          "name": "Chuối Già FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6f7a4107bd",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-6f7a4107bd",
-                  "name": "Seoul FC vs Thể Công Viettel",
-                  "streams": [
-                    {
-                      "id": "st-6f7a4107bd",
-                      "name": "Phalang - LÝ LA LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-309e4ff74d",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/9d7bedcddaf1476b99e08625fa2429f6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia - AFC Champions League Two",
-            "team_a": "Seoul",
-            "team_b": "Viettel",
-            "logo_a": "https://static.flashscore.com/res/image/data/lYmWcCfM-8rKfsneA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/0Qfb99EG-vcLqLXYS.png",
-            "time": "17:00 04/11",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/8ov1pkt9cnun_af8560b9_20261104.png?v=af8560b9",
             "width": 1600,
             "height": 1200
           }
@@ -6355,7 +6355,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6578,16 +6578,16 @@
         },
         {
           "id": "chtv-dce619d78a",
-          "name": "Raga vs Banares | 16:30 04/11 | Kèn Kèn",
+          "name": "Raga vs Banares | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6635,7 +6635,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1793783757797_Screenshot%202026-11-04%20161550.png",
             "time": "16:30 04/11",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793784600,
             "cate_type": "billiards"
           },
@@ -6658,8 +6658,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "pl-78cd99f348",
-          "name": "Sanest Khánh Hòa vs TP. Hồ Chí Minh | 14:30 04/11",
+          "id": "pl-45a786c79f",
+          "name": "LP Bank Ninh Bình vs Công an TP. Hồ Chí Minh | 17:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -6673,23 +6673,23 @@
           ],
           "sources": [
             {
-              "id": "src-78cd99f348",
+              "id": "src-45a786c79f",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-78cd99f348",
-                  "name": "Sanest Khánh Hòa vs TP. Hồ Chí Minh",
+                  "id": "ct-45a786c79f",
+                  "name": "LP Bank Ninh Bình vs Công an TP. Hồ Chí Minh",
                   "streams": [
                     {
-                      "id": "st-78cd99f348",
+                      "id": "st-45a786c79f",
                       "name": "PL",
                       "stream_links": [
                         {
-                          "id": "lnk-56c935cf63",
-                          "name": "LÝ LÊN LỬA",
+                          "id": "lnk-58de41c041",
+                          "name": "LÃM LÀNG",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/71c73b49ed6544799fce00a1901e0743/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/b4d67c29629f4cc892010e0ea87d430b/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -6710,12 +6710,12 @@
           ],
           "org_metadata": {
             "league": "Giải bóng chuyền VĐQG 2026",
-            "team_a": "Sanest Khánh Hòa",
-            "team_b": "TP. Hồ Chí Minh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/7/73/Logo_Sanest_Kh%C3%A1nh_H%C3%B2a_%28b%C3%B3ng_chuy%E1%BB%81n%29.png",
-            "logo_b": "https://thumb.wikimedia.org/wikipedia/vi/thumb/1/12/Bi%E1%BB%83u_tr%C6%B0ng_c%E1%BB%A7a_TP_HCM.svg/500px-Bi%E1%BB%83u_tr%C6%B0ng_c%E1%BB%A7a_TP_HCM.svg.png",
-            "time": "14:30 04/11",
-            "blv": "LÝ LÊN LỬA",
+            "team_a": "LP Bank Ninh Bình",
+            "team_b": "Công an TP. Hồ Chí Minh",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/df/Logo_CLB_CATPHCM.png",
+            "time": "17:00 04/11",
+            "blv": "LÃM LÀNG",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -6723,7 +6723,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/885e170b3cd445a7824366876a2b46d3_80469507_20261104.png?v=80469507",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/e946ed5c59b8450eb8da7aa710b85486_720a5fae_20261104.png?v=720a5fae",
             "width": 1600,
             "height": 1200
           }
@@ -6795,77 +6795,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ifbyt0ctsybl_fe56e98c_20261104.png?v=fe56e98c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-45a786c79f",
-          "name": "LP Bank Ninh Bình vs Công an TP. Hồ Chí Minh | 17:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-45a786c79f",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-45a786c79f",
-                  "name": "LP Bank Ninh Bình vs Công an TP. Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-45a786c79f",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-58de41c041",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b4d67c29629f4cc892010e0ea87d430b/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giải bóng chuyền VĐQG 2026",
-            "team_a": "LP Bank Ninh Bình",
-            "team_b": "Công an TP. Hồ Chí Minh",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/vi/d/da/Logo_LP_Bank_Ninh_B%C3%ACnh.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/vi/d/df/Logo_CLB_CATPHCM.png",
-            "time": "17:00 04/11",
-            "blv": "LÃM LÀNG",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/e946ed5c59b8450eb8da7aa710b85486_720a5fae_20261104.png?v=720a5fae",
             "width": 1600,
             "height": 1200
           }
