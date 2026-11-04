@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1109,8 +1109,8 @@
           }
         },
         {
-          "id": "pl-953291b39e",
-          "name": "RB Leipzig U19 vs Manchester City U19 | 21:00 04/11",
+          "id": "cc-3b042dd3e3",
+          "name": "Al Nasr vs Qatar SC | 22:00 04/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1120,77 +1120,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-953291b39e",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-953291b39e",
-                  "name": "RB Leipzig U19 vs Manchester City U19",
-                  "streams": [
-                    {
-                      "id": "st-953291b39e",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-600358791f",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6546cc89b9ef46d090499ef37384fa0a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "RB Leipzig U19",
-            "team_b": "Manchester City U19",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09npmd7o/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh613nm7vx/image/small",
-            "time": "21:00 04/11",
-            "blv": "LÝ LẠNH LÙNG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghg8g5kq82_60414b77_20261104.png?v=60414b77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-3b042dd3e3",
-          "name": "Al Nasr vs Qatar SC | 22:00 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1272,7 +1201,7 @@
             "logo_b": "https://media.chuoichientv.net/media/20260108_160007_86a3f33c.png",
             "time": "22:00 04/11",
             "blv": "Chuối Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1280,6 +1209,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1645611_beb4f57f_20261104.png?v=beb4f57f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-953291b39e",
+          "name": "RB Leipzig U19 vs Manchester City U19 | 21:00 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-953291b39e",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-953291b39e",
+                  "name": "RB Leipzig U19 vs Manchester City U19",
+                  "streams": [
+                    {
+                      "id": "st-953291b39e",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-600358791f",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/6546cc89b9ef46d090499ef37384fa0a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Youth League",
+            "team_a": "RB Leipzig U19",
+            "team_b": "Manchester City U19",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09npmd7o/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh613nm7vx/image/small",
+            "time": "21:00 04/11",
+            "blv": "LÝ LẠNH LÙNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghg8g5kq82_60414b77_20261104.png?v=60414b77",
             "width": 1600,
             "height": 1200
           }
@@ -5437,7 +5437,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5731,6 +5731,78 @@
           }
         },
         {
+          "id": "chtv-7fd58ebef8",
+          "name": "văn sinh vs thợ phi | GIÀNG A PHỌ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7fd58ebef8",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-7fd58ebef8",
+                  "name": "văn sinh vs thợ phi",
+                  "streams": [
+                    {
+                      "id": "st-7fd58ebef8",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7fd58ebef8",
+                          "name": "GIÀNG A PHỌ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9855/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "văn sinh",
+            "team_b": "thợ phi",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793803348432_Screenshot%202026-11-04%20214122.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793803347340_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "21:41 04/11",
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
+            "time_sort": 1793803260,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-7fd58ebef8_b0d28fc9_20261104.png?v=b0d28fc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-2bc06acb45",
           "name": "Liverpool vs Fenerbahçe | 00:45 05/11",
           "type": "single",
@@ -5875,78 +5947,6 @@
           }
         },
         {
-          "id": "chtv-749c8baebd",
-          "name": "Como vs Lens | 03:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-749c8baebd",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-749c8baebd",
-                  "name": "Como vs Lens",
-                  "streams": [
-                    {
-                      "id": "st-749c8baebd",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-749c8baebd",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9849/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Como",
-            "team_b": "Lens",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798298329_Screenshot%202026-11-04%20201755.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798298933_Screenshot%202026-11-04%20201815.png",
-            "time": "03:00 05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793822400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-749c8baebd_f4fec989_20261104.png?v=f4fec989",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-19e87d9201",
           "name": "Arsenal vs Slavia Praha | 03:00 05/11",
           "type": "single",
@@ -6086,6 +6086,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4edb9e0228_d610c79c_20261104.png?v=d610c79c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-749c8baebd",
+          "name": "Como vs Lens | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-749c8baebd",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-749c8baebd",
+                  "name": "Como vs Lens",
+                  "streams": [
+                    {
+                      "id": "st-749c8baebd",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-749c8baebd",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9849/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Como",
+            "team_b": "Lens",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798298329_Screenshot%202026-11-04%20201755.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798298933_Screenshot%202026-11-04%20201815.png",
+            "time": "03:00 05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-749c8baebd_f4fec989_20261104.png?v=f4fec989",
             "width": 1600,
             "height": 1200
           }
