@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1214,6 +1214,146 @@
           }
         },
         {
+          "id": "cc-5304ddb1e9",
+          "name": "Rennes vs Olympiakos Piraeus | 22:30 04/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5304ddb1e9",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-5304ddb1e9",
+                  "name": "Rennes vs Olympiakos Piraeus",
+                  "streams": [
+                    {
+                      "id": "st-5304ddb1e9",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54fbd1fdde",
+                          "name": "Chuối Kem HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc824527c7",
+                          "name": "Chuối Kem HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-262f74ad58",
+                          "name": "Chuối Kem FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c26716dc68",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c26716dc68",
+                  "name": "Rennes vs Olympiakos",
+                  "streams": [
+                    {
+                      "id": "st-c26716dc68",
+                      "name": "Phalang - LÝ LÊN LỬA",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d0346c73f0",
+                          "name": "LÝ LÊN LỬA",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e77a4b84295b4189888e34d486d3db26/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Europa League",
+            "team_a": "Rennes",
+            "team_b": "Olympiakos Piraeus",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125515_505c803f.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130220_eef3c146.png",
+            "time": "22:30 04/11",
+            "blv": "Chuối Kem",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1636324_dbb00cd6_20261104.png?v=dbb00cd6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-953291b39e",
           "name": "RB Leipzig U19 vs Manchester City U19 | 21:00 04/11",
           "type": "single",
@@ -1280,77 +1420,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghg8g5kq82_60414b77_20261104.png?v=60414b77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-c26716dc68",
-          "name": "Rennes vs Olympiakos | 22:30 04/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c26716dc68",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-c26716dc68",
-                  "name": "Rennes vs Olympiakos",
-                  "streams": [
-                    {
-                      "id": "st-c26716dc68",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d0346c73f0",
-                          "name": "LÝ LÊN LỬA",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/e77a4b84295b4189888e34d486d3db26/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Europa League",
-            "team_a": "Rennes",
-            "team_b": "Olympiakos",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/v2y8m4zhyzvql07/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhywpmd7o/image/small",
-            "time": "22:30 04/11",
-            "blv": "LÝ LÊN LỬA",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/3glrw7hnxdleqdy_6287d39e_20261104.png?v=6287d39e",
             "width": 1600,
             "height": 1200
           }
@@ -5437,7 +5506,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5587,78 +5656,6 @@
           }
         },
         {
-          "id": "chtv-4de2cbb7c1",
-          "name": "Johann Chua vs Jerico Banares | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4de2cbb7c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4de2cbb7c1",
-                  "name": "Johann Chua vs Jerico Banares",
-                  "streams": [
-                    {
-                      "id": "st-4de2cbb7c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4de2cbb7c1",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9853/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "Johann Chua",
-            "team_b": "Jerico Banares",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793802062569_Screenshot%202026-11-04%20212046.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793802062548_Screenshot%202026-11-04%20212054.png",
-            "time": "21:20 04/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1793802000,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4de2cbb7c1_e14a92f9_20261104.png?v=e14a92f9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-a2e78a4b13",
           "name": "WANING SURIGAO vs KEITH MANAYON  7/10 | Thập Cẩm",
           "type": "single",
@@ -5803,78 +5800,6 @@
           }
         },
         {
-          "id": "chtv-79349d9d5b",
-          "name": "Real Madrid vs AEK Athens | 00:45 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-79349d9d5b",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-79349d9d5b",
-                  "name": "Real Madrid vs AEK Athens",
-                  "streams": [
-                    {
-                      "id": "st-79349d9d5b",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-79349d9d5b",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9846/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bóng",
-            "team_a": "Real Madrid",
-            "team_b": "AEK Athens",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798088078_Screenshot%202026-11-04%20201442.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798087795_Screenshot%202026-11-04%20201433.png",
-            "time": "00:45 05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793814300,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79349d9d5b_36aa597b_20261104.png?v=36aa597b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-2bc06acb45",
           "name": "Liverpool vs Fenerbahçe | 00:45 05/11",
           "type": "single",
@@ -5947,8 +5872,8 @@
           }
         },
         {
-          "id": "chtv-41284537d9",
-          "name": "Napoli vs Porto | 03:00 05/11",
+          "id": "chtv-79349d9d5b",
+          "name": "Real Madrid vs AEK Athens | 00:45 05/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5962,23 +5887,23 @@
           ],
           "sources": [
             {
-              "id": "src-41284537d9",
+              "id": "src-79349d9d5b",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-41284537d9",
-                  "name": "Napoli vs Porto",
+                  "id": "ct-79349d9d5b",
+                  "name": "Real Madrid vs AEK Athens",
                   "streams": [
                     {
-                      "id": "st-41284537d9",
+                      "id": "st-79349d9d5b",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-41284537d9",
+                          "id": "lnk-79349d9d5b",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9851/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9846/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5999,93 +5924,21 @@
           ],
           "org_metadata": {
             "league": "bóng bóng",
-            "team_a": "Napoli",
-            "team_b": "Porto",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798558720_Screenshot%202026-11-04%20202224.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798559648_Screenshot%202026-11-04%20202229.png",
-            "time": "03:00 05/11",
+            "team_a": "Real Madrid",
+            "team_b": "AEK Athens",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798088078_Screenshot%202026-11-04%20201442.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798087795_Screenshot%202026-11-04%20201433.png",
+            "time": "00:45 05/11",
             "blv": "",
             "is_live": false,
-            "time_sort": 1793822400,
+            "time_sort": 1793814300,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41284537d9_fcd3878a_20261104.png?v=fcd3878a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-19e87d9201",
-          "name": "Arsenal vs Slavia Praha | 03:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-19e87d9201",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-19e87d9201",
-                  "name": "Arsenal vs Slavia Praha",
-                  "streams": [
-                    {
-                      "id": "st-19e87d9201",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-19e87d9201",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9850/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Arsenal",
-            "team_b": "Slavia Praha",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793798473138_Screenshot%202026-11-04%20202102.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793798473393_Screenshot%202026-11-04%20202110.png",
-            "time": "03:00 05/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793822400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19e87d9201_96feaddf_20261104.png?v=96feaddf",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79349d9d5b_36aa597b_20261104.png?v=36aa597b",
             "width": 1600,
             "height": 1200
           }
@@ -6163,6 +6016,78 @@
           }
         },
         {
+          "id": "chtv-19e87d9201",
+          "name": "Arsenal vs Slavia Praha | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-19e87d9201",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-19e87d9201",
+                  "name": "Arsenal vs Slavia Praha",
+                  "streams": [
+                    {
+                      "id": "st-19e87d9201",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-19e87d9201",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9850/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Arsenal",
+            "team_b": "Slavia Praha",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798473138_Screenshot%202026-11-04%20202102.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798473393_Screenshot%202026-11-04%20202110.png",
+            "time": "03:00 05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-19e87d9201_96feaddf_20261104.png?v=96feaddf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "chtv-4edb9e0228",
           "name": "Manchester City vs RB Leipzig | 03:00 05/11",
           "type": "single",
@@ -6230,6 +6155,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4edb9e0228_d610c79c_20261104.png?v=d610c79c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-41284537d9",
+          "name": "Napoli vs Porto | 03:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-41284537d9",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-41284537d9",
+                  "name": "Napoli vs Porto",
+                  "streams": [
+                    {
+                      "id": "st-41284537d9",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-41284537d9",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9851/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bóng",
+            "team_a": "Napoli",
+            "team_b": "Porto",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793798558720_Screenshot%202026-11-04%20202224.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793798559648_Screenshot%202026-11-04%20202229.png",
+            "time": "03:00 05/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1793822400,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-41284537d9_fcd3878a_20261104.png?v=fcd3878a",
             "width": 1600,
             "height": 1200
           }
