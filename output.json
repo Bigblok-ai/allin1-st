@@ -5416,7 +5416,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5429,10 +5429,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5480,7 +5480,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/0GxnPUDa-d4CRNZWd.png",
             "time": "17:00 05/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -6519,11 +6519,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-29d4c5a258",
+          "name": "Pepper Savings Bank Nữ vs Expressway Co Nữ | 17:00 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29d4c5a258",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-29d4c5a258",
+                  "name": "Pepper Savings Bank Nữ vs Expressway Co Nữ",
+                  "streams": [
+                    {
+                      "id": "st-29d4c5a258",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d33670e56b",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793854248_hd/1793854248_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "Pepper Savings Bank Nữ",
+            "team_b": "Expressway Co Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-Y57t5X1j.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/6a/Gyeongbuk_Gimcheon_Hi-pass.png",
+            "time": "17:00 05/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/grfha70vwf83_4444e775_20261105.png?v=4444e775",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-0ddf9b0651",
           "name": "Hà Nội vs TP. Hồ Chí Minh | 17:00 05/11",
@@ -6591,77 +6662,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/47dab7aa667f452b8542fcdc85aa8207_bc611f8c_20261105.png?v=bc611f8c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-29d4c5a258",
-          "name": "Pepper Savings Bank Nữ vs Expressway Co Nữ | 17:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-29d4c5a258",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-29d4c5a258",
-                  "name": "Pepper Savings Bank Nữ vs Expressway Co Nữ",
-                  "streams": [
-                    {
-                      "id": "st-29d4c5a258",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d33670e56b",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793854248_hd/1793854248_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Volleyball League Nữ",
-            "team_a": "Pepper Savings Bank Nữ",
-            "team_b": "Expressway Co Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-Y57t5X1j.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/6/6a/Gyeongbuk_Gimcheon_Hi-pass.png",
-            "time": "17:00 05/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/grfha70vwf83_4444e775_20261105.png?v=4444e775",
             "width": 1600,
             "height": 1200
           }
