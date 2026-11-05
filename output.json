@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (12 LIVE)",
+      "name": "⚽ Bóng Đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2318,8 +2318,8 @@
           }
         },
         {
-          "id": "pl-c2ff741636",
-          "name": "Volga vs Chertanovo Moscow | 23:30 05/11",
+          "id": "cc-627e573069",
+          "name": "Sparta Praha vs Bournemouth | 00:45 06/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2329,77 +2329,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c2ff741636",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-c2ff741636",
-                  "name": "Volga vs Chertanovo Moscow",
-                  "streams": [
-                    {
-                      "id": "st-c2ff741636",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-43efdfda1b",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/33d5f106f68b4b7da4aed6fbb2db4e58/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Russian Cup",
-            "team_a": "Volga",
-            "team_b": "Chertanovo Moscow",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghg430r6od/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dj2ryohydn2q1zp/image/small",
-            "time": "23:30 05/11",
-            "blv": "LÃM LÀNG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hd33jpmoj_f897beb6_20261106.png?v=f897beb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-627e573069",
-          "name": "Sparta Praha vs Bournemouth | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2481,7 +2410,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125545_e668d998.png",
             "time": "00:45 06/11",
             "blv": "Chuối Kem",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2489,6 +2418,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1636337_a7b0e5aa_20261106.png?v=a7b0e5aa",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-c2ff741636",
+          "name": "Volga vs Chertanovo Moscow | 23:30 05/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c2ff741636",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c2ff741636",
+                  "name": "Volga vs Chertanovo Moscow",
+                  "streams": [
+                    {
+                      "id": "st-c2ff741636",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-43efdfda1b",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/33d5f106f68b4b7da4aed6fbb2db4e58/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Russian Cup",
+            "team_a": "Volga",
+            "team_b": "Chertanovo Moscow",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghg430r6od/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dj2ryohydn2q1zp/image/small",
+            "time": "23:30 05/11",
+            "blv": "LÃM LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hd33jpmoj_f897beb6_20261106.png?v=f897beb6",
             "width": 1600,
             "height": 1200
           }
@@ -4959,82 +4959,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (2 LIVE)",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1c86b0f0f0",
-          "name": "Nuno Borges vs Ignacio Buse | 21:20 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1c86b0f0f0",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1c86b0f0f0",
-                  "name": "Nuno Borges vs Ignacio Buse",
-                  "streams": [
-                    {
-                      "id": "st-1c86b0f0f0",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-1944a44f5d",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793854633_hd/1793854633_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Paris Open",
-            "team_a": "Nuno Borges",
-            "team_b": "Ignacio Buse",
-            "logo_a": "https://static.flashscore.com/res/image/data/4WdeaLYg-Mc0Ip3ar.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zLCvPaFa-W8J3KwbL.png",
-            "time": "21:20 05/11",
-            "blv": "Nem",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ofl0bml1l91a_82aeb654_20261106.png?v=82aeb654",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c3ef86a072",
           "name": "ATP Paris Open vs ATP Paris Open | 01:00 06/11",
@@ -6068,82 +5997,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-773b5cd2c5",
-          "name": "Ilbank Nữ vs Nilufer Bld. Nữ | 23:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-773b5cd2c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-773b5cd2c5",
-                  "name": "Ilbank Nữ vs Nilufer Bld. Nữ",
-                  "streams": [
-                    {
-                      "id": "st-773b5cd2c5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5621072690",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865395_hd/1793865395_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Turkey Sultanlar Ligi Nữ ",
-            "team_a": "Ilbank Nữ",
-            "team_b": "Nilufer Bld. Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/OpjISOXg-AabQOsPn.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/rPFpfgDa-vRpcHup9.png",
-            "time": "23:00 05/11",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/3c0u6lnc0scd_fb0ab293_20261106.png?v=fb0ab293",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-a89b5a05c3",
           "name": "IBK Nữ vs GS Caltex Nữ | 17:00 06/11",
