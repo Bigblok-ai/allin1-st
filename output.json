@@ -959,11 +959,151 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-a36f9725ec",
+          "name": "Anderlecht vs Red Bull Salzburg | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a36f9725ec",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a36f9725ec",
+                  "name": "Anderlecht vs Red Bull Salzburg",
+                  "streams": [
+                    {
+                      "id": "st-a36f9725ec",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d4f4509165",
+                          "name": "Ngu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865564_hd/1793865564_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d439f32cad",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-d439f32cad",
+                  "name": "Anderlecht vs Red Bull Salzburg",
+                  "streams": [
+                    {
+                      "id": "st-d439f32cad",
+                      "name": "CCport - Chuối Tây",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa79648022",
+                          "name": "Chuối Tây HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-36aaed7dd9",
+                          "name": "Chuối Tây HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-70e532cde3",
+                          "name": "Chuối Tây FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Anderlecht",
+            "team_b": "Red Bull Salzburg",
+            "logo_a": "https://images.keovip88.net/images/teams/anderlecht.png",
+            "logo_b": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
+            "time": "00:45 06/11",
+            "blv": "Ngu",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93738cfccd5ecc44060e7d_851e13e1_20261106.png?v=851e13e1",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-906a40be95",
           "name": "Sparta Prague vs AFC Bournemouth | 00:45 06/11",
@@ -1118,6 +1258,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda471080130_85b32164_20261106.png?v=85b32164",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f9db205234",
+          "name": "Lillestrom vs FC Viktoria Plzen | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f9db205234",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f9db205234",
+                  "name": "Lillestrom vs FC Viktoria Plzen",
+                  "streams": [
+                    {
+                      "id": "st-f9db205234",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-7644a20b3e",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865637_hd/1793865637_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Lillestrom",
+            "team_b": "FC Viktoria Plzen",
+            "logo_a": "https://images.keovip88.net/images/teams/lillestrom.png",
+            "logo_b": "https://images.keovip88.net/images/teams/fc-viktoria-plzen.png",
+            "time": "00:45 06/11",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012c_e848b27b_20261106.png?v=e848b27b",
             "width": 1600,
             "height": 1200
           }
@@ -1293,6 +1504,269 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a94c4d6164566b7f70b4386_33d1b48f_20261106.png?v=33d1b48f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-3c2213a5bc",
+          "name": "N.E.C. Nijmegen vs Omonia Nicosia FC | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3c2213a5bc",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-3c2213a5bc",
+                  "name": "N.E.C. Nijmegen vs Omonia Nicosia FC",
+                  "streams": [
+                    {
+                      "id": "st-3c2213a5bc",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5ef5319db3",
+                          "name": "Tỵ ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865903_hd/1793865903_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "N.E.C. Nijmegen",
+            "team_b": "Omonia Nicosia FC",
+            "logo_a": "https://images.keovip88.net/images/teams/nec-nijmegen.png",
+            "logo_b": "https://images.keovip88.net/images/teams/omonia-nicosia-fc.png",
+            "time": "00:45 06/11",
+            "blv": "Tỵ ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012f_293abc04_20261106.png?v=293abc04",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-0f09ad28d2",
+          "name": "Crystal Palace vs Hoffenheim | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0f09ad28d2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-0f09ad28d2",
+                  "name": "Crystal Palace vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-0f09ad28d2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-507f85c639",
+                          "name": "Riko",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793888940_hd/1793888940_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-edc6e2b910",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-edc6e2b910",
+                  "name": "Crystal Palace vs Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-edc6e2b910",
+                      "name": "PhaoHoa - BLV Khô Mật",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-32f5c08954",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-32f5c08954",
+                  "name": "Crystal Palace vs 1899 Hoffenheim",
+                  "streams": [
+                    {
+                      "id": "st-32f5c08954",
+                      "name": "CCport - Trốc Tru",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b86fc8933e",
+                          "name": "Trốc Tru HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ca6424e649",
+                          "name": "Trốc Tru HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-24863c2dbc",
+                          "name": "Trốc Tru FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "C2",
+            "team_a": "Crystal Palace",
+            "team_b": "Hoffenheim",
+            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
+            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
+            "time": "00:45 06/11",
+            "blv": "Riko",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012e_f8f0d540_20261106.png?v=f8f0d540",
             "width": 1600,
             "height": 1200
           }
@@ -1631,6 +2105,219 @@
           }
         },
         {
+          "id": "gv-eba7c501ff",
+          "name": "Trabzonspor vs SC Freiburg | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eba7c501ff",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-eba7c501ff",
+                  "name": "Trabzonspor vs SC Freiburg",
+                  "streams": [
+                    {
+                      "id": "st-eba7c501ff",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-951d9f7714",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866577_hd/1793866577_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Trabzonspor",
+            "team_b": "SC Freiburg",
+            "logo_a": "https://images.keovip88.net/images/teams/trabzonspor.png",
+            "logo_b": "https://images.keovip88.net/images/teams/sc-freiburg.png",
+            "time": "00:45 06/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93739cfccd5ecc44060e97_cad3d052_20261106.png?v=cad3d052",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-63e349f622",
+          "name": "Midtjylland vs Ajax Amsterdam | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-63e349f622",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-63e349f622",
+                  "name": "Midtjylland vs Ajax Amsterdam",
+                  "streams": [
+                    {
+                      "id": "st-63e349f622",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-64998699af",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866619_hd/1793866619_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Midtjylland",
+            "team_b": "Ajax Amsterdam",
+            "logo_a": "https://images.keovip88.net/images/teams/midtjylland.png",
+            "logo_b": "https://images.keovip88.net/images/teams/afc-ajax.png",
+            "time": "00:45 06/11",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a94c4d9164566b7f70b43b6_f984a8bb_20261106.png?v=f984a8bb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ff4615714e",
+          "name": "Mjallby AIF vs Borac Banja Luka | 00:45 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff4615714e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ff4615714e",
+                  "name": "Mjallby AIF vs Borac Banja Luka",
+                  "streams": [
+                    {
+                      "id": "st-ff4615714e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ed9903724",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866645_hd/1793866645_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Europa Conference League",
+            "team_a": "Mjallby AIF",
+            "team_b": "Borac Banja Luka",
+            "logo_a": "https://images.keovip88.net/images/teams/mjallby-aif.png",
+            "logo_b": "https://images.keovip88.net/images/teams/borac-banja-luka.png",
+            "time": "00:45 06/11",
+            "blv": "Cầy",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c631f9dda471080161_76d29c47_20261106.png?v=76d29c47",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-c2ff741636",
           "name": "Volga vs Chertanovo Moscow | 23:30 05/11",
           "type": "single",
@@ -1697,693 +2384,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y39mp1hd33jpmoj_f897beb6_20261106.png?v=f897beb6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-a36f9725ec",
-          "name": "Anderlecht vs Red Bull Salzburg | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a36f9725ec",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a36f9725ec",
-                  "name": "Anderlecht vs Red Bull Salzburg",
-                  "streams": [
-                    {
-                      "id": "st-a36f9725ec",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d4f4509165",
-                          "name": "Ngu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865564_hd/1793865564_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d439f32cad",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-d439f32cad",
-                  "name": "Anderlecht vs Red Bull Salzburg",
-                  "streams": [
-                    {
-                      "id": "st-d439f32cad",
-                      "name": "CCport - Chuối Tây",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa79648022",
-                          "name": "Chuối Tây HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-36aaed7dd9",
-                          "name": "Chuối Tây HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70e532cde3",
-                          "name": "Chuối Tây FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Anderlecht",
-            "team_b": "Red Bull Salzburg",
-            "logo_a": "https://images.keovip88.net/images/teams/anderlecht.png",
-            "logo_b": "https://images.keovip88.net/images/teams/red-bull-salzburg.png",
-            "time": "00:45 06/11",
-            "blv": "Ngu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93738cfccd5ecc44060e7d_851e13e1_20261106.png?v=851e13e1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f9db205234",
-          "name": "Lillestrom vs FC Viktoria Plzen | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f9db205234",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f9db205234",
-                  "name": "Lillestrom vs FC Viktoria Plzen",
-                  "streams": [
-                    {
-                      "id": "st-f9db205234",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-7644a20b3e",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865637_hd/1793865637_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Lillestrom",
-            "team_b": "FC Viktoria Plzen",
-            "logo_a": "https://images.keovip88.net/images/teams/lillestrom.png",
-            "logo_b": "https://images.keovip88.net/images/teams/fc-viktoria-plzen.png",
-            "time": "00:45 06/11",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012c_e848b27b_20261106.png?v=e848b27b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-3c2213a5bc",
-          "name": "N.E.C. Nijmegen vs Omonia Nicosia FC | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3c2213a5bc",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-3c2213a5bc",
-                  "name": "N.E.C. Nijmegen vs Omonia Nicosia FC",
-                  "streams": [
-                    {
-                      "id": "st-3c2213a5bc",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5ef5319db3",
-                          "name": "Tỵ ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793865903_hd/1793865903_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "N.E.C. Nijmegen",
-            "team_b": "Omonia Nicosia FC",
-            "logo_a": "https://images.keovip88.net/images/teams/nec-nijmegen.png",
-            "logo_b": "https://images.keovip88.net/images/teams/omonia-nicosia-fc.png",
-            "time": "00:45 06/11",
-            "blv": "Tỵ ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012f_293abc04_20261106.png?v=293abc04",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-0f09ad28d2",
-          "name": "Crystal Palace vs Hoffenheim | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0f09ad28d2",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0f09ad28d2",
-                  "name": "Crystal Palace vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-0f09ad28d2",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-507f85c639",
-                          "name": "Riko",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793888940_hd/1793888940_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-edc6e2b910",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-edc6e2b910",
-                  "name": "Crystal Palace vs Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-edc6e2b910",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-32f5c08954",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-32f5c08954",
-                  "name": "Crystal Palace vs 1899 Hoffenheim",
-                  "streams": [
-                    {
-                      "id": "st-32f5c08954",
-                      "name": "CCport - Trốc Tru",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b86fc8933e",
-                          "name": "Trốc Tru HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca6424e649",
-                          "name": "Trốc Tru HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24863c2dbc",
-                          "name": "Trốc Tru FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "C2",
-            "team_a": "Crystal Palace",
-            "team_b": "Hoffenheim",
-            "logo_a": "https://images.keovip88.net/images/teams/crystal-palace.png",
-            "logo_b": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
-            "time": "00:45 06/11",
-            "blv": "Riko",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c031f9dda47108012e_f8f0d540_20261106.png?v=f8f0d540",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-eba7c501ff",
-          "name": "Trabzonspor vs SC Freiburg | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-eba7c501ff",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-eba7c501ff",
-                  "name": "Trabzonspor vs SC Freiburg",
-                  "streams": [
-                    {
-                      "id": "st-eba7c501ff",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-951d9f7714",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866577_hd/1793866577_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa Conference League",
-            "team_a": "Trabzonspor",
-            "team_b": "SC Freiburg",
-            "logo_a": "https://images.keovip88.net/images/teams/trabzonspor.png",
-            "logo_b": "https://images.keovip88.net/images/teams/sc-freiburg.png",
-            "time": "00:45 06/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93739cfccd5ecc44060e97_cad3d052_20261106.png?v=cad3d052",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-63e349f622",
-          "name": "Midtjylland vs Ajax Amsterdam | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-63e349f622",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-63e349f622",
-                  "name": "Midtjylland vs Ajax Amsterdam",
-                  "streams": [
-                    {
-                      "id": "st-63e349f622",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-64998699af",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866619_hd/1793866619_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa Conference League",
-            "team_a": "Midtjylland",
-            "team_b": "Ajax Amsterdam",
-            "logo_a": "https://images.keovip88.net/images/teams/midtjylland.png",
-            "logo_b": "https://images.keovip88.net/images/teams/afc-ajax.png",
-            "time": "00:45 06/11",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a94c4d9164566b7f70b43b6_f984a8bb_20261106.png?v=f984a8bb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-ff4615714e",
-          "name": "Mjallby AIF vs Borac Banja Luka | 00:45 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ff4615714e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ff4615714e",
-                  "name": "Mjallby AIF vs Borac Banja Luka",
-                  "streams": [
-                    {
-                      "id": "st-ff4615714e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ed9903724",
-                          "name": "Cầy",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793866645_hd/1793866645_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Europa Conference League",
-            "team_a": "Mjallby AIF",
-            "team_b": "Borac Banja Luka",
-            "logo_a": "https://images.keovip88.net/images/teams/mjallby-aif.png",
-            "logo_b": "https://images.keovip88.net/images/teams/borac-banja-luka.png",
-            "time": "00:45 06/11",
-            "blv": "Cầy",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a9767c631f9dda471080161_76d29c47_20261106.png?v=76d29c47",
             "width": 1600,
             "height": 1200
           }
@@ -4965,77 +4965,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-fc6810e252",
-          "name": "Lorenzo Musetti vs Lucca van Assche | 21:00 05/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fc6810e252",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-fc6810e252",
-                  "name": "Lorenzo Musetti vs Lucca van Assche",
-                  "streams": [
-                    {
-                      "id": "st-fc6810e252",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-680eedfa29",
-                          "name": "Mù",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793854484_hd/1793854484_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Paris Open",
-            "team_a": "Lorenzo Musetti",
-            "team_b": "Lucca van Assche",
-            "logo_a": "https://static.flashscore.com/res/image/data/beye6ugl-dO8eBuOC.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/dCxPsrZg-46Trc3Pm.png",
-            "time": "21:00 05/11",
-            "blv": "Mù",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/3w8p867a4jn9_54456f80_20261106.png?v=54456f80",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-1c86b0f0f0",
           "name": "Nuno Borges vs Ignacio Buse | 21:20 05/11",
           "type": "single",
@@ -5114,10 +5043,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5165,7 +5094,7 @@
             "logo_b": "https://polymarket.com/_next/image?url=https%3A%2F%2Fpolymarket-upload.s3.us-east-2.amazonaws.com%2Fatp-tour-b4390c4fb8.jpg&w=1024&q=75",
             "time": "01:00 06/11",
             "blv": "Mù",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
