@@ -959,11 +959,86 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-37ac87fd9f",
+          "name": "Qarabag vs Turan Tovuz | 21:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37ac87fd9f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37ac87fd9f",
+                  "name": "Qarabag vs Turan Tovuz",
+                  "streams": [
+                    {
+                      "id": "st-37ac87fd9f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premyer Liqa",
+            "team_a": "Qarabag",
+            "team_b": "Turan Tovuz",
+            "logo_a": "https://apiv3.apifootball.com/badges/110_qaraba.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1307_turan.jpg",
+            "time": "21:00",
+            "date": "06/11",
+            "blv": "BLV Lương Khô",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-e8f104ee25",
           "name": "UTA Arad vs Petrolul | 22:30 06/11",
@@ -4753,8 +4828,8 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "chtv-81585b3e94",
-          "name": "lee van corteza vs jeff ignacio | Thập Cẩm",
+          "id": "chtv-228f9daade",
+          "name": "Jaybee sucal vs Janjan palawan | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -4768,23 +4843,23 @@
           ],
           "sources": [
             {
-              "id": "src-81585b3e94",
+              "id": "src-228f9daade",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-81585b3e94",
-                  "name": "lee van corteza vs jeff ignacio",
+                  "id": "ct-228f9daade",
+                  "name": "Jaybee sucal vs Janjan palawan",
                   "streams": [
                     {
-                      "id": "st-81585b3e94",
+                      "id": "st-228f9daade",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-81585b3e94",
+                          "id": "lnk-228f9daade",
                           "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9911/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9903/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4804,22 +4879,22 @@
             }
           ],
           "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "lee van corteza",
-            "team_b": "jeff ignacio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793975429834_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793975429951_Philippines.png",
-            "time": "21:30 06/11",
+            "league": "top top",
+            "team_a": "Jaybee sucal",
+            "team_b": "Janjan palawan",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1793965376303_Screenshot%202026-11-06%20184214.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1793965376679_Screenshot%202026-11-06%20184224.png",
+            "time": "18:43 06/11",
             "blv": "Thập Cẩm",
             "is_live": true,
-            "time_sort": 1793975400,
+            "time_sort": 1793965380,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-81585b3e94_c1683a73_20261106.png?v=c1683a73",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-228f9daade_c80569c1_20261106.png?v=c80569c1",
             "width": 1600,
             "height": 1200
           }
@@ -5545,77 +5620,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "pl-106b18a1f5",
-          "name": "Aleeza Aichi Women vs Okayama Seagulls Women | 12:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-106b18a1f5",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-106b18a1f5",
-                  "name": "Aleeza Aichi Women vs Okayama Seagulls Women",
-                  "streams": [
-                    {
-                      "id": "st-106b18a1f5",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fbd82de221",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/ef55625f82314a959006abce9e80ce78/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SV.League Women",
-            "team_a": "Aleeza Aichi Women",
-            "team_b": "Okayama Seagulls Women",
-            "logo_a": "https://static.flashscore.com/res/image/data/zZwPgEBr-dSrpGvhU.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/hbnnxXeM-KGU5ehTK.png",
-            "time": "12:00 08/11",
-            "blv": "LÃM LÀNG",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/b0c9d246c3a24fbf9f64e7d7ed1eca26_a1feaa29_20261106.png?v=a1feaa29",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -5843,11 +5847,82 @@
     },
     {
       "id": "grp-bóng-bàn",
-      "name": "🏓 Bóng Bàn",
+      "name": "🏓 Bóng Bàn (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-30d0624e98",
+          "name": "LIM Jonghoon vs Tomokazu HARIMOTO | 19:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-30d0624e98",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-30d0624e98",
+                  "name": "LIM Jonghoon vs Tomokazu HARIMOTO",
+                  "streams": [
+                    {
+                      "id": "st-30d0624e98",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-62353aef23",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793929841_hd/1793929841_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Frankfurt 2026",
+            "team_a": "LIM Jonghoon",
+            "team_b": "Tomokazu HARIMOTO",
+            "logo_a": "https://static.flashscore.com/res/image/data/GAtpKvZg-hEEvdCUk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/p2pUgGEG-0GVPIiRs.png",
+            "time": "19:00 06/11",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4d6yq9p0hoyj_6a1573f7_20261106.png?v=6a1573f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-f3faa4c15c",
           "name": "OH Junsung vs Shunsuke TOGAMI | 00:30 07/11",
