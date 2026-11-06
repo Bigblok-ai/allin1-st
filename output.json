@@ -4153,6 +4153,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-170e8c98da",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-170e8c98da",
+                  "name": "Arsenal vs Hull City",
+                  "streams": [
+                    {
+                      "id": "st-170e8c98da",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5eb6087409",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/24ae7a1c7e0e42deac43c7d427e1babe/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -4216,6 +4251,41 @@
                             {
                               "key": "Referer",
                               "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c3253ff8d2",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c3253ff8d2",
+                  "name": "Fulham vs Newcastle",
+                  "streams": [
+                    {
+                      "id": "st-c3253ff8d2",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-92ce6aaa3b",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b5390953926d4ab0a5669645eb3b15bb/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4368,82 +4438,11 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis (1 LIVE)",
+      "name": "🎾 Tennis",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5b34ec4808",
-          "name": "Ben Shelton vs Tommy Paul | 20:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5b34ec4808",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5b34ec4808",
-                  "name": "Ben Shelton vs Tommy Paul",
-                  "streams": [
-                    {
-                      "id": "st-5b34ec4808",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cb175ab4b2",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793930650_hd/1793930650_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ATP Paris Open",
-            "team_a": "Ben Shelton",
-            "team_b": "Tommy Paul",
-            "logo_a": "https://static.flashscore.com/res/image/data/UBXM3cXg-fgTOwTv9.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/v7Wf42il-pQ0ElVBe.png",
-            "time": "20:00 06/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "tennis"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4jbdlfp6nduo_ab4a2c98_20261106.png?v=ab4a2c98",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-1bedc509cd",
           "name": "Taylor Fritz vs Carlos Alcaraz | 01:00 07/11",
@@ -4678,7 +4677,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (5 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4751,78 +4750,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-228f9daade_c80569c1_20261106.png?v=c80569c1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-c9d174a458",
-          "name": "edwin gamas vs jordan legaspi | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c9d174a458",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c9d174a458",
-                  "name": "edwin gamas vs jordan legaspi",
-                  "streams": [
-                    {
-                      "id": "st-c9d174a458",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c9d174a458",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9906/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "edwin gamas",
-            "team_b": "jordan legaspi",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793967804077_Screenshot%202026-11-06%20192307.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793967803975_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:23 06/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1793967780,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c9d174a458_bd7d240e_20261106.png?v=bd7d240e",
             "width": 1600,
             "height": 1200
           }
@@ -4967,150 +4894,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5503eaca35_cab635f0_20261106.png?v=cab635f0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-4046c677d7",
-          "name": "văn sinh vs tiến minh | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4046c677d7",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-4046c677d7",
-                  "name": "văn sinh vs tiến minh",
-                  "streams": [
-                    {
-                      "id": "st-4046c677d7",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4046c677d7",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9910/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "văn sinh",
-            "team_b": "tiến minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793965742664_Screenshot%202026-11-06%20184858.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793965775809_Screenshot%202026-10-15%20133326.png",
-            "time": "20:45 06/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1793972700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4046c677d7_a36bb684_20261106.png?v=a36bb684",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-81585b3e94",
-          "name": "lee van corteza vs jeff ignacio | 21:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-81585b3e94",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-81585b3e94",
-                  "name": "lee van corteza vs jeff ignacio",
-                  "streams": [
-                    {
-                      "id": "st-81585b3e94",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-81585b3e94",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9911/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "lee van corteza",
-            "team_b": "jeff ignacio",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1793975429834_Philippines.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1793975429951_Philippines.png",
-            "time": "21:30 06/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1793975400,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-81585b3e94_c1683a73_20261106.png?v=c1683a73",
             "width": 1600,
             "height": 1200
           }
@@ -5625,7 +5408,7 @@
     },
     {
       "id": "grp-đua-xe",
-      "name": "🏎️ Đua Xe",
+      "name": "🏎️ Đua Xe (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5638,10 +5421,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5689,7 +5472,7 @@
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAVtO4ZUAUC-I-ifKovT2DG3AuvtB5LptfcsjRuc7ML5X0vA_k1HAtWq0&s=10",
             "time": "22:30 06/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "duaxe"
           },
           "image": {
@@ -5919,6 +5702,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/4d6yq9p0hoyj_6a1573f7_20261106.png?v=6a1573f7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f3faa4c15c",
+          "name": "OH Junsung vs Shunsuke TOGAMI | 00:30 07/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3faa4c15c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f3faa4c15c",
+                  "name": "OH Junsung vs Shunsuke TOGAMI",
+                  "streams": [
+                    {
+                      "id": "st-f3faa4c15c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6245c4836c",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793976865_hd/1793976865_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "WTT Champions Frankfurt 2026",
+            "team_a": "OH Junsung",
+            "team_b": "Shunsuke TOGAMI",
+            "logo_a": "https://static.flashscore.com/res/image/data/A3GlBGf5-Iu0xbn13.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/6aiCyMZA-h8ejfetP.png",
+            "time": "00:30 07/11",
+            "blv": "Dory",
+            "is_live": false,
+            "cate_type": "bongban"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/s99whngpr389_22a07667_20261106.png?v=22a07667",
             "width": 1600,
             "height": 1200
           }
