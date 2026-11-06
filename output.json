@@ -965,116 +965,6 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "xc-e8f104ee25",
-          "name": "UTA Arad vs Petrolul | 22:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8f104ee25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e8f104ee25",
-                  "name": "UTA Arad vs Petrolul",
-                  "streams": [
-                    {
-                      "id": "st-e8f104ee25",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-16f1378573",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-16f1378573",
-                  "name": "UTA Arad vs Petrolul",
-                  "streams": [
-                    {
-                      "id": "st-16f1378573",
-                      "name": "Phalang - LÝ LẠNH LÙNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5bd3615f5e",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/8e3fbf88682d443ab889e3fc4c2f87d5/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga I",
-            "team_a": "UTA Arad",
-            "team_b": "Petrolul",
-            "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-            "time": "22:30",
-            "date": "06/11",
-            "blv": "BLV Khô Cá",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63934_548388fa_20261107.png?v=548388fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6c9ce1a88f",
           "name": "SG Dynamo Dresden vs Greuther Furth | 00:30 07/11",
           "type": "single",
@@ -1171,7 +1061,7 @@
             "blv": "BLV Khô Cá",
             "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -1390,6 +1280,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1576225_208ed0cc_20261107.png?v=208ed0cc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-16f1378573",
+          "name": "UTA Arad vs Petrolul | 22:30 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-16f1378573",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-16f1378573",
+                  "name": "UTA Arad vs Petrolul",
+                  "streams": [
+                    {
+                      "id": "st-16f1378573",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-5bd3615f5e",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/8e3fbf88682d443ab889e3fc4c2f87d5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Super Liga",
+            "team_a": "UTA Arad",
+            "team_b": "Petrolul",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/ednm9whk9jdryox/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekhvnpwrepz/image/small",
+            "time": "22:30 06/11",
+            "blv": "LÝ LẠNH LÙNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l7oqdehgk309r51_f7bc4a53_20261107.png?v=f7bc4a53",
             "width": 1600,
             "height": 1200
           }
@@ -3187,81 +3148,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66279_75d14ae6_20261107.png?v=75d14ae6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-df5e588fda",
-          "name": "Nottingham vs Manchester City | 00:30 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-df5e588fda",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-df5e588fda",
-                  "name": "Nottingham vs Manchester City",
-                  "streams": [
-                    {
-                      "id": "st-df5e588fda",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premier League",
-            "team_a": "Nottingham",
-            "team_b": "Manchester City",
-            "logo_a": "https://apiv3.apifootball.com/badges/3089_nottingham-forest.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/80_manchester-city.jpg",
-            "time": "00:30",
-            "date": "08/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66286_26d29e66_20261107.png?v=26d29e66",
             "width": 1600,
             "height": 1200
           }
