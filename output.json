@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1671,6 +1671,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e8f104ee25",
+          "name": "UTA Arad vs Petrolul | 17:30 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e8f104ee25",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e8f104ee25",
+                  "name": "UTA Arad vs Petrolul",
+                  "streams": [
+                    {
+                      "id": "st-e8f104ee25",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga I",
+            "team_a": "UTA Arad",
+            "team_b": "Petrolul",
+            "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
+            "time": "17:30",
+            "date": "06/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63934_548388fa_20261106.png?v=548388fa",
             "width": 1600,
             "height": 1200
           }
@@ -4497,81 +4572,6 @@
           }
         },
         {
-          "id": "xc-e8f104ee25",
-          "name": "UTA Arad vs Petrolul | 17:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-e8f104ee25",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-e8f104ee25",
-                  "name": "UTA Arad vs Petrolul",
-                  "streams": [
-                    {
-                      "id": "st-e8f104ee25",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga I",
-            "team_a": "UTA Arad",
-            "team_b": "Petrolul",
-            "logo_a": "https://apiv3.apifootball.com/badges/6193_uta-arad.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6176_petrolul-52.jpg",
-            "time": "17:30",
-            "date": "06/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63934_548388fa_20261106.png?v=548388fa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6c9ce1a88f",
           "name": "SG Dynamo Dresden vs Greuther Furth | 19:30 06/11",
           "type": "single",
@@ -5160,82 +5160,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (2 LIVE)",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-44ea6d9c02",
-          "name": "Tasmania JackJumpers vs New Zealand Breakers | 15:30 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-44ea6d9c02",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-44ea6d9c02",
-                  "name": "Tasmania JackJumpers vs New Zealand Breakers",
-                  "streams": [
-                    {
-                      "id": "st-44ea6d9c02",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-26d22e7359",
-                          "name": "Vịt",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793854153_hd/1793854153_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball League(Australia)",
-            "team_a": "Tasmania JackJumpers",
-            "team_b": "New Zealand Breakers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b4775c62432e01185c4fd9669952b258.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/7778a93083d2fa50e4cb4e128f07cf5f.png",
-            "time": "15:30 06/11",
-            "blv": "Vịt",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/26622275_d9b90e01_20261106.png?v=d9b90e01",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-c278aba0b7",
           "name": "Anyang JungKwanJang vs Seoul Knights | 17:00 06/11",
