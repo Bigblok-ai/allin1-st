@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1141,6 +1141,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63848_61619927_20261106.png?v=61619927",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-37ac87fd9f",
+          "name": "Qarabag vs Turan Tovuz | 21:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-37ac87fd9f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-37ac87fd9f",
+                  "name": "Qarabag vs Turan Tovuz",
+                  "streams": [
+                    {
+                      "id": "st-37ac87fd9f",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premyer Liqa",
+            "team_a": "Qarabag",
+            "team_b": "Turan Tovuz",
+            "logo_a": "https://apiv3.apifootball.com/badges/110_qaraba.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/1307_turan.jpg",
+            "time": "21:00",
+            "date": "06/11",
+            "blv": "BLV Lương Khô",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
             "width": 1600,
             "height": 1200
           }
@@ -3958,81 +4033,6 @@
           }
         },
         {
-          "id": "xc-37ac87fd9f",
-          "name": "Qarabag vs Turan Tovuz | 21:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-37ac87fd9f",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-37ac87fd9f",
-                  "name": "Qarabag vs Turan Tovuz",
-                  "streams": [
-                    {
-                      "id": "st-37ac87fd9f",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Premyer Liqa",
-            "team_a": "Qarabag",
-            "team_b": "Turan Tovuz",
-            "logo_a": "https://apiv3.apifootball.com/badges/110_qaraba.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1307_turan.jpg",
-            "time": "21:00",
-            "date": "06/11",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63905_379b7a2f_20261106.png?v=379b7a2f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-90c532bc8c",
           "name": "Mainz vs Bayern Munich | 21:30 07/11",
           "type": "single",
@@ -4698,7 +4698,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4993,16 +4993,16 @@
         },
         {
           "id": "chtv-4046c677d7",
-          "name": "văn sinh vs tiến minh | 20:45 06/11 | SÊ KÔÔ",
+          "name": "văn sinh vs tiến minh | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5050,7 +5050,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1793965775809_Screenshot%202026-10-15%20133326.png",
             "time": "20:45 06/11",
             "blv": "SÊ KÔÔ",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1793972700,
             "cate_type": "billiards"
           },
