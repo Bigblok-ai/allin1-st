@@ -959,11 +959,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9ff4ce6be9",
+          "name": "Colorado Avalanche vs Nashville Predators | 09:00 06/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ff4ce6be9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9ff4ce6be9",
+                  "name": "Colorado Avalanche vs Nashville Predators",
+                  "streams": [
+                    {
+                      "id": "st-9ff4ce6be9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8f4e511748",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793926345_hd/1793926345_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "NHL Hockey",
+            "team_a": "Colorado Avalanche",
+            "team_b": "Nashville Predators",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEvVljjgDu_60n67s-nlhhYV0bU7lfRTHWk2xZCgnEg&s",
+            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZlW58PZ3LNK5zejjper_z4-hGaf4isPpYtCTWMnvBHg&s",
+            "time": "09:00 06/11",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/hl5g50ytncrv_ea27d24a_20261106.png?v=ea27d24a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-2782c2b83d",
           "name": "Cruzeiro vs Bahia | 07:30 06/11",
@@ -1170,77 +1241,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1603419_6567b5af_20261106.png?v=6567b5af",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9ff4ce6be9",
-          "name": "Colorado Avalanche vs Nashville Predators | 09:00 06/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ff4ce6be9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9ff4ce6be9",
-                  "name": "Colorado Avalanche vs Nashville Predators",
-                  "streams": [
-                    {
-                      "id": "st-9ff4ce6be9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8f4e511748",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793926345_hd/1793926345_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "NHL Hockey",
-            "team_a": "Colorado Avalanche",
-            "team_b": "Nashville Predators",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIEvVljjgDu_60n67s-nlhhYV0bU7lfRTHWk2xZCgnEg&s",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZlW58PZ3LNK5zejjper_z4-hGaf4isPpYtCTWMnvBHg&s",
-            "time": "09:00 06/11",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/hl5g50ytncrv_ea27d24a_20261106.png?v=ea27d24a",
             "width": 1600,
             "height": 1200
           }
@@ -4429,7 +4429,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4442,10 +4442,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4493,7 +4493,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2566b135b0e54971193a132bd8a1473c.png",
             "time": "09:00 06/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
