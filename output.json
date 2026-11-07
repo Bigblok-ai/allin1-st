@@ -959,82 +959,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-16a986cf15",
-          "name": "Hải Phòng vs Sông Lam Nghệ An | 18:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-16a986cf15",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-16a986cf15",
-                  "name": "Hải Phòng vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-16a986cf15",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b8ed020d0a",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1793977489_hd/1793977489_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V-League",
-            "team_a": "Hải Phòng",
-            "team_b": "Sông Lam Nghệ An",
-            "logo_a": "https://images.keovip88.net/images/teams/hai-phong.png",
-            "logo_b": "https://images.keovip88.net/images/teams/song-lam-nghe-an.png",
-            "time": "18:00 07/11",
-            "blv": "Mason",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ae52fb924d46db870bbe1d3_adc953cb_20261107.png?v=adc953cb",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-e241efc28f",
           "name": "Công An Hà Nội vs TP Hồ Chí Minh | 19:15 07/11",
@@ -1574,81 +1503,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5bce5e6975d550f075b_88957dda_20261107.png?v=88957dda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-fdda4df36c",
-          "name": "Phu Dong Ninh Binh vs Bac Ninh | 18:00 07/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fdda4df36c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-fdda4df36c",
-                  "name": "Phu Dong Ninh Binh vs Bac Ninh",
-                  "streams": [
-                    {
-                      "id": "st-fdda4df36c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Phu Dong Ninh Binh",
-            "team_b": "Bac Ninh",
-            "logo_a": "https://apiv3.apifootball.com/badges/8051_ninh-binh.jpg",
-            "logo_b": "https://xoiche.live/media/teams/logos/1793294995035109175_73ac892c.png",
-            "time": "18:00",
-            "date": "07/11",
-            "blv": "BLV Khô Cay",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64888_5f0e8f7c_20261107.png?v=5f0e8f7c",
             "width": 1600,
             "height": 1200
           }
@@ -5516,116 +5370,6 @@
           }
         },
         {
-          "id": "xc-aaad95094b",
-          "name": "Elche vs Betis | 20:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aaad95094b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-aaad95094b",
-                  "name": "Elche vs Betis",
-                  "streams": [
-                    {
-                      "id": "st-aaad95094b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-51591c07da",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-51591c07da",
-                  "name": "Elche vs Real Betis",
-                  "streams": [
-                    {
-                      "id": "st-51591c07da",
-                      "name": "Phalang - LÝ LẠNH LÙNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9427caf827",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/3a32fd7d39b34245b42f52080966e7cd/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Elche",
-            "team_b": "Betis",
-            "logo_a": "https://apiv3.apifootball.com/badges/7274_elche.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/7261_real-betis.jpg",
-            "time": "20:00",
-            "date": "08/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66906_55286806_20261107.png?v=55286806",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-a0e171ae0d",
           "name": "Genoa vs AC Milan | 21:00 08/11",
           "type": "single",
@@ -7417,11 +7161,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-62b4290801",
+          "name": "JAYBEE SUCAL vs PANDAY KAY | Đại Kê",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-62b4290801",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-62b4290801",
+                  "name": "JAYBEE SUCAL vs PANDAY KAY",
+                  "streams": [
+                    {
+                      "id": "st-62b4290801",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-62b4290801",
+                          "name": "Đại Kê",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9963/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "top top",
+            "team_a": "JAYBEE SUCAL",
+            "team_b": "PANDAY KAY",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794054897615_Screenshot%202026-11-07%20193444.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794054913934_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "time": "19:32 07/11",
+            "blv": "Đại Kê",
+            "is_live": true,
+            "time_sort": 1794054720,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-62b4290801_fac1ff98_20261107.png?v=fac1ff98",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-5c97982807",
           "name": "Roland Garcia vs Jonas Magpantay | GIÀNG A PHỌ",
@@ -7490,78 +7306,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5c97982807_9d15c710_20261107.png?v=9d15c710",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-62b4290801",
-          "name": "JAYBEE SUCAL vs PANDAY KAY | 19:32 07/11 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-62b4290801",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-62b4290801",
-                  "name": "JAYBEE SUCAL vs PANDAY KAY",
-                  "streams": [
-                    {
-                      "id": "st-62b4290801",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-62b4290801",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9963/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "JAYBEE SUCAL",
-            "team_b": "PANDAY KAY",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794054897615_Screenshot%202026-11-07%20193444.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794054913934_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:32 07/11",
-            "blv": "Đại Kê",
-            "is_live": false,
-            "time_sort": 1794054720,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-62b4290801_fac1ff98_20261107.png?v=fac1ff98",
             "width": 1600,
             "height": 1200
           }
