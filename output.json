@@ -959,14 +959,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-499a10436e",
-          "name": "Adelaide United FC vs Melbourne Victory FC | 13:00 08/11",
+          "id": "xc-bf07a4e8e1",
+          "name": "Macarthur FC vs Brisbane Roar | 11:00 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -976,6 +976,81 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf07a4e8e1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bf07a4e8e1",
+                  "name": "Macarthur FC vs Brisbane Roar",
+                  "streams": [
+                    {
+                      "id": "st-bf07a4e8e1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Macarthur FC",
+            "team_b": "Brisbane Roar",
+            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
+            "time": "11:00",
+            "date": "08/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 1
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261108.png?v=d0f12e77",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-499a10436e",
+          "name": "Adelaide United FC vs Melbourne Victory FC | 13:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1144,7 +1219,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/melbourne-victory.png",
             "time": "13:00 08/11",
             "blv": "Bee",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -1152,81 +1227,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ae6813c24d46db870b35192_0d7452cc_20261108.png?v=0d7452cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-bf07a4e8e1",
-          "name": "Macarthur FC vs Brisbane Roar | 11:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf07a4e8e1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bf07a4e8e1",
-                  "name": "Macarthur FC vs Brisbane Roar",
-                  "streams": [
-                    {
-                      "id": "st-bf07a4e8e1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Macarthur FC",
-            "team_b": "Brisbane Roar",
-            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
-            "time": "11:00",
-            "date": "08/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 1,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261108.png?v=d0f12e77",
             "width": 1600,
             "height": 1200
           }
@@ -6360,7 +6360,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6586,10 +6586,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -6637,7 +6637,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/690d69ad99fc8d3bd6fe4a7131521421.png",
             "time": "13:00 08/11",
             "blv": "Điếc",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "basketball"
           },
           "image": {
