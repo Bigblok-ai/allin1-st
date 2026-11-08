@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1031,6 +1031,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6nczgqvbos09_825827ae_20261108.png?v=825827ae",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bf07a4e8e1",
+          "name": "Macarthur FC vs Brisbane Roar | 06:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf07a4e8e1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bf07a4e8e1",
+                  "name": "Macarthur FC vs Brisbane Roar",
+                  "streams": [
+                    {
+                      "id": "st-bf07a4e8e1",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "A-League Men",
+            "team_a": "Macarthur FC",
+            "team_b": "Brisbane Roar",
+            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
+            "time": "06:00",
+            "date": "08/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261108.png?v=d0f12e77",
             "width": 1600,
             "height": 1200
           }
@@ -5785,81 +5860,6 @@
           }
         },
         {
-          "id": "xc-bf07a4e8e1",
-          "name": "Macarthur FC vs Brisbane Roar | 11:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf07a4e8e1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-bf07a4e8e1",
-                  "name": "Macarthur FC vs Brisbane Roar",
-                  "streams": [
-                    {
-                      "id": "st-bf07a4e8e1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "A-League Men",
-            "team_a": "Macarthur FC",
-            "team_b": "Brisbane Roar",
-            "logo_a": "https://apiv3.apifootball.com/badges/1053_macarthur-fc.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/399_brisbane-roar-fc.jpg",
-            "time": "11:00",
-            "date": "08/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/66495_d0f12e77_20261108.png?v=d0f12e77",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d91b315812",
           "name": "Aston Villa W vs Manchester Utd W | 19:00 08/11",
           "type": "single",
@@ -6317,7 +6317,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6543,10 +6543,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6594,7 +6594,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/e5c63f30ad74c5c5159f1e7695173ae5.png",
             "time": "11:00 08/11",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -7470,78 +7470,6 @@
           }
         },
         {
-          "id": "chtv-90d6c6b1c6",
-          "name": "Tuyên con vs Phương He | VÁNG",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-90d6c6b1c6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-90d6c6b1c6",
-                  "name": "Tuyên con vs Phương He",
-                  "streams": [
-                    {
-                      "id": "st-90d6c6b1c6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-90d6c6b1c6",
-                          "name": "VÁNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9977/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Tuyên con",
-            "team_b": "Phương He",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794098740587_TUY%C3%8AN%20CON.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794098737765_Ph%C6%B0%C6%A1ng%20He.png",
-            "time": "10:00 08/11",
-            "blv": "VÁNG",
-            "is_live": true,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d6c6b1c6_a0ce7cea_20261108.png?v=a0ce7cea",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-8dbdb85016",
           "name": "Thiện Lương vs Duy Đinh | GIÀNG A PHỌ",
           "type": "single",
@@ -7609,6 +7537,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-8dbdb85016_85ee8a16_20261108.png?v=85ee8a16",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-90d6c6b1c6",
+          "name": "Tuyên con vs Phương He | VÁNG",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-90d6c6b1c6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-90d6c6b1c6",
+                  "name": "Tuyên con vs Phương He",
+                  "streams": [
+                    {
+                      "id": "st-90d6c6b1c6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-90d6c6b1c6",
+                          "name": "VÁNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9977/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
+            "team_a": "Tuyên con",
+            "team_b": "Phương He",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794098740587_TUY%C3%8AN%20CON.jpg",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794098737765_Ph%C6%B0%C6%A1ng%20He.png",
+            "time": "10:00 08/11",
+            "blv": "VÁNG",
+            "is_live": true,
+            "time_sort": 1794106800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d6c6b1c6_a0ce7cea_20261108.png?v=a0ce7cea",
             "width": 1600,
             "height": 1200
           }
@@ -7684,232 +7684,87 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "chtv-0b52282557",
-          "name": "Giang Kaizen vs Tú Tây | 10:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0b52282557",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-0b52282557",
-                  "name": "Giang Kaizen vs Tú Tây",
-                  "streams": [
-                    {
-                      "id": "st-0b52282557",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b52282557",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9979/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Giang Kaizen",
-            "team_b": "Tú Tây",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "10:00 08/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-0b52282557_d4e8244d_20261108.png?v=d4e8244d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-327ea0a0a4",
-          "name": "Dũng Hàn vs Ngọc Xăm | 10:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-327ea0a0a4",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-327ea0a0a4",
-                  "name": "Dũng Hàn vs Ngọc Xăm",
-                  "streams": [
-                    {
-                      "id": "st-327ea0a0a4",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-327ea0a0a4",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9974/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Dũng Hàn",
-            "team_b": "Ngọc Xăm",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794098629637_D%C5%A9ng%20h%C3%A0n.jpg",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794098627084_NG%E1%BB%8CC%20X%C4%82M.png",
-            "time": "10:00 08/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-327ea0a0a4_38ac953d_20261108.png?v=38ac953d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-40fa01f6da",
-          "name": "Minh Quý vs Phong Nam | 10:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-40fa01f6da",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-40fa01f6da",
-                  "name": "Minh Quý vs Phong Nam",
-                  "streams": [
-                    {
-                      "id": "st-40fa01f6da",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40fa01f6da",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live9976/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗩𝟭𝟬 - 𝟵𝟵 𝗧𝗜𝗧𝗔𝗡𝗜𝗨𝗠 𝗖𝗛𝗔𝗠𝗣𝗜𝗢𝗡𝗦𝗛𝗜𝗣",
-            "team_a": "Minh Quý",
-            "team_b": "Phong Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794098697671_Phong%20Nam.jpg",
-            "time": "10:00 08/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794106800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-40fa01f6da_1dc82544_20261108.png?v=1dc82544",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-9efeba296c",
+          "name": "Toray Arrows Nữ vs Gunma Greenwings Nữ | 11:05 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9efeba296c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9efeba296c",
+                  "name": "Toray Arrows Nữ vs Gunma Greenwings Nữ",
+                  "streams": [
+                    {
+                      "id": "st-9efeba296c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8d169de22c",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794017207_hd/1794017207_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Toray Arrows Nữ",
+            "team_b": "Gunma Greenwings Nữ",
+            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/ee/W_toray.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
+            "time": "11:05 08/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/cd8woyz65c8g_70e38eac_20261108.png?v=70e38eac",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-7bf589ad18",
           "name": "Toray Arrows Women vs Gunma Bank Green Wings Women | 11:00 08/11",
@@ -7977,77 +7832,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/801950c83b0949898395c84beb259105_ad9aa5e3_20261108.png?v=ad9aa5e3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-9efeba296c",
-          "name": "Toray Arrows Nữ vs Gunma Greenwings Nữ | 11:05 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9efeba296c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-9efeba296c",
-                  "name": "Toray Arrows Nữ vs Gunma Greenwings Nữ",
-                  "streams": [
-                    {
-                      "id": "st-9efeba296c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8d169de22c",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794017207_hd/1794017207_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Toray Arrows Nữ",
-            "team_b": "Gunma Greenwings Nữ",
-            "logo_a": "https://upload.wikimedia.org/wikipedia/en/e/ee/W_toray.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
-            "time": "11:05 08/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/cd8woyz65c8g_70e38eac_20261108.png?v=70e38eac",
             "width": 1600,
             "height": 1200
           }
