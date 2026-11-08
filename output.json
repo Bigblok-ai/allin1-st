@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (14 LIVE)",
+      "name": "⚽ Bóng Đá (15 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2659,6 +2659,81 @@
           }
         },
         {
+          "id": "xc-edd2116019",
+          "name": "Atl. Madrid vs Barcelona | 22:00 08/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-edd2116019",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-edd2116019",
+                  "name": "Atl. Madrid vs Barcelona",
+                  "streams": [
+                    {
+                      "id": "st-edd2116019",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Atl. Madrid",
+            "team_b": "Barcelona",
+            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
+            "time": "22:00",
+            "date": "08/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67988_5bae6b38_20261108.png?v=5bae6b38",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-c79dc2e410",
           "name": "FC Shakhtar Donetsk vs Dynamo Kyiv | 23:00 08/11",
           "type": "single",
@@ -3609,8 +3684,8 @@
           }
         },
         {
-          "id": "cc-c70476a9da",
-          "name": "1899 Hoffenheim vs FC Schalke 04 | 01:30 09/11",
+          "id": "gv-e043129378",
+          "name": "Hoffenheim vs Schalke 04 | 01:30 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3624,6 +3699,41 @@
           ],
           "sources": [
             {
+              "id": "src-e043129378",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-e043129378",
+                  "name": "Hoffenheim vs Schalke 04",
+                  "streams": [
+                    {
+                      "id": "st-e043129378",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0df632767f",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794149990_hd/1794149990_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-c70476a9da",
               "name": "ChuoiChienTV",
               "contents": [
@@ -3633,7 +3743,7 @@
                   "streams": [
                     {
                       "id": "st-c70476a9da",
-                      "name": "CC",
+                      "name": "CCport - Chuối Lá",
                       "stream_links": [
                         {
                           "id": "lnk-15d5e70700",
@@ -3730,12 +3840,12 @@
           ],
           "org_metadata": {
             "league": "Bundesliga",
-            "team_a": "1899 Hoffenheim",
-            "team_b": "FC Schalke 04",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125555_d3563d9f.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130300_280f64ff.png",
+            "team_a": "Hoffenheim",
+            "team_b": "Schalke 04",
+            "logo_a": "https://images.keovip88.net/images/teams/tsg-hoffenheim.png",
+            "logo_b": "https://images.keovip88.net/images/teams/schalke-04.png",
             "time": "01:30 09/11",
-            "blv": "Chuối Lá",
+            "blv": "Dory",
             "is_live": false,
             "cate_type": "football"
           },
@@ -3743,7 +3853,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1575215_f122f134_20261108.png?v=f122f134",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ab1e5cae5e6975d550f078c_8b5c3bff_20261108.png?v=8b5c3bff",
             "width": 1600,
             "height": 1200
           }
@@ -5068,98 +5178,6 @@
           }
         },
         {
-          "id": "xc-9ae0979b2c",
-          "name": "Inter vs Como | 19:00 08/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ae0979b2c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9ae0979b2c",
-                  "name": "Inter vs Como",
-                  "streams": [
-                    {
-                      "id": "st-9ae0979b2c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Serie A",
-            "team_a": "Inter",
-            "team_b": "Como",
-            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8239_como.jpg",
-            "time": "19:00",
-            "date": "08/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67904_a67b949b_20261108.png?v=a67b949b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-128d5eb8d8",
           "name": "Celta Vigo vs Levante | 19:30 08/11",
           "type": "single",
@@ -5252,8 +5270,8 @@
           }
         },
         {
-          "id": "xc-edd2116019",
-          "name": "Atl. Madrid vs Barcelona | 22:00 08/11",
+          "id": "xc-478907f874",
+          "name": "Villarreal vs Getafe | 19:30 08/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5267,23 +5285,23 @@
           ],
           "sources": [
             {
-              "id": "src-edd2116019",
+              "id": "src-478907f874",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-edd2116019",
-                  "name": "Atl. Madrid vs Barcelona",
+                  "id": "ct-478907f874",
+                  "name": "Villarreal vs Getafe",
                   "streams": [
                     {
-                      "id": "st-edd2116019",
+                      "id": "st-478907f874",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5304,13 +5322,13 @@
           ],
           "org_metadata": {
             "league": "La Liga",
-            "team_a": "Atl. Madrid",
-            "team_b": "Barcelona",
-            "logo_a": "https://apiv3.apifootball.com/badges/73_atletico-de-madrid.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "time": "22:00",
+            "team_a": "Villarreal",
+            "team_b": "Getafe",
+            "logo_a": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7288_getafe.jpg",
+            "time": "19:30",
             "date": "08/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Khô Chè",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -5321,7 +5339,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67988_5bae6b38_20261108.png?v=5bae6b38",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/67919_d6ab2a17_20261108.png?v=d6ab2a17",
             "width": 1600,
             "height": 1200
           }
