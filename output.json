@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1031,6 +1031,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/x7lm7phjy27km2w_e8c10e34_20261109.png?v=e8c10e34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-80e370169c",
+          "name": "FC Politehnica Timisoara vs Scolar Resita | 19:30 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80e370169c",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-80e370169c",
+                  "name": "FC Politehnica Timisoara vs Scolar Resita",
+                  "streams": [
+                    {
+                      "id": "st-80e370169c",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a96995fe9c",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/0099f836e91844fcba59c33f63f99129/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Romanian Liga II",
+            "team_a": "FC Politehnica Timisoara",
+            "team_b": "Scolar Resita",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlho70ryk0/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghg20jr6od/image/small",
+            "time": "19:30 09/11",
+            "blv": "LÃM LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghgkdvpq82_98d88df3_20261109.png?v=98d88df3",
             "width": 1600,
             "height": 1200
           }
@@ -1136,77 +1207,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1648304_edfe8df1_20261109.png?v=edfe8df1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-80e370169c",
-          "name": "FC Politehnica Timisoara vs Scolar Resita | 19:30 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80e370169c",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-80e370169c",
-                  "name": "FC Politehnica Timisoara vs Scolar Resita",
-                  "streams": [
-                    {
-                      "id": "st-80e370169c",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a96995fe9c",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/0099f836e91844fcba59c33f63f99129/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Romanian Liga II",
-            "team_a": "FC Politehnica Timisoara",
-            "team_b": "Scolar Resita",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/gpxwrxlho70ryk0/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vjxm8ghg20jr6od/image/small",
-            "time": "19:30 09/11",
-            "blv": "LÃM LÀNG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/zp5rzghgkdvpq82_98d88df3_20261109.png?v=98d88df3",
             "width": 1600,
             "height": 1200
           }
