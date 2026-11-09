@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1070,8 +1070,8 @@
           }
         },
         {
-          "id": "pl-ca0efed721",
-          "name": "Pakhtakor II vs FC Kattaqo | 16:00 09/11",
+          "id": "cc-fde4267313",
+          "name": "Metalourg vs Aral | 16:00 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1081,77 +1081,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ca0efed721",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-ca0efed721",
-                  "name": "Pakhtakor II vs FC Kattaqo",
-                  "streams": [
-                    {
-                      "id": "st-ca0efed721",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-edbd3406e6",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/da7696c95402470bb3ae2af1411f5c82/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Uzbekistan Pro League",
-            "team_a": "Pakhtakor II",
-            "team_b": "FC Kattaqo",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh722nq82w/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh1n62repz/image/small",
-            "time": "16:00 09/11",
-            "blv": "LÝ LẠNH LÙNG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhn31ejqvy_40a9d033_20261109.png?v=40a9d033",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-fde4267313",
-          "name": "Metalourg vs Aral | 16:00 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1233,7 +1162,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142648_7670cc2d.png",
             "time": "16:00 09/11",
             "blv": "Chuối Lá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1241,6 +1170,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1531018_c62fcbf4_20261109.png?v=c62fcbf4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-ca0efed721",
+          "name": "Pakhtakor II vs FC Kattaqo | 16:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ca0efed721",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-ca0efed721",
+                  "name": "Pakhtakor II vs FC Kattaqo",
+                  "streams": [
+                    {
+                      "id": "st-ca0efed721",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-edbd3406e6",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/da7696c95402470bb3ae2af1411f5c82/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Uzbekistan Pro League",
+            "team_a": "Pakhtakor II",
+            "team_b": "FC Kattaqo",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/zp5rzgh722nq82w/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh1n62repz/image/small",
+            "time": "16:00 09/11",
+            "blv": "LÝ LẠNH LÙNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhn31ejqvy_40a9d033_20261109.png?v=40a9d033",
             "width": 1600,
             "height": 1200
           }
