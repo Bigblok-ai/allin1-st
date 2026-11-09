@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1130,7 +1130,7 @@
             "blv": "BLV Xôi Xoài",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 2,
             "away_score": 0
           },
@@ -1139,6 +1139,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68129_6ea814ff_20261110.png?v=6ea814ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-80f697da6d",
+          "name": "Kristiansund vs Valerenga | 01:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80f697da6d",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-80f697da6d",
+                  "name": "Kristiansund vs Valerenga",
+                  "streams": [
+                    {
+                      "id": "st-80f697da6d",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Eliteserien",
+            "team_a": "Kristiansund",
+            "team_b": "Valerenga",
+            "logo_a": "https://apiv3.apifootball.com/badges/5595_kristiansund.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5599_vlerenga.jpg",
+            "time": "01:00",
+            "date": "10/11",
+            "blv": "BLV Tam Mao",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65513_ca6ce874_20261110.png?v=ca6ce874",
             "width": 1600,
             "height": 1200
           }
@@ -1792,8 +1867,8 @@
           }
         },
         {
-          "id": "xc-80f697da6d",
-          "name": "Kristiansund vs Valerenga | 01:00 10/11",
+          "id": "xc-74c08d99db",
+          "name": "Feyenoord W vs Wolfsburg W | 01:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1807,15 +1882,15 @@
           ],
           "sources": [
             {
-              "id": "src-80f697da6d",
+              "id": "src-74c08d99db",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-80f697da6d",
-                  "name": "Kristiansund vs Valerenga",
+                  "id": "ct-74c08d99db",
+                  "name": "Feyenoord W vs Wolfsburg W",
                   "streams": [
                     {
-                      "id": "st-80f697da6d",
+                      "id": "st-74c08d99db",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
@@ -1843,13 +1918,13 @@
             }
           ],
           "org_metadata": {
-            "league": "Eliteserien",
-            "team_a": "Kristiansund",
-            "team_b": "Valerenga",
-            "logo_a": "https://apiv3.apifootball.com/badges/5595_kristiansund.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5599_vlerenga.jpg",
+            "league": "Uefa Europa Cup Women",
+            "team_a": "Feyenoord W",
+            "team_b": "Wolfsburg W",
+            "logo_a": "https://apiv3.apifootball.com/badges/20241_feyenoord-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/28_wolfsburg-w.jpg",
             "time": "01:00",
-            "date": "10/11",
+            "date": "11/11",
             "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
@@ -1861,7 +1936,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65513_ca6ce874_20261110.png?v=ca6ce874",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69295_8b8b3761_20261110.png?v=8b8b3761",
             "width": 1600,
             "height": 1200
           }
