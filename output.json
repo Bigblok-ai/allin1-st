@@ -959,11 +959,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-574d249e45",
+          "name": "Plymouth Parkway vs Berkhamsted | 02:30 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-574d249e45",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-574d249e45",
+                  "name": "Plymouth Parkway vs Berkhamsted",
+                  "streams": [
+                    {
+                      "id": "st-574d249e45",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9beb6bc55d",
+                          "name": "Ngọng",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165334_hd/1794165334_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FA Cup ",
+            "team_a": "Plymouth Parkway",
+            "team_b": "Berkhamsted",
+            "logo_a": "https://images.keovip88.net/images/teams/plymouth-argyle.png",
+            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/df/BeroeLogo.png",
+            "time": "02:30 10/11",
+            "blv": "Ngọng",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/dfcjaohqxrz8_e692cae7_20261110.png?v=e692cae7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-80f697da6d",
           "name": "Kristiansund vs Valerenga | 01:00 10/11",
@@ -1184,77 +1255,6 @@
           }
         },
         {
-          "id": "gv-574d249e45",
-          "name": "Plymouth Parkway vs Berkhamsted | 02:30 10/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-574d249e45",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-574d249e45",
-                  "name": "Plymouth Parkway vs Berkhamsted",
-                  "streams": [
-                    {
-                      "id": "st-574d249e45",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9beb6bc55d",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165334_hd/1794165334_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FA Cup ",
-            "team_a": "Plymouth Parkway",
-            "team_b": "Berkhamsted",
-            "logo_a": "https://images.keovip88.net/images/teams/plymouth-argyle.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/commons/d/df/BeroeLogo.png",
-            "time": "02:30 10/11",
-            "blv": "Ngọng",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/dfcjaohqxrz8_e692cae7_20261110.png?v=e692cae7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-42e4b9c09f",
           "name": "Sabadell vs Real Sociedad II | 02:30 10/11",
           "type": "single",
@@ -1262,10 +1262,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1347,7 +1347,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_140020_f23143f4.png",
             "time": "02:30 10/11",
             "blv": "Trốc Tru",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -3118,82 +3118,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-38d3fcc5d6",
-          "name": "Olsztyn vs Lublin | 23:30 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38d3fcc5d6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38d3fcc5d6",
-                  "name": "Olsztyn vs Lublin",
-                  "streams": [
-                    {
-                      "id": "st-38d3fcc5d6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-db55264582",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794165495_hd/1794165495_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Ba Lan Tauron Liga",
-            "team_a": "Olsztyn",
-            "team_b": "Lublin",
-            "logo_a": "https://static.flashscore.com/res/image/data/jJ1euGzS-j16NkjZ6.png",
-            "logo_b": "https://upload.wikimedia.org/wikipedia/en/9/92/Start_Lublin_logo.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original",
-            "time": "23:30 09/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/hb7w7oy5b7zr_4fe8e37e_20261110.png?v=4fe8e37e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "pl-3a0000b8e0",
           "name": "AI Peppers Women vs IBK Women | 17:00 10/11",
