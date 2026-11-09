@@ -959,11 +959,178 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-2dbe71e79b",
+          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 17:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-2dbe71e79b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2dbe71e79b",
+                  "name": "CS Din. Bucuresti vs Ramnicu Valcea",
+                  "streams": [
+                    {
+                      "id": "st-2dbe71e79b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga II",
+            "team_a": "CS Din. Bucuresti",
+            "team_b": "Ramnicu Valcea",
+            "logo_a": "https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/32072_scm-ramnicu-valcea.jpg",
+            "time": "17:00",
+            "date": "09/11",
+            "blv": "BLV Lương Khô",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68122_f5861407_20261109.png?v=f5861407",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-c5753f81a5",
+          "name": "ZED vs Samanod | 17:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c5753f81a5",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c5753f81a5",
+                  "name": "ZED vs Samanod",
+                  "streams": [
+                    {
+                      "id": "st-c5753f81a5",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "ZED",
+            "team_b": "Samanod",
+            "logo_a": "https://apiv3.apifootball.com/badges/13645_zed-fc.jpg",
+            "logo_b": "",
+            "time": "17:00",
+            "date": "09/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_7a487c9e_20261109.png?v=7a487c9e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-fde4267313",
           "name": "Metalourg vs Aral | 16:00 09/11",
@@ -1738,6 +1905,146 @@
           }
         },
         {
+          "id": "cc-8b1fdf6895",
+          "name": "Veles vs KAMAZ | 23:30 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8b1fdf6895",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-8b1fdf6895",
+                  "name": "Veles vs KAMAZ",
+                  "streams": [
+                    {
+                      "id": "st-8b1fdf6895",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c65a624da2",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-d1e642bd12",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d1e642bd12",
+                  "name": "Veles vs FC KAMAZ",
+                  "streams": [
+                    {
+                      "id": "st-d1e642bd12",
+                      "name": "Phalang - LÝ LẠNH LÙNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-531f962e8b",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/690c2ffb92044f98adcea177c98e4a6a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FNL Nga",
+            "team_a": "Veles",
+            "team_b": "KAMAZ",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_141120_42a4e379.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_133813_d3c6cd2c.png",
+            "time": "23:30 09/11",
+            "blv": "Chuối Già",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1577583_38159cfc_20261109.png?v=38159cfc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-2825f46688",
           "name": "FC Botosani vs Oţelul | 01:00 10/11",
           "type": "single",
@@ -2229,83 +2536,8 @@
           }
         },
         {
-          "id": "xc-80f697da6d",
-          "name": "Kristiansund vs Valerenga | 01:00 10/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-80f697da6d",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-80f697da6d",
-                  "name": "Kristiansund vs Valerenga",
-                  "streams": [
-                    {
-                      "id": "st-80f697da6d",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Eliteserien",
-            "team_a": "Kristiansund",
-            "team_b": "Valerenga",
-            "logo_a": "https://apiv3.apifootball.com/badges/5595_kristiansund.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/5599_vlerenga.jpg",
-            "time": "01:00",
-            "date": "10/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65513_ca6ce874_20261109.png?v=ca6ce874",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-0c333af5fc",
-          "name": "Junior vs Cucuta | 07:00 10/11",
+          "name": "Junior vs Cucuta | 02:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2377,7 +2609,7 @@
             "team_b": "Cucuta",
             "logo_a": "https://apiv3.apifootball.com/badges/544_junior.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/13487_cucuta-deportivo.jpg",
-            "time": "07:00",
+            "time": "02:00",
             "date": "10/11",
             "blv": "BLV Khô Mật",
             "is_live": false,
@@ -2397,7 +2629,7 @@
         },
         {
           "id": "xc-9fa0d696ea",
-          "name": "Qatar U23 vs Singapore U23 | 15:00 10/11",
+          "name": "Qatar U23 vs Singapore U23 | 10:00 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2444,41 +2676,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-3792851118",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-3792851118",
-                  "name": "Qatar U23 vs Singapore U23",
-                  "streams": [
-                    {
-                      "id": "st-3792851118",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-87b1047a4c",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/8ae2e1d0649843ada4203fcbf41ec8c2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
@@ -2487,7 +2684,7 @@
             "team_b": "Singapore U23",
             "logo_a": "https://apiv3.apifootball.com/badges/9472_qatar-u23.jpg",
             "logo_b": "https://apiv3.apifootball.com/badges/10366_singapore-u23.jpg",
-            "time": "15:00",
+            "time": "10:00",
             "date": "10/11",
             "blv": "BLV Khô Cay",
             "is_live": false,
@@ -2506,267 +2703,8 @@
           }
         },
         {
-          "id": "xc-9485940b80",
-          "name": "Wadi Degla vs Kahrabaa Ismailia | 19:30 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9485940b80",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9485940b80",
-                  "name": "Wadi Degla vs Kahrabaa Ismailia",
-                  "streams": [
-                    {
-                      "id": "st-9485940b80",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Wadi Degla",
-            "team_b": "Kahrabaa Ismailia",
-            "logo_a": "https://apiv3.apifootball.com/badges/2774_wadi-degla.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/30022_kahraba-ismailia.jpg",
-            "time": "19:30",
-            "date": "09/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68109_f3b0858b_20261109.png?v=f3b0858b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-2dbe71e79b",
-          "name": "CS Din. Bucuresti vs Ramnicu Valcea | 22:00 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2dbe71e79b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-2dbe71e79b",
-                  "name": "CS Din. Bucuresti vs Ramnicu Valcea",
-                  "streams": [
-                    {
-                      "id": "st-2dbe71e79b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Liga II",
-            "team_a": "CS Din. Bucuresti",
-            "team_b": "Ramnicu Valcea",
-            "logo_a": "https://apiv3.apifootball.com/badges/25722_cs-dinamo-bucureti.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/32072_scm-ramnicu-valcea.jpg",
-            "time": "22:00",
-            "date": "09/11",
-            "blv": "BLV Lương Khô",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68122_f5861407_20261109.png?v=f5861407",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-c5753f81a5",
-          "name": "ZED vs Samanod | 22:00 09/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c5753f81a5",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-c5753f81a5",
-                  "name": "ZED vs Samanod",
-                  "streams": [
-                    {
-                      "id": "st-c5753f81a5",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "ZED",
-            "team_b": "Samanod",
-            "logo_a": "https://apiv3.apifootball.com/badges/13645_zed-fc.jpg",
-            "logo_b": "",
-            "time": "22:00",
-            "date": "09/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68123_7a487c9e_20261109.png?v=7a487c9e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-14edf56c2a",
-          "name": "Veles Moscow vs Kamaz | 23:30 09/11",
+          "name": "Veles Moscow vs Kamaz | 18:30 09/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2813,98 +2751,69 @@
                   ]
                 }
               ]
-            },
+            }
+          ],
+          "org_metadata": {
+            "league": "First League",
+            "team_a": "Veles Moscow",
+            "team_b": "Kamaz",
+            "logo_a": "https://apiv3.apifootball.com/badges/6270_veles.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/6252_kamaz.jpg",
+            "time": "18:30",
+            "date": "09/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68129_6ea814ff_20261109.png?v=6ea814ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-80f697da6d",
+          "name": "Kristiansund vs Valerenga | 20:00 09/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
             {
-              "id": "src-8b1fdf6895",
-              "name": "ChuoiChienTV",
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-80f697da6d",
+              "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-8b1fdf6895",
-                  "name": "Veles vs KAMAZ",
+                  "id": "ct-80f697da6d",
+                  "name": "Kristiansund vs Valerenga",
                   "streams": [
                     {
-                      "id": "st-8b1fdf6895",
-                      "name": "CCport - Chuối Già",
+                      "id": "st-80f697da6d",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-b14bc05945",
-                          "name": "Chuối Già HD1",
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
                           "type": "hls",
                           "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c65a624da2",
-                          "name": "Chuối Già HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a46d78baf",
-                          "name": "Chuối Già FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d1e642bd12",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d1e642bd12",
-                  "name": "Veles vs FC KAMAZ",
-                  "streams": [
-                    {
-                      "id": "st-d1e642bd12",
-                      "name": "Phalang - LÝ LẠNH LÙNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-531f962e8b",
-                          "name": "LÝ LẠNH LÙNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/690c2ffb92044f98adcea177c98e4a6a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2920,14 +2829,14 @@
             }
           ],
           "org_metadata": {
-            "league": "First League",
-            "team_a": "Veles Moscow",
-            "team_b": "Kamaz",
-            "logo_a": "https://apiv3.apifootball.com/badges/6270_veles.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/6252_kamaz.jpg",
-            "time": "23:30",
+            "league": "Eliteserien",
+            "team_a": "Kristiansund",
+            "team_b": "Valerenga",
+            "logo_a": "https://apiv3.apifootball.com/badges/5595_kristiansund.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5599_vlerenga.jpg",
+            "time": "20:00",
             "date": "09/11",
-            "blv": "BLV Xôi Xoài",
+            "blv": "BLV Tam Mao",
             "is_live": false,
             "cate_type": "football",
             "status": "scheduled",
@@ -2938,7 +2847,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68129_6ea814ff_20261109.png?v=6ea814ff",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/65513_ca6ce874_20261109.png?v=ca6ce874",
             "width": 1600,
             "height": 1200
           }
@@ -3970,78 +3879,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c79aa9e05a_1a609d9a_20261109.png?v=1a609d9a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-829295d707",
-          "name": "JB vs Việt | 17:09 09/11 | Đại Kê",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-829295d707",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-829295d707",
-                  "name": "JB vs Việt",
-                  "streams": [
-                    {
-                      "id": "st-829295d707",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-829295d707",
-                          "name": "Đại Kê",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10016/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "top top",
-            "team_a": "JB",
-            "team_b": "Việt",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794219028476_Screenshot%202026-11-09%20170945.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794219028945_Screenshot%202026-11-09%20171019.png",
-            "time": "17:09 09/11",
-            "blv": "Đại Kê",
-            "is_live": false,
-            "time_sort": 1794218940,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-829295d707_da7a7b0a_20261109.png?v=da7a7b0a",
             "width": 1600,
             "height": 1200
           }
