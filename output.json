@@ -1378,7 +1378,7 @@
             "blv": "BLV Khô Cá",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "scheduled",
             "home_score": 0,
             "away_score": 0
           },
@@ -1392,8 +1392,8 @@
           }
         },
         {
-          "id": "cc-e7070cba13",
-          "name": "Real Madrid W vs Paris FC W | 00:45 11/11",
+          "id": "xc-70770ef723",
+          "name": "Real Madrid W vs Paris FC Women | 00:45 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1407,6 +1407,58 @@
           ],
           "sources": [
             {
+              "id": "src-70770ef723",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-70770ef723",
+                  "name": "Real Madrid W vs Paris FC Women",
+                  "streams": [
+                    {
+                      "id": "st-70770ef723",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-e7070cba13",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1416,7 +1468,7 @@
                   "streams": [
                     {
                       "id": "st-e7070cba13",
-                      "name": "CC",
+                      "name": "CCport - Chuối Lá",
                       "stream_links": [
                         {
                           "id": "lnk-15d5e70700",
@@ -1477,21 +1529,25 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA Champions League Women",
+            "league": "UEFA Women's Champions League",
             "team_a": "Real Madrid W",
-            "team_b": "Paris FC W",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133759_b6982020.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132645_70b8e616.png",
-            "time": "00:45 11/11",
-            "blv": "Chuối Lá",
+            "team_b": "Paris FC Women",
+            "logo_a": "https://apiv3.apifootball.com/badges/486_real-madrid-w.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/310_paris-fc-w.jpg",
+            "time": "00:45",
+            "date": "11/11",
+            "blv": "BLV Khô Mật",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638332_ffa79244_20261111.png?v=ffa79244",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69285_000bb973_20261111.png?v=000bb973",
             "width": 1600,
             "height": 1200
           }
@@ -2654,111 +2710,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/3glrw7h4w7lkqdy_184438d4_20261111.png?v=184438d4",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-863a51d060",
-          "name": "Urawa vs Cerezo Osaka | 17:30 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-863a51d060",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-863a51d060",
-                  "name": "Urawa vs Cerezo Osaka",
-                  "streams": [
-                    {
-                      "id": "st-863a51d060",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54fbd1fdde",
-                          "name": "Chuối Kem HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc824527c7",
-                          "name": "Chuối Kem HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-262f74ad58",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J-League Cup",
-            "team_a": "Urawa",
-            "team_b": "Cerezo Osaka",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_131431_dcdeb466.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_132411_05a7d523.png",
-            "time": "17:30 11/11",
-            "blv": "Chuối Kem",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1648033_1a9a7db8_20261111.png?v=1a9a7db8",
             "width": 1600,
             "height": 1200
           }
@@ -4099,6 +4050,167 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69641_eee45cf7_20261111.png?v=eee45cf7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4caf6c602c",
+          "name": "Urawa Reds vs Cerezo Osaka | 17:30 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4caf6c602c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4caf6c602c",
+                  "name": "Urawa Reds vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-4caf6c602c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-863a51d060",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-863a51d060",
+                  "name": "Urawa vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-863a51d060",
+                      "name": "CCport - Chuối Kem",
+                      "stream_links": [
+                        {
+                          "id": "lnk-54fbd1fdde",
+                          "name": "Chuối Kem HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-fc824527c7",
+                          "name": "Chuối Kem HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-262f74ad58",
+                          "name": "Chuối Kem FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Urawa Reds",
+            "team_b": "Cerezo Osaka",
+            "logo_a": "https://apiv3.apifootball.com/badges/5051_urawa-reds.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5045_cerezo-osaka.jpg",
+            "time": "17:30",
+            "date": "11/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69643_4bc090c8_20261111.png?v=4bc090c8",
             "width": 1600,
             "height": 1200
           }
