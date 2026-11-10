@@ -959,11 +959,86 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-afbd5f8942",
+          "name": "Arab Contractors vs WE SC | 22:00 10/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-afbd5f8942",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-afbd5f8942",
+                  "name": "Arab Contractors vs WE SC",
+                  "streams": [
+                    {
+                      "id": "st-afbd5f8942",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Cup",
+            "team_a": "Arab Contractors",
+            "team_b": "WE SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/2771_al-mokawloon.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/13636_we.jpg",
+            "time": "22:00",
+            "date": "10/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68818_b7bff1a7_20261110.png?v=b7bff1a7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-b6390a7834",
           "name": "Arab Contractors vs Telecom Egypt | 22:00 10/11",
@@ -2875,81 +2950,6 @@
             "width": 1600,
             "height": 1200
           }
-        },
-        {
-          "id": "xc-afbd5f8942",
-          "name": "Arab Contractors vs WE SC | 22:00 10/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-afbd5f8942",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-afbd5f8942",
-                  "name": "Arab Contractors vs WE SC",
-                  "streams": [
-                    {
-                      "id": "st-afbd5f8942",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Cup",
-            "team_a": "Arab Contractors",
-            "team_b": "WE SC",
-            "logo_a": "https://apiv3.apifootball.com/badges/2771_al-mokawloon.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/13636_we.jpg",
-            "time": "22:00",
-            "date": "10/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/68818_b7bff1a7_20261110.png?v=b7bff1a7",
-            "width": 1600,
-            "height": 1200
-          }
         }
       ]
     },
@@ -3122,83 +3122,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (4 LIVE)",
+      "name": "🎱 Billiards (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-70681d1b6d",
-          "name": "Shayne Acebar vs Andot Valencia | SÊ KÔÔ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-70681d1b6d",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-70681d1b6d",
-                  "name": "Shayne Acebar vs Andot Valencia",
-                  "streams": [
-                    {
-                      "id": "st-70681d1b6d",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-70681d1b6d",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10054/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phủi phi",
-            "team_a": "Shayne Acebar",
-            "team_b": "Andot Valencia",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794308610040_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794308617229_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "18:03 10/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794308580,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-70681d1b6d_3538a81c_20261110.png?v=3538a81c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-d6f45e3a74",
           "name": "Edwin Gamas vs Dondon | GIÀNG A PHỌ",
