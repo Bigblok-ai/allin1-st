@@ -1167,7 +1167,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 0,
+            "home_score": 1,
             "away_score": 0
           },
           "image": {
@@ -4220,7 +4220,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4297,38 +4297,38 @@
           }
         },
         {
-          "id": "pl-3a0000b8e0",
-          "name": "AI Peppers Women vs IBK Women | 17:00 10/11",
+          "id": "pl-b1de188d4d",
+          "name": "Ziraat Bankasi vs Alanya Bld | 20:30 10/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-3a0000b8e0",
+              "id": "src-b1de188d4d",
               "name": "PhaLangTV",
               "contents": [
                 {
-                  "id": "ct-3a0000b8e0",
-                  "name": "AI Peppers Women vs IBK Women",
+                  "id": "ct-b1de188d4d",
+                  "name": "Ziraat Bankasi vs Alanya Bld",
                   "streams": [
                     {
-                      "id": "st-3a0000b8e0",
+                      "id": "st-b1de188d4d",
                       "name": "PL",
                       "stream_links": [
                         {
-                          "id": "lnk-1532c37143",
-                          "name": "LÃM LÀNG",
+                          "id": "lnk-fc53b1dac3",
+                          "name": "LÝ LIỀU LĨNH",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6ab7813111e64605858dab0e7259b8e6/index.m3u8",
+                          "url": "https://pull.digitalcdn.net/live/ce1ff944585e4129b55cc66a86d205c2/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -4348,21 +4348,21 @@
             }
           ],
           "org_metadata": {
-            "league": "Volleyball League Women",
-            "team_a": "AI Peppers Women",
-            "team_b": "IBK Women",
-            "logo_a": "https://img0.aiscore.com/volleyball/team/890cd7399f4d00edc1f37cae88054b38.png!w80",
-            "logo_b": "https://img0.aiscore.com/volleyball/team/eadd99bb3d03bd80c6204376501542ff.png!w80",
-            "time": "17:00 10/11",
-            "blv": "LÃM LÀNG",
-            "is_live": true,
+            "league": "Efeler Ligi",
+            "team_a": "Ziraat Bankasi",
+            "team_b": "Alanya Bld",
+            "logo_a": "https://img0.aiscore.com/volleyball/team/509aa9190a2b64dac9ffa248906a94d9.png!w80",
+            "logo_b": "https://img0.aiscore.com/volleyball/team/6b1bfeba6e23f5044fbba4b5ffab37a1.png!w80",
+            "time": "20:30 10/11",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
             "cate_type": "bongchuyen"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/49ed0a0c62024ff28db1fe42be8b8e72_f07122b3_20261110.png?v=f07122b3",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/d9c0c41ababa4936b41ee0e30bc33855_5acfe4d2_20261110.png?v=5acfe4d2",
             "width": 1600,
             "height": 1200
           }
@@ -4404,41 +4404,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b1de188d4d",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b1de188d4d",
-                  "name": "Ziraat Bankasi vs Alanya Bld",
-                  "streams": [
-                    {
-                      "id": "st-b1de188d4d",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fc53b1dac3",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/ce1ff944585e4129b55cc66a86d205c2/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
                             },
                             {
                               "key": "User-Agent",
