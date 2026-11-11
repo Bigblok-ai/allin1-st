@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1212,6 +1212,77 @@
           }
         },
         {
+          "id": "pl-eaa835ef72",
+          "name": "Pháp U19 vs Na Uy U19 | 00:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-eaa835ef72",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-eaa835ef72",
+                  "name": "Pháp U19 vs Na Uy U19",
+                  "streams": [
+                    {
+                      "id": "st-eaa835ef72",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-f985dbac9f",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/be9e80aa3e314acabad29bc505f1564c/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA European U19 Football Championship",
+            "team_a": "Pháp U19",
+            "team_b": "Na Uy U19",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hk85q86p/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwzx3qdyj/image/small",
+            "time": "00:00 12/11",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4hy730dq0j_540ec80a_20261111.png?v=540ec80a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-9c1154ac64",
           "name": "Tunisia vs Libya | 00:00 12/11",
           "type": "single",
@@ -1354,77 +1425,6 @@
           }
         },
         {
-          "id": "gv-05c7b21504",
-          "name": "Mali vs Rwanda | 00:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-05c7b21504",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-05c7b21504",
-                  "name": "Mali vs Rwanda",
-                  "streams": [
-                    {
-                      "id": "st-05c7b21504",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0c85a16b02",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794306350_hd/1794306350_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Mali",
-            "team_b": "Rwanda",
-            "logo_a": "https://images.keovip88.net/images/teams/mali.png",
-            "logo_b": "https://images.keovip88.net/images/teams/rwanda.png",
-            "time": "00:00 12/11",
-            "blv": "Trĩ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/0q2t86uz90ty_99de3ed3_20261111.png?v=99de3ed3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-a227197c10",
           "name": "Ivory Coast vs Gambia | 00:00 12/11",
           "type": "single",
@@ -1491,77 +1491,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/2w5zsmcq0owj_57afcead_20261111.png?v=57afcead",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-35636ece26",
-          "name": "Egypt vs Malawi | 00:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-35636ece26",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-35636ece26",
-                  "name": "Egypt vs Malawi",
-                  "streams": [
-                    {
-                      "id": "st-35636ece26",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c6cd2d5c0c",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794306512_hd/1794306512_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Egypt",
-            "team_b": "Malawi",
-            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/lYah1Uqw37XdicC6C4HNqg_96x96.png",
-            "logo_b": "https://images.keovip88.net/images/teams/malawi.png",
-            "time": "00:00 12/11",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/e2r4zkm2zi8n_bd9a3dcf_20261111.png?v=bd9a3dcf",
             "width": 1600,
             "height": 1200
           }
@@ -1638,8 +1567,8 @@
           }
         },
         {
-          "id": "pl-eaa835ef72",
-          "name": "Pháp U19 vs Na Uy U19 | 00:00 12/11",
+          "id": "gv-35636ece26",
+          "name": "Egypt vs Malawi | 00:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1653,27 +1582,27 @@
           ],
           "sources": [
             {
-              "id": "src-eaa835ef72",
-              "name": "PhaLangTV",
+              "id": "src-35636ece26",
+              "name": "GiovangTV",
               "contents": [
                 {
-                  "id": "ct-eaa835ef72",
-                  "name": "Pháp U19 vs Na Uy U19",
+                  "id": "ct-35636ece26",
+                  "name": "Egypt vs Malawi",
                   "streams": [
                     {
-                      "id": "st-eaa835ef72",
-                      "name": "PL",
+                      "id": "st-35636ece26",
+                      "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-f985dbac9f",
-                          "name": "LÝ LIỀU LĨNH",
+                          "id": "lnk-c6cd2d5c0c",
+                          "name": "Dory",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/be9e80aa3e314acabad29bc505f1564c/index.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794306512_hd/1794306512_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://giovang.store/"
                             },
                             {
                               "key": "User-Agent",
@@ -1689,13 +1618,13 @@
             }
           ],
           "org_metadata": {
-            "league": "UEFA European U19 Football Championship",
-            "team_a": "Pháp U19",
-            "team_b": "Na Uy U19",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/e4wyrn4hk85q86p/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwzx3qdyj/image/small",
+            "league": "Africa Cup of Nations",
+            "team_a": "Egypt",
+            "team_b": "Malawi",
+            "logo_a": "https://ssl.gstatic.com/onebox/media/sports/logos/optimized/lYah1Uqw37XdicC6C4HNqg_96x96.png",
+            "logo_b": "https://images.keovip88.net/images/teams/malawi.png",
             "time": "00:00 12/11",
-            "blv": "LÝ LIỀU LĨNH",
+            "blv": "Dory",
             "is_live": false,
             "cate_type": "football"
           },
@@ -1703,7 +1632,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4hy730dq0j_540ec80a_20261111.png?v=540ec80a",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/e2r4zkm2zi8n_bd9a3dcf_20261111.png?v=bd9a3dcf",
             "width": 1600,
             "height": 1200
           }
@@ -5075,7 +5004,7 @@
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-ec0a7033f4",
+          "id": "pl-88236012f0",
           "name": "Halkbank vs Fenerbahce | 20:30 11/11",
           "type": "single",
           "display": "thumbnail-only",
@@ -5090,41 +5019,6 @@
           ],
           "sources": [
             {
-              "id": "src-ec0a7033f4",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-ec0a7033f4",
-                  "name": "Halkbank vs Fenerbahce",
-                  "streams": [
-                    {
-                      "id": "st-ec0a7033f4",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8c236344f3",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794294751_hd/1794294751_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-88236012f0",
               "name": "PhaLangTV",
               "contents": [
@@ -5134,7 +5028,7 @@
                   "streams": [
                     {
                       "id": "st-88236012f0",
-                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "name": "PL",
                       "stream_links": [
                         {
                           "id": "lnk-ae14420128",
@@ -5164,10 +5058,10 @@
             "league": "Turkish Cup - Play Offs - Tứ kết",
             "team_a": "Halkbank",
             "team_b": "Fenerbahce",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ030AwJnowiv6Dq8YG7phO46ElUlBPoYL32j8Iz1sy_A&s=10",
-            "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQllIjTV1tap6JSUu6NbpTSgOjN2jPEEkbDbOGAom7ojA&s",
+            "logo_a": "https://static.flashscore.com/res/image/data/4xJiNTWg-b9OSXzTg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/IPsu1jil-fc1HY790.png",
             "time": "20:30 11/11",
-            "blv": "Điếc",
+            "blv": "LÝ LIỀU LĨNH",
             "is_live": true,
             "cate_type": "bongchuyen"
           },
@@ -5175,7 +5069,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/smwtfkuc77hx_9e246da5_20261111.png?v=9e246da5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/49b3ec5bfe40411c85a0a2d731fb9fd9_1570e199_20261111.png?v=1570e199",
             "width": 1600,
             "height": 1200
           }
