@@ -959,11 +959,155 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-61038c9996",
+          "name": "Ấn Độ vs Maldives | 16:30 11/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61038c9996",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-61038c9996",
+                  "name": "Ấn Độ vs Maldives",
+                  "streams": [
+                    {
+                      "id": "st-61038c9996",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-b6b80893c8",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-b6b80893c8",
+                  "name": "India vs Maldives",
+                  "streams": [
+                    {
+                      "id": "st-b6b80893c8",
+                      "name": "CCport - Chuối Tây",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aa79648022",
+                          "name": "Chuối Tây HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-36aaed7dd9",
+                          "name": "Chuối Tây HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-70e532cde3",
+                          "name": "Chuối Tây FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saff Championship",
+            "team_a": "Ấn Độ",
+            "team_b": "Maldives",
+            "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/342_maldives.jpg",
+            "time": "16:30",
+            "date": "11/11",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69616_68e4020b_20261111.png?v=68e4020b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-509c67759d",
           "name": "Guam U17 vs Palestine U17 | 14:30 11/11",
@@ -1316,7 +1460,7 @@
         },
         {
           "id": "gv-9b90699d84",
-          "name": "Hà Lan U17 vs Norway U17 | 17:00 11/11",
+          "name": "Hà Lan U17 vs Na uy U17 | 17:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1335,7 +1479,7 @@
               "contents": [
                 {
                   "id": "ct-9b90699d84",
-                  "name": "Hà Lan U17 vs Norway U17",
+                  "name": "Hà Lan U17 vs Na uy U17",
                   "streams": [
                     {
                       "id": "st-9b90699d84",
@@ -1368,7 +1512,7 @@
           "org_metadata": {
             "league": "Euro U17",
             "team_a": "Hà Lan U17",
-            "team_b": "Norway U17",
+            "team_b": "Na uy U17",
             "logo_a": "https://images.keovip88.net/images/teams/netherlands-u17.png",
             "logo_b": "https://images.keovip88.net/images/teams/norway-u17.png",
             "time": "17:00 11/11",
@@ -1705,7 +1849,7 @@
         },
         {
           "id": "gv-7a5d75a917",
-          "name": "Slovenia U19 vs U19 Anh | 19:00 11/11",
+          "name": "Slovenia U19 vs England U19 | 19:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1724,7 +1868,7 @@
               "contents": [
                 {
                   "id": "ct-7a5d75a917",
-                  "name": "Slovenia U19 vs U19 Anh",
+                  "name": "Slovenia U19 vs England U19",
                   "streams": [
                     {
                       "id": "st-7a5d75a917",
@@ -1757,7 +1901,7 @@
           "org_metadata": {
             "league": "Euro U19",
             "team_a": "Slovenia U19",
-            "team_b": "U19 Anh",
+            "team_b": "England U19",
             "logo_a": "https://images.keovip88.net/images/teams/slovenia-u19.png",
             "logo_b": "https://images.keovip88.net/images/teams/england-u19.png",
             "time": "19:00 11/11",
@@ -2442,7 +2586,7 @@
         },
         {
           "id": "gv-8b5f182fea",
-          "name": "Montenegro U17 vs Anh U17 | 21:00 11/11",
+          "name": "Montenegro U17 vs England U17 | 21:00 11/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2461,7 +2605,7 @@
               "contents": [
                 {
                   "id": "ct-8b5f182fea",
-                  "name": "Montenegro U17 vs Anh U17",
+                  "name": "Montenegro U17 vs England U17",
                   "streams": [
                     {
                       "id": "st-8b5f182fea",
@@ -2494,7 +2638,7 @@
           "org_metadata": {
             "league": "Euro U17",
             "team_a": "Montenegro U17",
-            "team_b": "Anh U17",
+            "team_b": "England U17",
             "logo_a": "https://images.keovip88.net/images/teams/montenegro-u17.png",
             "logo_b": "https://images.keovip88.net/images/teams/england-u17.png",
             "time": "21:00 11/11",
@@ -3504,6 +3648,111 @@
           }
         },
         {
+          "id": "cc-007031bc9c",
+          "name": "OH Leuven W vs Køge | 00:45 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-007031bc9c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-007031bc9c",
+                  "name": "OH Leuven W vs Køge",
+                  "streams": [
+                    {
+                      "id": "st-007031bc9c",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b70f9c446",
+                          "name": "Chuối Lửa HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-61c9b0c462",
+                          "name": "Chuối Lửa HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-84c6ebfd3b",
+                          "name": "Chuối Lửa FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League Women",
+            "team_a": "OH Leuven W",
+            "team_b": "Køge",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_133714_e956ebcb.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_141851_d76a5e07.png",
+            "time": "00:45 12/11",
+            "blv": "Chuối Lửa",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638318_4180c19c_20261111.png?v=4180c19c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-dd72aea2ef",
           "name": "Liverpool W vs Aston Villa W | 02:00 12/11",
           "type": "single",
@@ -4396,150 +4645,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/70850_c0f46fda_20261111.png?v=c0f46fda",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-61038c9996",
-          "name": "Ấn Độ vs Maldives | 16:30 11/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61038c9996",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-61038c9996",
-                  "name": "Ấn Độ vs Maldives",
-                  "streams": [
-                    {
-                      "id": "st-61038c9996",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-b6b80893c8",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-b6b80893c8",
-                  "name": "India vs Maldives",
-                  "streams": [
-                    {
-                      "id": "st-b6b80893c8",
-                      "name": "CCport - Chuối Tây",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa79648022",
-                          "name": "Chuối Tây HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-36aaed7dd9",
-                          "name": "Chuối Tây HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-70e532cde3",
-                          "name": "Chuối Tây FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoitayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saff Championship",
-            "team_a": "Ấn Độ",
-            "team_b": "Maldives",
-            "logo_a": "https://apiv3.apifootball.com/badges/347_india.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/342_maldives.jpg",
-            "time": "16:30",
-            "date": "11/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/69616_68e4020b_20261111.png?v=68e4020b",
             "width": 1600,
             "height": 1200
           }
