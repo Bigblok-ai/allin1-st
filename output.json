@@ -959,14 +959,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-38d0e1f7d9",
-          "name": "Cộng hòa Séc vs Tây Ban Nha | 02:45 13/11",
+          "id": "xc-419fe77a49",
+          "name": "Cộng Hòa Séc vs Tây Ban Nha | 02:45 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -980,41 +980,6 @@
           ],
           "sources": [
             {
-              "id": "src-38d0e1f7d9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38d0e1f7d9",
-                  "name": "Cộng hòa Séc vs Tây Ban Nha",
-                  "streams": [
-                    {
-                      "id": "st-38d0e1f7d9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-73592a447f",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794148556_hd/1794148556_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-419fe77a49",
               "name": "XoiChe TV",
               "contents": [
@@ -1024,7 +989,7 @@
                   "streams": [
                     {
                       "id": "st-419fe77a49",
-                      "name": "PhaoHoa - BLV Khô Mật",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
                           "id": "lnk-88fe1a05f9",
@@ -1069,26 +1034,30 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Cộng hòa Séc",
+            "team_a": "Cộng Hòa Séc",
             "team_b": "Tây Ban Nha",
-            "logo_a": "https://images.keovip88.net/images/teams/czech-republic.png",
-            "logo_b": "https://images.keovip88.net/images/teams/spain.png",
-            "time": "02:45 13/11",
-            "blv": "Súp",
+            "logo_a": "https://apiv3.apifootball.com/badges/13_czechia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/19_spain.jpg",
+            "time": "02:45",
+            "date": "13/11",
+            "blv": "BLV Khô Mật",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf76d_d819cab7_20261113.png?v=d819cab7",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71402_07069aa0_20261113.png?v=07069aa0",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "gv-0af9d6577a",
+          "id": "xc-c51295ac2c",
           "name": "Ý vs Pháp | 02:45 13/11",
           "type": "single",
           "display": "thumbnail-only",
@@ -1103,41 +1072,6 @@
           ],
           "sources": [
             {
-              "id": "src-0af9d6577a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-0af9d6577a",
-                  "name": "Ý vs Pháp",
-                  "streams": [
-                    {
-                      "id": "st-0af9d6577a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a6cc16f983",
-                          "name": "Ngọng",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794148617_hd/1794148617_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-c51295ac2c",
               "name": "XoiChe TV",
               "contents": [
@@ -1147,7 +1081,7 @@
                   "streams": [
                     {
                       "id": "st-c51295ac2c",
-                      "name": "PhaoHoa - BLV Khô Cóc",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
                           "id": "lnk-484b46424a",
@@ -1171,365 +1105,28 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-dfe763d5cb",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-dfe763d5cb",
-                  "name": "Italy vs France",
-                  "streams": [
-                    {
-                      "id": "st-dfe763d5cb",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
             "team_a": "Ý",
             "team_b": "Pháp",
-            "logo_a": "https://images.keovip88.net/images/teams/italy.png",
-            "logo_b": "https://images.keovip88.net/images/teams/france.png",
-            "time": "02:45 13/11",
-            "blv": "Ngọng",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f7e7425c39b5554409bf44_c2107207_20261113.png?v=c2107207",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-dc6247ffed",
-          "name": "Anh vs Croatia | 02:45 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-dc6247ffed",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-dc6247ffed",
-                  "name": "Anh vs Croatia",
-                  "streams": [
-                    {
-                      "id": "st-dc6247ffed",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Anh",
-            "team_b": "Croatia",
-            "logo_a": "https://apiv3.apifootball.com/badges/16_england.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/14_croatia.jpg",
+            "logo_a": "https://apiv3.apifootball.com/badges/3_italy.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/22_france.jpg",
             "time": "02:45",
             "date": "13/11",
-            "blv": "BLV Lương Khô",
+            "blv": "BLV Khô Cóc",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 3,
             "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71403_92f3f53d_20261113.png?v=92f3f53d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-d3dd5b52de",
-          "name": "Albania vs Finland | 02:45 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3dd5b52de",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d3dd5b52de",
-                  "name": "Albania vs Finland",
-                  "streams": [
-                    {
-                      "id": "st-d3dd5b52de",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Albania",
-            "team_b": "Finland",
-            "logo_a": "https://apiv3.apifootball.com/badges/699_albania.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8_finland.jpg",
-            "time": "02:45",
-            "date": "13/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71405_c6cafa42_20261113.png?v=c6cafa42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-c3ef8a515c",
-          "name": "Czech Republic vs Spain | 02:45 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c3ef8a515c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-c3ef8a515c",
-                  "name": "Czech Republic vs Spain",
-                  "streams": [
-                    {
-                      "id": "st-c3ef8a515c",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e27b03ef2f",
-                          "name": "Chuối Chao HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichao/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e97f9e8cee",
-                          "name": "Chuối Chao HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-582600ada5",
-                          "name": "Chuối Chao FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoichaohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Czech Republic",
-            "team_b": "Spain",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125458_7fda1723.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
-            "time": "02:45 13/11",
-            "blv": "Chuối Chao",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528961_f03ab3fe_20261113.png?v=f03ab3fe",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71404_62820025_20261113.png?v=62820025",
             "width": 1600,
             "height": 1200
           }
