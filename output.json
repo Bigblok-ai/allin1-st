@@ -959,11 +959,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-12d76be04e",
+          "name": "U23 Singapore vs U23 Việt Nam | 19:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-12d76be04e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-12d76be04e",
+                  "name": "U23 Singapore vs U23 Việt Nam",
+                  "streams": [
+                    {
+                      "id": "st-12d76be04e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-83984ea39d",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794460883_hd/1794460883_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "U23 Singapore",
+            "team_b": "U23 Việt Nam",
+            "logo_a": "https://images.keovip88.net/images/teams/singapore-u23.png",
+            "logo_b": "https://images.keovip88.net/images/teams/vietnam-u23.png",
+            "time": "19:00 12/11",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af25e8c24d46db8709a7c65_ae3db9d8_20261112.png?v=ae3db9d8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-1bbd187fe4",
           "name": "Singapore U23 vs U23 Việt Nam | 19:00 12/11",
@@ -1280,77 +1351,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9wh5kdewryo_ce5ce99d_20261112.png?v=ce5ce99d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-12d76be04e",
-          "name": "U23 Singapore vs U23 Việt Nam | 19:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-12d76be04e",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-12d76be04e",
-                  "name": "U23 Singapore vs U23 Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-12d76be04e",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-83984ea39d",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794460883_hd/1794460883_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu quốc tế",
-            "team_a": "U23 Singapore",
-            "team_b": "U23 Việt Nam",
-            "logo_a": "https://images.keovip88.net/images/teams/singapore-u23.png",
-            "logo_b": "https://images.keovip88.net/images/teams/vietnam-u23.png",
-            "time": "19:00 12/11",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af25e8c24d46db8709a7c65_ae3db9d8_20261112.png?v=ae3db9d8",
             "width": 1600,
             "height": 1200
           }
@@ -5492,150 +5492,6 @@
           }
         },
         {
-          "id": "chtv-bfe6426d08",
-          "name": "U23 Singapore vs U23 Việt Nam | 19:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bfe6426d08",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bfe6426d08",
-                  "name": "U23 Singapore vs U23 Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-bfe6426d08",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bfe6426d08",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10156/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "U23 Singapore",
-            "team_b": "U23 Việt Nam",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794482167161_Screenshot%202026-11-12%20181602.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794482147394_Screenshot%202026-10-15%20133326.png",
-            "time": "19:00 12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794484800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfe6426d08_df570722_20261112.png?v=df570722",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-20f0a23ae6",
-          "name": "Lương Chi Dũng vs Zeng Jia Kui Victor | 19:00 12/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-20f0a23ae6",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-20f0a23ae6",
-                  "name": "Lương Chi Dũng vs Zeng Jia Kui Victor",
-                  "streams": [
-                    {
-                      "id": "st-20f0a23ae6",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-20f0a23ae6",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10152/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Lương Chi Dũng",
-            "team_b": "Zeng Jia Kui Victor",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794477435533_Screenshot%202026-11-12%20165706.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794477456671_Screenshot%202026-11-12%20165257.png",
-            "time": "19:00 12/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794484800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-20f0a23ae6_df21a83f_20261112.png?v=df21a83f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-7a4ee457f2",
           "name": "Liu Nuoen vs Lê Quang Tuấn | 19:00 12/11",
           "type": "single",
@@ -5780,8 +5636,8 @@
           }
         },
         {
-          "id": "chtv-c0ccb9dc24",
-          "name": "Harry Vergara vs Đặng Hoàng Huy | 19:00 12/11",
+          "id": "chtv-bfe6426d08",
+          "name": "U23 Singapore vs U23 Việt Nam | 19:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5795,23 +5651,23 @@
           ],
           "sources": [
             {
-              "id": "src-c0ccb9dc24",
+              "id": "src-bfe6426d08",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-c0ccb9dc24",
-                  "name": "Harry Vergara vs Đặng Hoàng Huy",
+                  "id": "ct-bfe6426d08",
+                  "name": "U23 Singapore vs U23 Việt Nam",
                   "streams": [
                     {
-                      "id": "st-c0ccb9dc24",
+                      "id": "st-bfe6426d08",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-c0ccb9dc24",
+                          "id": "lnk-bfe6426d08",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10151/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10156/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5831,11 +5687,11 @@
             }
           ],
           "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Harry Vergara",
-            "team_b": "Đặng Hoàng Huy",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794477279849_Screenshot%202026-11-12%20165431.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794477303733_Screenshot%202026-10-15%20133326.png",
+            "league": "bóng bánh",
+            "team_a": "U23 Singapore",
+            "team_b": "U23 Việt Nam",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794482167161_Screenshot%202026-11-12%20181602.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794482147394_Screenshot%202026-10-15%20133326.png",
             "time": "19:00 12/11",
             "blv": "",
             "is_live": false,
@@ -5846,14 +5702,14 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c0ccb9dc24_7107ca6c_20261112.png?v=7107ca6c",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bfe6426d08_df570722_20261112.png?v=df570722",
             "width": 1600,
             "height": 1200
           }
         },
         {
-          "id": "chtv-ce2f5191a6",
-          "name": "Hiroyuki Miwa vs Châu Chiêu Minh | 19:00 12/11",
+          "id": "chtv-20f0a23ae6",
+          "name": "Lương Chi Dũng vs Zeng Jia Kui Victor | 19:00 12/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5867,23 +5723,23 @@
           ],
           "sources": [
             {
-              "id": "src-ce2f5191a6",
+              "id": "src-20f0a23ae6",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-ce2f5191a6",
-                  "name": "Hiroyuki Miwa vs Châu Chiêu Minh",
+                  "id": "ct-20f0a23ae6",
+                  "name": "Lương Chi Dũng vs Zeng Jia Kui Victor",
                   "streams": [
                     {
-                      "id": "st-ce2f5191a6",
+                      "id": "st-20f0a23ae6",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-ce2f5191a6",
+                          "id": "lnk-20f0a23ae6",
                           "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10160/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10152/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5904,10 +5760,10 @@
           ],
           "org_metadata": {
             "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
-            "team_a": "Hiroyuki Miwa",
-            "team_b": "Châu Chiêu Minh",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794482937757_Screenshot%202026-11-12%20182852.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794482964122_Screenshot%202026-10-15%20133326.png",
+            "team_a": "Lương Chi Dũng",
+            "team_b": "Zeng Jia Kui Victor",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794477435533_Screenshot%202026-11-12%20165706.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794477456671_Screenshot%202026-11-12%20165257.png",
             "time": "19:00 12/11",
             "blv": "",
             "is_live": false,
@@ -5918,7 +5774,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce2f5191a6_67c16e66_20261112.png?v=67c16e66",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-20f0a23ae6_df21a83f_20261112.png?v=df21a83f",
             "width": 1600,
             "height": 1200
           }
@@ -5991,6 +5847,222 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c14c6a61c0_5a092463_20261112.png?v=5a092463",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-c0ccb9dc24",
+          "name": "Harry Vergara vs Đặng Hoàng Huy | 19:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0ccb9dc24",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-c0ccb9dc24",
+                  "name": "Harry Vergara vs Đặng Hoàng Huy",
+                  "streams": [
+                    {
+                      "id": "st-c0ccb9dc24",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c0ccb9dc24",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10151/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Harry Vergara",
+            "team_b": "Đặng Hoàng Huy",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794477279849_Screenshot%202026-11-12%20165431.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794477303733_Screenshot%202026-10-15%20133326.png",
+            "time": "19:00 12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794484800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c0ccb9dc24_7107ca6c_20261112.png?v=7107ca6c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-d6cde7984c",
+          "name": "Khải Tony vs Khánh Linh | 19:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d6cde7984c",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-d6cde7984c",
+                  "name": "Khải Tony vs Khánh Linh",
+                  "streams": [
+                    {
+                      "id": "st-d6cde7984c",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d6cde7984c",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10161/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Khải Tony",
+            "team_b": "Khánh Linh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794483124244_Screenshot%202026-10-15%20133326.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794483124797_Screenshot%202026-10-15%20133326.png",
+            "time": "19:00 12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794484800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-d6cde7984c_df7b4113_20261112.png?v=df7b4113",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-ce2f5191a6",
+          "name": "Hiroyuki Miwa vs Châu Chiêu Minh | 19:00 12/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ce2f5191a6",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-ce2f5191a6",
+                  "name": "Hiroyuki Miwa vs Châu Chiêu Minh",
+                  "streams": [
+                    {
+                      "id": "st-ce2f5191a6",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ce2f5191a6",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10160/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 19:00",
+            "team_a": "Hiroyuki Miwa",
+            "team_b": "Châu Chiêu Minh",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794482937757_Screenshot%202026-11-12%20182852.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794482964122_Screenshot%202026-10-15%20133326.png",
+            "time": "19:00 12/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794484800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-ce2f5191a6_67c16e66_20261112.png?v=67c16e66",
             "width": 1600,
             "height": 1200
           }
