@@ -959,82 +959,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (11 LIVE)",
+      "name": "⚽ Bóng Đá (12 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-f0da694636",
-          "name": "Malta vs Eswatini | 00:30 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f0da694636",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f0da694636",
-                  "name": "Malta vs Eswatini",
-                  "streams": [
-                    {
-                      "id": "st-f0da694636",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b09647e93f",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794148399_hd/1794148399_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "Malta",
-            "team_b": "Eswatini",
-            "logo_a": "https://static.flashscore.com/res/image/data/ptmWE4Ea-zXtZbqMA.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/AwLk22hl-8vfTQDSH.png",
-            "time": "00:30 13/11",
-            "blv": "Bee",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/nl4ocx0i6r94_cf442089_20261113.png?v=cf442089",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-610266faf8",
           "name": "Nữ FC Barcelona vs Nữ Arsenal | 00:45 13/11",
@@ -2190,8 +2119,8 @@
           }
         },
         {
-          "id": "pl-1929a9fba9",
-          "name": "CH Séc vs Tây Ban Nha | 02:45 13/11",
+          "id": "xc-d3dd5b52de",
+          "name": "Albania vs Finland | 02:45 13/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2205,27 +2134,44 @@
           ],
           "sources": [
             {
-              "id": "src-1929a9fba9",
-              "name": "PhaLangTV",
+              "id": "src-d3dd5b52de",
+              "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-1929a9fba9",
-                  "name": "CH Séc vs Tây Ban Nha",
+                  "id": "ct-d3dd5b52de",
+                  "name": "Albania vs Finland",
                   "streams": [
                     {
-                      "id": "st-1929a9fba9",
-                      "name": "PL",
+                      "id": "st-d3dd5b52de",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-63fead9bb8",
-                          "name": "LÃM LÀNG",
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/b4d84d8ae61d4c9abdb7b459582dc846/index.m3u8",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2242,20 +2188,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "CH Séc",
-            "team_b": "Tây Ban Nha",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4vgymoep/image/small",
-            "time": "02:45 13/11",
-            "blv": "LÃM LÀNG",
+            "team_a": "Albania",
+            "team_b": "Finland",
+            "logo_a": "https://apiv3.apifootball.com/badges/699_albania.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8_finland.jpg",
+            "time": "02:45",
+            "date": "13/11",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4h1yld5q0j_ab710524_20261113.png?v=ab710524",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71405_c6cafa42_20261113.png?v=c6cafa42",
             "width": 1600,
             "height": 1200
           }
@@ -2268,10 +2218,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2353,7 +2303,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125449_8711159b.png",
             "time": "02:45 13/11",
             "blv": "Chuối Chao",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2361,6 +2311,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528961_f03ab3fe_20261113.png?v=f03ab3fe",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-1929a9fba9",
+          "name": "CH Séc vs Tây Ban Nha | 02:45 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1929a9fba9",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-1929a9fba9",
+                  "name": "CH Séc vs Tây Ban Nha",
+                  "streams": [
+                    {
+                      "id": "st-1929a9fba9",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-63fead9bb8",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/b4d84d8ae61d4c9abdb7b459582dc846/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "CH Séc",
+            "team_b": "Tây Ban Nha",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/56ypq3nhy07md7o/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh4vgymoep/image/small",
+            "time": "02:45 13/11",
+            "blv": "LÃM LÀNG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4h1yld5q0j_ab710524_20261113.png?v=ab710524",
             "width": 1600,
             "height": 1200
           }
@@ -2897,98 +2918,6 @@
           }
         },
         {
-          "id": "xc-d3dd5b52de",
-          "name": "Albania vs Finland | 02:45 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d3dd5b52de",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d3dd5b52de",
-                  "name": "Albania vs Finland",
-                  "streams": [
-                    {
-                      "id": "st-d3dd5b52de",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Albania",
-            "team_b": "Finland",
-            "logo_a": "https://apiv3.apifootball.com/badges/699_albania.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8_finland.jpg",
-            "time": "02:45",
-            "date": "13/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/71405_c6cafa42_20261113.png?v=c6cafa42",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-7d53895aae",
           "name": "Serbia vs Đức | 02:45 14/11",
           "type": "single",
@@ -3059,6 +2988,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73253_4a084af4_20261113.png?v=4a084af4",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-973c5c3980",
+          "name": "Argentina vs Uruguay | 06:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-973c5c3980",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-973c5c3980",
+                  "name": "Argentina vs Uruguay",
+                  "streams": [
+                    {
+                      "id": "st-973c5c3980",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Argentina",
+            "team_b": "Uruguay",
+            "logo_a": "https://apiv3.apifootball.com/badges/536_argentina.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/539_uruguay.jpg",
+            "time": "06:00",
+            "date": "14/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/73562_65514d28_20261113.png?v=65514d28",
             "width": 1600,
             "height": 1200
           }
