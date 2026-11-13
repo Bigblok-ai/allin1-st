@@ -959,11 +959,86 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-a0f9dfdc13",
+          "name": "UAE vs Honduras | 21:15 13/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a0f9dfdc13",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a0f9dfdc13",
+                  "name": "UAE vs Honduras",
+                  "streams": [
+                    {
+                      "id": "st-a0f9dfdc13",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "UAE",
+            "team_b": "Honduras",
+            "logo_a": "https://apiv3.apifootball.com/badges/650_uae.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/522_honduras.jpg",
+            "time": "21:15",
+            "date": "13/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72606_279381a6_20261113.png?v=279381a6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-f31bc6e5cc",
           "name": "Ả Rập Xê Út vs Hàn Quốc | 21:30 13/11",
@@ -1061,7 +1136,7 @@
             "blv": "BLV Khô Cóc",
             "is_live": true,
             "cate_type": "football",
-            "status": "scheduled",
+            "status": "live",
             "home_score": 0,
             "away_score": 0
           },
@@ -4980,81 +5055,6 @@
           }
         },
         {
-          "id": "xc-a0f9dfdc13",
-          "name": "UAE vs Honduras | 21:15 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a0f9dfdc13",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-a0f9dfdc13",
-                  "name": "UAE vs Honduras",
-                  "streams": [
-                    {
-                      "id": "st-a0f9dfdc13",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "UAE",
-            "team_b": "Honduras",
-            "logo_a": "https://apiv3.apifootball.com/badges/650_uae.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/522_honduras.jpg",
-            "time": "21:15",
-            "date": "13/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72606_279381a6_20261113.png?v=279381a6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-9f14329272",
           "name": "Qatar vs Úc | 21:45 13/11",
           "type": "single",
@@ -5459,81 +5459,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72615_7fc07ca0_20261113.png?v=7fc07ca0",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-f4e7110c21",
-          "name": "Kuwait vs Syria | 23:30 13/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f4e7110c21",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-f4e7110c21",
-                  "name": "Kuwait vs Syria",
-                  "streams": [
-                    {
-                      "id": "st-f4e7110c21",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Kuwait",
-            "team_b": "Syria",
-            "logo_a": "https://apiv3.apifootball.com/badges/640_kuwait.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/638_syria.jpg",
-            "time": "23:30",
-            "date": "13/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/72605_78f52873_20261113.png?v=78f52873",
             "width": 1600,
             "height": 1200
           }
@@ -6632,7 +6557,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6711,16 +6636,16 @@
         },
         {
           "id": "chtv-7df0709202",
-          "name": "Kristina Grim vs Felix Beagle | 21:03 13/11 | Kèn Kèn",
+          "name": "Kristina Grim vs Felix Beagle | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6768,7 +6693,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794578680184_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "21:03 13/11",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794578580,
             "cate_type": "billiards"
           },
