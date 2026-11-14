@@ -959,11 +959,82 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-f171806913",
+          "name": "U23 Thái Lan vs U23 Singapore | 15:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f171806913",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f171806913",
+                  "name": "U23 Thái Lan vs U23 Singapore",
+                  "streams": [
+                    {
+                      "id": "st-f171806913",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e784e6d936",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794638411_hd/1794638411_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Giao hữu quốc tế",
+            "team_a": "U23 Thái Lan",
+            "team_b": "U23 Singapore",
+            "logo_a": "https://images.keovip88.net/images/teams/thailand-u23.png",
+            "logo_b": "https://images.keovip88.net/images/teams/singapore-u23.png",
+            "time": "15:00 14/11",
+            "blv": "Trĩ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af25e9424d46db8709a830e_7e034350_20261114.png?v=7e034350",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-a9228acf97",
           "name": "Japan vs Brazil | 17:15 14/11",
@@ -1187,77 +1258,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6ae925165e8d2e45cc0be765_841f8c2e_20261114.png?v=841f8c2e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-db6ab5a359",
-          "name": "Czech Republic U19 vs Croatia U19 | 18:00 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-db6ab5a359",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-db6ab5a359",
-                  "name": "Czech Republic U19 vs Croatia U19",
-                  "streams": [
-                    {
-                      "id": "st-db6ab5a359",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a6b781b8f",
-                          "name": "Trĩ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794557692_hd/1794557692_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Euro U19",
-            "team_a": "Czech Republic U19",
-            "team_b": "Croatia U19",
-            "logo_a": "https://images.keovip88.net/images/teams/czech-republic-u19.png",
-            "logo_b": "https://images.keovip88.net/images/teams/croatia-u19.png",
-            "time": "18:00 14/11",
-            "blv": "Trĩ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aee6a2b74f43d7ef10b43d7_5b831519_20261114.png?v=5b831519",
             "width": 1600,
             "height": 1200
           }
@@ -1595,6 +1595,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638018_4c6bd07e_20261114.png?v=4c6bd07e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-6288430c95",
+          "name": "Thái Lan U23 vs Singapore U23 | 15:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6288430c95",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6288430c95",
+                  "name": "Thái Lan U23 vs Singapore U23",
+                  "streams": [
+                    {
+                      "id": "st-6288430c95",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-00b83fcb42",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/4dee57c839564b2a81745da6846aec1e/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "Thái Lan U23",
+            "team_b": "Singapore U23",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dj2ryohk4jvq1zp/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/3glrw7hwelkqdyj/image/small",
+            "time": "15:00 14/11",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/965mkyh87gz8r1g_2947ad4a_20261114.png?v=2947ad4a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-db6ab5a359",
+          "name": "Czech Republic U19 vs Croatia U19 | 18:00 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-db6ab5a359",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-db6ab5a359",
+                  "name": "Czech Republic U19 vs Croatia U19",
+                  "streams": [
+                    {
+                      "id": "st-db6ab5a359",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a6b781b8f",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794557692_hd/1794557692_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Euro U19",
+            "team_a": "Czech Republic U19",
+            "team_b": "Croatia U19",
+            "logo_a": "https://images.keovip88.net/images/teams/czech-republic-u19.png",
+            "logo_b": "https://images.keovip88.net/images/teams/croatia-u19.png",
+            "time": "18:00 14/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aee6a2b74f43d7ef10b43d7_5b831519_20261114.png?v=5b831519",
             "width": 1600,
             "height": 1200
           }
@@ -6559,78 +6701,6 @@
           }
         },
         {
-          "id": "chtv-9a71e1eb3a",
-          "name": "Anthony Raga vs Chang Tzu Chien | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9a71e1eb3a",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9a71e1eb3a",
-                  "name": "Anthony Raga vs Chang Tzu Chien",
-                  "streams": [
-                    {
-                      "id": "st-9a71e1eb3a",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9a71e1eb3a",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10247/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
-            "team_a": "Anthony Raga",
-            "team_b": "Chang Tzu Chien",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794636855832_Screenshot%202026-11-14%20131356.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794636855437_Screenshot%202026-11-14%20131411.png",
-            "time": "16:00 14/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1794646800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a71e1eb3a_c23fad62_20261114.png?v=c23fad62",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "chtv-786fe259b8",
           "name": "Aloysius Yapp vs Đinh Chấn Kiệt | GIÀNG A PHỌ",
           "type": "single",
@@ -6698,6 +6768,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-786fe259b8_ecc2cb5d_20261114.png?v=ecc2cb5d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9a71e1eb3a",
+          "name": "Anthony Raga vs Chang Tzu Chien | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9a71e1eb3a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9a71e1eb3a",
+                  "name": "Anthony Raga vs Chang Tzu Chien",
+                  "streams": [
+                    {
+                      "id": "st-9a71e1eb3a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9a71e1eb3a",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10247/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 16:00",
+            "team_a": "Anthony Raga",
+            "team_b": "Chang Tzu Chien",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794636855832_Screenshot%202026-11-14%20131356.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794636855437_Screenshot%202026-11-14%20131411.png",
+            "time": "16:00 14/11",
+            "blv": "Bỉm Sữa",
+            "is_live": true,
+            "time_sort": 1794646800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9a71e1eb3a_c23fad62_20261114.png?v=c23fad62",
             "width": 1600,
             "height": 1200
           }
@@ -6842,6 +6984,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-55c2a56662_3d637b06_20261114.png?v=3d637b06",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-9ac0f983c1",
+          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9ac0f983c1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-9ac0f983c1",
+                  "name": "Albert Januarta vs Wang Hung Hsiang",
+                  "streams": [
+                    {
+                      "id": "st-9ac0f983c1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9ac0f983c1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
+            "team_a": "Albert Januarta",
+            "team_b": "Wang Hung Hsiang",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
+            "time": "18:30 14/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794655800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
             "width": 1600,
             "height": 1200
           }
@@ -7130,78 +7344,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-36d22b6390_92220806_20261114.png?v=92220806",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-9ac0f983c1",
-          "name": "Albert Januarta vs Wang Hung Hsiang | 18:30 14/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ac0f983c1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-9ac0f983c1",
-                  "name": "Albert Januarta vs Wang Hung Hsiang",
-                  "streams": [
-                    {
-                      "id": "st-9ac0f983c1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9ac0f983c1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10263/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲 18:30",
-            "team_a": "Albert Januarta",
-            "team_b": "Wang Hung Hsiang",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794649217543_Screenshot%202026-11-14%20164013.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794649268991_Screenshot%202026-11-14%20164105.png",
-            "time": "18:30 14/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794655800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-9ac0f983c1_dc30d181_20261114.png?v=dc30d181",
             "width": 1600,
             "height": 1200
           }
