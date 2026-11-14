@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1399,6 +1399,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aee6a2b74f43d7ef10b43c4_971af6cf_20261115.png?v=971af6cf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-8430d4b8b7",
+          "name": "Algeria vs Togo | 02:00 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8430d4b8b7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-8430d4b8b7",
+                  "name": "Algeria vs Togo",
+                  "streams": [
+                    {
+                      "id": "st-8430d4b8b7",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e3b4108ed2",
+                          "name": "BLV Khô Cay",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations Qualification",
+            "team_a": "Algeria",
+            "team_b": "Togo",
+            "logo_a": "https://apiv3.apifootball.com/badges/734_algeria.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/633_togo.jpg",
+            "time": "02:00",
+            "date": "15/11",
+            "blv": "BLV Khô Cay",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/74636_a5a137ef_20261115.png?v=a5a137ef",
             "width": 1600,
             "height": 1200
           }
@@ -3166,81 +3241,6 @@
           }
         },
         {
-          "id": "xc-8430d4b8b7",
-          "name": "Algeria vs Togo | 02:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8430d4b8b7",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8430d4b8b7",
-                  "name": "Algeria vs Togo",
-                  "streams": [
-                    {
-                      "id": "st-8430d4b8b7",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e3b4108ed2",
-                          "name": "BLV Khô Cay",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_753c90457f/index.m3u8?token=2DSSWeXAxyGpTCzUauOg-F4WPR6MfTkyCr51jCWcnQ0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations Qualification",
-            "team_a": "Algeria",
-            "team_b": "Togo",
-            "logo_a": "https://apiv3.apifootball.com/badges/734_algeria.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/633_togo.jpg",
-            "time": "02:00",
-            "date": "15/11",
-            "blv": "BLV Khô Cay",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/74636_a5a137ef_20261115.png?v=a5a137ef",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d592aca55c",
           "name": "Haiti vs Mỹ | 04:30 15/11",
           "type": "single",
@@ -4731,6 +4731,432 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/ym9s6629r24n_d938965d_20261115.png?v=d938965d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ff9485bd79",
+          "name": "Philadelphia 76ers vs Indiana Pacers | 01:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ff9485bd79",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ff9485bd79",
+                  "name": "Philadelphia 76ers vs Indiana Pacers",
+                  "streams": [
+                    {
+                      "id": "st-ff9485bd79",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-476363af40",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681717_hd/1794681717_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Philadelphia 76ers",
+            "team_b": "Indiana Pacers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/7f086c864d1e283b7862a756f0b88373.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/3a8c9a8a304f078913c60b52698ab585.png",
+            "time": "01:00 16/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/38338271_fd9ef6e0_20261115.png?v=fd9ef6e0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-ed08e9303c",
+          "name": "Phoenix Suns vs Los Angeles Lakers | 04:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-ed08e9303c",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-ed08e9303c",
+                  "name": "Phoenix Suns vs Los Angeles Lakers",
+                  "streams": [
+                    {
+                      "id": "st-ed08e9303c",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aab6fce107",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681752_hd/1794681752_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Phoenix Suns",
+            "team_b": "Los Angeles Lakers",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/6a6855785a58edb23c76c99ed6601a33.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/935e553f4435030c604a4948c1e4d243.png",
+            "time": "04:00 16/11",
+            "blv": "Chồn",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/33498273_be6bf1b7_20261115.png?v=be6bf1b7",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-13a2cb1267",
+          "name": "Los Angeles Clippers vs Charlotte Hornets | 04:30 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-13a2cb1267",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-13a2cb1267",
+                  "name": "Los Angeles Clippers vs Charlotte Hornets",
+                  "streams": [
+                    {
+                      "id": "st-13a2cb1267",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6330d9117b",
+                          "name": "Cầy",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681771_hd/1794681771_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Los Angeles Clippers",
+            "team_b": "Charlotte Hornets",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/d96dfd2dedd39877ed1f06ea31270a46.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/9e28959b5af233b67c389787d2886c84.png",
+            "time": "04:30 16/11",
+            "blv": "Cầy",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/34498274_9f754b61_20261115.png?v=9f754b61",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-25130683d5",
+          "name": "Utah Jazz vs San Antonio Spurs | 05:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-25130683d5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-25130683d5",
+                  "name": "Utah Jazz vs San Antonio Spurs",
+                  "streams": [
+                    {
+                      "id": "st-25130683d5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fc6724abc3",
+                          "name": "Nem",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681804_hd/1794681804_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Utah Jazz",
+            "team_b": "San Antonio Spurs",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/a0f2371dad505780cccd4cba8baa0610.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/908efbb5ed053f61540cca47cc36e7ec.png",
+            "time": "05:00 16/11",
+            "blv": "Nem",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/35498275_2b9d407f_20261115.png?v=2b9d407f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-9c5411cbb2",
+          "name": "Toronto Raptors vs New York Knicks | 06:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9c5411cbb2",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-9c5411cbb2",
+                  "name": "Toronto Raptors vs New York Knicks",
+                  "streams": [
+                    {
+                      "id": "st-9c5411cbb2",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe42cc76ff",
+                          "name": "Ben",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681829_hd/1794681829_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Toronto Raptors",
+            "team_b": "New York Knicks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/3f61db02c20eb73e5f27948b3122f2fb.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/c34850b658b2b7735d3bf51912e01bd1.png",
+            "time": "06:00 16/11",
+            "blv": "Ben",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/39338272_428b3724_20261115.png?v=428b3724",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-d5749166e9",
+          "name": "Boston Celtics vs Dallas Mavericks | 06:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d5749166e9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d5749166e9",
+                  "name": "Boston Celtics vs Dallas Mavericks",
+                  "streams": [
+                    {
+                      "id": "st-d5749166e9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e5f5136e8a",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681859_hd/1794681859_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "National Basketball Association",
+            "team_a": "Boston Celtics",
+            "team_b": "Dallas Mavericks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/ef37e5c1c853e5b689b6791b00e8bc58.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/0ae1b26dafd6ba3ff82f91d19b235038.png",
+            "time": "06:00 16/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/20438274_79dec736_20261115.png?v=79dec736",
             "width": 1600,
             "height": 1200
           }
