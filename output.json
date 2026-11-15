@@ -959,169 +959,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-38fe29cc1d",
-          "name": "Bỉ vs Ý | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-38fe29cc1d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-38fe29cc1d",
-                  "name": "Bỉ vs Ý",
-                  "streams": [
-                    {
-                      "id": "st-38fe29cc1d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-5709660a85",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794536629_hd/1794536629_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d0e2dc293c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-d0e2dc293c",
-                  "name": "Bỉ vs Ý",
-                  "streams": [
-                    {
-                      "id": "st-d0e2dc293c",
-                      "name": "PhaoHoa - BLV Khô Mật",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-d9261f6aea",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d9261f6aea",
-                  "name": "Bỉ vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-d9261f6aea",
-                      "name": "Phalang - LÝ LÀNG LÁ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c1128df97c",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/74f0dbf7e2fa4b0f84f77b81505005ad/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Bỉ",
-            "team_b": "Ý",
-            "logo_a": "https://images.keovip88.net/images/teams/belgium.png",
-            "logo_b": "https://images.keovip88.net/images/teams/italy.png",
-            "time": "02:45 16/11",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/69f3f2b74bff4a0c310bf75f_4be69f71_20261116.png?v=4be69f71",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-7138e37d46",
           "name": "Tây Ban Nha vs Anh | 02:45 16/11",
@@ -1208,75 +1050,6 @@
               ]
             },
             {
-              "id": "src-6092c7a214",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-6092c7a214",
-                  "name": "Spain vs England",
-                  "streams": [
-                    {
-                      "id": "st-6092c7a214",
-                      "name": "CCport - Chuối Nhỏ",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-dd5a78574f",
               "name": "PhaLangTV",
               "contents": [
@@ -1333,8 +1106,8 @@
           }
         },
         {
-          "id": "xc-d6d0f7ed8e",
-          "name": "Croatia vs Cộng Hòa Séc | 02:45 16/11",
+          "id": "xc-d0e2dc293c",
+          "name": "Bỉ vs Ý | 02:45 16/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1348,23 +1121,23 @@
           ],
           "sources": [
             {
-              "id": "src-d6d0f7ed8e",
+              "id": "src-d0e2dc293c",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-d6d0f7ed8e",
-                  "name": "Croatia vs Cộng Hòa Séc",
+                  "id": "ct-d0e2dc293c",
+                  "name": "Bỉ vs Ý",
                   "streams": [
                     {
-                      "id": "st-d6d0f7ed8e",
+                      "id": "st-d0e2dc293c",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1377,11 +1150,11 @@
                           ]
                         },
                         {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
                           "type": "httpflv",
                           "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "url": "https://live.khoga.space/live/livehub13.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1402,239 +1175,24 @@
           ],
           "org_metadata": {
             "league": "UEFA Nations League",
-            "team_a": "Croatia",
-            "team_b": "Cộng Hòa Séc",
-            "logo_a": "https://apiv3.apifootball.com/badges/14_croatia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/13_czechia.jpg",
+            "team_a": "Bỉ",
+            "team_b": "Ý",
+            "logo_a": "https://apiv3.apifootball.com/badges/6_belgium.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3_italy.jpg",
             "time": "02:45",
             "date": "16/11",
-            "blv": "BLV Xôi Gấc",
+            "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
+            "home_score": 4,
             "away_score": 1
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76905_29e8792d_20261116.png?v=29e8792d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-8f0f260497",
-          "name": "Pháp vs Thổ Nhĩ Kỳ | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8f0f260497",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8f0f260497",
-                  "name": "Pháp vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-8f0f260497",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8560dcf233",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-8560dcf233",
-                  "name": "Pháp vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-8560dcf233",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8e1f21410c",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/358453246c4c43979f66a22054b1344a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Pháp",
-            "team_b": "Thổ Nhĩ Kỳ",
-            "logo_a": "https://apiv3.apifootball.com/badges/22_france.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/1_turkiye.jpg",
-            "time": "02:45",
-            "date": "16/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76906_5cd0ff0b_20261116.png?v=5cd0ff0b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-4c10121110",
-          "name": "Belgium vs Italy | 02:45 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4c10121110",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-4c10121110",
-                  "name": "Belgium vs Italy",
-                  "streams": [
-                    {
-                      "id": "st-4c10121110",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b86fc8933e",
-                          "name": "Trốc Tru HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca6424e649",
-                          "name": "Trốc Tru HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24863c2dbc",
-                          "name": "Trốc Tru FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Nations League",
-            "team_a": "Belgium",
-            "team_b": "Italy",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_125446_7256014f.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_125457_13158a72.png",
-            "time": "02:45 16/11",
-            "blv": "Trốc Tru",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528983_d51edf06_20261116.png?v=d51edf06",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/76904_550b5769_20261116.png?v=550b5769",
             "width": 1600,
             "height": 1200
           }
@@ -3291,6 +2849,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77930_e3523279_20261116.png?v=e3523279",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-e2547e3fdb",
+          "name": "Bắc Macedonia vs Slovenia | 02:45 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-e2547e3fdb",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-e2547e3fdb",
+                  "name": "Bắc Macedonia vs Slovenia",
+                  "streams": [
+                    {
+                      "id": "st-e2547e3fdb",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Nations League",
+            "team_a": "Bắc Macedonia",
+            "team_b": "Slovenia",
+            "logo_a": "https://flagcdn.com/w160/mk.png",
+            "logo_b": "https://apiv3.apifootball.com/badges/696_slovenia.jpg",
+            "time": "02:45",
+            "date": "17/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/77949_bb769269_20261116.png?v=bb769269",
             "width": 1600,
             "height": 1200
           }
