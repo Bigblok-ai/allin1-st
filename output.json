@@ -2378,13 +2378,30 @@
                   "streams": [
                     {
                       "id": "st-e6bccde83a",
-                      "name": "PhaoHoa - BLV Lương Khô",
+                      "name": "PhaoHoa - BLV Tam Mao, BLV Lương Khô",
                       "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
                         {
                           "id": "lnk-245e47f94f",
                           "name": "BLV Lương Khô",
                           "type": "hls",
-                          "default": true,
+                          "default": false,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
                           "request_headers": [
                             {
@@ -2636,41 +2653,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8f0f260497",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8f0f260497",
-                  "name": "Pháp vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-8f0f260497",
-                      "name": "PhaoHoa - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4930,7 +4912,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5085,10 +5067,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "● LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -5136,7 +5118,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/6d5258d6c9e0575dd2d9673290b89a88.gif",
             "time": "21:00 15/11",
             "blv": "Mickey",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "basketball"
           },
           "image": {
@@ -6075,7 +6057,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6154,16 +6136,16 @@
         },
         {
           "id": "chtv-db4049a09a",
-          "name": "Shayne Acebar vs Randy Pugaan | GIÀNG A PHỌ",
+          "name": "Shayne Acebar vs Randy Pugaan | 20:25 15/11 | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -6211,7 +6193,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794748728746_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
             "time": "20:25 15/11",
             "blv": "GIÀNG A PHỌ",
-            "is_live": true,
+            "is_live": false,
             "time_sort": 1794749100,
             "cate_type": "billiards"
           },
