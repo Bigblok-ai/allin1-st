@@ -959,86 +959,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "xc-686684686c",
-          "name": "Kyrgyzstan vs Việt Nam | 19:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-686684686c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-686684686c",
-                  "name": "Kyrgyzstan vs Việt Nam",
-                  "streams": [
-                    {
-                      "id": "st-686684686c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Kyrgyzstan",
-            "team_b": "Việt Nam",
-            "logo_a": "https://apiv3.apifootball.com/badges/346_kyrgyz-republic.jpg",
-            "logo_b": "https://flagcdn.com/w160/vn.png",
-            "time": "19:00",
-            "date": "15/11",
-            "blv": "BLV Lương Khô",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75533_30544cc8_20261115.png?v=30544cc8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "cc-6c45b9d085",
           "name": "Tondela vs Farense | 18:00 15/11",
@@ -2466,7 +2391,7 @@
                   "streams": [
                     {
                       "id": "st-e6bccde83a",
-                      "name": "PhaoHoa - BLV Tam Mao",
+                      "name": "PhaoHoa - BLV Tam Mao, BLV Lương Khô",
                       "stream_links": [
                         {
                           "id": "lnk-bf1530e1ae",
@@ -2474,6 +2399,23 @@
                           "type": "hls",
                           "default": true,
                           "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "BLV Lương Khô",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2724,41 +2666,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-8f0f260497",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-8f0f260497",
-                  "name": "Pháp vs Thổ Nhĩ Kỳ",
-                  "streams": [
-                    {
-                      "id": "st-8f0f260497",
-                      "name": "PhaoHoa - BLV Lương Khô",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "BLV Lương Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
