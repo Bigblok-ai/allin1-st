@@ -6212,11 +6212,153 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-cc8fc501c1",
+          "name": "Talmassons Nữ vs Novara Nữ | 22:30 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cc8fc501c1",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cc8fc501c1",
+                  "name": "Talmassons Nữ vs Novara Nữ",
+                  "streams": [
+                    {
+                      "id": "st-cc8fc501c1",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b4d23eedba",
+                          "name": "Điếc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726870_hd/1794726870_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italy - Seri A1 Nữ ",
+            "team_a": "Talmassons Nữ",
+            "team_b": "Novara Nữ",
+            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGrworUc8A0AdZVTsQj9RO5RLL1MGoMZP03ZBItcQRQ&s=10",
+            "logo_b": "https://static.flashscore.com/res/image/data/8UCiWxdM-KbBsKXD2.png",
+            "time": "22:30 15/11",
+            "blv": "Điếc",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zy9eaa0qbecd_17d53bdd_20261115.png?v=17d53bdd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-6663235076",
+          "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ | 23:00 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6663235076",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-6663235076",
+                  "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ",
+                  "streams": [
+                    {
+                      "id": "st-6663235076",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-254f422493",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681914_hd/1794681914_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Italy - Seri A1 Nữ ",
+            "team_a": "Scandicci Nữ",
+            "team_b": "UYBA Busto Arsizio Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/0QZRMbg5-MuuCgGgG.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/pfEiFCxS-h8saiGlG.png",
+            "time": "23:00 15/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/7rh6gjon9nd5_830aad2c_20261115.png?v=830aad2c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-ca55001876",
           "name": "Scandicci Women vs UYBA Busto Arsizio Women | 23:00 15/11",
@@ -6284,148 +6426,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/c6401c301f8642dbad216cdc8007f41e_7dc91e8d_20261115.png?v=7dc91e8d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-cc8fc501c1",
-          "name": "Talmassons Nữ vs Novara Nữ | 22:30 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc8fc501c1",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc8fc501c1",
-                  "name": "Talmassons Nữ vs Novara Nữ",
-                  "streams": [
-                    {
-                      "id": "st-cc8fc501c1",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b4d23eedba",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794726870_hd/1794726870_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Talmassons Nữ",
-            "team_b": "Novara Nữ",
-            "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCGrworUc8A0AdZVTsQj9RO5RLL1MGoMZP03ZBItcQRQ&s=10",
-            "logo_b": "https://static.flashscore.com/res/image/data/8UCiWxdM-KbBsKXD2.png",
-            "time": "22:30 15/11",
-            "blv": "Điếc",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/zy9eaa0qbecd_17d53bdd_20261115.png?v=17d53bdd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-6663235076",
-          "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ | 23:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6663235076",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-6663235076",
-                  "name": "Scandicci Nữ vs UYBA Busto Arsizio Nữ",
-                  "streams": [
-                    {
-                      "id": "st-6663235076",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-254f422493",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794681914_hd/1794681914_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Italy - Seri A1 Nữ ",
-            "team_a": "Scandicci Nữ",
-            "team_b": "UYBA Busto Arsizio Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/0QZRMbg5-MuuCgGgG.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/pfEiFCxS-h8saiGlG.png",
-            "time": "23:00 15/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/7rh6gjon9nd5_830aad2c_20261115.png?v=830aad2c",
             "width": 1600,
             "height": 1200
           }
