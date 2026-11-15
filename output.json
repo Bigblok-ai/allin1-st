@@ -959,11 +959,103 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "xc-4ed6c969cc",
+          "name": "Kashima Antlers vs Yokohama F. Marinos | 13:00 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ed6c969cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4ed6c969cc",
+                  "name": "Kashima Antlers vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-4ed6c969cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Kashima Antlers",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "time": "13:00",
+            "date": "15/11",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 3,
+            "away_score": 2
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75333_9251981d_20261115.png?v=9251981d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "xc-dfa4c64e14",
           "name": "Kashiwa Reysol vs Kawasaki Frontale | 15:00 15/11",
@@ -5718,7 +5810,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (2 LIVE)",
+      "name": "🎱 Billiards (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5796,38 +5888,38 @@
           }
         },
         {
-          "id": "chtv-5d8dd6c878",
-          "name": "Johann Chua vs Michael Feliciano | Kèn Kèn",
+          "id": "chtv-f45b0225d9",
+          "name": "1 vs Johann Chua | 16:00 15/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "LIVE",
+              "text": "🕐 Sắp",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#ff4444"
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
             {
-              "id": "src-5d8dd6c878",
+              "id": "src-f45b0225d9",
               "name": "ChoangTV",
               "contents": [
                 {
-                  "id": "ct-5d8dd6c878",
-                  "name": "Johann Chua vs Michael Feliciano",
+                  "id": "ct-f45b0225d9",
+                  "name": "1 vs Johann Chua",
                   "streams": [
                     {
-                      "id": "st-5d8dd6c878",
+                      "id": "st-f45b0225d9",
                       "name": "CHTV",
                       "stream_links": [
                         {
-                          "id": "lnk-5d8dd6c878",
-                          "name": "Kèn Kèn",
+                          "id": "lnk-f45b0225d9",
+                          "name": "Stream",
                           "type": "hls",
                           "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10296/index.m3u8",
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10300/index.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -5847,22 +5939,22 @@
             }
           ],
           "org_metadata": {
-            "league": "Tứ Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
-            "team_a": "Johann Chua",
-            "team_b": "Michael Feliciano",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794721087439_Johann%20Chua.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794721112142_Screenshot%202026-11-15%20123828.png",
-            "time": "13:30 15/11",
-            "blv": "Kèn Kèn",
-            "is_live": true,
-            "time_sort": 1794724200,
+            "league": "Bán Kết - 𝗨𝗡𝗜𝗩𝗘𝗥𝗦𝗔𝗟 𝗢𝗣𝗘𝗡 𝗛𝗖𝗠𝗖 𝟮𝟬𝟮𝟲",
+            "team_a": "1",
+            "team_b": "Johann Chua",
+            "logo_a": "",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794730157005_Johann%20Chua.png",
+            "time": "16:00 15/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794733200,
             "cate_type": "billiards"
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-5d8dd6c878_ed71d761_20261115.png?v=ed71d761",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-f45b0225d9_36013b00_20261115.png?v=36013b00",
             "width": 1600,
             "height": 1200
           }
