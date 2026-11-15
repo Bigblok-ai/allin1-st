@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1097,7 +1097,7 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 0,
             "away_score": 0
           },
@@ -1106,6 +1106,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75331_f02e2e7b_20261115.png?v=f02e2e7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-4ed6c969cc",
+          "name": "Kashima Antlers vs Yokohama F. Marinos | 13:00 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4ed6c969cc",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4ed6c969cc",
+                  "name": "Kashima Antlers vs Yokohama F. Marinos",
+                  "streams": [
+                    {
+                      "id": "st-4ed6c969cc",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J-League Cup",
+            "team_a": "Kashima Antlers",
+            "team_b": "Yokohama F. Marinos",
+            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
+            "time": "13:00",
+            "date": "15/11",
+            "blv": "BLV Khô Mật",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75333_9251981d_20261115.png?v=9251981d",
             "width": 1600,
             "height": 1200
           }
@@ -3643,98 +3735,6 @@
           }
         },
         {
-          "id": "xc-4ed6c969cc",
-          "name": "Kashima Antlers vs Yokohama F. Marinos | 13:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-4ed6c969cc",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-4ed6c969cc",
-                  "name": "Kashima Antlers vs Yokohama F. Marinos",
-                  "streams": [
-                    {
-                      "id": "st-4ed6c969cc",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-88fe1a05f9",
-                          "name": "BLV Khô Mật 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-d2d164212f",
-                          "name": "BLV Khô Mật 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub13.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "J-League Cup",
-            "team_a": "Kashima Antlers",
-            "team_b": "Yokohama F. Marinos",
-            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/387_yokohama-f.-marinos.jpg",
-            "time": "13:00",
-            "date": "15/11",
-            "blv": "BLV Khô Mật",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/75333_9251981d_20261115.png?v=9251981d",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-dfa4c64e14",
           "name": "Kashiwa Reysol vs Kawasaki Frontale | 15:00 15/11",
           "type": "single",
@@ -5672,23 +5672,23 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
           "id": "chtv-5d8dd6c878",
-          "name": "Johann Chua vs Michael Feliciano | 13:30 15/11 | Kèn Kèn",
+          "name": "Johann Chua vs Michael Feliciano | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5736,7 +5736,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794721112142_Screenshot%202026-11-15%20123828.png",
             "time": "13:30 15/11",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794724200,
             "cate_type": "billiards"
           },
@@ -5751,16 +5751,16 @@
         },
         {
           "id": "chtv-b048438e7a",
-          "name": "YAP BÉO vs Jerson Cumayas | 13:30 15/11 | Lee Min Hoo",
+          "name": "YAP BÉO vs Jerson Cumayas | Lee Min Hoo",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5808,7 +5808,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794720241272_Screenshot%202026-11-15%20122352.png",
             "time": "13:30 15/11",
             "blv": "Lee Min Hoo",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794724200,
             "cate_type": "billiards"
           },
@@ -5823,16 +5823,16 @@
         },
         {
           "id": "chtv-eca7ea2e82",
-          "name": "Ngài Chuột vs Mất Bàn Tay | 13:30 15/11 | VÁNG",
+          "name": "Ngài Chuột vs Mất Bàn Tay | VÁNG",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5880,7 +5880,7 @@
             "logo_b": "https://cdn-choangtv.com/img/logo/1794721272796_Screenshot%202026-11-15%20123442.png",
             "time": "13:30 15/11",
             "blv": "VÁNG",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794724200,
             "cate_type": "billiards"
           },
@@ -5895,16 +5895,16 @@
         },
         {
           "id": "chtv-582f238312",
-          "name": "Edward Koyongian vs Lo Ho Sum | 13:30 15/11",
+          "name": "Edward Koyongian vs Lo Ho Sum | SÊ KÔÔ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5922,7 +5922,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-582f238312",
-                          "name": "Stream",
+                          "name": "SÊ KÔÔ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10298/index.m3u8",
@@ -5951,8 +5951,8 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1794722118254_Screenshot%202026-11-15%20125515.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1794722098533_Screenshot%202026-11-15%20124313.png",
             "time": "13:30 15/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
             "time_sort": 1794724200,
             "cate_type": "billiards"
           },
