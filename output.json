@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1045,7 +1045,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 3,
-            "away_score": 1
+            "away_score": 2
           },
           "image": {
             "padding": 1,
@@ -1162,8 +1162,8 @@
           }
         },
         {
-          "id": "pl-d67a53b056",
-          "name": "New Zealand vs Ấn Độ | 10:10 15/11",
+          "id": "cc-57f4253ab1",
+          "name": "Guadalajara W vs Juárez W | 10:00 15/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1173,77 +1173,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d67a53b056",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d67a53b056",
-                  "name": "New Zealand vs Ấn Độ",
-                  "streams": [
-                    {
-                      "id": "st-d67a53b056",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-d989729f90",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/bbb4244d81514ec3a1e6ecf4d26e391d/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "International Friendly",
-            "team_a": "New Zealand",
-            "team_b": "Ấn Độ",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/ednm9whkk88ryox/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/l965mkyhdk8r1ge/image/small",
-            "time": "10:10 15/11",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4hyex2yq0j_e2139547_20261115.png?v=e2139547",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-57f4253ab1",
-          "name": "Guadalajara W vs Juárez W | 10:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1325,7 +1254,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_143651_72f0bbb2.png",
             "time": "10:00 15/11",
             "blv": "Chuối Tây",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1333,6 +1262,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1649468_df9b0fff_20261115.png?v=df9b0fff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-d67a53b056",
+          "name": "New Zealand vs Ấn Độ | 10:10 15/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d67a53b056",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d67a53b056",
+                  "name": "New Zealand vs Ấn Độ",
+                  "streams": [
+                    {
+                      "id": "st-d67a53b056",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-d989729f90",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/bbb4244d81514ec3a1e6ecf4d26e391d/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "International Friendly",
+            "team_a": "New Zealand",
+            "team_b": "Ấn Độ",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/ednm9whkk88ryox/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/l965mkyhdk8r1ge/image/small",
+            "time": "10:10 15/11",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/8yomo4hyex2yq0j_e2139547_20261115.png?v=e2139547",
             "width": 1600,
             "height": 1200
           }
@@ -4521,82 +4521,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (5 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-1a6827a2e6",
-          "name": "New Orleans Pelicans vs Denver Nuggets | 07:00 15/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1a6827a2e6",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1a6827a2e6",
-                  "name": "New Orleans Pelicans vs Denver Nuggets",
-                  "streams": [
-                    {
-                      "id": "st-1a6827a2e6",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e58b57ee4c",
-                          "name": "Nem",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794657534_hd/1794657534_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "New Orleans Pelicans",
-            "team_b": "Denver Nuggets",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/b745bb8171bc1a860d480067c1bb9b8f.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/36f49ea85609f6b7b32d9fbcba105c2d.png",
-            "time": "07:00 15/11",
-            "blv": "Nem",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/30498270_87906aac_20261115.png?v=87906aac",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-98f5d9bcd5",
           "name": "Cleveland Cavaliers vs Dallas Mavericks | 07:30 15/11",
