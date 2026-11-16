@@ -959,238 +959,11 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-c0acc6b448",
-          "name": "Sudan vs Senegal | 20:00 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c0acc6b448",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-c0acc6b448",
-                  "name": "Sudan vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-c0acc6b448",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-516679a618",
-                          "name": "Súp",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794783688_hd/1794783688_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-6a1d088352",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-6a1d088352",
-                  "name": "Sudan vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-6a1d088352",
-                      "name": "PhaoHoa - BLV Xôi Gấc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-469649d6cd",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-469649d6cd",
-                  "name": "Sudan vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-469649d6cd",
-                      "name": "CCport - Trốc Tru",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b86fc8933e",
-                          "name": "Trốc Tru HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ca6424e649",
-                          "name": "Trốc Tru HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-24863c2dbc",
-                          "name": "Trốc Tru FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-974365c9fe",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-974365c9fe",
-                  "name": "Sudan vs Senegal",
-                  "streams": [
-                    {
-                      "id": "st-974365c9fe",
-                      "name": "Phalang - LÃM LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aea0646edc",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a66c577a44b048c899c0ce40f8eab8db/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Africa Cup of Nations",
-            "team_a": "Sudan",
-            "team_b": "Senegal",
-            "logo_a": "https://images.keovip88.net/images/teams/sudan.png",
-            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
-            "time": "20:00 16/11",
-            "blv": "Súp",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a387d79153ee8455e05572d_5b5db74a_20261116.png?v=5b5db74a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "cc-f3d74dc4a9",
           "name": "Uzbekistan U20 vs Venezuela U20 | 18:00 16/11",
@@ -1609,6 +1382,233 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a372c0432ce87f525086ba4_98a6e0e8_20261116.png?v=98a6e0e8",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-c0acc6b448",
+          "name": "Sudan vs Senegal | 20:00 16/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-c0acc6b448",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-c0acc6b448",
+                  "name": "Sudan vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-c0acc6b448",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-516679a618",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794783688_hd/1794783688_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-6a1d088352",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-6a1d088352",
+                  "name": "Sudan vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-6a1d088352",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-469649d6cd",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-469649d6cd",
+                  "name": "Sudan vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-469649d6cd",
+                      "name": "CCport - Trốc Tru",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b86fc8933e",
+                          "name": "Trốc Tru HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctru/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ca6424e649",
+                          "name": "Trốc Tru HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-24863c2dbc",
+                          "name": "Trốc Tru FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/troctruhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-974365c9fe",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-974365c9fe",
+                  "name": "Sudan vs Senegal",
+                  "streams": [
+                    {
+                      "id": "st-974365c9fe",
+                      "name": "Phalang - LÃM LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-aea0646edc",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a66c577a44b048c899c0ce40f8eab8db/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Africa Cup of Nations",
+            "team_a": "Sudan",
+            "team_b": "Senegal",
+            "logo_a": "https://images.keovip88.net/images/teams/sudan.png",
+            "logo_b": "https://images.keovip88.net/images/teams/senegal.png",
+            "time": "20:00 16/11",
+            "blv": "Súp",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a387d79153ee8455e05572d_5b5db74a_20261116.png?v=5b5db74a",
             "width": 1600,
             "height": 1200
           }
@@ -6689,78 +6689,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-92699057e5_6146571e_20261116.png?v=6146571e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-aa5dd24043",
-          "name": "ALEX PAGULAYAN vs KYLE TUBINO | 19:23 16/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-aa5dd24043",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-aa5dd24043",
-                  "name": "ALEX PAGULAYAN vs KYLE TUBINO",
-                  "streams": [
-                    {
-                      "id": "st-aa5dd24043",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aa5dd24043",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10323/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phip bịp",
-            "team_a": "ALEX PAGULAYAN",
-            "team_b": "KYLE TUBINO",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794831672382_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794831671912_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "time": "19:23 16/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794831780,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-aa5dd24043_04695817_20261116.png?v=04695817",
             "width": 1600,
             "height": 1200
           }
