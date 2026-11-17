@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1827,6 +1827,150 @@
           }
         },
         {
+          "id": "xc-0cbb3b4950",
+          "name": "Russia vs Venezuela | 23:00 17/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-0cbb3b4950",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-0cbb3b4950",
+                  "name": "Russia vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-0cbb3b4950",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ec2091a7e5",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-ec2091a7e5",
+                  "name": "Russia vs Venezuela",
+                  "streams": [
+                    {
+                      "id": "st-ec2091a7e5",
+                      "name": "CCport - Chuối Già",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c65a624da2",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Friendlies",
+            "team_a": "Russia",
+            "team_b": "Venezuela",
+            "logo_a": "https://apiv3.apifootball.com/badges/5_russia.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/532_venezuela.jpg",
+            "time": "23:00",
+            "date": "17/11",
+            "blv": "BLV Khô Chè",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78073_239374e6_20261117.png?v=239374e6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "cc-5e72396d5a",
           "name": "Saudi Arabia vs Uzbekistan | 22:30 17/11",
           "type": "single",
@@ -2382,11 +2526,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-01c3dffbec",
-                          "name": "Riko",
+                          "id": "lnk-130b13c26d",
+                          "name": "Ngọng",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794830435_hd/1794830435_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794929820_hd/1794929820_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -2482,7 +2626,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/wales.png",
             "logo_b": "https://images.keovip88.net/images/teams/portugal.png",
             "time": "02:45 18/11",
-            "blv": "Riko",
+            "blv": "Ngọng",
             "is_live": false,
             "cate_type": "football"
           },
@@ -3366,11 +3510,11 @@
                       "name": "GV",
                       "stream_links": [
                         {
-                          "id": "lnk-961fcdf774",
-                          "name": "Ngọng",
+                          "id": "lnk-f7b02a2e01",
+                          "name": "Hấu",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794830512_hd/1794830512_hd@720p.m3u8",
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794929895_hd/1794929895_hd@720p.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -3535,7 +3679,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/argentina.png",
             "logo_b": "https://images.keovip88.net/images/teams/costa-rica.png",
             "time": "06:00 18/11",
-            "blv": "Ngọng",
+            "blv": "Hấu",
             "is_live": false,
             "cate_type": "football"
           },
@@ -4824,150 +4968,6 @@
           }
         },
         {
-          "id": "xc-0cbb3b4950",
-          "name": "Russia vs Venezuela | 23:00 17/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-0cbb3b4950",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-0cbb3b4950",
-                  "name": "Russia vs Venezuela",
-                  "streams": [
-                    {
-                      "id": "st-0cbb3b4950",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-fae8ed2c4d",
-                          "name": "BLV Khô Chè",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ec2091a7e5",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-ec2091a7e5",
-                  "name": "Russia vs Venezuela",
-                  "streams": [
-                    {
-                      "id": "st-ec2091a7e5",
-                      "name": "CCport - Chuối Già",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b14bc05945",
-                          "name": "Chuối Già HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-c65a624da2",
-                          "name": "Chuối Già HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-2a46d78baf",
-                          "name": "Chuối Già FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Friendlies",
-            "team_a": "Russia",
-            "team_b": "Venezuela",
-            "logo_a": "https://apiv3.apifootball.com/badges/5_russia.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/532_venezuela.jpg",
-            "time": "23:00",
-            "date": "17/11",
-            "blv": "BLV Khô Chè",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/78073_239374e6_20261117.png?v=239374e6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-397522f6e2",
           "name": "Gambia vs Bờ Biển Ngà | 23:00 17/11",
           "type": "single",
@@ -5226,7 +5226,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (4 LIVE)",
+      "name": "🏀 Bóng Rổ (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5523,10 +5523,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5574,7 +5574,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/1f8acfcc287f1153f9d982ff8fa7bae0.jpg",
             "time": "23:15 17/11",
             "blv": "Điếc",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -6584,7 +6584,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6807,16 +6807,16 @@
         },
         {
           "id": "chtv-2a696b442d",
-          "name": "Phương nam vs tiến minh | 22:33 17/11 | Kèn Kèn",
+          "name": "Phương nam vs xuân nghệ an | Kèn Kèn",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6826,7 +6826,7 @@
               "contents": [
                 {
                   "id": "ct-2a696b442d",
-                  "name": "Phương nam vs tiến minh",
+                  "name": "Phương nam vs xuân nghệ an",
                   "streams": [
                     {
                       "id": "st-2a696b442d",
@@ -6859,12 +6859,12 @@
           "org_metadata": {
             "league": "top top",
             "team_a": "Phương nam",
-            "team_b": "tiến minh",
+            "team_b": "xuân nghệ an",
             "logo_a": "https://cdn-choangtv.com/img/logo/1794929637176_Screenshot%202026-10-15%20133326.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1794929636792_Screenshot%202026-10-15%20133326.png",
             "time": "22:33 17/11",
             "blv": "Kèn Kèn",
-            "is_live": false,
+            "is_live": true,
             "time_sort": 1794929580,
             "cate_type": "billiards"
           },
@@ -6873,6 +6873,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2a696b442d_748dce0f_20261117.png?v=748dce0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-bb1cc14547",
+          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bb1cc14547",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-bb1cc14547",
+                  "name": "Ba Lan vs Thụy Điển",
+                  "streams": [
+                    {
+                      "id": "st-bb1cc14547",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bb1cc14547",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10363/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Ba Lan",
+            "team_b": "Thụy Điển",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794908286709_Screenshot%202026-11-17%20163803.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794908312566_Screenshot%202026-11-17%20163827.png",
+            "time": "02:45 18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794944700,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb1cc14547_cdcac014_20261117.png?v=cdcac014",
             "width": 1600,
             "height": 1200
           }
@@ -7017,78 +7089,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-79cf9c5e1b_ba1fb08e_20261117.png?v=ba1fb08e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-bb1cc14547",
-          "name": "Ba Lan vs Thụy Điển | 02:45 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bb1cc14547",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-bb1cc14547",
-                  "name": "Ba Lan vs Thụy Điển",
-                  "streams": [
-                    {
-                      "id": "st-bb1cc14547",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bb1cc14547",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10363/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Ba Lan",
-            "team_b": "Thụy Điển",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1794908286709_Screenshot%202026-11-17%20163803.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794908312566_Screenshot%202026-11-17%20163827.png",
-            "time": "02:45 18/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1794944700,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-bb1cc14547_cdcac014_20261117.png?v=cdcac014",
             "width": 1600,
             "height": 1200
           }
