@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (12 LIVE)",
+      "name": "⚽ Bóng Đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1714,7 +1714,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
@@ -2292,6 +2292,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1528998_737affe3_20261118.png?v=737affe3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-29a338c8a0",
+          "name": "Ireland U21 vs Phần Lan U21 | 00:45 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-29a338c8a0",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-29a338c8a0",
+                  "name": "Ireland U21 vs Phần Lan U21",
+                  "streams": [
+                    {
+                      "id": "st-29a338c8a0",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-65c3f32c6b",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/eb8024fc1bc842b293dcbc7e0736fe30/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA European U21 Championship qualification",
+            "team_a": "Ireland U21",
+            "team_b": "Phần Lan U21",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/9vjxm8ghd5pr6od/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/yl5ergphjzgr8k0/image/small",
+            "time": "00:45 18/11",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/l5ergphkokxxr8k_79e8a626_20261118.png?v=79e8a626",
             "width": 1600,
             "height": 1200
           }
