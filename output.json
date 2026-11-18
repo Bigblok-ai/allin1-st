@@ -4391,7 +4391,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4617,10 +4617,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4668,7 +4668,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d9bd292c78f45602613dcec76a4065b6.png",
             "time": "14:30 18/11",
             "blv": "Cận",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
@@ -5401,6 +5401,78 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-4147c1f82f",
+          "name": "Bora Duru vs Đỗ Thế Kiên | 15:00 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-4147c1f82f",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-4147c1f82f",
+                  "name": "Bora Duru vs Đỗ Thế Kiên",
+                  "streams": [
+                    {
+                      "id": "st-4147c1f82f",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4147c1f82f",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10404/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
+            "team_a": "Bora Duru",
+            "team_b": "Đỗ Thế Kiên",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1794986528732_Vi%E1%BB%87t%20Nam.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794986528435_Vi%E1%BB%87t%20Nam.png",
+            "time": "15:00 18/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1794988800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-4147c1f82f_a5726285_20261118.png?v=a5726285",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
@@ -5935,7 +6007,7 @@
       "channels": [
         {
           "id": "gv-83d6b0c4ab",
-          "name": "ONE SAMURAI 5 vs ONE SAMURAI 5 | 14:00 18/11",
+          "name": "ONE SAMURAI 5 vs ONE SAMURAI 5 | 15:30 18/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -5990,7 +6062,7 @@
             "team_b": "ONE SAMURAI 5",
             "logo_a": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeXxCppueUD5MSSOP1hJBRK_8vEQfkjbluc_2o9DAAbg&s=10",
             "logo_b": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh0breiHAgh7l84lRYLOQnHCq24moUFYYUDLYiMdJsSiwy6p3YdSZznX8&s=10",
-            "time": "14:00 18/11",
+            "time": "15:30 18/11",
             "blv": "Dory",
             "is_live": false,
             "cate_type": "vothuat"
