@@ -959,14 +959,14 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (3 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
         {
-          "id": "gv-a49db29992",
-          "name": "Borneo FC Samarinda vs Manila Digger FC | 19:00 18/11",
+          "id": "xc-1b4258e07a",
+          "name": "Borneo vs Manila Digger | 19:00 18/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -980,41 +980,6 @@
           ],
           "sources": [
             {
-              "id": "src-a49db29992",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-a49db29992",
-                  "name": "Borneo FC Samarinda vs Manila Digger FC",
-                  "streams": [
-                    {
-                      "id": "st-a49db29992",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b3c6e1db17",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794979295_hd/1794979295_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-1b4258e07a",
               "name": "XoiChe TV",
               "contents": [
@@ -1024,7 +989,7 @@
                   "streams": [
                     {
                       "id": "st-1b4258e07a",
-                      "name": "PhaoHoa - BLV Khô Cá",
+                      "name": "XoiChe TV",
                       "stream_links": [
                         {
                           "id": "lnk-c8987d572f",
@@ -1050,77 +1015,6 @@
               ]
             },
             {
-              "id": "src-734929d1b1",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-734929d1b1",
-                  "name": "Borneo FC vs Manila Digger FC",
-                  "streams": [
-                    {
-                      "id": "st-734929d1b1",
-                      "name": "Phalang - LÃM LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-9b8126e9ff",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/42c4cc53bbd042b7a64152fac2e27e89/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "ASEAN Club Championship",
-            "team_a": "Borneo FC Samarinda",
-            "team_b": "Manila Digger FC",
-            "logo_a": "https://images.keovip88.net/images/teams/borneo-fc-samarinda.png",
-            "logo_b": "https://images.keovip88.net/images/teams/manila-digger-fc.png",
-            "time": "19:00 18/11",
-            "blv": "Tỵ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aa9dd05b5dda8c9400d6666_1b7455ca_20261118.png?v=1b7455ca",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-2a9bbe31d0",
-          "name": "Pusamania Borneo vs Manila Digger | 19:00 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
               "id": "src-2a9bbe31d0",
               "name": "ChuoiChienTV",
               "contents": [
@@ -1130,7 +1024,7 @@
                   "streams": [
                     {
                       "id": "st-2a9bbe31d0",
-                      "name": "CC",
+                      "name": "CCport - Chuối Kem",
                       "stream_links": [
                         {
                           "id": "lnk-54fbd1fdde",
@@ -1188,24 +1082,63 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-734929d1b1",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-734929d1b1",
+                  "name": "Borneo FC vs Manila Digger FC",
+                  "streams": [
+                    {
+                      "id": "st-734929d1b1",
+                      "name": "Phalang - LÃM LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-9b8126e9ff",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/42c4cc53bbd042b7a64152fac2e27e89/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
             "league": "ASEAN Club Championship",
-            "team_a": "Pusamania Borneo",
+            "team_a": "Borneo",
             "team_b": "Manila Digger",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134616_2456a9ca.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_142522_ade6ad2d.png",
-            "time": "19:00 18/11",
-            "blv": "Chuối Kem",
+            "logo_a": "https://apiv3.apifootball.com/badges/4716_borneo.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/31956_manila-digger.jpg",
+            "time": "19:00",
+            "date": "18/11",
+            "blv": "BLV Khô Cá",
             "is_live": true,
-            "cate_type": "football"
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 1,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1639359_ccafddb5_20261118.png?v=ccafddb5",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79085_d54805c5_20261118.png?v=d54805c5",
             "width": 1600,
             "height": 1200
           }
@@ -4303,82 +4236,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-459aa92e7d",
-          "name": "Shandong Hi-Speed Kirin vs Guangdong Southern Tigers | 19:00 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-459aa92e7d",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-459aa92e7d",
-                  "name": "Shandong Hi-Speed Kirin vs Guangdong Southern Tigers",
-                  "streams": [
-                    {
-                      "id": "st-459aa92e7d",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-25ed7de1c8",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794979816_hd/1794979816_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CBA Club Cup",
-            "team_a": "Shandong Hi-Speed Kirin",
-            "team_b": "Guangdong Southern Tigers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/5e5e6dd519553b0782b6ad7cda315e98.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/37b8668860b7f12aeb8a40fafaaa2e83.png",
-            "time": "19:00 18/11",
-            "blv": "Chồn",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/25434578_016d66cc_20261118.png?v=016d66cc",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-6be54bcc10",
           "name": "Besiktas Cola Turka vs Real Madrid Teka | 00:00 19/11",
