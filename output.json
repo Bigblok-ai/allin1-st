@@ -1043,7 +1043,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -2557,82 +2557,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (3 LIVE)",
+      "name": "🏀 Bóng Rổ (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-5260113234",
-          "name": "Minnesota Timberwolves vs Portland Trail Blazers | 08:00 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5260113234",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-5260113234",
-                  "name": "Minnesota Timberwolves vs Portland Trail Blazers",
-                  "streams": [
-                    {
-                      "id": "st-5260113234",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-11b0a28214",
-                          "name": "Ben",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794916522_hd/1794916522_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "National Basketball Association",
-            "team_a": "Minnesota Timberwolves",
-            "team_b": "Portland Trail Blazers",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e97782502546bad80da0347446a3a311.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/ea86671a348a3277fa075840258d8bc7.png",
-            "time": "08:00 18/11",
-            "blv": "Ben",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/31598272_513d549b_20261118.png?v=513d549b",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-80227868f7",
           "name": "Los Angeles Clippers vs Utah Jazz | 10:30 18/11",
@@ -3134,11 +3063,83 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "chtv-b71a01ed39",
+          "name": "Hoàng Minh Tài vs Xuân Nghệ An | SÊ KÔÔ",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b71a01ed39",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-b71a01ed39",
+                  "name": "Hoàng Minh Tài vs Xuân Nghệ An",
+                  "streams": [
+                    {
+                      "id": "st-b71a01ed39",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b71a01ed39",
+                          "name": "SÊ KÔÔ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10393/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
+            "team_a": "Hoàng Minh Tài",
+            "team_b": "Xuân Nghệ An",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1794967034462_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
+            "time": "10:30 18/11",
+            "blv": "SÊ KÔÔ",
+            "is_live": true,
+            "time_sort": 1794972600,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b71a01ed39_ef434ece_20261118.png?v=ef434ece",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "chtv-d27f196423",
           "name": "TKON uy tín vs Ngô Hồng Thắng | Bỉm Sữa",
@@ -3284,8 +3285,8 @@
           }
         },
         {
-          "id": "chtv-b71a01ed39",
-          "name": "Hoàng Minh Tài vs Xuân Nghệ An | SÊ KÔÔ",
+          "id": "chtv-01d16d2296",
+          "name": "Bình Trọc vs TiếnMinh  Raumá | Thập Cẩm",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -3295,78 +3296,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b71a01ed39",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-b71a01ed39",
-                  "name": "Hoàng Minh Tài vs Xuân Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-b71a01ed39",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-b71a01ed39",
-                          "name": "SÊ KÔÔ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10393/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "SIX OPEN POOL CHAMPIONSHIP 2026 |",
-            "team_a": "Hoàng Minh Tài",
-            "team_b": "Xuân Nghệ An",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1765226388907_t%E1%BA%A3i%20xu%E1%BB%91ng.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1794967034462_XU%C3%82N%20NGH%E1%BB%86%20AN.png",
-            "time": "10:30 18/11",
-            "blv": "SÊ KÔÔ",
-            "is_live": true,
-            "time_sort": 1794972600,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-b71a01ed39_ef434ece_20261118.png?v=ef434ece",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-01d16d2296",
-          "name": "Bình Trọc vs TiếnMinh  Raumá | 10:30 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -3384,7 +3313,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-01d16d2296",
-                          "name": "Stream",
+                          "name": "Thập Cẩm",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10390/index.m3u8",
@@ -3413,8 +3342,8 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1794966669044_B%C3%8CNH%20CHU%E1%BA%A8N.jpg",
             "logo_b": "https://cdn-choangtv.com/img/logo/1794966680282_Ti%E1%BA%BFn%20Minh%20TH.jpg",
             "time": "10:30 18/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "Thập Cẩm",
+            "is_live": true,
             "time_sort": 1794972600,
             "cate_type": "billiards"
           },
