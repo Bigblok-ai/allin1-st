@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1426,8 +1426,8 @@
           }
         },
         {
-          "id": "pl-6c95a5dbf6",
-          "name": "El Gounah vs Ittihad Alexandria | 22:00 18/11",
+          "id": "cc-6fc9ca5c89",
+          "name": "Real Madrid W vs Inter Milano W | 00:45 19/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1437,77 +1437,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-6c95a5dbf6",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-6c95a5dbf6",
-                  "name": "El Gounah vs Ittihad Alexandria",
-                  "streams": [
-                    {
-                      "id": "st-6c95a5dbf6",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-cf2c83aee0",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/ae06eef5b29f4fbe988095040e869386/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Egyptian Scores Cup",
-            "team_a": "El Gounah",
-            "team_b": "Ittihad Alexandria",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh44d4moep/image/small",
-            "time": "22:00 18/11",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/x7lm7phxkedym2w_4baa63a9_20261119.png?v=4baa63a9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-6fc9ca5c89",
-          "name": "Real Madrid W vs Inter Milano W | 00:45 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1589,7 +1518,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_133743_9c285531.png",
             "time": "00:45 19/11",
             "blv": "Chuối Lá",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1597,6 +1526,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1638333_181964dc_20261119.png?v=181964dc",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-6c95a5dbf6",
+          "name": "El Gounah vs Ittihad Alexandria | 22:00 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6c95a5dbf6",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6c95a5dbf6",
+                  "name": "El Gounah vs Ittihad Alexandria",
+                  "streams": [
+                    {
+                      "id": "st-6c95a5dbf6",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-cf2c83aee0",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/ae06eef5b29f4fbe988095040e869386/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Egyptian Scores Cup",
+            "team_a": "El Gounah",
+            "team_b": "Ittihad Alexandria",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/y0or5jhl59lqwzv/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gh44d4moep/image/small",
+            "time": "22:00 18/11",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/x7lm7phxkedym2w_4baa63a9_20261119.png?v=4baa63a9",
             "width": 1600,
             "height": 1200
           }
