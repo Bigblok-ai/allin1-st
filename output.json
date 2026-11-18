@@ -5125,11 +5125,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-d8a0528fea",
+          "name": "SOOP SOOPers Nữ vs Hyundai E&C Hillstate Nữ | 17:00 18/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d8a0528fea",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d8a0528fea",
+                  "name": "SOOP SOOPers Nữ vs Hyundai E&C Hillstate Nữ",
+                  "streams": [
+                    {
+                      "id": "st-d8a0528fea",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eb63eab6dc",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794979962_hd/1794979962_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "SOOP SOOPers Nữ",
+            "team_b": "Hyundai E&C Hillstate Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-jZFjtRuk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
+            "time": "17:00 18/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/9vfnklb589bu_9801ae29_20261118.png?v=9801ae29",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-39858ef411",
           "name": "SOOP SOOPers Womon vs Hyundai E&C Hillstate Womon | 17:00 18/11",
@@ -5197,77 +5268,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/77ee21f5462c413cbd2e8ecb3be191a6_dcd4ff22_20261118.png?v=dcd4ff22",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-d8a0528fea",
-          "name": "SOOP SOOPers Nữ vs Hyundai E&C Hillstate Nữ | 17:00 18/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d8a0528fea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-d8a0528fea",
-                  "name": "SOOP SOOPers Nữ vs Hyundai E&C Hillstate Nữ",
-                  "streams": [
-                    {
-                      "id": "st-d8a0528fea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eb63eab6dc",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1794979962_hd/1794979962_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Volleyball League Nữ",
-            "team_a": "SOOP SOOPers Nữ",
-            "team_b": "Hyundai E&C Hillstate Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/zaBfVVfM-jZFjtRuk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
-            "time": "17:00 18/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/9vfnklb589bu_9801ae29_20261118.png?v=9801ae29",
             "width": 1600,
             "height": 1200
           }
