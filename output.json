@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1700,6 +1700,77 @@
           }
         },
         {
+          "id": "gv-08a1803a95",
+          "name": "New Caledonia U17 vs Ecuador U17 | 20:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-08a1803a95",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-08a1803a95",
+                  "name": "New Caledonia U17 vs Ecuador U17",
+                  "streams": [
+                    {
+                      "id": "st-08a1803a95",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-35d971d198",
+                          "name": "Dory",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795071585_hd/1795071585_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "World Cup U17",
+            "team_a": "New Caledonia U17",
+            "team_b": "Ecuador U17",
+            "logo_a": "https://images.keovip88.net/images/teams/new-caledonia-u17.png",
+            "logo_b": "https://images.keovip88.net/images/teams/ecuador-u17.png",
+            "time": "20:00 19/11",
+            "blv": "Dory",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a1393a75618a0eb770ad627_241a99ba_20261119.png?v=241a99ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-ffa1f6c1e7",
           "name": "Persib Bandung vs Shan Utd | 19:00 19/11",
           "type": "single",
@@ -1761,7 +1832,7 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "live",
+            "status": "half_time",
             "home_score": 2,
             "away_score": 0
           },
@@ -1862,148 +1933,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/79841_442e6d5f_20261119.png?v=442e6d5f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-08a1803a95",
-          "name": "New Caledonia U17 vs Ecuador U17 | 20:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-08a1803a95",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-08a1803a95",
-                  "name": "New Caledonia U17 vs Ecuador U17",
-                  "streams": [
-                    {
-                      "id": "st-08a1803a95",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-35d971d198",
-                          "name": "Dory",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795071585_hd/1795071585_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "World Cup U17",
-            "team_a": "New Caledonia U17",
-            "team_b": "Ecuador U17",
-            "logo_a": "https://images.keovip88.net/images/teams/new-caledonia-u17.png",
-            "logo_b": "https://images.keovip88.net/images/teams/ecuador-u17.png",
-            "time": "20:00 19/11",
-            "blv": "Dory",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a1393a75618a0eb770ad627_241a99ba_20261119.png?v=241a99ba",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-96f37a88a3",
-          "name": "IFK Norrkoping vs KuPS | 20:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-96f37a88a3",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-96f37a88a3",
-                  "name": "IFK Norrkoping vs KuPS",
-                  "streams": [
-                    {
-                      "id": "st-96f37a88a3",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-3149fff389",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795071490_hd/1795071490_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Giao hữu",
-            "team_a": "IFK Norrkoping",
-            "team_b": "KuPS",
-            "logo_a": "https://images.keovip88.net/images/teams/ifk-norrkoping-fk.png",
-            "logo_b": "https://images.keovip88.net/images/teams/kups.png",
-            "time": "20:00 19/11",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6afcea8724d46db87093f8a9_65edec13_20261119.png?v=65edec13",
             "width": 1600,
             "height": 1200
           }
@@ -5396,7 +5325,7 @@
     },
     {
       "id": "grp-tennis",
-      "name": "🎾 Tennis",
+      "name": "🎾 Tennis (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -5409,10 +5338,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -5460,7 +5389,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/A5stpqzB-bJuw1oYE.png",
             "time": "20:00 19/11",
             "blv": "Ben",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "tennis"
           },
           "image": {
@@ -8556,7 +8485,7 @@
         },
         {
           "id": "chtv-958f47e340",
-          "name": "Edwin Gamas vs Bernie | 19:43 19/11",
+          "name": "Edwin Gamas vs Bernie | 19:43 19/11 | Bỉm Sữa",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -8583,7 +8512,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-958f47e340",
-                          "name": "Stream",
+                          "name": "Bỉm Sữa",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10456/index.m3u8",
@@ -8612,7 +8541,7 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1795092242717_Screenshot%202026-11-19%20180441.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1795092243339_Screenshot%202026-11-19%20180441.png",
             "time": "19:43 19/11",
-            "blv": "",
+            "blv": "Bỉm Sữa",
             "is_live": false,
             "time_sort": 1795092180,
             "cate_type": "billiards"
@@ -8630,82 +8559,11 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-cc35363b1c",
-          "name": "Hungkuk Nữ vs GS Caltex Nữ | 17:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-cc35363b1c",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-cc35363b1c",
-                  "name": "Hungkuk Nữ vs GS Caltex Nữ",
-                  "streams": [
-                    {
-                      "id": "st-cc35363b1c",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4f128e4371",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795071894_hd/1795071894_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Volleyball League Nữ",
-            "team_a": "Hungkuk Nữ",
-            "team_b": "GS Caltex Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/8bAPfUCa-SfuGhwLE.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/EXtx7sXg-EL2iNWK6.png",
-            "time": "17:00 19/11",
-            "blv": "Sún",
-            "is_live": true,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/lya58hz379wh_ddd8f3d1_20261119.png?v=ddd8f3d1",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-f7a49b686f",
           "name": "Zeren Spor Nữ vs Galatasaray Nữ | 23:00 19/11",
