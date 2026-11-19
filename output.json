@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1820,7 +1820,7 @@
             "blv": "BLV Khô Mật",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 0
           },
@@ -2150,6 +2150,77 @@
           }
         },
         {
+          "id": "pl-b898835c4f",
+          "name": "Ả Rập Xê Út U17 vs Uruguay U17 | 21:00 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b898835c4f",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b898835c4f",
+                  "name": "Ả Rập Xê Út U17 vs Uruguay U17",
+                  "streams": [
+                    {
+                      "id": "st-b898835c4f",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ebe03caf9d",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/bbf90b3f1f9c4e008e6a683180904251/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Ả Rập Xê Út U17",
+            "team_b": "Uruguay U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh46o0m0ve/image/small",
+            "time": "21:00 19/11",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhy0overyk_4ad46ccf_20261119.png?v=4ad46ccf",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-692b2917d3",
           "name": "Saudi Arabia U17 vs U17 Uruguay | 21:00 19/11",
           "type": "single",
@@ -2216,77 +2287,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a1393a75618a0eb770ad62e_a4b63852_20261119.png?v=a4b63852",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-b898835c4f",
-          "name": "Ả Rập Xê Út U17 vs Uruguay U17 | 21:00 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b898835c4f",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b898835c4f",
-                  "name": "Ả Rập Xê Út U17 vs Uruguay U17",
-                  "streams": [
-                    {
-                      "id": "st-b898835c4f",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ebe03caf9d",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/bbf90b3f1f9c4e008e6a683180904251/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Ả Rập Xê Út U17",
-            "team_b": "Uruguay U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4jwq2gh46o0m0ve/image/small",
-            "time": "21:00 19/11",
-            "blv": "LÝ LINH LỰC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhy0overyk_4ad46ccf_20261119.png?v=4ad46ccf",
             "width": 1600,
             "height": 1200
           }
