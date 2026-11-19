@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1675,6 +1675,77 @@
           }
         },
         {
+          "id": "pl-b01fdf7957",
+          "name": "Qatar U17 vs Panama U17 | 22:30 19/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b01fdf7957",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-b01fdf7957",
+                  "name": "Qatar U17 vs Panama U17",
+                  "streams": [
+                    {
+                      "id": "st-b01fdf7957",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-854d8ed623",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/51e5c3e4a0ed41e789ef88cbc2e89d40/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Qatar U17",
+            "team_b": "Panama U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhpzjqwzv/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09vjmd7o/image/small",
+            "time": "22:30 19/11",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhvpo1gmd7_fc49b3f0_20261119.png?v=fc49b3f0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-2d29229245",
           "name": "U17 Qatar vs Panama(U17) | 22:30 19/11",
           "type": "single",
@@ -1741,77 +1812,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a1393a75618a0eb770ad622_2a9ca3d6_20261119.png?v=2a9ca3d6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-b01fdf7957",
-          "name": "Qatar U17 vs Panama U17 | 22:30 19/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-b01fdf7957",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-b01fdf7957",
-                  "name": "Qatar U17 vs Panama U17",
-                  "streams": [
-                    {
-                      "id": "st-b01fdf7957",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-854d8ed623",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/51e5c3e4a0ed41e789ef88cbc2e89d40/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Qatar U17",
-            "team_b": "Panama U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/gy0or5jhpzjqwzv/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/6ypq3nh09vjmd7o/image/small",
-            "time": "22:30 19/11",
-            "blv": "LÝ LONG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/6ypq3nhvpo1gmd7_fc49b3f0_20261119.png?v=fc49b3f0",
             "width": 1600,
             "height": 1200
           }
@@ -4679,133 +4679,6 @@
           }
         },
         {
-          "id": "xc-89514c9786",
-          "name": "Viettel vs Song Lam Nghe An | 19:15 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-89514c9786",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-89514c9786",
-                  "name": "Viettel vs Song Lam Nghe An",
-                  "streams": [
-                    {
-                      "id": "st-89514c9786",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-245e47f94f",
-                          "name": "Bác Khô",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-484b46424a",
-                          "name": "BLV Khô Cóc",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-85fd7afbb3",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-85fd7afbb3",
-                  "name": "Thể Công Viettel vs Sông Lam Nghệ An",
-                  "streams": [
-                    {
-                      "id": "st-85fd7afbb3",
-                      "name": "Phalang - LÝ LONG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-844e1bbf8b",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/2d32b4d09d084a5286eb7f76445b57c9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Viettel",
-            "team_b": "Song Lam Nghe An",
-            "logo_a": "https://apiv3.apifootball.com/badges/409_th-cong-viettel.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8058_song-lam-ngh-an.jpg",
-            "time": "19:15",
-            "date": "20/11",
-            "blv": "Bác Khô, BLV Khô Cóc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/80538_6cc203de_20261119.png?v=6cc203de",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-bba9394daa",
           "name": "Spain U17 vs China U17 | 21:00 20/11",
           "type": "single",
@@ -6317,6 +6190,148 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/22822273_0faf32b6_20261119.png?v=0faf32b6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-36133c92b0",
+          "name": "Liaoning Flying Leopards vs Shanxi Loongs Fenjiu | 19:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-36133c92b0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-36133c92b0",
+                  "name": "Liaoning Flying Leopards vs Shanxi Loongs Fenjiu",
+                  "streams": [
+                    {
+                      "id": "st-36133c92b0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-517b89f11a",
+                          "name": "Vịt",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100530_hd/1795100530_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA Club Cup",
+            "team_a": "Liaoning Flying Leopards",
+            "team_b": "Shanxi Loongs Fenjiu",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/e5b2db0dc53319933071f194e099180f.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/2b1276c6b68b581bd3023f5f11bb6f44.png",
+            "time": "19:00 20/11",
+            "blv": "Vịt",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/23434576_620a790d_20261119.png?v=620a790d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-cf80899d8e",
+          "name": "QingDao Eagles vs Shanghai Jiushi Sharks | 19:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-cf80899d8e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-cf80899d8e",
+                  "name": "QingDao Eagles vs Shanghai Jiushi Sharks",
+                  "streams": [
+                    {
+                      "id": "st-cf80899d8e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b1041b7f32",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100582_hd/1795100582_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "CBA Club Cup",
+            "team_a": "QingDao Eagles",
+            "team_b": "Shanghai Jiushi Sharks",
+            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/cbbeaf29a9996f0500e140e33cb780ae.png",
+            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/d67cd54e91fe7a46a2f9bdd646544989.png",
+            "time": "19:00 20/11",
+            "blv": "Cận",
+            "is_live": false,
+            "cate_type": "basketball"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/27334579_c1079d78_20261119.png?v=c1079d78",
             "width": 1600,
             "height": 1200
           }
