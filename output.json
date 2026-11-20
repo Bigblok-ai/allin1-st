@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1391,8 +1391,8 @@
           }
         },
         {
-          "id": "pl-a8b1b748a8",
-          "name": "Darmstadt 98 vs Heidenheim | 00:30 21/11",
+          "id": "cc-bf66f66aa8",
+          "name": "Bayern München vs 1.FC Köln | 02:30 21/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1402,77 +1402,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-a8b1b748a8",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-a8b1b748a8",
-                  "name": "Darmstadt 98 vs Heidenheim",
-                  "streams": [
-                    {
-                      "id": "st-a8b1b748a8",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-37a00e2ff2",
-                          "name": "LÝ LINH LỰC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/6d1eb077320a4301ab42c8c7dcf7b96d/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "German Bundesliga 2",
-            "team_a": "Darmstadt 98",
-            "team_b": "Heidenheim",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/z318q66hy39qo9j/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/n54qllh261zqvy9/image/small",
-            "time": "00:30 21/11",
-            "blv": "LÝ LINH LỰC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whw468yryo_079224c3_20261121.png?v=079224c3",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-bf66f66aa8",
-          "name": "Bayern München vs 1.FC Köln | 02:30 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1554,7 +1483,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130303_d0b10a92.png",
             "time": "02:30 21/11",
             "blv": "Chuối Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1562,6 +1491,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1575221_bc8e411e_20261121.png?v=bc8e411e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-a8b1b748a8",
+          "name": "Darmstadt 98 vs Heidenheim | 00:30 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8b1b748a8",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-a8b1b748a8",
+                  "name": "Darmstadt 98 vs Heidenheim",
+                  "streams": [
+                    {
+                      "id": "st-a8b1b748a8",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-37a00e2ff2",
+                          "name": "LÝ LINH LỰC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/6d1eb077320a4301ab42c8c7dcf7b96d/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "German Bundesliga 2",
+            "team_a": "Darmstadt 98",
+            "team_b": "Heidenheim",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/z318q66hy39qo9j/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/n54qllh261zqvy9/image/small",
+            "time": "00:30 21/11",
+            "blv": "LÝ LINH LỰC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/ednm9whw468yryo_079224c3_20261121.png?v=079224c3",
             "width": 1600,
             "height": 1200
           }
