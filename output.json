@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1245,77 +1245,6 @@
           }
         },
         {
-          "id": "gv-61b7366753",
-          "name": "Indonesia U-17 vs Myanmar U-17 | 15:30 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-61b7366753",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-61b7366753",
-                  "name": "Indonesia U-17 vs Myanmar U-17",
-                  "streams": [
-                    {
-                      "id": "st-61b7366753",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-6c9b9b0619",
-                          "name": "Hấu",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795101825_hd/1795101825_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC U-17 Asian Cup",
-            "team_a": "Indonesia U-17",
-            "team_b": "Myanmar U-17",
-            "logo_a": "https://static.flashscore.com/res/image/data/QB8Xo4YA-zyopBu8j.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/bJSUUpGG-AoZW059P.png",
-            "time": "15:30 20/11",
-            "blv": "Hấu",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/q02dle74jnqi_935473a8_20261120.png?v=935473a8",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-ad6dbe38b9",
           "name": "PSS Sleman vs Arema FC | 15:30 20/11",
           "type": "single",
@@ -1323,10 +1252,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1408,7 +1337,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134615_6b83f5fd.png",
             "time": "15:30 20/11",
             "blv": "Chuối Nhỏ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1416,6 +1345,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1622836_b347ebbd_20261120.png?v=b347ebbd",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-61b7366753",
+          "name": "Indonesia U-17 vs Myanmar U-17 | 15:30 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-61b7366753",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-61b7366753",
+                  "name": "Indonesia U-17 vs Myanmar U-17",
+                  "streams": [
+                    {
+                      "id": "st-61b7366753",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6c9b9b0619",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795101825_hd/1795101825_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC U-17 Asian Cup",
+            "team_a": "Indonesia U-17",
+            "team_b": "Myanmar U-17",
+            "logo_a": "https://static.flashscore.com/res/image/data/QB8Xo4YA-zyopBu8j.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/bJSUUpGG-AoZW059P.png",
+            "time": "15:30 20/11",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/q02dle74jnqi_935473a8_20261120.png?v=935473a8",
             "width": 1600,
             "height": 1200
           }
@@ -8662,7 +8662,7 @@
         },
         {
           "id": "chtv-65c467a785",
-          "name": "1 vs Assis Tadique | 17:30 20/11",
+          "name": "Genesis Ouano vs Assis Tadique | 17:30 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -8681,7 +8681,7 @@
               "contents": [
                 {
                   "id": "ct-65c467a785",
-                  "name": "1 vs Assis Tadique",
+                  "name": "Genesis Ouano vs Assis Tadique",
                   "streams": [
                     {
                       "id": "st-65c467a785",
@@ -8713,9 +8713,9 @@
           ],
           "org_metadata": {
             "league": "Tứ Kết 𝗨𝗻𝗶𝘃𝗲𝗿𝘀𝗮𝗹 𝗕𝗮𝗻𝗴𝗸𝗼𝗸 𝗢𝗽𝗲𝗻 𝟮𝟬𝟮𝟲",
-            "team_a": "1",
+            "team_a": "Genesis Ouano",
             "team_b": "Assis Tadique",
-            "logo_a": "",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795162461725_Philippines.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1795160472714_Screenshot%202026-11-20%20144110.png",
             "time": "17:30 20/11",
             "blv": "",
@@ -8727,7 +8727,7 @@
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-65c467a785_4efdc13b_20261120.png?v=4efdc13b",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-65c467a785_447934a4_20261120.png?v=447934a4",
             "width": 1600,
             "height": 1200
           }
