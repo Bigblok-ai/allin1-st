@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (8 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1421,6 +1421,77 @@
           }
         },
         {
+          "id": "gv-57725c5bea",
+          "name": "Kashiwa Reysol vs JEF United Ichihara | 17:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-57725c5bea",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-57725c5bea",
+                  "name": "Kashiwa Reysol vs JEF United Ichihara",
+                  "streams": [
+                    {
+                      "id": "st-57725c5bea",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0edfcb4336",
+                          "name": "Bee",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100212_hd/1795100212_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Nhật Bản",
+            "team_a": "Kashiwa Reysol",
+            "team_b": "JEF United Ichihara",
+            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
+            "logo_b": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
+            "time": "17:00 20/11",
+            "blv": "Bee",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af501b924d46db8700fccd3_0113c6e9_20261120.png?v=0113c6e9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-86633c8a90",
           "name": "Vissel Kobe vs Mito Hollyhock | 17:00 20/11",
           "type": "single",
@@ -1625,7 +1696,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 0
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1948,77 +2019,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af501b924d46db8700fccc6_d872af8c_20261120.png?v=d872af8c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-57725c5bea",
-          "name": "Kashiwa Reysol vs JEF United Ichihara | 17:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-57725c5bea",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-57725c5bea",
-                  "name": "Kashiwa Reysol vs JEF United Ichihara",
-                  "streams": [
-                    {
-                      "id": "st-57725c5bea",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0edfcb4336",
-                          "name": "Bee",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100212_hd/1795100212_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Nhật Bản",
-            "team_a": "Kashiwa Reysol",
-            "team_b": "JEF United Ichihara",
-            "logo_a": "https://images.keovip88.net/images/teams/kashiwa-reysol.png",
-            "logo_b": "https://images.keovip88.net/images/teams/jef-united-ichihara-chiba.png",
-            "time": "17:00 20/11",
-            "blv": "Bee",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af501b924d46db8700fccd3_0113c6e9_20261120.png?v=0113c6e9",
             "width": 1600,
             "height": 1200
           }
@@ -5245,6 +5245,98 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81345_4c3eedc5_20261120.png?v=4c3eedc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-7f81920b7c",
+          "name": "Nam Dinh vs Hai Phong | 18:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-7f81920b7c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7f81920b7c",
+                  "name": "Nam Dinh vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-7f81920b7c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V.League 1",
+            "team_a": "Nam Dinh",
+            "team_b": "Hai Phong",
+            "logo_a": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8055_hi-phong.jpg",
+            "time": "18:00",
+            "date": "21/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81482_795c7cd6_20261120.png?v=795c7cd6",
             "width": 1600,
             "height": 1200
           }
@@ -8650,11 +8742,153 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-8634548e67",
+          "name": "Fragolad Kagoshima vs Nagoya | 16:35 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-8634548e67",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-8634548e67",
+                  "name": "Fragolad Kagoshima vs Nagoya",
+                  "streams": [
+                    {
+                      "id": "st-8634548e67",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0a8572ad24",
+                          "name": "Cận",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795158742_hd/1795158742_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Fragolad Kagoshima",
+            "team_b": "Nagoya",
+            "logo_a": "https://static.flashscore.com/res/image/data/S0fgD0GG-xGX8hiO6.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/jFkYBPcM-jkGQItQ0.png",
+            "time": "16:35 20/11",
+            "blv": "Cận",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/dlnngg8v6wc7_acd38ff2_20261120.png?v=acd38ff2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-da42bbe089",
+          "name": "Expressway Co Nữ vs IBK Nữ | 17:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-da42bbe089",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-da42bbe089",
+                  "name": "Expressway Co Nữ vs IBK Nữ",
+                  "streams": [
+                    {
+                      "id": "st-da42bbe089",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ef897ed8c9",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795103322_hd/1795103322_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "Expressway Co Nữ",
+            "team_b": "IBK Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/2wkn81yB-WnWXnBkk.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "time": "17:00 20/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/kbk0mxsa27c3_dbb13fb3_20261120.png?v=dbb13fb3",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-f3e885ff50",
           "name": "Expressway Co Womon vs IBK Womon | 17:00 20/11",
@@ -8722,148 +8956,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/2f14c00b05a34ae0a17e748934c60ae3_afe0186c_20261120.png?v=afe0186c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-8634548e67",
-          "name": "Fragolad Kagoshima vs Nagoya | 16:35 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8634548e67",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8634548e67",
-                  "name": "Fragolad Kagoshima vs Nagoya",
-                  "streams": [
-                    {
-                      "id": "st-8634548e67",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0a8572ad24",
-                          "name": "Cận",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795158742_hd/1795158742_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Fragolad Kagoshima",
-            "team_b": "Nagoya",
-            "logo_a": "https://static.flashscore.com/res/image/data/S0fgD0GG-xGX8hiO6.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/jFkYBPcM-jkGQItQ0.png",
-            "time": "16:35 20/11",
-            "blv": "Cận",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/dlnngg8v6wc7_acd38ff2_20261120.png?v=acd38ff2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-da42bbe089",
-          "name": "Expressway Co Nữ vs IBK Nữ | 17:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-da42bbe089",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-da42bbe089",
-                  "name": "Expressway Co Nữ vs IBK Nữ",
-                  "streams": [
-                    {
-                      "id": "st-da42bbe089",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ef897ed8c9",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795103322_hd/1795103322_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Volleyball League Nữ",
-            "team_a": "Expressway Co Nữ",
-            "team_b": "IBK Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/2wkn81yB-WnWXnBkk.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
-            "time": "17:00 20/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/kbk0mxsa27c3_dbb13fb3_20261120.png?v=dbb13fb3",
             "width": 1600,
             "height": 1200
           }
