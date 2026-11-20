@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (5 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1636,6 +1636,77 @@
           }
         },
         {
+          "id": "pl-f3dd42b104",
+          "name": "Bờ Biển Ngà U17 vs Uzbekistan U17 | 23:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3dd42b104",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-f3dd42b104",
+                  "name": "Bờ Biển Ngà U17 vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-f3dd42b104",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ecdc3bfd4e",
+                          "name": "LÝ LẮC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a827b17a8de34f80a17c94d3d94b1376/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Bờ Biển Ngà U17",
+            "team_b": "Uzbekistan U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/l5ergphovvxr8k0/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/kn54qllh0k8qvy9/image/small",
+            "time": "23:00 20/11",
+            "blv": "LÝ LẮC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hkgv1xrz8_b4f59fc5_20261120.png?v=b4f59fc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-017579e1a1",
           "name": "Senegal U17 vs Croatia U17 | 22:30 20/11",
           "type": "single",
@@ -1878,77 +1949,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1546151_c4e0aaec_20261120.png?v=c4e0aaec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-f3dd42b104",
-          "name": "Bờ Biển Ngà U17 vs Uzbekistan U17 | 23:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3dd42b104",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-f3dd42b104",
-                  "name": "Bờ Biển Ngà U17 vs Uzbekistan U17",
-                  "streams": [
-                    {
-                      "id": "st-f3dd42b104",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecdc3bfd4e",
-                          "name": "LÝ LẮC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a827b17a8de34f80a17c94d3d94b1376/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Bờ Biển Ngà U17",
-            "team_b": "Uzbekistan U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/l5ergphovvxr8k0/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/kn54qllh0k8qvy9/image/small",
-            "time": "23:00 20/11",
-            "blv": "LÝ LẮC",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hkgv1xrz8_b4f59fc5_20261120.png?v=b4f59fc5",
             "width": 1600,
             "height": 1200
           }
@@ -7259,6 +7259,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/5e3c8374d0eb461fa7a0f69d131cdf7c_1ef0a249_20261120.png?v=1ef0a249",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-6cced8271d",
+          "name": "Gunma Bank Green Wings Women vs Aleeza Aichi Women | 11:05 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6cced8271d",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-6cced8271d",
+                  "name": "Gunma Bank Green Wings Women vs Aleeza Aichi Women",
+                  "streams": [
+                    {
+                      "id": "st-6cced8271d",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df23fad28f",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/555b63c91e6c4636b5106b9a0c2ad1b0/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "SV.League Women",
+            "team_a": "Gunma Bank Green Wings Women",
+            "team_b": "Aleeza Aichi Women",
+            "logo_a": "https://static.flashscore.com/res/image/data/OQvoiZCr-KMZ7hG6b.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zZwPgEBr-dSrpGvhU.png",
+            "time": "11:05 22/11",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": false,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/dc61325d5cdf49b79f42dde4861c45fd_19ad5e55_20261120.png?v=19ad5e55",
             "width": 1600,
             "height": 1200
           }
