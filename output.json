@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1554,7 +1554,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
@@ -1629,7 +1629,7 @@
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 1,
+            "home_score": 0,
             "away_score": 0
           },
           "image": {
@@ -1722,7 +1722,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 1
+            "away_score": 0
           },
           "image": {
             "padding": 1,
@@ -1839,8 +1839,8 @@
           }
         },
         {
-          "id": "cc-e0bfa89e03",
-          "name": "Côte d'Ivoire U17 vs Uzbekistan U17 | 23:00 20/11",
+          "id": "pl-f3dd42b104",
+          "name": "Bờ Biển Ngà U17 vs Uzbekistan U17 | 23:00 20/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1850,6 +1850,77 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f3dd42b104",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-f3dd42b104",
+                  "name": "Bờ Biển Ngà U17 vs Uzbekistan U17",
+                  "streams": [
+                    {
+                      "id": "st-f3dd42b104",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ecdc3bfd4e",
+                          "name": "LÝ LẮC",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/a827b17a8de34f80a17c94d3d94b1376/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Bờ Biển Ngà U17",
+            "team_b": "Uzbekistan U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/l5ergphovvxr8k0/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/kn54qllh0k8qvy9/image/small",
+            "time": "23:00 20/11",
+            "blv": "LÝ LẮC",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hkgv1xrz8_b4f59fc5_20261120.png?v=b4f59fc5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-e0bfa89e03",
+          "name": "Côte d'Ivoire U17 vs Uzbekistan U17 | 23:00 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1931,7 +2002,7 @@
             "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_145022_6428879b.png",
             "time": "23:00 20/11",
             "blv": "Chuối Lửa",
-            "is_live": true,
+            "is_live": false,
             "cate_type": "football"
           },
           "image": {
@@ -1939,77 +2010,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1546151_c4e0aaec_20261120.png?v=c4e0aaec",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-f3dd42b104",
-          "name": "Bờ Biển Ngà U17 vs Uzbekistan U17 | 23:00 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f3dd42b104",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-f3dd42b104",
-                  "name": "Bờ Biển Ngà U17 vs Uzbekistan U17",
-                  "streams": [
-                    {
-                      "id": "st-f3dd42b104",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-ecdc3bfd4e",
-                          "name": "LÝ LẮC",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/a827b17a8de34f80a17c94d3d94b1376/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Bờ Biển Ngà U17",
-            "team_b": "Uzbekistan U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/l5ergphovvxr8k0/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/kn54qllh0k8qvy9/image/small",
-            "time": "23:00 20/11",
-            "blv": "LÝ LẮC",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hkgv1xrz8_b4f59fc5_20261120.png?v=b4f59fc5",
             "width": 1600,
             "height": 1200
           }
