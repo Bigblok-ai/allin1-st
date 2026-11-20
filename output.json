@@ -959,11 +959,186 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (1 LIVE)",
+      "name": "⚽ Bóng Đá (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-1ec3cf39c5",
+          "name": "Western Sydney Wanderers vs Adelaide United FC | 15:40 20/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1ec3cf39c5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-1ec3cf39c5",
+                  "name": "Western Sydney Wanderers vs Adelaide United FC",
+                  "streams": [
+                    {
+                      "id": "st-1ec3cf39c5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-32a56484ea",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100052_hd/1795100052_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-ce45e6737f",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-ce45e6737f",
+                  "name": "Western Sydney Wanderers vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-ce45e6737f",
+                      "name": "CCport - Chuối Lá",
+                      "stream_links": [
+                        {
+                          "id": "lnk-15d5e70700",
+                          "name": "Chuối Lá HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0001f270a8",
+                          "name": "Chuối Lá HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e91447f6ff",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-3263c5da27",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-3263c5da27",
+                  "name": "Western Sydney vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-3263c5da27",
+                      "name": "Phalang - LÃM LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-40a608cbbf",
+                          "name": "LÃM LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/7683d81916574289a8fa164b9ecbc69f/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "VĐQG Úc",
+            "team_a": "Western Sydney Wanderers",
+            "team_b": "Adelaide United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/western-sydney.png",
+            "logo_b": "https://images.keovip88.net/images/teams/adelaide-united.png",
+            "time": "15:40 20/11",
+            "blv": "Tỵ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af501b924d46db8700fccba_daefd82a_20261120.png?v=daefd82a",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "cc-13b23c464a",
           "name": "Western Sydney Wanderers W vs Wellington Phoenix W | 12:50 20/11",
@@ -1241,181 +1416,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1622836_b347ebbd_20261120.png?v=b347ebbd",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-1ec3cf39c5",
-          "name": "Western Sydney Wanderers vs Adelaide United FC | 15:40 20/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-1ec3cf39c5",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-1ec3cf39c5",
-                  "name": "Western Sydney Wanderers vs Adelaide United FC",
-                  "streams": [
-                    {
-                      "id": "st-1ec3cf39c5",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-32a56484ea",
-                          "name": "Tỵ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795100052_hd/1795100052_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-ce45e6737f",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-ce45e6737f",
-                  "name": "Western Sydney Wanderers vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-ce45e6737f",
-                      "name": "CCport - Chuối Lá",
-                      "stream_links": [
-                        {
-                          "id": "lnk-15d5e70700",
-                          "name": "Chuối Lá HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-0001f270a8",
-                          "name": "Chuối Lá HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-e91447f6ff",
-                          "name": "Chuối Lá FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-3263c5da27",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-3263c5da27",
-                  "name": "Western Sydney vs Adelaide United",
-                  "streams": [
-                    {
-                      "id": "st-3263c5da27",
-                      "name": "Phalang - LÃM LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-40a608cbbf",
-                          "name": "LÃM LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/7683d81916574289a8fa164b9ecbc69f/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "VĐQG Úc",
-            "team_a": "Western Sydney Wanderers",
-            "team_b": "Adelaide United FC",
-            "logo_a": "https://images.keovip88.net/images/teams/western-sydney.png",
-            "logo_b": "https://images.keovip88.net/images/teams/adelaide-united.png",
-            "time": "15:40 20/11",
-            "blv": "Tỵ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af501b924d46db8700fccba_daefd82a_20261120.png?v=daefd82a",
             "width": 1600,
             "height": 1200
           }
@@ -8511,7 +8511,7 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (1 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -8590,16 +8590,16 @@
         },
         {
           "id": "chtv-2f5609a413",
-          "name": "Lo Ho Sum vs Wu Kun Lin | 15:00 20/11",
+          "name": "Lo Ho Sum vs Wu Kun Lin | GIÀNG A PHỌ",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -8617,7 +8617,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-2f5609a413",
-                          "name": "Stream",
+                          "name": "GIÀNG A PHỌ",
                           "type": "hls",
                           "default": true,
                           "url": "https://cdn.sports-cas889abxfileposo.site/live/live10479/index.m3u8",
@@ -8646,8 +8646,8 @@
             "logo_a": "https://cdn-choangtv.com/img/logo/1795161602018_Screenshot%202026-11-15%20124313.png",
             "logo_b": "https://cdn-choangtv.com/img/logo/1795161089935_%C4%90%C3%A0i%20Loan.png",
             "time": "15:00 20/11",
-            "blv": "",
-            "is_live": false,
+            "blv": "GIÀNG A PHỌ",
+            "is_live": true,
             "time_sort": 1795161600,
             "cate_type": "billiards"
           },
