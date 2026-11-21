@@ -959,11 +959,363 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (8 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-d84f198429",
+          "name": "Thép Xanh Nam Định vs Hải Phòng | 18:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d84f198429",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-d84f198429",
+                  "name": "Thép Xanh Nam Định vs Hải Phòng",
+                  "streams": [
+                    {
+                      "id": "st-d84f198429",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ddc8070aec",
+                          "name": "Tỵ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795104957_hd/1795104957_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-7f81920b7c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-7f81920b7c",
+                  "name": "Nam Dinh vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-7f81920b7c",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-60371cfb2b",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-60371cfb2b",
+                  "name": "Nam Dinh vs Hai Phong",
+                  "streams": [
+                    {
+                      "id": "st-60371cfb2b",
+                      "name": "CCport - Chuối Già",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b14bc05945",
+                          "name": "Chuối Già HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigia/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-c65a624da2",
+                          "name": "Chuối Già HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-2a46d78baf",
+                          "name": "Chuối Già FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoigiahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Thép Xanh Nam Định",
+            "team_b": "Hải Phòng",
+            "logo_a": "https://images.keovip88.net/images/teams/nam-dinh-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hai-phong.png",
+            "time": "18:00 21/11",
+            "blv": "Tỵ",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4af24d46db870c87773_e6f428b0_20261121.png?v=e6f428b0",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-385e20137e",
+          "name": "Bình Phước vs Hà Nội | 18:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-385e20137e",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-385e20137e",
+                  "name": "Bình Phước vs Hà Nội",
+                  "streams": [
+                    {
+                      "id": "st-385e20137e",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-b5053e5c50",
+                          "name": "Súp",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795105027_hd/1795105027_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-41c002de26",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-41c002de26",
+                  "name": "Bình Phước vs Hà Nội FC",
+                  "streams": [
+                    {
+                      "id": "st-41c002de26",
+                      "name": "Phalang - LÝ LÀNG LÁ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-8820d5c805",
+                          "name": "LÝ LÀNG LÁ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/7bee746d31c646c798294006d1fd3c14/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "V-League",
+            "team_a": "Bình Phước",
+            "team_b": "Hà Nội",
+            "logo_a": "https://images.keovip88.net/images/teams/truong-tuoi-dong-nai.png",
+            "logo_b": "https://images.keovip88.net/images/teams/hanoi-fc.png",
+            "time": "18:00 21/11",
+            "blv": "Súp",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4af24d46db870c8777d_0d8cdea2_20261121.png?v=0d8cdea2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-76267178ab",
+          "name": "Gia Dinh vs Đồng Tâm Long An | 18:00 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-76267178ab",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-76267178ab",
+                  "name": "Gia Dinh vs Đồng Tâm Long An",
+                  "streams": [
+                    {
+                      "id": "st-76267178ab",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fa871ddb4c",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795105205_hd/1795105205_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hạng Nhất Việt Nam",
+            "team_a": "Gia Dinh",
+            "team_b": "Đồng Tâm Long An",
+            "logo_a": "https://images.keovip88.net/images/teams/gia-dinh.png",
+            "logo_b": "https://images.keovip88.net/images/teams/dong-tam-long-an.png",
+            "time": "18:00 21/11",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4b024d46db870c87825_c7e17bc9_20261121.png?v=c7e17bc9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-3d22c58b12",
           "name": "Manchester City vs Fulham | 19:30 21/11",
@@ -1405,81 +1757,6 @@
           }
         },
         {
-          "id": "xc-7f81920b7c",
-          "name": "Nam Dinh vs Hai Phong | 18:00 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-7f81920b7c",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-7f81920b7c",
-                  "name": "Nam Dinh vs Hai Phong",
-                  "streams": [
-                    {
-                      "id": "st-7f81920b7c",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "V.League 1",
-            "team_a": "Nam Dinh",
-            "team_b": "Hai Phong",
-            "logo_a": "https://apiv3.apifootball.com/badges/8060_nam-nh.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/8055_hi-phong.jpg",
-            "time": "18:00",
-            "date": "21/11",
-            "blv": "BLV Tam Mao",
-            "is_live": true,
-            "cate_type": "football",
-            "status": "live",
-            "home_score": 2,
-            "away_score": 1
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81482_795c7cd6_20261121.png?v=795c7cd6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-d36c77b99f",
           "name": "Truong Tuoi Dong Nai vs Hanoi FC | 18:00 21/11",
           "type": "single",
@@ -1528,6 +1805,75 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-a14dcb3212",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-a14dcb3212",
+                  "name": "Trường Tươi Đồng Nai vs Ha Noi",
+                  "streams": [
+                    {
+                      "id": "st-a14dcb3212",
+                      "name": "CCport - Chuối Sấy",
+                      "stream_links": [
+                        {
+                          "id": "lnk-a8999ff4a3",
+                          "name": "Chuối Sấy HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-9193bcd57f",
+                          "name": "Chuối Sấy HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ec9dab93cc",
+                          "name": "Chuối Sấy FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1550,77 +1896,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/81483_e3a47496_20261121.png?v=e3a47496",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-41c002de26",
-          "name": "Bình Phước vs Hà Nội FC | 18:00 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-41c002de26",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-41c002de26",
-                  "name": "Bình Phước vs Hà Nội FC",
-                  "streams": [
-                    {
-                      "id": "st-41c002de26",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-8820d5c805",
-                          "name": "LÝ LÀNG LÁ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/7bee746d31c646c798294006d1fd3c14/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "Bình Phước",
-            "team_b": "Hà Nội FC",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/4wyrn4he7kjq86p/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1ghen9wmoep/image/small",
-            "time": "18:00 21/11",
-            "blv": "LÝ LÀNG LÁ",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y0or5jh876weqwz_f19bc366_20261121.png?v=f19bc366",
             "width": 1600,
             "height": 1200
           }
@@ -3049,6 +3324,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-48e368c26f",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-48e368c26f",
+                  "name": "Bournemouth vs Nottingham",
+                  "streams": [
+                    {
+                      "id": "st-48e368c26f",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -5169,41 +5479,6 @@
               ]
             },
             {
-              "id": "src-b8d7b00761",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-b8d7b00761",
-                  "name": "Wellington Phoenix vs Macarthur FC",
-                  "streams": [
-                    {
-                      "id": "st-b8d7b00761",
-                      "name": "PhaoHoa - BLV Tam Mao",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
               "id": "src-1efea0c441",
               "name": "ChuoiChienTV",
               "contents": [
@@ -5708,81 +5983,6 @@
           }
         },
         {
-          "id": "xc-327b73d7d1",
-          "name": "Atletico-MG vs Boca Juniors | 05:30 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-327b73d7d1",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-327b73d7d1",
-                  "name": "Atletico-MG vs Boca Juniors",
-                  "streams": [
-                    {
-                      "id": "st-327b73d7d1",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "CONMEBOL Sudamericana",
-            "team_a": "Atletico-MG",
-            "team_b": "Boca Juniors",
-            "logo_a": "https://apiv3.apifootball.com/badges/1865_atletico-mineiro.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/570_boca-juniors.jpg",
-            "time": "05:30",
-            "date": "22/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83103_2f64163f_20261121.png?v=2f64163f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-8073c53648",
           "name": "Inter Miami vs Columbus Crew | 06:00 22/11",
           "type": "single",
@@ -5945,116 +6145,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83144_c336874c_20261121.png?v=c336874c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-3d0c04e65b",
-          "name": "Barcelona vs Villarreal | 20:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-3d0c04e65b",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-3d0c04e65b",
-                  "name": "Barcelona vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-3d0c04e65b",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-4583fbe382",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-4583fbe382",
-                  "name": "Barcelona vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-4583fbe382",
-                      "name": "Phalang - LÝ LA LÀNG",
-                      "stream_links": [
-                        {
-                          "id": "lnk-aae5da6a1f",
-                          "name": "LÝ LA LÀNG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/71925428fc184d69b66716d92e6d70f6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "La Liga",
-            "team_a": "Barcelona",
-            "team_b": "Villarreal",
-            "logo_a": "https://apiv3.apifootball.com/badges/97_barcelona.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
-            "time": "20:00",
-            "date": "22/11",
-            "blv": "BLV Tam Mao",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83469_031e89d2_20261121.png?v=031e89d2",
             "width": 1600,
             "height": 1200
           }
