@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (9 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1686,8 +1686,8 @@
           }
         },
         {
-          "id": "pl-d257c98fff",
-          "name": "Man City vs Fulham | 19:30 21/11",
+          "id": "gv-256d676ac5",
+          "name": "Bayer Leverkusen vs SC Paderborn 07 | 21:30 21/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1697,77 +1697,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-d257c98fff",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-d257c98fff",
-                  "name": "Man City vs Fulham",
-                  "streams": [
-                    {
-                      "id": "st-d257c98fff",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-67634ad964",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/300b8633bb38436a9b3eca4535234675/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "English Premier League",
-            "team_a": "Man City",
-            "team_b": "Fulham",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehz23r510/image/small",
-            "time": "19:30 21/11",
-            "blv": "LÝ LONG",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/1l4rjnh9p066m7v_01c288f2_20261121.png?v=01c288f2",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-256d676ac5",
-          "name": "Bayer Leverkusen vs SC Paderborn 07 | 21:30 21/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1850,7 +1779,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/sc-paderborn-07.png",
             "time": "21:30 21/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1870,10 +1799,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2077,7 +2006,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/borussia-dortmund.png",
             "time": "21:30 21/11",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2085,6 +2014,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4b424d46db870c87dab_866a4e0d_20261121.png?v=866a4e0d",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-d257c98fff",
+          "name": "Man City vs Fulham | 19:30 21/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d257c98fff",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-d257c98fff",
+                  "name": "Man City vs Fulham",
+                  "streams": [
+                    {
+                      "id": "st-d257c98fff",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-67634ad964",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/300b8633bb38436a9b3eca4535234675/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "English Premier League",
+            "team_a": "Man City",
+            "team_b": "Fulham",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/p4jwq2ghd57m0ve/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/vl7oqdehz23r510/image/small",
+            "time": "19:30 21/11",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/1l4rjnh9p066m7v_01c288f2_20261121.png?v=01c288f2",
             "width": 1600,
             "height": 1200
           }
