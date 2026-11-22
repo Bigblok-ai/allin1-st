@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (10 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2211,8 +2211,8 @@
           }
         },
         {
-          "id": "pl-71e7fcce6b",
-          "name": "Pháp U17 vs Ả Rập Xê Út U17 | 20:30 22/11",
+          "id": "gv-93d35060fd",
+          "name": "Racing Santander vs Real Sociedad | 22:15 22/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -2222,77 +2222,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71e7fcce6b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-71e7fcce6b",
-                  "name": "Pháp U17 vs Ả Rập Xê Út U17",
-                  "streams": [
-                    {
-                      "id": "st-71e7fcce6b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1afc48eb9",
-                          "name": "LÝ LẦY LỘI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/0c267efb045443319feb51d605bd77d4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Pháp U17",
-            "team_b": "Ả Rập Xê Út U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
-            "time": "20:30 22/11",
-            "blv": "LÝ LẦY LỘI",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnw6dgqvy_87c2ab87_20261122.png?v=87c2ab87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-93d35060fd",
-          "name": "Racing Santander vs Real Sociedad | 22:15 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2375,7 +2304,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/real-sociedad.png",
             "time": "22:15 22/11",
             "blv": "Mason",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2383,6 +2312,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4c724d46db870c8a0e8_943594ba_20261122.png?v=943594ba",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-71e7fcce6b",
+          "name": "Pháp U17 vs Ả Rập Xê Út U17 | 20:30 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71e7fcce6b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-71e7fcce6b",
+                  "name": "Pháp U17 vs Ả Rập Xê Út U17",
+                  "streams": [
+                    {
+                      "id": "st-71e7fcce6b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1afc48eb9",
+                          "name": "LÝ LẦY LỘI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/0c267efb045443319feb51d605bd77d4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Pháp U17",
+            "team_b": "Ả Rập Xê Út U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
+            "time": "20:30 22/11",
+            "blv": "LÝ LẦY LỘI",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnw6dgqvy_87c2ab87_20261122.png?v=87c2ab87",
             "width": 1600,
             "height": 1200
           }
