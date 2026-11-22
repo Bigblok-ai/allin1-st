@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1776,6 +1776,77 @@
           }
         },
         {
+          "id": "pl-f145e9be27",
+          "name": "HL Hà Tĩnh vs Hồ Chí Minh | 18:00 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f145e9be27",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-f145e9be27",
+                  "name": "HL Hà Tĩnh vs Hồ Chí Minh",
+                  "streams": [
+                    {
+                      "id": "st-f145e9be27",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-033355ee30",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e9e9077b77f045b6b7e9d13561400fd8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Vietnam National Champion League",
+            "team_a": "HL Hà Tĩnh",
+            "team_b": "Hồ Chí Minh",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/318q66h06dgqo9j/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small",
+            "time": "18:00 22/11",
+            "blv": "LÝ LONG",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnv1w8qvy_71052615_20261122.png?v=71052615",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "gv-fb08f38152",
           "name": "PVF-CAND vs Than Quảng Ninh | 18:00 22/11",
           "type": "single",
@@ -1842,77 +1913,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4c224d46db870c88f0a_4ee4d33e_20261122.png?v=4ee4d33e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-f145e9be27",
-          "name": "HL Hà Tĩnh vs Hồ Chí Minh | 18:00 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f145e9be27",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-f145e9be27",
-                  "name": "HL Hà Tĩnh vs Hồ Chí Minh",
-                  "streams": [
-                    {
-                      "id": "st-f145e9be27",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-033355ee30",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/e9e9077b77f045b6b7e9d13561400fd8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Vietnam National Champion League",
-            "team_a": "HL Hà Tĩnh",
-            "team_b": "Hồ Chí Minh",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/318q66h06dgqo9j/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/dn1m1gheowwmoep/image/small",
-            "time": "18:00 22/11",
-            "blv": "LÝ LONG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnv1w8qvy_71052615_20261122.png?v=71052615",
             "width": 1600,
             "height": 1200
           }
@@ -7114,6 +7114,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-eb3dc4e204_9979d4ea_20261122.png?v=9979d4ea",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-6b99f7a20a",
+          "name": "Juventus vs Venezia | 18:30 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-6b99f7a20a",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-6b99f7a20a",
+                  "name": "Juventus vs Venezia",
+                  "streams": [
+                    {
+                      "id": "st-6b99f7a20a",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-6b99f7a20a",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10528/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Juventus",
+            "team_b": "Venezia",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795343104115_Screenshot%202026-11-22%20172457.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795343161797_Screenshot%202026-11-22%20172554.png",
+            "time": "18:30 22/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795347000,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-6b99f7a20a_e4f2f4b9_20261122.png?v=e4f2f4b9",
             "width": 1600,
             "height": 1200
           }
