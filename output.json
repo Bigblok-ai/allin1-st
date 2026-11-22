@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (11 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -2226,6 +2226,116 @@
           }
         },
         {
+          "id": "xc-746e671f04",
+          "name": "Werder Bremen vs Hamburger SV | 23:30 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-746e671f04",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-746e671f04",
+                  "name": "Werder Bremen vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-746e671f04",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-e777ae97ae",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-e777ae97ae",
+                  "name": "Werder Bremen vs Hamburger SV",
+                  "streams": [
+                    {
+                      "id": "st-e777ae97ae",
+                      "name": "Phalang - LÝ LẦY LỘI",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c42191c97c",
+                          "name": "LÝ LẦY LỘI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/90806255d8a04cd492de33784fbafc2a/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Bundesliga",
+            "team_a": "Werder Bremen",
+            "team_b": "Hamburger SV",
+            "logo_a": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
+            "time": "23:30",
+            "date": "22/11",
+            "blv": "BLV Khô Cá",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83897_c1b2f42f_20261122.png?v=c1b2f42f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-9b525745b6",
           "name": "Liverpool vs Man Utd | 23:30 22/11",
           "type": "single",
@@ -2233,10 +2343,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -2301,7 +2411,7 @@
             "logo_b": "https://imgts.sportpulseapiz.com/football/team/l965mkyh98gr1ge/image/small",
             "time": "23:30 22/11",
             "blv": "LÝ LA LÀNG, LÝ LÀNG LÁ",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -4867,116 +4977,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84713_bd2c7c8f_20261122.png?v=bd2c7c8f",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-746e671f04",
-          "name": "Werder Bremen vs Hamburger SV | 23:30 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-746e671f04",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-746e671f04",
-                  "name": "Werder Bremen vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-746e671f04",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c8987d572f",
-                          "name": "BLV Khô Cá",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-e777ae97ae",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-e777ae97ae",
-                  "name": "Werder Bremen vs Hamburger SV",
-                  "streams": [
-                    {
-                      "id": "st-e777ae97ae",
-                      "name": "Phalang - LÝ LẦY LỘI",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c42191c97c",
-                          "name": "LÝ LẦY LỘI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/90806255d8a04cd492de33784fbafc2a/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Bundesliga",
-            "team_a": "Werder Bremen",
-            "team_b": "Hamburger SV",
-            "logo_a": "https://apiv3.apifootball.com/badges/3930_werder-bremen.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/3912_hamburger-sv.jpg",
-            "time": "23:30",
-            "date": "22/11",
-            "blv": "BLV Khô Cá",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/83897_c1b2f42f_20261122.png?v=c1b2f42f",
             "width": 1600,
             "height": 1200
           }
