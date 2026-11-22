@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (9 LIVE)",
+      "name": "⚽ Bóng Đá (10 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1984,8 +1984,8 @@
           }
         },
         {
-          "id": "pl-71e7fcce6b",
-          "name": "Pháp U17 vs Ả Rập Xê Út U17 | 20:30 22/11",
+          "id": "gv-e1bf4d475f",
+          "name": "Augsburg vs Mainz | 21:30 22/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1995,77 +1995,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-71e7fcce6b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-71e7fcce6b",
-                  "name": "Pháp U17 vs Ả Rập Xê Út U17",
-                  "streams": [
-                    {
-                      "id": "st-71e7fcce6b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e1afc48eb9",
-                          "name": "LÝ LẦY LỘI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/0c267efb045443319feb51d605bd77d4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Pháp U17",
-            "team_b": "Ả Rập Xê Út U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
-            "time": "20:30 22/11",
-            "blv": "LÝ LẦY LỘI",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnw6dgqvy_87c2ab87_20261122.png?v=87c2ab87",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-e1bf4d475f",
-          "name": "Augsburg vs Mainz | 21:30 22/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -2234,7 +2163,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/fsv-mainz-05.png",
             "time": "21:30 22/11",
             "blv": "Mickey",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -2242,6 +2171,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6af7a4c424d46db870c89980_a550222b_20261122.png?v=a550222b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "pl-71e7fcce6b",
+          "name": "Pháp U17 vs Ả Rập Xê Út U17 | 20:30 22/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-71e7fcce6b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-71e7fcce6b",
+                  "name": "Pháp U17 vs Ả Rập Xê Út U17",
+                  "streams": [
+                    {
+                      "id": "st-71e7fcce6b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-e1afc48eb9",
+                          "name": "LÝ LẦY LỘI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/0c267efb045443319feb51d605bd77d4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Pháp U17",
+            "team_b": "Ả Rập Xê Út U17",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/1l4rjnh6zpem7vx/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8vy5q86p/image/small",
+            "time": "20:30 22/11",
+            "blv": "LÝ LẦY LỘI",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/n54qllhnw6dgqvy_87c2ab87_20261122.png?v=87c2ab87",
             "width": 1600,
             "height": 1200
           }
@@ -5754,83 +5754,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-c14e6906f0",
-          "name": "SHAYNE ACEBAR vs MR CHAMP | GIÀNG A PHỌ",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-c14e6906f0",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-c14e6906f0",
-                  "name": "SHAYNE ACEBAR vs MR CHAMP",
-                  "streams": [
-                    {
-                      "id": "st-c14e6906f0",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c14e6906f0",
-                          "name": "GIÀNG A PHỌ",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10531/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "phi bịp",
-            "team_a": "SHAYNE ACEBAR",
-            "team_b": "MR CHAMP",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795345192599_Screenshot%202026-11-19%20180441.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795345202016_Screenshot%202026-11-19%20180441.png",
-            "time": "18:00 22/11",
-            "blv": "GIÀNG A PHỌ",
-            "is_live": true,
-            "time_sort": 1795345200,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-c14e6906f0_d243df12_20261122.png?v=d243df12",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-1468ed89dc",
           "name": "BẢO NGỌC vs MINH TÂM | Tào A Man",
