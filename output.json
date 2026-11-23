@@ -1401,27 +1401,61 @@
               ]
             },
             {
-              "id": "src-9793775ef8",
-              "name": "PhaLangTV",
+              "id": "src-5e9ebd5451",
+              "name": "ChuoiChienTV",
               "contents": [
                 {
-                  "id": "ct-9793775ef8",
-                  "name": "Tây Ban Nha U17 vs Fiji U17",
+                  "id": "ct-5e9ebd5451",
+                  "name": "Spain U17 vs Fiji U17",
                   "streams": [
                     {
-                      "id": "st-9793775ef8",
-                      "name": "Phalang - LÝ LONG",
+                      "id": "st-5e9ebd5451",
+                      "name": "CCport - Chuối Lá",
                       "stream_links": [
                         {
-                          "id": "lnk-802b85e988",
-                          "name": "LÝ LONG",
+                          "id": "lnk-15d5e70700",
+                          "name": "Chuối Lá HD1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://pull.digitalcdn.net/live/8877575e5b6543cfacc594487327f22f/index.m3u8",
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoila/playlist.m3u8",
                           "request_headers": [
                             {
                               "key": "Referer",
-                              "value": "https://phalang.live/"
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-0001f270a8",
+                          "name": "Chuối Lá HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-e91447f6ff",
+                          "name": "Chuối Lá FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
                             },
                             {
                               "key": "User-Agent",
