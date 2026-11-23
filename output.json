@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (14 LIVE)",
+      "name": "⚽ Bóng Đá (13 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1806,8 +1806,8 @@
           }
         },
         {
-          "id": "xc-2410098e4a",
-          "name": "Neftchi Fargona vs Al Hilal | 20:45 23/11",
+          "id": "xc-ad6f4bbacf",
+          "name": "Al Ain vs Esteghlal F.C. | 23:00 23/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1821,23 +1821,40 @@
           ],
           "sources": [
             {
-              "id": "src-2410098e4a",
+              "id": "src-ad6f4bbacf",
               "name": "XoiChe TV",
               "contents": [
                 {
-                  "id": "ct-2410098e4a",
-                  "name": "Neftchi Fargona vs Al Hilal",
+                  "id": "ct-ad6f4bbacf",
+                  "name": "Al Ain vs Esteghlal F.C.",
                   "streams": [
                     {
-                      "id": "st-2410098e4a",
+                      "id": "st-ad6f4bbacf",
                       "name": "XoiChe TV",
                       "stream_links": [
                         {
-                          "id": "lnk-bf1530e1ae",
-                          "name": "BLV Tam Mao",
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
                           "type": "hls",
                           "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
                           "request_headers": [
                             {
                               "key": "Referer",
@@ -1854,97 +1871,28 @@
                   ]
                 }
               ]
-            },
-            {
-              "id": "src-46f909e05d",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-46f909e05d",
-                  "name": "Neftchi vs Al-Hilal Saudi FC",
-                  "streams": [
-                    {
-                      "id": "st-46f909e05d",
-                      "name": "CCport - Chuối Kem",
-                      "stream_links": [
-                        {
-                          "id": "lnk-54fbd1fdde",
-                          "name": "Chuối Kem HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikem/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-fc824527c7",
-                          "name": "Chuối Kem HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-262f74ad58",
-                          "name": "Chuối Kem FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoikemhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "org_metadata": {
             "league": "AFC Champions League Elite",
-            "team_a": "Neftchi Fargona",
-            "team_b": "Al Hilal",
-            "logo_a": "https://apiv3.apifootball.com/badges/10543_neftchi.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/366_al-hilal-fc.jpg",
-            "time": "20:45",
+            "team_a": "Al Ain",
+            "team_b": "Esteghlal F.C.",
+            "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
+            "time": "23:00",
             "date": "23/11",
-            "blv": "BLV Tam Mao",
+            "blv": "BLV Xôi Gấc",
             "is_live": true,
             "cate_type": "football",
             "status": "live",
-            "home_score": 2,
-            "away_score": 2
+            "home_score": 0,
+            "away_score": 0
           },
           "image": {
             "padding": 1,
             "background_color": "#ffffff",
             "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84691_121b39b9_20261123.png?v=121b39b9",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84711_88b9ad1f_20261123.png?v=88b9ad1f",
             "width": 1600,
             "height": 1200
           }
@@ -2230,77 +2178,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1546174_97ff0a75_20261123.png?v=97ff0a75",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-21cf030493",
-          "name": "Neftchi Fergana vs Al Hilal | 20:45 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-21cf030493",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-21cf030493",
-                  "name": "Neftchi Fergana vs Al Hilal",
-                  "streams": [
-                    {
-                      "id": "st-21cf030493",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-e7ea506f44",
-                          "name": "LÝ LẦY LỘI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/74a4c695ffc649d1be6dbb2ea187bde9/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Neftchi Fergana",
-            "team_b": "Al Hilal",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/4wyrn4h8w3gq86p/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/kdj2ryohw6wq1zp/image/small",
-            "time": "20:45 23/11",
-            "blv": "LÝ LẦY LỘI",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/y0or5jh8v00wqwz_64783b1a_20261123.png?v=64783b1a",
             "width": 1600,
             "height": 1200
           }
@@ -4006,6 +3883,58 @@
               ]
             },
             {
+              "id": "src-5fb20d4426",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5fb20d4426",
+                  "name": "Newcastle Jets vs Kashiwa Reysol",
+                  "streams": [
+                    {
+                      "id": "st-5fb20d4426",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-acdca08261",
               "name": "ChuoiChienTV",
               "contents": [
@@ -4167,58 +4096,6 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-344cd7b3f4",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-344cd7b3f4",
-                  "name": "Daejeon vs Beijing Guoan",
-                  "streams": [
-                    {
-                      "id": "st-344cd7b3f4",
-                      "name": "PhaoHoa - BLV Xôi Gấc",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -4863,98 +4740,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/85704_5c4f360e_20261123.png?v=5c4f360e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "xc-ad6f4bbacf",
-          "name": "Al Ain vs Esteghlal F.C. | 23:00 23/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-ad6f4bbacf",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-ad6f4bbacf",
-                  "name": "Al Ain vs Esteghlal F.C.",
-                  "streams": [
-                    {
-                      "id": "st-ad6f4bbacf",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-30546710d8",
-                          "name": "BLV Xôi Gấc 1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-f6cba213a8",
-                          "name": "BLV Xôi Gấc 2",
-                          "type": "httpflv",
-                          "default": false,
-                          "url": "https://live.khoga.space/live/livehub11.flv",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Champions League Elite",
-            "team_a": "Al Ain",
-            "team_b": "Esteghlal F.C.",
-            "logo_a": "https://apiv3.apifootball.com/badges/374_al-ain.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/360_esteghlal.jpg",
-            "time": "23:00",
-            "date": "23/11",
-            "blv": "BLV Xôi Gấc",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/84711_88b9ad1f_20261123.png?v=88b9ad1f",
             "width": 1600,
             "height": 1200
           }
