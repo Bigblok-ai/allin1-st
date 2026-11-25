@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1211,6 +1211,111 @@
           }
         },
         {
+          "id": "cc-686952744b",
+          "name": "Al Faisaly vs Al-Rayyan SC | 23:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-686952744b",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-686952744b",
+                  "name": "Al Faisaly vs Al-Rayyan SC",
+                  "streams": [
+                    {
+                      "id": "st-686952744b",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b70f9c446",
+                          "name": "Chuối Lửa HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-61c9b0c462",
+                          "name": "Chuối Lửa HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-84c6ebfd3b",
+                          "name": "Chuối Lửa FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Al Faisaly",
+            "team_b": "Al-Rayyan SC",
+            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_130551_8069e1f6.png",
+            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130843_fb02d191.png",
+            "time": "23:00 25/11",
+            "blv": "Chuối Lửa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1630409_f757d5d6_20261125.png?v=f757d5d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-6fa5a9ec67",
           "name": "Hy Lạp U17 vs Qatar U17 | 21:30 25/11",
           "type": "single",
@@ -1348,111 +1453,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/1l4rjnh9d028m7v_e02c815c_20261125.png?v=e02c815c",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "cc-686952744b",
-          "name": "Al Faisaly vs Al-Rayyan SC | 23:00 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-686952744b",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-686952744b",
-                  "name": "Al Faisaly vs Al-Rayyan SC",
-                  "streams": [
-                    {
-                      "id": "st-686952744b",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b70f9c446",
-                          "name": "Chuối Lửa HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-61c9b0c462",
-                          "name": "Chuối Lửa HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-84c6ebfd3b",
-                          "name": "Chuối Lửa FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Al Faisaly",
-            "team_b": "Al-Rayyan SC",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_130551_8069e1f6.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_130843_fb02d191.png",
-            "time": "23:00 25/11",
-            "blv": "Chuối Lửa",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1630409_f757d5d6_20261125.png?v=f757d5d6",
             "width": 1600,
             "height": 1200
           }
@@ -3911,6 +3911,254 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9572_a87867c6_20261125.png?v=a87867c6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-536aef58a5",
+          "name": "Bangkok Glass vs Lion City Sailors | 19:15 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-536aef58a5",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-536aef58a5",
+                  "name": "Bangkok Glass vs Lion City Sailors",
+                  "streams": [
+                    {
+                      "id": "st-536aef58a5",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4cfb69a535",
+                          "name": "Mù",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795572450_hd/1795572450_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Bangkok Glass",
+            "team_b": "Lion City Sailors",
+            "logo_a": "https://images.keovip88.net/images/teams/bg-pathum-united.png",
+            "logo_b": "https://images.keovip88.net/images/teams/lion-city-sailors.png",
+            "time": "19:15 26/11",
+            "blv": "Mù",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d956a_b135022e_20261125.png?v=b135022e",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-a1ae04aaf0",
+          "name": "Svay Rieng FC vs FC Machida Zelvia | 19:15 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a1ae04aaf0",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-a1ae04aaf0",
+                  "name": "Svay Rieng FC vs FC Machida Zelvia",
+                  "streams": [
+                    {
+                      "id": "st-a1ae04aaf0",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-87729cb481",
+                          "name": "Trĩ",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795572497_hd/1795572497_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Svay Rieng FC",
+            "team_b": "FC Machida Zelvia",
+            "logo_a": "https://images.keovip88.net/images/teams/svay-rieng-fc.png",
+            "logo_b": "https://images.keovip88.net/images/teams/machida-zelvia.png",
+            "time": "19:15 26/11",
+            "blv": "Trĩ",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d9573_9eb60c50_20261125.png?v=9eb60c50",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-852e0c9a79",
+          "name": "Wofoo Tai Po vs Adelaide United FC | 19:15 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-852e0c9a79",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-852e0c9a79",
+                  "name": "Wofoo Tai Po vs Adelaide United FC",
+                  "streams": [
+                    {
+                      "id": "st-852e0c9a79",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ed24228f72",
+                          "name": "Hấu",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795572523_hd/1795572523_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-f3e53241a0",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-f3e53241a0",
+                  "name": "Tai Po vs Adelaide United",
+                  "streams": [
+                    {
+                      "id": "st-f3e53241a0",
+                      "name": "Phalang - LÝ LẠNH LÙNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-ee632b4246",
+                          "name": "LÝ LẠNH LÙNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/48902014edf040b5b205bb33f52e578e/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Wofoo Tai Po",
+            "team_b": "Adelaide United FC",
+            "logo_a": "https://images.keovip88.net/images/teams/wofoo-tai-po.png",
+            "logo_b": "https://images.keovip88.net/images/teams/adelaide-united.png",
+            "time": "19:15 26/11",
+            "blv": "Hấu",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8b8a724d3de1ad3e0d956b_9d3e5bef_20261125.png?v=9d3e5bef",
             "width": 1600,
             "height": 1200
           }
@@ -7528,7 +7776,7 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -7605,6 +7853,77 @@
           }
         },
         {
+          "id": "gv-01f4023471",
+          "name": "Olsztyn vs Rzeszow | 23:30 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-01f4023471",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-01f4023471",
+                  "name": "Olsztyn vs Rzeszow",
+                  "streams": [
+                    {
+                      "id": "st-01f4023471",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b68b79595",
+                          "name": "Chồn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795459222_hd/1795459222_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Poland Tauron Liga",
+            "team_a": "Olsztyn",
+            "team_b": "Rzeszow",
+            "logo_a": "https://static.flashscore.com/res/image/data/S8pR0hFG-nuSpyoEL.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/KEXj0yDr-Yqj3DX7m.png",
+            "time": "23:30 25/11",
+            "blv": "Chồn",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/k2uyqqbuxlrg_08fee128_20261125.png?v=08fee128",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "pl-9854f4857e",
           "name": "Vakifbank Women vs Asterix Avo Women | 23:00 25/11",
           "type": "single",
@@ -7671,77 +7990,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45b299122a0e467a9e6c2da1994fb296_9c9ba60e_20261125.png?v=9c9ba60e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-01f4023471",
-          "name": "Olsztyn vs Rzeszow | 23:30 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-01f4023471",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-01f4023471",
-                  "name": "Olsztyn vs Rzeszow",
-                  "streams": [
-                    {
-                      "id": "st-01f4023471",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b68b79595",
-                          "name": "Chồn",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795459222_hd/1795459222_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Poland Tauron Liga",
-            "team_a": "Olsztyn",
-            "team_b": "Rzeszow",
-            "logo_a": "https://static.flashscore.com/res/image/data/S8pR0hFG-nuSpyoEL.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/KEXj0yDr-Yqj3DX7m.png",
-            "time": "23:30 25/11",
-            "blv": "Chồn",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/k2uyqqbuxlrg_08fee128_20261125.png?v=08fee128",
             "width": 1600,
             "height": 1200
           }
