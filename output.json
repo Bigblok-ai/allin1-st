@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (7 LIVE)",
+      "name": "⚽ Bóng Đá (6 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1452,6 +1452,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-5389d98dbe",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-5389d98dbe",
+                  "name": "Urawa Red vs Cerezo Osaka",
+                  "streams": [
+                    {
+                      "id": "st-5389d98dbe",
+                      "name": "Phalang - LÝ LONG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-467bfff9a3",
+                          "name": "LÝ LONG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/8298899cfad14d069a98bdb2c70af66c/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -1580,111 +1615,6 @@
           }
         },
         {
-          "id": "cc-9ebc54b1ed",
-          "name": "Sabah U19 vs Barcelona U19 | 18:00 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9ebc54b1ed",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-9ebc54b1ed",
-                  "name": "Sabah U19 vs Barcelona U19",
-                  "streams": [
-                    {
-                      "id": "st-9ebc54b1ed",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-a8999ff4a3",
-                          "name": "Chuối Sấy HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisay/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-9193bcd57f",
-                          "name": "Chuối Sấy HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ec9dab93cc",
-                          "name": "Chuối Sấy FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoisayhd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Youth League",
-            "team_a": "Sabah U19",
-            "team_b": "Barcelona U19",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134446_02762456.png",
-            "logo_b": "https://media.chuoichientv.net/media/uploads/20250623_134407_0863f8f9.png",
-            "time": "18:00 25/11",
-            "blv": "Chuối Sấy",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1637393_86715fc9_20261125.png?v=86715fc9",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "cc-3aab113380",
           "name": "Kryvbas KR vs Metalist 1925 Kharkiv | 18:00 25/11",
           "type": "single",
@@ -1785,77 +1715,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1565476_f6daf2aa_20261125.png?v=f6daf2aa",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-5a662a5c74",
-          "name": "Bali United vs Barito Putera | 19:00 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-5a662a5c74",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-5a662a5c74",
-                  "name": "Bali United vs Barito Putera",
-                  "streams": [
-                    {
-                      "id": "st-5a662a5c74",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2bd5a11981",
-                          "name": "LÝ LONG",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/08928e5daea04b6c92843a2d3b516732/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "IDN LC",
-            "team_a": "Bali United",
-            "team_b": "Barito Putera",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/dn1m1ghe757moep/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/k82rekh989lrepz/image/small",
-            "time": "19:00 25/11",
-            "blv": "LÝ LONG",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/pxwrxlhlgev3ryk_c9563928_20261125.png?v=c9563928",
             "width": 1600,
             "height": 1200
           }
