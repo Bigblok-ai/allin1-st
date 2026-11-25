@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (6 LIVE)",
+      "name": "⚽ Bóng Đá (7 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1329,6 +1329,81 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a93737afccd5ecc44060e5e_1775fa25_20261126.png?v=1775fa25",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9f31e17a59",
+          "name": "Slavia Prague vs Villarreal | 00:45 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9f31e17a59",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9f31e17a59",
+                  "name": "Slavia Prague vs Villarreal",
+                  "streams": [
+                    {
+                      "id": "st-9f31e17a59",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-982b8d1a7c",
+                          "name": "BLV Xôi Xoài",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "UEFA Champions League",
+            "team_a": "Slavia Prague",
+            "team_b": "Villarreal",
+            "logo_a": "https://apiv3.apifootball.com/badges/104_slavia-praha.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
+            "time": "00:45",
+            "date": "26/11",
+            "blv": "BLV Xôi Xoài",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "live",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87844_cff467e7_20261126.png?v=cff467e7",
             "width": 1600,
             "height": 1200
           }
@@ -4291,81 +4366,6 @@
           }
         },
         {
-          "id": "xc-9f31e17a59",
-          "name": "Slavia Prague vs Villarreal | 00:45 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-9f31e17a59",
-              "name": "XoiChe TV",
-              "contents": [
-                {
-                  "id": "ct-9f31e17a59",
-                  "name": "Slavia Prague vs Villarreal",
-                  "streams": [
-                    {
-                      "id": "st-9f31e17a59",
-                      "name": "XoiChe TV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-982b8d1a7c",
-                          "name": "BLV Xôi Xoài",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://livecdn321.cdnfastter.xyz/live/live_09982ecf49/index.m3u8?token=5VclvTpM2E-bfUL2cfww643kT_KZYDbKiUUT4C8ng8o&expires=1852800615",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://xoiche.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "UEFA Champions League",
-            "team_a": "Slavia Prague",
-            "team_b": "Villarreal",
-            "logo_a": "https://apiv3.apifootball.com/badges/104_slavia-praha.jpg",
-            "logo_b": "https://apiv3.apifootball.com/badges/162_villarreal.jpg",
-            "time": "00:45",
-            "date": "26/11",
-            "blv": "BLV Xôi Xoài",
-            "is_live": false,
-            "cate_type": "football",
-            "status": "scheduled",
-            "home_score": 0,
-            "away_score": 0
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/87844_cff467e7_20261126.png?v=cff467e7",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "xc-6c34d8a7bb",
           "name": "Din. Zagreb vs Bayer Leverkusen | 00:45 27/11",
           "type": "single",
@@ -7099,83 +7099,11 @@
     },
     {
       "id": "grp-billiards",
-      "name": "🎱 Billiards (3 LIVE)",
+      "name": "🎱 Billiards (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "chtv-2d6674a899",
-          "name": "Linnea Hjalmarström vs Margarita Fefilova | Bỉm Sữa",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-2d6674a899",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-2d6674a899",
-                  "name": "Linnea Hjalmarström vs Margarita Fefilova",
-                  "streams": [
-                    {
-                      "id": "st-2d6674a899",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-2d6674a899",
-                          "name": "Bỉm Sữa",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10625/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "san antonio",
-            "team_a": "Linnea Hjalmarström",
-            "team_b": "Margarita Fefilova",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795617841851_Screenshot%202026-11-25%20214356.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795617859092_Screenshot%202026-11-25%20214413.png",
-            "time": "21:43 25/11",
-            "blv": "Bỉm Sữa",
-            "is_live": true,
-            "time_sort": 1795617780,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-2d6674a899_bbcb805a_20261126.png?v=bbcb805a",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "chtv-3585409a21",
           "name": "ANTON RAGA vs KYLE AMOROTO | GIÀNG A PHỌ",
@@ -7388,6 +7316,78 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-90d175b531_fa10107b_20261126.png?v=fa10107b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "chtv-14ec95c0e1",
+          "name": "Lille vs bayern munich | 03:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-14ec95c0e1",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-14ec95c0e1",
+                  "name": "Lille vs bayern munich",
+                  "streams": [
+                    {
+                      "id": "st-14ec95c0e1",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-14ec95c0e1",
+                          "name": "Stream",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10617/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "bóng bánh",
+            "team_a": "Lille",
+            "team_b": "bayern munich",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795600714168_Screenshot%202026-11-25%20165829.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795600743031_Screenshot%202026-11-25%20165857.png",
+            "time": "03:00 26/11",
+            "blv": "",
+            "is_live": false,
+            "time_sort": 1795636800,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14ec95c0e1_9be1b60f_20261126.png?v=9be1b60f",
             "width": 1600,
             "height": 1200
           }
@@ -7676,78 +7676,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-e41aee7f86_8fafaf20_20261126.png?v=8fafaf20",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "chtv-14ec95c0e1",
-          "name": "Lille vs bayern munich | 03:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-14ec95c0e1",
-              "name": "ChoangTV",
-              "contents": [
-                {
-                  "id": "ct-14ec95c0e1",
-                  "name": "Lille vs bayern munich",
-                  "streams": [
-                    {
-                      "id": "st-14ec95c0e1",
-                      "name": "CHTV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-14ec95c0e1",
-                          "name": "Stream",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10617/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://choangtv25.com/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "bóng bánh",
-            "team_a": "Lille",
-            "team_b": "bayern munich",
-            "logo_a": "https://cdn-choangtv.com/img/logo/1795600714168_Screenshot%202026-11-25%20165829.png",
-            "logo_b": "https://cdn-choangtv.com/img/logo/1795600743031_Screenshot%202026-11-25%20165857.png",
-            "time": "03:00 26/11",
-            "blv": "",
-            "is_live": false,
-            "time_sort": 1795636800,
-            "cate_type": "billiards"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-14ec95c0e1_9be1b60f_20261126.png?v=9be1b60f",
             "width": 1600,
             "height": 1200
           }
