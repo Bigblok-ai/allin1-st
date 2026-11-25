@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (2 LIVE)",
+      "name": "⚽ Bóng Đá (4 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1175,8 +1175,8 @@
           }
         },
         {
-          "id": "cc-fd1431f08c",
-          "name": "Batavia FC vs Pesik Kuningan | 15:30 25/11",
+          "id": "gv-de5b390b8d",
+          "name": "Gamba Osaka vs Port FC | 17:00 25/11",
           "type": "single",
           "display": "thumbnail-only",
           "enable_detail": false,
@@ -1186,111 +1186,6 @@
               "position": "top-left",
               "color": "#00000080",
               "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-fd1431f08c",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-fd1431f08c",
-                  "name": "Batavia FC vs Pesik Kuningan",
-                  "streams": [
-                    {
-                      "id": "st-fd1431f08c",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-0b70f9c446",
-                          "name": "Chuối Lửa HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-61c9b0c462",
-                          "name": "Chuối Lửa HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-84c6ebfd3b",
-                          "name": "Chuối Lửa FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "League Cup Indonesia",
-            "team_a": "Batavia FC",
-            "team_b": "Pesik Kuningan",
-            "logo_a": "https://media.chuoichientv.net/media/20261125_083956_84a39aa9.jpg",
-            "logo_b": "https://media.chuoichientv.net/media/20261125_084008_28e22947.jpg",
-            "time": "15:30 25/11",
-            "blv": "Chuối Lửa",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1648382_e2f7a0f5_20261125.png?v=e2f7a0f5",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-de5b390b8d",
-          "name": "Gamba Osaka vs Port FC | 17:00 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
             }
           ],
           "sources": [
@@ -1477,7 +1372,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/port-fc.png",
             "time": "17:00 25/11",
             "blv": "Bee",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1497,10 +1392,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -1635,7 +1530,7 @@
             "logo_b": "https://images.keovip88.net/images/teams/jeonbuk-hyundai-motors.png",
             "time": "17:00 25/11",
             "blv": "Súp",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "football"
           },
           "image": {
@@ -1643,6 +1538,111 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7865d02aeccba00526e_145dbc90_20261125.png?v=145dbc90",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "cc-fd1431f08c",
+          "name": "Batavia FC vs Pesik Kuningan | 15:30 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-fd1431f08c",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-fd1431f08c",
+                  "name": "Batavia FC vs Pesik Kuningan",
+                  "streams": [
+                    {
+                      "id": "st-fd1431f08c",
+                      "name": "CC",
+                      "stream_links": [
+                        {
+                          "id": "lnk-0b70f9c446",
+                          "name": "Chuối Lửa HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-61c9b0c462",
+                          "name": "Chuối Lửa HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoilua/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-84c6ebfd3b",
+                          "name": "Chuối Lửa FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoiluahd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "League Cup Indonesia",
+            "team_a": "Batavia FC",
+            "team_b": "Pesik Kuningan",
+            "logo_a": "https://media.chuoichientv.net/media/20261125_083956_84a39aa9.jpg",
+            "logo_b": "https://media.chuoichientv.net/media/20261125_084008_28e22947.jpg",
+            "time": "15:30 25/11",
+            "blv": "Chuối Lửa",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1648382_e2f7a0f5_20261125.png?v=e2f7a0f5",
             "width": 1600,
             "height": 1200
           }
@@ -7650,16 +7650,159 @@
             "width": 1600,
             "height": 1200
           }
+        },
+        {
+          "id": "chtv-1c7c18ab75",
+          "name": "Chu Bingjie vs Ko Ping-Chung | 16:07 25/11 | Bỉm Sữa",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-1c7c18ab75",
+              "name": "ChoangTV",
+              "contents": [
+                {
+                  "id": "ct-1c7c18ab75",
+                  "name": "Chu Bingjie vs Ko Ping-Chung",
+                  "streams": [
+                    {
+                      "id": "st-1c7c18ab75",
+                      "name": "CHTV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-1c7c18ab75",
+                          "name": "Bỉm Sữa",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://cdn.sports-cas889abxfileposo.site/live/live10610/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://choangtv25.com/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2026 獨牙橫琴中式九球公開賽 Duya Golden Nine Hengqin Open",
+            "team_a": "Chu Bingjie",
+            "team_b": "Ko Ping-Chung",
+            "logo_a": "https://cdn-choangtv.com/img/logo/1795597676773_Screenshot%202026-11-24%20165812.png",
+            "logo_b": "https://cdn-choangtv.com/img/logo/1795597676479_Screenshot%202026-11-24%20165812.png",
+            "time": "16:07 25/11",
+            "blv": "Bỉm Sữa",
+            "is_live": false,
+            "time_sort": 1795597620,
+            "cate_type": "billiards"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ch-port/refs/heads/main/thumbs/chtv-1c7c18ab75_0de5969d_20261125.png?v=0de5969d",
+            "width": 1600,
+            "height": 1200
+          }
         }
       ]
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền",
+      "name": "🏐 Bóng Chuyền (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "pl-857ad32f8b",
+          "name": "IBK Women vs Expressway Co Women | 17:00 25/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-857ad32f8b",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-857ad32f8b",
+                  "name": "IBK Women vs Expressway Co Women",
+                  "streams": [
+                    {
+                      "id": "st-857ad32f8b",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-eacf36c832",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/ea543bb335b149c493a414e712d2b0c6/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Volleyball League Women",
+            "team_a": "IBK Women",
+            "team_b": "Expressway Co Women",
+            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/2wkn81yB-WnWXnBkk.png",
+            "time": "17:00 25/11",
+            "blv": "LÝ LIỀU LĨNH",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45322a8982b14e57a09853450ba239ab_734ceea9_20261125.png?v=734ceea9",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "gv-53838b5733",
           "name": "IBK Nữ vs Expressway Co Nữ | 17:00 25/11",
@@ -7727,77 +7870,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/knv17rqfe5ti_6cf15452_20261125.png?v=6cf15452",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "pl-857ad32f8b",
-          "name": "IBK Women vs Expressway Co Women | 17:00 25/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-857ad32f8b",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-857ad32f8b",
-                  "name": "IBK Women vs Expressway Co Women",
-                  "streams": [
-                    {
-                      "id": "st-857ad32f8b",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-eacf36c832",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/ea543bb335b149c493a414e712d2b0c6/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Volleyball League Women",
-            "team_a": "IBK Women",
-            "team_b": "Expressway Co Women",
-            "logo_a": "https://static.flashscore.com/res/image/data/GCVCfeyS-8pDUfQGg.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/2wkn81yB-WnWXnBkk.png",
-            "time": "17:00 25/11",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/45322a8982b14e57a09853450ba239ab_734ceea9_20261125.png?v=734ceea9",
             "width": 1600,
             "height": 1200
           }
