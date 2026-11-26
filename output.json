@@ -959,7 +959,7 @@
     },
     {
       "id": "grp-bóng-đá",
-      "name": "⚽ Bóng Đá (4 LIVE)",
+      "name": "⚽ Bóng Đá (5 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -1135,6 +1135,77 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a8a38e5eb269e70040bbd9a_66ea4e58_20261126.png?v=66ea4e58",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "gv-f610849a9b",
+          "name": "Kuching FA vs Phnom Penh FC | 17:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-f610849a9b",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-f610849a9b",
+                  "name": "Kuching FA vs Phnom Penh FC",
+                  "streams": [
+                    {
+                      "id": "st-f610849a9b",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-733edaaa68",
+                          "name": "Mason",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795572396_hd/1795572396_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "AFC Cup",
+            "team_a": "Kuching FA",
+            "team_b": "Phnom Penh FC",
+            "logo_a": "https://images.keovip88.net/images/teams/kuching-fa.png",
+            "logo_b": "https://images.keovip88.net/images/teams/phnom-penh-fc.png",
+            "time": "17:00 26/11",
+            "blv": "Mason",
+            "is_live": true,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7955d02aeccba0052a4_b53c12e4_20261126.png?v=b53c12e4",
             "width": 1600,
             "height": 1200
           }
@@ -1463,7 +1534,7 @@
             "blv": "BLV Tam Mao",
             "is_live": true,
             "cate_type": "football",
-            "status": "half_time",
+            "status": "live",
             "home_score": 1,
             "away_score": 1
           },
@@ -1577,77 +1648,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1651254_1755104e_20261126.png?v=1755104e",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-f610849a9b",
-          "name": "Kuching FA vs Phnom Penh FC | 17:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-f610849a9b",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-f610849a9b",
-                  "name": "Kuching FA vs Phnom Penh FC",
-                  "streams": [
-                    {
-                      "id": "st-f610849a9b",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-733edaaa68",
-                          "name": "Mason",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795572396_hd/1795572396_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "AFC Cup",
-            "team_a": "Kuching FA",
-            "team_b": "Phnom Penh FC",
-            "logo_a": "https://images.keovip88.net/images/teams/kuching-fa.png",
-            "logo_b": "https://images.keovip88.net/images/teams/phnom-penh-fc.png",
-            "time": "17:00 26/11",
-            "blv": "Mason",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6a88e7955d02aeccba0052a4_b53c12e4_20261126.png?v=b53c12e4",
             "width": 1600,
             "height": 1200
           }
@@ -1998,7 +1998,7 @@
                       "stream_links": [
                         {
                           "id": "lnk-d4261fe7ad",
-                          "name": "Cổ Vũ Việt Nam",
+                          "name": "Hấu + Súp",
                           "type": "hls",
                           "default": true,
                           "url": "https://pzhgifbkllliv.vcdn.cloud/1795660863_hd/1795660863_hd@720p.m3u8",
@@ -2250,7 +2250,7 @@
             "logo_a": "https://images.keovip88.net/images/teams/vietnam-u17.png",
             "logo_b": "https://images.keovip88.net/images/teams/mali-u17.png",
             "time": "20:00 26/11",
-            "blv": "Cổ Vũ Việt Nam",
+            "blv": "Hấu + Súp",
             "is_live": false,
             "cate_type": "football"
           },
@@ -6363,82 +6363,11 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ (1 LIVE)",
+      "name": "🏀 Bóng Rổ",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
-        {
-          "id": "gv-8a1bcc9b6a",
-          "name": "Thailand vs Malaysia | 15:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a1bcc9b6a",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-8a1bcc9b6a",
-                  "name": "Thailand vs Malaysia",
-                  "streams": [
-                    {
-                      "id": "st-8a1bcc9b6a",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-f0a3619318",
-                          "name": "Điếc",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795575183_hd/1795575183_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Asia Cup Qualifiers",
-            "team_a": "Thailand",
-            "team_b": "Malaysia",
-            "logo_a": "https://cdn.keobongvip.digital/images/basketball-teams/62890b46cde58557c89cbae9af954643.png",
-            "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/a4b3bf9470a9dc6bd70093549652a13c.png",
-            "time": "15:00 26/11",
-            "blv": "Điếc",
-            "is_live": true,
-            "cate_type": "basketball"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/35474572_0a9c3faf_20261126.png?v=0a9c3faf",
-            "width": 1600,
-            "height": 1200
-          }
-        },
         {
           "id": "gv-4d79181c0c",
           "name": "Mongolia vs Indonesia | 18:00 26/11",
@@ -8516,11 +8445,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (1 LIVE)",
+      "name": "🏐 Bóng Chuyền (2 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-bf242333a9",
+          "name": "Hyundai E&C Hillstate Nữ vs SOOP SOOPers Nữ | 17:00 26/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bf242333a9",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-bf242333a9",
+                  "name": "Hyundai E&C Hillstate Nữ vs SOOP SOOPers Nữ",
+                  "streams": [
+                    {
+                      "id": "st-bf242333a9",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4fe8204481",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795660599_hd/1795660599_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Hàn Quốc Volleyball League Nữ",
+            "team_a": "Hyundai E&C Hillstate Nữ",
+            "team_b": "SOOP SOOPers Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/zaBfVVfM-jZFjtRuk.png",
+            "time": "17:00 26/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/56agcojme9vw_a3e520f2_20261126.png?v=a3e520f2",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-c413ab0020",
           "name": "Hyundai E&C Hillstate Women vs SOOP SOOPers Women | 17:00 26/11",
@@ -8588,77 +8588,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/29eb5a6d355d4b1990df423e7a8f7c5b_7ef03d29_20261126.png?v=7ef03d29",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-bf242333a9",
-          "name": "Hyundai E&C Hillstate Nữ vs SOOP SOOPers Nữ | 17:00 26/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-bf242333a9",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-bf242333a9",
-                  "name": "Hyundai E&C Hillstate Nữ vs SOOP SOOPers Nữ",
-                  "streams": [
-                    {
-                      "id": "st-bf242333a9",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4fe8204481",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795660599_hd/1795660599_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Hàn Quốc Volleyball League Nữ",
-            "team_a": "Hyundai E&C Hillstate Nữ",
-            "team_b": "SOOP SOOPers Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/MkA1GJXg-YJMxkMx4.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/zaBfVVfM-jZFjtRuk.png",
-            "time": "17:00 26/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/56agcojme9vw_a3e520f2_20261126.png?v=a3e520f2",
             "width": 1600,
             "height": 1200
           }
@@ -8834,7 +8763,7 @@
     },
     {
       "id": "grp-bóng-chày",
-      "name": "⚾ Bóng Chày",
+      "name": "⚾ Bóng Chày (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -8847,10 +8776,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -8898,7 +8827,7 @@
             "logo_b": "https://static.flashscore.com/res/image/data/6VLy61Ea-QDuM2WrS.png",
             "time": "17:30 26/11",
             "blv": "Ngu",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "bongchay"
           },
           "image": {
