@@ -3830,6 +3830,41 @@
               ]
             },
             {
+              "id": "src-ac5d0e77a9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-ac5d0e77a9",
+                  "name": "Celta Vigo vs Bournemouth",
+                  "streams": [
+                    {
+                      "id": "st-ac5d0e77a9",
+                      "name": "PhaoHoa - BLV Khô Cóc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
               "id": "src-193fe9d376",
               "name": "ChuoiChienTV",
               "contents": [
@@ -6489,7 +6524,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -6502,10 +6537,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -6553,7 +6588,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/373559b1eae432eecb6bb29589f1bcfe.gif",
             "time": "18:00 26/11",
             "blv": "Chồn",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
