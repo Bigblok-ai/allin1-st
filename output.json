@@ -3563,6 +3563,77 @@
           }
         },
         {
+          "id": "pl-22ab1f7305",
+          "name": "PSG vs Lorient | 02:45 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-22ab1f7305",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-22ab1f7305",
+                  "name": "PSG vs Lorient",
+                  "streams": [
+                    {
+                      "id": "st-22ab1f7305",
+                      "name": "PL",
+                      "stream_links": [
+                        {
+                          "id": "lnk-210f9ad6d3",
+                          "name": "LÝ LẦY LỘI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/e4d9fcc9908d4041be1c4ab25cfc3a15/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "French Ligue 1",
+            "team_a": "PSG",
+            "team_b": "Lorient",
+            "logo_a": "https://imgts.sportpulseapiz.com/football/team/kjw2r09hv44rz84/image/small",
+            "logo_b": "https://imgts.sportpulseapiz.com/football/team/d23xmvkh5vvqg8n/image/small",
+            "time": "02:45 29/11",
+            "blv": "LÝ LẦY LỘI",
+            "is_live": false,
+            "cate_type": "football"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/jw2r09hkdjezrz8_246c9247_20261128.png?v=246c9247",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
           "id": "xc-5e7f1f1fc9",
           "name": "Inter vs Genoa | 02:45 29/11",
           "type": "single",
@@ -4539,7 +4610,7 @@
     },
     {
       "id": "grp-bóng-rổ",
-      "name": "🏀 Bóng Rổ",
+      "name": "🏀 Bóng Rổ (1 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
@@ -4552,10 +4623,10 @@
           "enable_detail": false,
           "labels": [
             {
-              "text": "🕐 Sắp",
+              "text": "● LIVE",
               "position": "top-left",
               "color": "#00000080",
-              "text_color": "#aaaaaa"
+              "text_color": "#ff4444"
             }
           ],
           "sources": [
@@ -4603,7 +4674,7 @@
             "logo_b": "https://cdn.keobongvip.digital/images/basketball-teams/43ebb4d6ad3ea5b68e9b1c969dff055b.png",
             "time": "07:00 28/11",
             "blv": "Riko",
-            "is_live": false,
+            "is_live": true,
             "cate_type": "basketball"
           },
           "image": {
