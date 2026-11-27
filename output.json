@@ -1291,7 +1291,7 @@
             "cate_type": "football",
             "status": "live",
             "home_score": 0,
-            "away_score": 3
+            "away_score": 1
           },
           "image": {
             "padding": 1,
@@ -1465,6 +1465,116 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88652_05c69afb_20261127.png?v=05c69afb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-3a700241ca",
+          "name": "Venezuela U17 vs Mexico U17 | 23:00 27/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-3a700241ca",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-3a700241ca",
+                  "name": "Venezuela U17 vs Mexico U17",
+                  "streams": [
+                    {
+                      "id": "st-3a700241ca",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8a47353816",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-8a47353816",
+                  "name": "Venezuela U17 vs Mexico U17",
+                  "streams": [
+                    {
+                      "id": "st-8a47353816",
+                      "name": "Phalang - LÝ LIỀU LĨNH",
+                      "stream_links": [
+                        {
+                          "id": "lnk-4d8e9add28",
+                          "name": "LÝ LIỀU LĨNH",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/334d4a5a010242c5a8944038310a89c4/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "FIFA U17 World Cup",
+            "team_a": "Venezuela U17",
+            "team_b": "Mexico U17",
+            "logo_a": "https://apiv3.apifootball.com/badges/30446_venezuela-u17.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/8911_mexico-u17.jpg",
+            "time": "23:00",
+            "date": "27/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": true,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88660_348a3b26_20261127.png?v=348a3b26",
             "width": 1600,
             "height": 1200
           }
@@ -1786,77 +1896,6 @@
           }
         },
         {
-          "id": "pl-8a47353816",
-          "name": "Venezuela U17 vs Mexico U17 | 23:00 27/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "● LIVE",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#ff4444"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8a47353816",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-8a47353816",
-                  "name": "Venezuela U17 vs Mexico U17",
-                  "streams": [
-                    {
-                      "id": "st-8a47353816",
-                      "name": "PL",
-                      "stream_links": [
-                        {
-                          "id": "lnk-4d8e9add28",
-                          "name": "LÝ LIỀU LĨNH",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/334d4a5a010242c5a8944038310a89c4/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "FIFA U17 World Cup",
-            "team_a": "Venezuela U17",
-            "team_b": "Mexico U17",
-            "logo_a": "https://imgts.sportpulseapiz.com/football/team/8yomo4h717dq0j6/image/small",
-            "logo_b": "https://imgts.sportpulseapiz.com/football/team/x7lm7phkkxjm2wd/image/small",
-            "time": "23:00 27/11",
-            "blv": "LÝ LIỀU LĨNH",
-            "is_live": true,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/4jwq2ghn5jzxm0v_cda92fc6_20261127.png?v=cda92fc6",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-789a62e3ac",
           "name": "U17 Venezuela vs Mexico U17 | 23:00 27/11",
           "type": "single",
@@ -1928,146 +1967,6 @@
           }
         },
         {
-          "id": "cc-8d2f620c01",
-          "name": "Al-Ittihad FC vs Al Neom | 00:30 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-8d2f620c01",
-              "name": "ChuoiChienTV",
-              "contents": [
-                {
-                  "id": "ct-8d2f620c01",
-                  "name": "Al-Ittihad FC vs Al Neom",
-                  "streams": [
-                    {
-                      "id": "st-8d2f620c01",
-                      "name": "CC",
-                      "stream_links": [
-                        {
-                          "id": "lnk-96219b047b",
-                          "name": "Chuối Nhỏ HD1",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-706932a60e",
-                          "name": "Chuối Nhỏ HD2",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        },
-                        {
-                          "id": "lnk-ceeb11f873",
-                          "name": "Chuối Nhỏ FHD",
-                          "type": "hls",
-                          "default": false,
-                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://fhd-01.cctvsignal.xyz/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "id": "src-c4c9bc3818",
-              "name": "PhaLangTV",
-              "contents": [
-                {
-                  "id": "ct-c4c9bc3818",
-                  "name": "Al Ittihad(KSA) vs Neom SC",
-                  "streams": [
-                    {
-                      "id": "st-c4c9bc3818",
-                      "name": "Phalang - LÝ LẦY LỘI",
-                      "stream_links": [
-                        {
-                          "id": "lnk-df912e1ad9",
-                          "name": "LÝ LẦY LỘI",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pull.digitalcdn.net/live/d04ae76015454357a52c1c4c1196b3e8/index.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://phalang.live/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Saudi Pro League",
-            "team_a": "Al-Ittihad FC",
-            "team_b": "Al Neom",
-            "logo_a": "https://media.chuoichientv.net/media/uploads/20250623_134004_7d88a6fc.png",
-            "logo_b": "https://media.chuoichientv.net/media/20251225_174245_7b5ab6f6.png",
-            "time": "00:30 28/11",
-            "blv": "Chuối Nhỏ",
-            "is_live": false,
-            "cate_type": "football"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/cc-port/refs/heads/main/thumbs/1603086_29b05774_20261127.png?v=29b05774",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
           "id": "gv-3409c4e0ea",
           "name": "Werder Bremen vs Monchengladbach | 02:30 28/11",
           "type": "single",
@@ -2104,6 +2003,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-2ddc669381",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-2ddc669381",
+                  "name": "Werder Bremen vs B. Monchengladbach",
+                  "streams": [
+                    {
+                      "id": "st-2ddc669381",
+                      "name": "PhaoHoa - Khầy Lương Khô Antifan Mân Đàn",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô Antifan Mân Đàn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2210,6 +2144,58 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4bea903fce",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-4bea903fce",
+                  "name": "Venezia vs Bologna",
+                  "streams": [
+                    {
+                      "id": "st-4bea903fce",
+                      "name": "PhaoHoa - BLV Xôi Gấc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2397,6 +2383,41 @@
                   ]
                 }
               ]
+            },
+            {
+              "id": "src-be1f6adb68",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-be1f6adb68",
+                  "name": "Brest vs Paris FC",
+                  "streams": [
+                    {
+                      "id": "st-be1f6adb68",
+                      "name": "PhaoHoa - BLV Khô Cóc",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ],
           "org_metadata": {
@@ -2456,6 +2477,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-de40a4eeb1",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-de40a4eeb1",
+                  "name": "Levante vs Racing Santander",
+                  "streams": [
+                    {
+                      "id": "st-de40a4eeb1",
+                      "name": "PhaoHoa - BLV Tam Mao",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -2596,6 +2652,41 @@
                             {
                               "key": "Referer",
                               "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c1b7fdb0d7",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-c1b7fdb0d7",
+                  "name": "Nottingham vs Chelsea",
+                  "streams": [
+                    {
+                      "id": "st-c1b7fdb0d7",
+                      "name": "PhaoHoa - BLV Khô Chè",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fae8ed2c4d",
+                          "name": "BLV Khô Chè",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_a7657aeb05/index.m3u8?token=JhV-r8e3ccnFy-WcOqY4LotVZyi-effj_AKbg9uCVjU&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
                             },
                             {
                               "key": "User-Agent",
@@ -3863,6 +3954,963 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/6aff8dcd24d46db870537e26_be145cb5_20261127.png?v=be145cb5",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-b15efe6a95",
+          "name": "Al Ittihad vs Neom SC | 00:30 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-b15efe6a95",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-b15efe6a95",
+                  "name": "Al Ittihad vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-b15efe6a95",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-bf1530e1ae",
+                          "name": "BLV Tam Mao",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_65629930db/index.m3u8?token=daKfQOAqMEgkhrfCGDxiHdGWXsymB2dcncgmNkMoACY&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-8d2f620c01",
+              "name": "ChuoiChienTV",
+              "contents": [
+                {
+                  "id": "ct-8d2f620c01",
+                  "name": "Al-Ittihad FC vs Al Neom",
+                  "streams": [
+                    {
+                      "id": "st-8d2f620c01",
+                      "name": "CCport - Chuối Nhỏ",
+                      "stream_links": [
+                        {
+                          "id": "lnk-96219b047b",
+                          "name": "Chuối Nhỏ HD1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-706932a60e",
+                          "name": "Chuối Nhỏ HD2",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://stm9ee346727718.stream.hdplaylink.com/cctvlive/chuoinho/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-ceeb11f873",
+                          "name": "Chuối Nhỏ FHD",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://gckc0525.edgemaxcdn.org/live/chuoinhohd/playlist.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://fhd-01.cctvsignal.xyz/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-c4c9bc3818",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-c4c9bc3818",
+                  "name": "Al Ittihad(KSA) vs Neom SC",
+                  "streams": [
+                    {
+                      "id": "st-c4c9bc3818",
+                      "name": "Phalang - LÝ LẦY LỘI",
+                      "stream_links": [
+                        {
+                          "id": "lnk-df912e1ad9",
+                          "name": "LÝ LẦY LỘI",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/d04ae76015454357a52c1c4c1196b3e8/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Ittihad",
+            "team_b": "Neom SC",
+            "logo_a": "https://apiv3.apifootball.com/badges/6328_al-ittihad.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/18904_neom.jpg",
+            "time": "00:30",
+            "date": "28/11",
+            "blv": "BLV Tam Mao",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/64457_10414a34_20261127.png?v=10414a34",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a025431491",
+          "name": "Heidenheim vs Nurnberg | 00:30 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a025431491",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a025431491",
+                  "name": "Heidenheim vs Nurnberg",
+                  "streams": [
+                    {
+                      "id": "st-a025431491",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "2. Bundesliga",
+            "team_a": "Heidenheim",
+            "team_b": "Nurnberg",
+            "logo_a": "https://apiv3.apifootball.com/badges/3917_heidenheim.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3924_nurnberg.jpg",
+            "time": "00:30",
+            "date": "28/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88875_974ee813_20261127.png?v=974ee813",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5e7f1f1fc9",
+          "name": "Inter vs Genoa | 02:45 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5e7f1f1fc9",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5e7f1f1fc9",
+                  "name": "Inter vs Genoa",
+                  "streams": [
+                    {
+                      "id": "st-5e7f1f1fc9",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô Antifan Mân Đàn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Serie A",
+            "team_a": "Inter",
+            "team_b": "Genoa",
+            "logo_a": "https://apiv3.apifootball.com/badges/79_internazionale.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4986_genoa.jpg",
+            "time": "02:45",
+            "date": "29/11",
+            "blv": "Khầy Lương Khô Antifan Mân Đàn",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90278_7b4ac1ca_20261127.png?v=7b4ac1ca",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-a8bb1c3671",
+          "name": "Real Madrid vs Alaves | 03:00 29/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-a8bb1c3671",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-a8bb1c3671",
+                  "name": "Real Madrid vs Alaves",
+                  "streams": [
+                    {
+                      "id": "st-a8bb1c3671",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "La Liga",
+            "team_a": "Real Madrid",
+            "team_b": "Alaves",
+            "logo_a": "https://apiv3.apifootball.com/badges/76_real-madrid.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7275_alaves.jpg",
+            "time": "03:00",
+            "date": "29/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/90286_9f672f0f_20261127.png?v=9f672f0f",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-73b152044b",
+          "name": "Columbus Crew vs Inter Miami | 08:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-73b152044b",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-73b152044b",
+                  "name": "Columbus Crew vs Inter Miami",
+                  "streams": [
+                    {
+                      "id": "st-73b152044b",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Columbus Crew",
+            "team_b": "Inter Miami",
+            "logo_a": "https://apiv3.apifootball.com/badges/306_columbus-crew.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/7953_inter-miami.jpg",
+            "time": "08:00",
+            "date": "28/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/88996_dcc1a6d6_20261127.png?v=dcc1a6d6",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-aeda853a0c",
+          "name": "Real Salt Lake vs Vancouver Whitecaps | 10:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-aeda853a0c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-aeda853a0c",
+                  "name": "Real Salt Lake vs Vancouver Whitecaps",
+                  "streams": [
+                    {
+                      "id": "st-aeda853a0c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c8987d572f",
+                          "name": "BLV Khô Cá",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_062e5de010/index.m3u8?token=M6vDly-jvMUtRrO3xVQUwWJozWVPDQ0yVqDBWtZUbgM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "MLS",
+            "team_a": "Real Salt Lake",
+            "team_b": "Vancouver Whitecaps",
+            "logo_a": "https://apiv3.apifootball.com/badges/290_real-salt-lake.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/289_vancouver-whitecaps-fc.jpg",
+            "time": "10:00",
+            "date": "28/11",
+            "blv": "BLV Khô Cá",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89003_10a47b15_20261127.png?v=10a47b15",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-5053c1fde2",
+          "name": "Kashima Antlers vs Okayama | 13:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-5053c1fde2",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-5053c1fde2",
+                  "name": "Kashima Antlers vs Okayama",
+                  "streams": [
+                    {
+                      "id": "st-5053c1fde2",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-88fe1a05f9",
+                          "name": "BLV Khô Mật 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_b30ba5315c/index.m3u8?token=ZNaU8SPI--3-JASIZXv-JImAVGukJOEv6T9_GMWMfU0&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-d2d164212f",
+                          "name": "BLV Khô Mật 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub13.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "J1 League",
+            "team_a": "Kashima Antlers",
+            "team_b": "Okayama",
+            "logo_a": "https://apiv3.apifootball.com/badges/5053_kashima-antlers.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/5084_fagiano-okayama.jpg",
+            "time": "13:00",
+            "date": "28/11",
+            "blv": "BLV Khô Mật",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89015_f696c9cb_20261127.png?v=f696c9cb",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-bda3cc5c98",
+          "name": "Bali United vs FC Bhayangkara | 15:30 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-bda3cc5c98",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-bda3cc5c98",
+                  "name": "Bali United vs FC Bhayangkara",
+                  "streams": [
+                    {
+                      "id": "st-bda3cc5c98",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-30546710d8",
+                          "name": "BLV Xôi Gấc 1",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_5e3f2549e4/index.m3u8?token=pCk_XLBJTDboKaC3LME17XPjU4pgaPXEOkc_CroCj0U&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-f6cba213a8",
+                          "name": "BLV Xôi Gấc 2",
+                          "type": "httpflv",
+                          "default": false,
+                          "url": "https://live.khoga.space/live/livehub11.flv",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Liga 1",
+            "team_a": "Bali United",
+            "team_b": "FC Bhayangkara",
+            "logo_a": "https://apiv3.apifootball.com/badges/444_bali-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/4723_bhayangkara.jpg",
+            "time": "15:30",
+            "date": "28/11",
+            "blv": "BLV Xôi Gấc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89031_8f2e109c_20261127.png?v=8f2e109c",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-d37a5f293c",
+          "name": "Al Hazem vs Al Nassr | 19:15 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-d37a5f293c",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-d37a5f293c",
+                  "name": "Al Hazem vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-d37a5f293c",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "src-4b129ab6fa",
+              "name": "PhaLangTV",
+              "contents": [
+                {
+                  "id": "ct-4b129ab6fa",
+                  "name": "Al Hazem vs Al Nassr",
+                  "streams": [
+                    {
+                      "id": "st-4b129ab6fa",
+                      "name": "Phalang - LÝ LA LÀNG",
+                      "stream_links": [
+                        {
+                          "id": "lnk-fe8edbb1ef",
+                          "name": "LÝ LA LÀNG",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pull.digitalcdn.net/live/17a7e9699df44bae85d3febb8e9e0ad5/index.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://phalang.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Saudi League",
+            "team_a": "Al Hazem",
+            "team_b": "Al Nassr",
+            "logo_a": "https://apiv3.apifootball.com/badges/6307_al-hazem.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/371_al-nassr.jpg",
+            "time": "19:15",
+            "date": "28/11",
+            "blv": "BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/63923_be6dc0ff_20261127.png?v=be6dc0ff",
+            "width": 1600,
+            "height": 1200
+          }
+        },
+        {
+          "id": "xc-9b0550dc04",
+          "name": "Manchester Utd vs Brentford | 22:00 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "🕐 Sắp",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#aaaaaa"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-9b0550dc04",
+              "name": "XoiChe TV",
+              "contents": [
+                {
+                  "id": "ct-9b0550dc04",
+                  "name": "Manchester Utd vs Brentford",
+                  "streams": [
+                    {
+                      "id": "st-9b0550dc04",
+                      "name": "XoiChe TV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-245e47f94f",
+                          "name": "Khầy Lương Khô Antifan Mân Đàn",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_f64016ed85/index.m3u8?token=2zFHBLZ7ZQ-fbhTLWfwNITX5zZlxj49JwHBeBRcyALM&expires=1852800615",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        },
+                        {
+                          "id": "lnk-484b46424a",
+                          "name": "BLV Khô Cóc",
+                          "type": "hls",
+                          "default": false,
+                          "url": "https://livecdn321.cdnfastter.xyz/live/live_22ba35ebaa/index.m3u8?token=rnGiAKd7Ef-B1Q39PpqAGJSIrNI8dj2Sz-3IRtLMfUs",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://xoiche.live/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Premier League",
+            "team_a": "Manchester Utd",
+            "team_b": "Brentford",
+            "logo_a": "https://apiv3.apifootball.com/badges/102_manchester-united.jpg",
+            "logo_b": "https://apiv3.apifootball.com/badges/3086_brentford.jpg",
+            "time": "22:00",
+            "date": "28/11",
+            "blv": "Khầy Lương Khô Antifan Mân Đàn, BLV Khô Cóc",
+            "is_live": false,
+            "cate_type": "football",
+            "status": "scheduled",
+            "home_score": 0,
+            "away_score": 0
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/ph-port/refs/heads/main/thumbs/89735_31891130_20261127.png?v=31891130",
             "width": 1600,
             "height": 1200
           }
