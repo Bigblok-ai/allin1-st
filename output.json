@@ -6718,11 +6718,82 @@
     },
     {
       "id": "grp-bóng-chuyền",
-      "name": "🏐 Bóng Chuyền (2 LIVE)",
+      "name": "🏐 Bóng Chuyền (3 LIVE)",
       "display": "vertical",
       "grid_number": 2,
       "enable_detail": false,
       "channels": [
+        {
+          "id": "gv-514fe89e18",
+          "name": "Ageo Nữ vs Gunma Greenwings Nữ | 11:05 28/11",
+          "type": "single",
+          "display": "thumbnail-only",
+          "enable_detail": false,
+          "labels": [
+            {
+              "text": "● LIVE",
+              "position": "top-left",
+              "color": "#00000080",
+              "text_color": "#ff4444"
+            }
+          ],
+          "sources": [
+            {
+              "id": "src-514fe89e18",
+              "name": "GiovangTV",
+              "contents": [
+                {
+                  "id": "ct-514fe89e18",
+                  "name": "Ageo Nữ vs Gunma Greenwings Nữ",
+                  "streams": [
+                    {
+                      "id": "st-514fe89e18",
+                      "name": "GV",
+                      "stream_links": [
+                        {
+                          "id": "lnk-c709900fcf",
+                          "name": "Sún",
+                          "type": "hls",
+                          "default": true,
+                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795756310_hd/1795756310_hd@720p.m3u8",
+                          "request_headers": [
+                            {
+                              "key": "Referer",
+                              "value": "https://giovang.store/"
+                            },
+                            {
+                              "key": "User-Agent",
+                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "org_metadata": {
+            "league": "Nhật Bản SV. League",
+            "team_a": "Ageo Nữ",
+            "team_b": "Gunma Greenwings Nữ",
+            "logo_a": "https://static.flashscore.com/res/image/data/4Mqb9BEa-jgOmDmeJ.png",
+            "logo_b": "https://static.flashscore.com/res/image/data/UkbU53Wg-EsSICT7E.png",
+            "time": "11:05 28/11",
+            "blv": "Sún",
+            "is_live": true,
+            "cate_type": "bongchuyen"
+          },
+          "image": {
+            "padding": 1,
+            "background_color": "#ffffff",
+            "display": "contain",
+            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/74lbj10nenmz_8489be7b_20261128.png?v=8489be7b",
+            "width": 1600,
+            "height": 1200
+          }
+        },
         {
           "id": "pl-40b7508e31",
           "name": "Ageo Women vs Gunma Greenwings Women | 11:05 28/11",
@@ -6861,77 +6932,6 @@
             "background_color": "#ffffff",
             "display": "contain",
             "url": "https://raw.githubusercontent.com/Bigblok-ai/pl-port/refs/heads/main/thumbs/f5c393379ee844e3b840aaea253800da_1248f536_20261128.png?v=1248f536",
-            "width": 1600,
-            "height": 1200
-          }
-        },
-        {
-          "id": "gv-514fe89e18",
-          "name": "Ageo Nữ vs Gunma Greenwings Nữ | 11:05 28/11",
-          "type": "single",
-          "display": "thumbnail-only",
-          "enable_detail": false,
-          "labels": [
-            {
-              "text": "🕐 Sắp",
-              "position": "top-left",
-              "color": "#00000080",
-              "text_color": "#aaaaaa"
-            }
-          ],
-          "sources": [
-            {
-              "id": "src-514fe89e18",
-              "name": "GiovangTV",
-              "contents": [
-                {
-                  "id": "ct-514fe89e18",
-                  "name": "Ageo Nữ vs Gunma Greenwings Nữ",
-                  "streams": [
-                    {
-                      "id": "st-514fe89e18",
-                      "name": "GV",
-                      "stream_links": [
-                        {
-                          "id": "lnk-c709900fcf",
-                          "name": "Sún",
-                          "type": "hls",
-                          "default": true,
-                          "url": "https://pzhgifbkllliv.vcdn.cloud/1795756310_hd/1795756310_hd@720p.m3u8",
-                          "request_headers": [
-                            {
-                              "key": "Referer",
-                              "value": "https://giovang.store/"
-                            },
-                            {
-                              "key": "User-Agent",
-                              "value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
-                            }
-                          ]
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ],
-          "org_metadata": {
-            "league": "Nhật Bản SV. League",
-            "team_a": "Ageo Nữ",
-            "team_b": "Gunma Greenwings Nữ",
-            "logo_a": "https://static.flashscore.com/res/image/data/4Mqb9BEa-jgOmDmeJ.png",
-            "logo_b": "https://static.flashscore.com/res/image/data/UkbU53Wg-EsSICT7E.png",
-            "time": "11:05 28/11",
-            "blv": "Sún",
-            "is_live": false,
-            "cate_type": "bongchuyen"
-          },
-          "image": {
-            "padding": 1,
-            "background_color": "#ffffff",
-            "display": "contain",
-            "url": "https://raw.githubusercontent.com/Bigblok-ai/gv-port/refs/heads/main/thumbs/74lbj10nenmz_8489be7b_20261128.png?v=8489be7b",
             "width": 1600,
             "height": 1200
           }
